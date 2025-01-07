@@ -6,7 +6,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Alpha"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ialpha.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ialpha.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -15,7 +15,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Alpha Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ialpha_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ialpha_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -24,7 +24,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Alpha Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ialpha_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ialpha_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -37,7 +37,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Bravo"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ibravo.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ibravo.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -49,7 +49,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Bravo Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ibravo_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ibravo_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -61,7 +61,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Bravo Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ibravo_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ibravo_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -74,7 +74,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Charlie"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\icharlie.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\icharlie.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -86,7 +86,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Charlie Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\icharlie_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\icharlie_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -98,7 +98,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Charlie Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\icharlie_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\icharlie_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -110,7 +110,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Delta"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\idelta.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\idelta.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -122,7 +122,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Delta Tropen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\idelta_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\idelta_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -134,7 +134,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Delta Tropen low"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\idelta_trop_l.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\idelta_trop_l.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -146,7 +146,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Delta Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\idelta_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\idelta_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -158,7 +158,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Delta Flecktarn low"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\idelta_ft_l.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\idelta_ft_l.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -170,7 +170,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Fox"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ifox.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ifox.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -182,7 +182,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Fox Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ifox_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ifox_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -194,7 +194,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Fox Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ifox_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ifox_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -206,7 +206,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Echo"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iecho.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iecho.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -218,7 +218,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Echo Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iecho_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iecho_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -230,7 +230,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Echo Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iecho_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iecho_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -242,7 +242,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Sanitäter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\isani.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\isani.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -254,7 +254,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR DM"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\idm.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\idm.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -266,7 +266,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Sierra"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\isierra.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\isierra.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -278,7 +278,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Sierra Tropen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\isierra_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\isierra_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -290,7 +290,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Sierra Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\isierra_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\isierra_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -302,7 +302,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Lima"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ilima.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ilima.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -314,7 +314,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Lima Tropen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ilima_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ilima_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -326,7 +326,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Lima Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ilima_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ilima_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -338,7 +338,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Kilo"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ikilo.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ikilo.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -347,7 +347,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Kilo Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ikilo_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ikilo_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -356,7 +356,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Kilo Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ikilo_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ikilo_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -368,7 +368,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Victor"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ivictor.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ivictor.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -377,7 +377,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Victor Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ivictor_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ivictor_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -386,7 +386,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Victor Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ivictor_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ivictor_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -398,7 +398,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Whiskey"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iwhiskey.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iwhiskey.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -411,7 +411,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Zulu"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\izulu.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\izulu.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -420,7 +420,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Zulu Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\izulu_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\izulu_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -429,7 +429,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Zulu Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\izulu_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\izulu_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -441,7 +441,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Yankee"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iyankee.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iyankee.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -453,7 +453,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Yankee Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iyankee_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iyankee_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -465,7 +465,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Yankee Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iyankee_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iyankee_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -477,7 +477,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR X-Ray"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ixray.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ixray.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -486,7 +486,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR X-Ray Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ixray_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ixray_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -495,7 +495,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR X-Ray Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ixray_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ixray_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -507,7 +507,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Mike"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\imike.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\imike.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -516,7 +516,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Mike Tropen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\imike_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\imike_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -528,7 +528,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "GR Mike Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\imike_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\imike_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -542,7 +542,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DC Geheim"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\igeheim.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\igeheim.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -554,7 +554,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DC Bearbeitung"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ibearbeitung.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ibearbeitung.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -566,7 +566,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DC Eingegangen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ieingegangen.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ieingegangen.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -578,7 +578,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DC Abgelehnt"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iabgelehnt.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iabgelehnt.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -590,7 +590,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DC Angenommen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iangenommen.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iangenommen.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -602,7 +602,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DC Lese"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ilese.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ilese.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -617,7 +617,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 01 Schütze"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ischuetze.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ischuetze.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -629,7 +629,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 02 Gefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\igefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\igefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -641,7 +641,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 03 Obergefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iobergefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iobergefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -653,7 +653,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 04 Hauptgefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ihauptgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ihauptgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -665,7 +665,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 05 Stabsgefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\istabsgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\istabsgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -677,7 +677,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 06 Oberstabsgefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ioberstabsgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ioberstabsgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -689,7 +689,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 07 Korporal"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ikorporal.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ikorporal.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -701,7 +701,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 08 Stabskorporal"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\istabskorporal.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\istabskorporal.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -713,7 +713,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 09 Unteroffizier"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\iunteroffizier.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\iunteroffizier.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -725,7 +725,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 10 Stabsunteroffizier"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\istabsunteroffizier.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\istabsunteroffizier.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -737,7 +737,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 11 Feldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ifeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ifeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -749,7 +749,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 12 Oberfeldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ioberfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ioberfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -761,7 +761,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 13 Hauptfeldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ihauptfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ihauptfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -773,7 +773,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 14 Stabsfeldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\istabsfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\istabsfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -785,7 +785,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 15 Oberstabsfeldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ioberstabsfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ioberstabsfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -797,7 +797,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 16 Leutnant"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ileutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ileutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -809,7 +809,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 17 Oberleutnant"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ioberleutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ioberleutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -821,7 +821,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 18 Hauptmann"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ihauptmann.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ihauptmann.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -833,7 +833,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 19 Major"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\imajor.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\imajor.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
@@ -845,7 +845,7 @@ class CfgUnitInsignia //Do not change.
 	{
 		displayName = "DG 20 Oberstleutnant"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\GerRng_equip\data\ioberstleutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\GerRng_equip\data\ioberstleutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
