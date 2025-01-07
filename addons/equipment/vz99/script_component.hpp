@@ -1,18 +1,14 @@
-#define COMPONENT vz99
+#define SUBCOMPONENT vz99
+#define SUBCOMPONENT_BEAUTIFIED vz99 Mortar
+#include "..\script_component.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
 // #define ENABLE_PERFORMANCE_COUNTERS
-#define MAINPREFIX y
-#define PREFIX GR-Equipment-Mod
+
 #ifdef DEBUG_ENABLED_VZ99
     #define DEBUG_MODE_FULL
 #endif
-
-
-//Add all ACE and CBA macros:
-#include "\y\ace\addons\main\script_macros.hpp"
-
 
 #define ACE_PREFIX ace
 

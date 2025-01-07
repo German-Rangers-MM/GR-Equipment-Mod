@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class ADDON
+	class SUBADDON
 	{
 		name = COMPONENT_NAME;
 		units[]={};
@@ -11,5 +11,8 @@ class CfgPatches
 		requiredAddons[] = {"ace_main"};
         author = ECSTRING(common,GerRngTeam);
         VERSION_CONFIG;
+        addonRootClass = QUOTE(ADDON);
 	};
 };
+
+#include "CfgWeapons.hpp"

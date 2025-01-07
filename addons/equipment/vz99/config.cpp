@@ -1,13 +1,16 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON {
-        units[] = {QGVAR(mortar), QGVAR(box)};
-        weapons[] = {QGVAR(carryWeapon)};
-        requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"A3_characters_F", "A3_Data_F"};
-        author = "J. Smith expanding on work of Potato and Dankan37";
-    };
+	class SUBADDON {
+		units[] = {QGVAR(mortar), QGVAR(box)};
+		weapons[] = {QGVAR(carryWeapon)};
+		requiredVersion = REQUIRED_VERSION;
+		requiredAddons[] = {"A3_characters_F", "A3_Data_F","ace_main"};
+        author = ECSTRING(common,GerRngTeam);
+		authors[] = {"J. Smith expanding on work of Potato and Dankan37"};
+        VERSION_CONFIG;
+        addonRootClass = QUOTE(ADDON);
+	};
 };
 class WPExplosion;
 class WPExplosionEdit: WPExplosion
@@ -18,24 +21,24 @@ class WPExplosionEdit: WPExplosion
 		type = "WPCloudEdit";			// name of PE's class defined in CfgCloudlets or light's class defined in CfgLights
 		position[] = {0, 0, 0};		// position related to the default position or memorypoint
 		lifeTime = 15;			// life time of emitter
-    intensity = 1;
-    Interval = 1;
-    blockAIVisibility = true;
+	intensity = 1;
+	Interval = 1;
+	blockAIVisibility = true;
   };
   class LightExp
   {
-    simulation = "light";
-    type = "ExploLight";
-    intensity = 1;
-    Interval = 1;
+	simulation = "light";
+	type = "ExploLight";
+	intensity = 1;
+	Interval = 1;
   };
   class Trails
   {
-    simulation = "particles";
-    type = "WPTrails";
-    intensity = 1;
-    Interval = 1;
-    lifeTime = 1.25;
+	simulation = "particles";
+	type = "WPTrails";
+	intensity = 1;
+	Interval = 1;
+	lifeTime = 1.25;
   };
 };
 class WPExplosionVT: WPExplosionEdit
@@ -46,26 +49,26 @@ class WPExplosionVT: WPExplosionEdit
 		type = "WPCloudVT";			// name of PE's class defined in CfgCloudlets or light's class defined in CfgLights
 		position[] = {0, 0, 10};		// position related to the default position or memorypoint
 		lifeTime = 15;			// life time of emitter
-    intensity = 1;
-    Interval = 1;
-    blockAIVisibility = true;
+	intensity = 1;
+	Interval = 1;
+	blockAIVisibility = true;
   };
   class LightExp
   {
-    position[] = {0, 0, 10};
-    simulation = "light";
-    type = "ExploLight";
-    intensity = 1;
-    Interval = 1;
+	position[] = {0, 0, 10};
+	simulation = "light";
+	type = "ExploLight";
+	intensity = 1;
+	Interval = 1;
   };
   class Trails
   {
-    position[] = {0, 0, 10};
-    simulation = "particles";
-    type = "WPTrailsVT";
-    intensity = 1;
-    Interval = 1;
-    lifeTime = 1.25;
+	position[] = {0, 0, 10};
+	simulation = "particles";
+	type = "WPTrailsVT";
+	intensity = 1;
+	Interval = 1;
+	lifeTime = 1.25;
   };
 };
 #include "CfgEventHandlers.hpp"
