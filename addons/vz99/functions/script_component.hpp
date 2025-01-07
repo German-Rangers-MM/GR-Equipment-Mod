@@ -1,1 +1,1 @@
-#include "\y\GR_Equipment_Mod\addons\GerRng_vz99\script_component.hpp"
+#include "\y\GR-Equipment-Mod\addons\GerRng_vz99\script_component.hpp"

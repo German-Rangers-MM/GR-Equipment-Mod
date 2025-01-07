@@ -1,857 +1,668 @@
-class CfgUnitInsignia //Do not change.
+//Do not change.
+class CfgUnitInsignia
 {
-	//In order to add another patch, copy from here to the "//End" point.
-	class Alpha //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	//Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Alpha 
 	{
 		displayName = "GR Alpha"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ialpha.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ialpha.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class Alpha_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Alpha_ft 
 	{
 		displayName = "GR Alpha Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ialpha_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ialpha_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class Alpha_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	
+	class Alpha_trop 
 	{
 		displayName = "GR Alpha Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ialpha_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ialpha_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
-	
-	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Bravo //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Bravo 
 	{
 		displayName = "GR Bravo"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ibravo.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ibravo.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
-	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Bravo_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Bravo_trop 
 	{
 		displayName = "GR Bravo Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ibravo_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ibravo_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
-	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Bravo_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Bravo_ft 
 	{
 		displayName = "GR Bravo Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ibravo_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ibravo_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Charlie //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Charlie 
 	{
 		displayName = "GR Charlie"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\icharlie.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\icharlie.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Charlie_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Charlie_ft 
 	{
 		displayName = "GR Charlie Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\icharlie_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\icharlie_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Charlie_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Charlie_trop 
 	{
 		displayName = "GR Charlie Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\icharlie_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\icharlie_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-/*	//In order to add another patch, copy from here to the "//End" point.
-	class Delta //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	/*
+	class Delta 
 	{
 		displayName = "GR Delta"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\idelta.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\idelta.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Delta_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Delta_trop 
 	{
 		displayName = "GR Delta Tropen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\idelta_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\idelta_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Delta_trop_l //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Delta_trop_l 
 	{
 		displayName = "GR Delta Tropen low"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\idelta_trop_l.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\idelta_trop_l.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Delta_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Delta_ft 
 	{
 		displayName = "GR Delta Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\idelta_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\idelta_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Delta_ft_l //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Delta_ft_l 
 	{
 		displayName = "GR Delta Flecktarn low"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\idelta_ft_l.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\idelta_ft_l.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-*/	//End
+	*/
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Fox //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Fox 
 	{
 		displayName = "GR Fox"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ifox.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ifox.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Fox_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Fox_trop 
 	{
 		displayName = "GR Fox Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ifox_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ifox_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Fox_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Fox_ft 
 	{
 		displayName = "GR Fox Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ifox_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ifox_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-/*	//In order to add another patch, copy from here to the "//End" point.
-	class Echo //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	/*
+	class Echo 
 	{
 		displayName = "GR Echo"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iecho.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iecho.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
-	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Echo_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Echo_trop 
 	{
 		displayName = "GR Echo Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iecho_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iecho_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
-	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Echo_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Echo_ft 
 	{
 		displayName = "GR Echo Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iecho_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iecho_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
-*/	
-/*	//In order to add another patch, copy from here to the "//End" point.
-	class Sani //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	*/
+	class Sani 
 	{
 		displayName = "GR Sanitäter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\isani.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\isani.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-*/	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class DM //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class DM 
 	{
 		displayName = "GR DM"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\idm.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\idm.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Sierra //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Sierra 
 	{
 		displayName = "GR Sierra"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\isierra.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\isierra.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Sierra_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Sierra_trop 
 	{
 		displayName = "GR Sierra Tropen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\isierra_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\isierra_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Sierra_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Sierra_ft 
 	{
 		displayName = "GR Sierra Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\isierra_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\isierra_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Lima //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Lima 
 	{
 		displayName = "GR Lima"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ilima.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ilima.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Lima_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Lima_trop 
 	{
 		displayName = "GR Lima Tropen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ilima_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ilima_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Lima_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Lima_ft 
 	{
 		displayName = "GR Lima Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ilima_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ilima_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Kilo //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Kilo 
 	{
 		displayName = "GR Kilo"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ikilo.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ikilo.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class Kilo_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Kilo_ft 
 	{
 		displayName = "GR Kilo Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ikilo_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ikilo_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class Kilo_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Kilo_trop 
 	{
 		displayName = "GR Kilo Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ikilo_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ikilo_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Victor //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Victor 
 	{
 		displayName = "GR Victor"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ivictor.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ivictor.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class Victor_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Victor_ft 
 	{
 		displayName = "GR Victor Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ivictor_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ivictor_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class Victor_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Victor_trop 
 	{
 		displayName = "GR Victor Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ivictor_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ivictor_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-/*	//In order to add another patch, copy from here to the "//End" point.
-	class Whiskey //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	/*
+	class Whiskey 
 	{
 		displayName = "GR Whiskey"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iwhiskey.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iwhiskey.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
-*/
+	*/
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Zulu //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Zulu 
 	{
 		displayName = "GR Zulu"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\izulu.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\izulu.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class Zulu_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Zulu_ft 
 	{
 		displayName = "GR Zulu Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\izulu_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\izulu_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class Zulu_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Zulu_trop 
 	{
 		displayName = "GR Zulu Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\izulu_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\izulu_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Yankee //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Yankee 
 	{
 		displayName = "GR Yankee"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iyankee.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iyankee.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Yankee_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Yankee_ft 
 	{
 		displayName = "GR Yankee Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iyankee_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iyankee_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Yankee_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Yankee_trop 
 	{
 		displayName = "GR Yankee Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iyankee_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iyankee_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class XRay //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class XRay 
 	{
 		displayName = "GR X-Ray"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ixray.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ixray.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class XRay_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class XRay_ft 
 	{
 		displayName = "GR X-Ray Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ixray_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ixray_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class XRay_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class XRay_trop 
 	{
 		displayName = "GR X-Ray Tropentarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ixray_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ixray_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Mike //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Mike 
 	{
 		displayName = "GR Mike"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\imike.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\imike.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	class Mike_trop //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+
+	class Mike_trop 
 	{
 		displayName = "GR Mike Tropen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\imike_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\imike_trop.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Mike_ft //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Mike_ft 
 	{
 		displayName = "GR Mike Flecktarn"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\imike_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\imike_ft.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-// Insignias aus Discord
-	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Geheim //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	// Insignias aus Discord
+	class Geheim 
 	{
 		displayName = "DC Geheim"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\igeheim.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\igeheim.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Bearbeitung //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Bearbeitung 
 	{
 		displayName = "DC Bearbeitung"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ibearbeitung.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ibearbeitung.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Eingegangen //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Eingegangen 
 	{
 		displayName = "DC Eingegangen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ieingegangen.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ieingegangen.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Abgelehnt //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Abgelehnt 
 	{
 		displayName = "DC Abgelehnt"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iabgelehnt.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iabgelehnt.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Angenommen //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Angenommen 
 	{
 		displayName = "DC Angenommen"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iangenommen.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iangenommen.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Lese //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Lese 
 	{
 		displayName = "DC Lese"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ilese.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ilese.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	
-// Dienstgrad	
-	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Schuetze //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	// Dienstgrad	
+	class Schuetze 
 	{
 		displayName = "DG 01 Schütze"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ischuetze.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ischuetze.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 		
-	//In order to add another patch, copy from here to the "//End" point.
-	class Gefreiter //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Gefreiter 
 	{
 		displayName = "DG 02 Gefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\igefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\igefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Obergefreiter //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Obergefreiter 
 	{
 		displayName = "DG 03 Obergefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iobergefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iobergefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Hauptgefreiter //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Hauptgefreiter 
 	{
 		displayName = "DG 04 Hauptgefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ihauptgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ihauptgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Stabsgefreiter //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Stabsgefreiter 
 	{
 		displayName = "DG 05 Stabsgefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\istabsgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\istabsgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Oberstabsgefreiter //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Oberstabsgefreiter 
 	{
 		displayName = "DG 06 Oberstabsgefreiter"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ioberstabsgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ioberstabsgefreiter.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Korporal //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Korporal 
 	{
 		displayName = "DG 07 Korporal"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ikorporal.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ikorporal.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Stabskorporal //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Stabskorporal 
 	{
 		displayName = "DG 08 Stabskorporal"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\istabskorporal.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\istabskorporal.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Unteroffizier //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Unteroffizier 
 	{
 		displayName = "DG 09 Unteroffizier"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\iunteroffizier.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\iunteroffizier.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Stabsunteroffizier //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Stabsunteroffizier 
 	{
 		displayName = "DG 10 Stabsunteroffizier"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\istabsunteroffizier.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\istabsunteroffizier.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Feldwebel //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Feldwebel 
 	{
 		displayName = "DG 11 Feldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ifeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ifeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Oberfeldwebel //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Oberfeldwebel 
 	{
 		displayName = "DG 12 Oberfeldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ioberfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ioberfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Hauptfeldwebel //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Hauptfeldwebel 
 	{
 		displayName = "DG 13 Hauptfeldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ihauptfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ihauptfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Stabsfeldwebel //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Stabsfeldwebel 
 	{
 		displayName = "DG 14 Stabsfeldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\istabsfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\istabsfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Oberstabsfeldwebel //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Oberstabsfeldwebel 
 	{
 		displayName = "DG 15 Oberstabsfeldwebel"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ioberstabsfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ioberstabsfeldwebel.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Leutnant //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Leutnant 
 	{
 		displayName = "DG 16 Leutnant"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ileutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ileutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Oberleutnant //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Oberleutnant 
 	{
 		displayName = "DG 17 Oberleutnant"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ioberleutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ioberleutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Hauptmann //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Hauptmann 
 	{
 		displayName = "DG 18 Hauptmann"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ihauptmann.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ihauptmann.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Major //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Major 
 	{
 		displayName = "DG 19 Major"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\imajor.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\imajor.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-	//In order to add another patch, copy from here to the "//End" point.
-	class Oberstleutnant //Change to something related to the name of your patch
-	// Each class name must be different from the other. For instance, if there were two "class insignia_patch1" your config would be invalid.
+	class Oberstleutnant 
 	{
 		displayName = "DG 20 Oberstleutnant"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - GerRng"; //Your name/team name.
-		texture = "\y\GR_Equipment_Mod\addons\Equipment\data\ioberstleutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
+		texture = "\y\GR-Equipment-Mod\addons\Equipment\data\ioberstleutnant.paa"; //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
-	//End
 	
-
 }; //Do not remove this bracket, doing so will invalidate any code within CfgUnitInsignia. Make sure this is at the very end of your CfgUnitInsignia code.
 	
 	

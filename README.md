@@ -1,2 +1,2 @@
-# GR_Equipment_Mod
-GR_Equipment_Mod
+# GR-Equipment-Mod
+GR-Equipment-Mod

@@ -1,10 +1,10 @@
-#define COMPONENT GerRng_vz99
+#define COMPONENT vz99
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
 // #define ENABLE_PERFORMANCE_COUNTERS
-#define MAINPREFIX z
-#define PREFIX GR_Equipment_Mod
+#define MAINPREFIX y
+#define PREFIX GR-Equipment-Mod
 #ifdef DEBUG_ENABLED_VZ99
     #define DEBUG_MODE_FULL
 #endif

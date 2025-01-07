@@ -20,9 +20,9 @@ class GerRng_CH_47F_TTH_01 : CUP_B_CH47F_USA {
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\ch47_ext_1_BW_co.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\ch47_ext_2_BW_co.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\ch47f_nalepky_BW_ca.paa"
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47_ext_1_BW_co.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47_ext_2_BW_co.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47f_nalepky_BW_ca.paa"
 	};
 
 	class TransportBackpacks
@@ -82,9 +82,9 @@ class GerRng_CH_47F_TTH_VIV_01 : CUP_B_CH47F_VIV_USA {
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\ch47_ext_1_BW2_co.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\ch47_ext_2_BW2_co.paa",
-    	"y\GR_Equipment_Mod\addons\GerRng_Faction\data\ch47f_nalepky_BW2_ca.paa"
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47_ext_1_BW2_co.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47_ext_2_BW2_co.paa",
+    	"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47f_nalepky_BW2_ca.paa"
 	};
  
 	class TransportBackpacks

@@ -13,14 +13,14 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 		{
 			displayName = "Flecktarn";
 			author = "Cookie";
-			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_FLK_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_FLK_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_cover_FLK_CO.paa"};
+			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_FLK_CO.paa"};
 			faction[] = {"GerRng_"};
 		};
 		class Trp
 		{
 			displayName = "Tropentarn";
 			author = "Cookie";
-			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_TRP_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_TRP_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_cover_TRP_CO.paa"};
+			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_TRP_CO.paa"};
 			faction[] = {"GerRng_"};
 		};
 
@@ -28,14 +28,14 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 		{
 			displayName = "Flecktarn (San)";
 			author = "Cookie";
-			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_san_FLK_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_san_FLK_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_cover_san_FLK_CO.paa"};
+			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_san_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_san_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_san_FLK_CO.paa"};
 			faction[] = {"GerRng_"};
 		};
 		class TrpSan
 		{
 			displayName = "Tropentarn (San)";
 			author = "Cookie";
-			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_san_TRP_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_san_TRP_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_cover_san_TRP_CO.paa"};
+			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_san_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_san_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_san_TRP_CO.paa"};
 			faction[] = {"GerRng_"};
 		};
 
@@ -43,14 +43,14 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 		{
 			displayName = "Flecktarn (CSS)";
 			author = "Cookie";
-			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_css_FLK_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_css_FLK_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_cover_FLK_CO.paa"};
+			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_css_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_css_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_FLK_CO.paa"};
 			faction[] = {"GerRng_"};
 		};
 		class TrpCSS
 		{
 			displayName = "Tropentarn (CSS)";
 			author = "Cookie";
-			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_css_TRP_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_css_TRP_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_cover_TRP_CO.paa"};
+			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_css_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_css_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_TRP_CO.paa"};
 			faction[] = {"GerRng_"};
 		};
 
@@ -58,14 +58,14 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 		{
 			displayName = "Flecktarn (IuK)";
 			author = "Cookie";
-			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_sig_FLK_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_sig_FLK_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_cover_FLK_CO.paa"};
+			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_sig_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_sig_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_FLK_CO.paa"};
 			faction[] = {"GerRng_"};
 		};
 		class TrpSig
 		{
 			displayName = "Tropentarn (IuK)";
 			author = "Cookie";
-			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_sig_TRP_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_ext_sig_TRP_CO.paa","y\GR_Equipment_Mod\addons\GerRng_Faction\data\amarok_cover_TRP_CO.paa"};
+			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_sig_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_sig_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_TRP_CO.paa"};
 			faction[] = {"GerRng_"};
 		};
 	};

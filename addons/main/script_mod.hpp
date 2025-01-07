@@ -1,7 +1,7 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
 #define MAINPREFIX y
-#define PREFIX GR_EQUIPMENT_MOD
+#define PREFIX GR-Equipment-Mod
 
 // TODO: Consider Mod-wide or Component-narrow versions  (or both, depending on wishes!)
 // We will use the DATE for the BUILD# in the format YYMMDD - VM

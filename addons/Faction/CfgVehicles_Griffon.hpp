@@ -24,10 +24,10 @@ class GerRng_CH_146_Griffon_Radar_01 : CUP_I_412_Military_Radar_AAF {
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_0_main.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa"
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_0_main.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa"
 	};
 	
 	class TransportBackpacks
@@ -83,10 +83,10 @@ class GerRng_CH_146_Griffon_Transport_01 : CUP_I_412_Mil_Transport_AAF {
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_0_main.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa"
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_0_main.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa"
 	};
 
 	hiddenSelectionsMaterials[] = 
@@ -156,10 +156,10 @@ class GerRng_CH_146_Griffon_CAS_01 : CUP_I_412_Military_Armed_AAF {
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_0_main.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa"
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_0_main.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa"
 	};
 	class TransportBackpacks
 	{
@@ -221,10 +221,10 @@ class GerRng_Ch_146_Griffon_MedEvac_01 : CUP_C_412_Medic {
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-SAR_0_main.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
-		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-SAR_0_main.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
+		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa",
 		"\CUP\AirVehicles\CUP_AirVehicles_412\data\heli_medium01_military_in_co.paa"
 	};
 	hiddenSelectionsMaterials[] = 

@@ -165,7 +165,7 @@ class CfgVehicles {
         };
 
 
-        model = "y\GR_Equipment_Mod\addons\GerRng_vz99\data\vz99_vehicle";
+        model = "y\GR-Equipment-Mod\addons\GerRng_vz99\data\vz99_vehicle";
         class AnimationSources {
             class Level {
                 source = "user"; //The controller is defined as a user animation.

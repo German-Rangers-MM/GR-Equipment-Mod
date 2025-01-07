@@ -19,7 +19,7 @@ class GerRng_Van_Transport_BW : C_Van_02_transport_F {
     hiddenSelections[] = {"camo1"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Van_02_body_CO_bwfuhrpark_komp.paa"
+        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Van_02_body_CO_bwfuhrpark_komp.paa"
     };	
     
     textureList[]={};
