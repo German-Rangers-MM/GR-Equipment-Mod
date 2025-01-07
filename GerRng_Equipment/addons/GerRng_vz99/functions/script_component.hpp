@@ -1,1 +1,0 @@
-#include "\z\GerRng_Equipment\addons\GerRng_vz99\script_component.hpp"
