@@ -6,8 +6,8 @@ class CfgWeapons {
         author = "PabstMirror";
         scope = 2;
         displayName = "VZ99 60mm Mortar";
-        model = "z\GerRng_Equipment\addons\GerRng_vz99\data\vz99_carry";
-        picture = "\z\GerRng_Equipment\addons\GerRng_vz99\ui\weaponSide_ca.paa";
+        model = "y\GR_Equipment_Mod\addons\GerRng_vz99\data\vz99_carry";
+        picture = "\y\GR_Equipment_Mod\addons\GerRng_vz99\ui\weaponSide_ca.paa";
         modes[] = {};
         ace_overpressure_angle = 0;    // Cone in which the damage is applied (in degrees from the back end of the launcher)
         ace_overpressure_range = 0;    // Range in meters in which the damage is applied

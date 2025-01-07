@@ -3,12 +3,12 @@ class CfgVehicles {
 	class CAManBase: Man {
 		class ACE_SelfActions {
 			
-			class GerRng_equip {
+			class Equipment {
 				displayName = "GerRng Equipment";
 				condition = "";
 				exceptions[] = {};
 				statement = "";
-				icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\gr_neu.paa";
+				icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\gr_neu.paa";
 			
 			
 				class HelmpatchAction {
@@ -16,7 +16,7 @@ class CfgVehicles {
 					condition = ["OpsCore",headgear player] call BIS_fnc_inString;
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\helm.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\helm.paa";
 					
 						
 						class HelmpatchAction_K {
@@ -24,26 +24,26 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\kilo.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\kilo.paa";
 							class HelmpatchAction_1 {
 							displayName = "K-Chef";
 							condition = "";
 							exceptions[] = {};
-							statement = ["kk"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["kk"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_2 {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["k1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["k1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_3 {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["k2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["k2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -53,12 +53,12 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\fox.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\fox.paa";
 							class HelmpatchAction_F1 {
 							displayName = "Z-ZFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["fzf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["fzf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							
@@ -66,7 +66,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["f1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["f1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							
@@ -74,7 +74,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["f2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["f2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -82,7 +82,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["f3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["f3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -90,7 +90,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["f4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["f4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -100,12 +100,12 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\victor.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\victor.paa";
 							class HelmpatchAction_1 {
 							displayName = "V-ZFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["vzf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["vzf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							
@@ -113,7 +113,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["v1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["v1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							
@@ -121,7 +121,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["v2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["v2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -129,7 +129,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["v3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["v3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -137,7 +137,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["v4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["v4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -147,13 +147,13 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\alfa.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\alfa.paa";
 
 							class HelmpatchAction_GrpFhr {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["agf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["agf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -161,7 +161,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -169,7 +169,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -177,7 +177,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -185,7 +185,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -193,7 +193,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a5"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a5"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -201,7 +201,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a6"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a6"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -209,7 +209,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a7"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a7"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -217,7 +217,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a8"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a8"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -225,7 +225,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a9"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a9"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -233,7 +233,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a10"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a10"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -241,7 +241,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a11"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a11"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -249,7 +249,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = ["a12"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["a12"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -259,13 +259,13 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\bravo.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\bravo.paa";
 							
 							class HelmpatchAction_GrpFhr {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["bgf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["bgf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							
@@ -273,7 +273,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -281,7 +281,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -289,7 +289,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -297,7 +297,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -305,7 +305,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b5"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b5"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -313,7 +313,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b6"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b6"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -321,7 +321,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b7"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b7"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -329,7 +329,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b8"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b8"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -337,7 +337,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b9"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b9"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -345,7 +345,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b10"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b10"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -353,7 +353,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b11"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b11"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -361,7 +361,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = ["b12"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["b12"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -371,13 +371,13 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\charlie.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\charlie.paa";
 							
 							class HelmpatchAction_GrpFhr {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["cgf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["cgf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							
@@ -385,7 +385,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -393,7 +393,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -401,7 +401,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -409,7 +409,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -417,7 +417,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c5"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c5"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -425,7 +425,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c6"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c6"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -433,7 +433,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c7"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c7"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -441,7 +441,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c8"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c8"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -449,7 +449,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c9"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c9"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -457,7 +457,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c10"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c10"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -465,7 +465,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c11"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c11"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -473,7 +473,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = ["c12"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["c12"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -483,13 +483,13 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\zulu.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\zulu.paa";
 
 							class HelmpatchAction_GrpFhr {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["zgf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["zgf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -497,7 +497,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -505,7 +505,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -513,7 +513,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -521,7 +521,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -529,7 +529,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z5"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z5"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -537,7 +537,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z6"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z6"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -545,7 +545,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z7"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z7"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -553,7 +553,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z8"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z8"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -561,7 +561,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z9"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z9"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -569,7 +569,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z10"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z10"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -577,7 +577,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z11"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z11"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -585,7 +585,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = ["z12"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["z12"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -595,13 +595,13 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\yankee.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\yankee.paa";
 
 							class HelmpatchAction_GrpFhr {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["ygf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["ygf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -609,7 +609,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -617,7 +617,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -625,7 +625,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -633,7 +633,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -641,7 +641,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y5"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y5"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -649,7 +649,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y6"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y6"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -657,7 +657,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y7"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y7"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -665,7 +665,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y8"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y8"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -673,7 +673,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y9"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y9"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -681,7 +681,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y10"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y10"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -689,7 +689,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y11"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y11"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -697,7 +697,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = ["y12"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["y12"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -707,13 +707,13 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\x-ray.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\x-ray.paa";
 
 							class HelmpatchAction_GrpFhr {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["xgf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["xgf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -721,7 +721,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -729,7 +729,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -737,7 +737,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -745,7 +745,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -753,7 +753,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x5"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x5"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -761,7 +761,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x6"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x6"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -769,7 +769,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x7"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x7"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -777,7 +777,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x8"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x8"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -785,7 +785,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x9"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x9"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -793,7 +793,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x10"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x10"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -801,7 +801,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x11"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x11"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -809,7 +809,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = ["x12"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["x12"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};			
@@ -819,40 +819,40 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\whiskey.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\whiskey.paa";
 							class HelmpatchAction_1 {
 							displayName = "TrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["wtf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["wtf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_2 {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["w1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["w1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_3 {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["w2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["w2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_4 {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["w3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["w3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_5 {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["w4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["w4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -863,40 +863,40 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\sierra.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\sierra.paa";
 							class HelmpatchAction_1 {
 							displayName = "TrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["stf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["stf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_2 {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["s1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["s1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_3 {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["s2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["s2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_4 {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["s3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["s3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_5 {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["s4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["s4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -906,12 +906,12 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\mike.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\mike.paa";
 							class HelmpatchAction_1 {
 							displayName = "M-AvD";
 							condition = "";
 							exceptions[] = {};
-							statement = ["mavd"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["mavd"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							
@@ -919,7 +919,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["m1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["m1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							
@@ -927,7 +927,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["m2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["m2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -935,7 +935,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["m3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["m3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -943,14 +943,14 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["m4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["m4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_6 {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = ["m5"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["m5"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};						
@@ -960,12 +960,12 @@ class CfgVehicles {
 						condition = "";
 						exceptions[] = {};
 						statement = "";
-						icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\lima.paa";
+						icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\lima.paa";
 							class HelmpatchAction_1 {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = ["lgf"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["lgf"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							
@@ -973,7 +973,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = ["l1"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["l1"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -981,7 +981,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = ["l2"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["l2"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 
@@ -989,28 +989,28 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = ["l3"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["l3"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_5 {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = ["l4"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["l4"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_6 {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = ["l5"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["l5"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 							class HelmpatchAction_7 {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = ["l6"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+							statement = ["l6"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 							icon = "";
 							};
 						};
@@ -1020,7 +1020,7 @@ class CfgVehicles {
 						displayName = "Ohne Nummer";
 						condition = "";
 						exceptions[] = {};
-						statement = ["reset"] execVM "\y\GR-Equipment-Mod\addons\GerRng_equip\functions\selectHelmet.sqf";
+						statement = ["reset"] execVM "\y\GR_Equipment_Mod\addons\Equipment\functions\selectHelmet.sqf";
 						icon = "";
 						};
 
@@ -1035,14 +1035,14 @@ class CfgVehicles {
 				condition = "";
 				exceptions[] = {};
 				statement = "";
-				icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\helm2.paa";
+				icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\helm2.paa";
 													
 					class InsigniaAction_K {
 					displayName = "Kilo";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\kilo.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\kilo.paa";
 			
 						class InsigniaAction_Kilo {
 						displayName = "Kilo";
@@ -1074,7 +1074,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\fox.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\fox.paa";
 			
 						class InsigniaAction_Fox {
 						displayName = "Fox";
@@ -1106,7 +1106,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\victor.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\victor.paa";
 			
 						class InsigniaAction_Victor {
 						displayName = "Victor";
@@ -1138,7 +1138,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\alfa.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\alfa.paa";
 			
 						class InsigniaAction_Alpha {
 						displayName = "Alpha";
@@ -1170,7 +1170,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\bravo.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\bravo.paa";
 			
 						class InsigniaAction_Bravo {
 						displayName = "Bravo";
@@ -1202,7 +1202,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\charlie.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\charlie.paa";
 			
 						class InsigniaAction_Charlie {
 						displayName = "Charlie";
@@ -1234,7 +1234,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\delta.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\delta.paa";
 			
 						class InsigniaAction_Delta {
 						displayName = "Delta";
@@ -1290,7 +1290,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\echo.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\echo.paa";
 			
 						class InsigniaAction_Echo {
 						displayName = "Echo";
@@ -1322,7 +1322,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\zulu.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\zulu.paa";
 			
 						class InsigniaAction_Zulu {
 						displayName = "Zulu";
@@ -1362,7 +1362,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\yankee.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\yankee.paa";
 			
 						class InsigniaAction_Yankee {
 						displayName = "Yankee";
@@ -1394,7 +1394,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\x-ray.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\x-ray.paa";
 			
 						class InsigniaAction_XRay {
 						displayName = "X-Ray";
@@ -1426,7 +1426,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\whiskey.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\whiskey.paa";
 			
 						class InsigniaAction_Whiskey {
 						displayName = "Whiskey";
@@ -1443,7 +1443,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\sierra.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\sierra.paa";
 			
 						class InsigniaAction_S {
 						displayName = "Sierra";
@@ -1473,7 +1473,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\mike.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\mike.paa";
 			
 						class InsigniaAction_Mike {
 						displayName = "Mike";
@@ -1505,7 +1505,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\lima.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\lima.paa";
 			
 						class InsigniaAction_Lima {
 						displayName = "Lima";
@@ -1537,7 +1537,7 @@ class CfgVehicles {
 					condition = "";
 					exceptions[] = {};
 					statement = "";
-					icon = "\y\GR-Equipment-Mod\addons\GerRng_equip\icon\sani.paa";
+					icon = "\y\GR_Equipment_Mod\addons\Equipment\icon\sani.paa";
 			
 						class InsigniaAction_San {
 						displayName = "Sanitäter";

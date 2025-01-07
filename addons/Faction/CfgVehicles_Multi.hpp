@@ -25,9 +25,9 @@ class GerRng_Lkw15t_Box_W : B_Truck_01_box_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa"
     };
     
     class TransportMagazines
@@ -72,9 +72,9 @@ class GerRng_Lkw15t_Box_D : GerRng_Lkw15t_Box_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa"
     };		
 };
 
@@ -101,9 +101,9 @@ class GerRng_Lkw15t_Repair_W : B_Truck_01_repair_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa"
     };
     
     class TransportMagazines
@@ -148,9 +148,9 @@ class GerRng_Lkw15t_Repair_D : GerRng_Lkw15t_Repair_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa"
     };		
 };
 
@@ -175,9 +175,9 @@ class GerRng_Lkw15t_Ammo_W : B_Truck_01_ammo_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa"
     };
     
     class TransportMagazines
@@ -228,9 +228,9 @@ class GerRng_Lkw15t_Ammo_D : GerRng_Lkw15t_Ammo_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa"
     };		
 };
 
@@ -255,9 +255,9 @@ class GerRng_Lkw15t_Flatbed_W : Truck_01_flatbed_base_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa",
     };
     
     class TransportMagazines
@@ -288,8 +288,8 @@ class GerRng_Lkw15t_Flatbed_D : GerRng_Lkw15t_Flatbed_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa",
     };		
 };

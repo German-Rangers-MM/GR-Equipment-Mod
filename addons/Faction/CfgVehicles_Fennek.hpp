@@ -16,14 +16,14 @@ class I_MRAP_03_F: MRAP_03_base_F
 		{
 			displayName = "Flecktarn";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {"GerRng_"};
 		};
 		class Tropen
 		{
 			displayName = "Tropentarn";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {"GerRng_"};
 		};
 
@@ -31,14 +31,14 @@ class I_MRAP_03_F: MRAP_03_base_F
 		{
 			displayName = "Flecktarn NEF";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-W_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {"GerRng_"};
 		};
 		class TropenSan
 		{
 			displayName = "Tropentarn NEF";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-D_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {"GerRng_"};
 		};
 	};
@@ -51,14 +51,14 @@ class I_MRAP_03_hmg_F: MRAP_03_hmg_base_F
         {
             displayName = "Flecktarn";
             author = "dalleburn, jan";
-            textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+            textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
             faction[] = {"GerRng_"};
         };
         class Tropen
         {
             displayName = "Tropentarn";
             author = "dalleburn, jan";
-            textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+            textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
             faction[] = {"GerRng_"};
         };
     };
@@ -71,14 +71,14 @@ class I_MRAP_03_gmg_F: MRAP_03_gmg_base_F
 		{
 			displayName = "Flecktarn";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {"GerRng_"};
 		};
 		class Tropen
 		{
 			displayName = "Tropentarn";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+			textures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {"GerRng_"};
 		};
     };
@@ -99,7 +99,7 @@ class GerRng_B_FENNEK_GER_Wdl : I_MRAP_03_F {
 	editorSubcategory = "FennekSubcat";
 
     hiddenSelections[] = {"Camo1","Camo2"};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 	textureList[] = {"Fleck",1};
     
     class TransportBackpacks
@@ -151,7 +151,7 @@ class GerRng_B_FENNEK_GER_D : GerRng_B_FENNEK_GER_Wdl {
     displayName = "Fennek Spähwagen (Desert)";
 
 	textureList[]={"Tropen",1};	
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 };
 //--------------------------------------------------------------------------------------
 //
@@ -175,7 +175,7 @@ class GerRng_B_FENNEK_GER_HMG_Wdl : I_MRAP_03_hmg_F {
 
 	textureList[]={"Fleck",1};
     hiddenSelections[] = {"Camo1","Camo2"};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
     
     class TransportBackpacks
     {
@@ -226,7 +226,7 @@ class GerRng_B_FENNEK_GER_HMG_D : GerRng_B_FENNEK_GER_HMG_Wdl {
     displayName = "Fennek HMG (Desert)";
 
 	textureList[]={"Tropen",1};	
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 };
 
 //--------------------------------------------------------------------------------------
@@ -251,7 +251,7 @@ class GerRng_B_FENNEK_GER_GMG_Wdl : I_MRAP_03_gmg_F {
 
 	textureList[]={"Fleck",1};
     hiddenSelections[] = {"Camo1","Camo2"};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
     
     class TransportBackpacks
     {
@@ -302,7 +302,7 @@ class GerRng_B_FENNEK_GER_GMG_D : GerRng_B_FENNEK_GER_GMG_Wdl {
     displayName = "Fennek GMG (Desert)";
 
 	textureList[]={"Tropen",1};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
 };
 
 //--------------------------------------------------------------------------------------
@@ -327,7 +327,7 @@ class GerRng_FENNEK_NEF_W : GerRng_B_FENNEK_GER_Wdl {
 	editorSubcategory = "FennekSubcat";
 
 	textureList[]={"FleckSan",1};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-W_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};
     
     class TransportBackpacks
     {
@@ -394,5 +394,5 @@ class GerRng_FENNEK_NEF_D : GerRng_FENNEK_NEF_W {
     displayName = "Fennek Notarztfahrzeug (Desert)";
 
 	textureList[]={"TropenSan",1};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};				
+    hiddenSelectionsTextures[] = {"y\GR_Equipment_Mod\addons\GerRng_Faction\data\Strider_BW-D_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};				
 };

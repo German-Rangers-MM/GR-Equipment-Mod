@@ -20,9 +20,9 @@ class GerRng_AW101_Merlin_TTH_01 : I_Heli_Transport_02_F {
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-49_BW-HFlg_0_main.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-49_BW-HFlg_1_tail.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-49_BW-HFlg_2_eng.paa"
+		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-49_BW-HFlg_0_main.paa",
+		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-49_BW-HFlg_1_tail.paa",
+		"y\GR_Equipment_Mod\addons\GerRng_Faction\data\CH-49_BW-HFlg_2_eng.paa"
 	};
 	
 	class TransportBackpacks

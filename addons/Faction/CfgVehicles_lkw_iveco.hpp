@@ -27,10 +27,10 @@ class GerRng_IVECO_Transport_W : I_E_Truck_02_transport_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
     };
     
     class TransportBackpacks
@@ -85,10 +85,10 @@ class GerRng_IVECO_Transport_D : GerRng_IVECO_Transport_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
     };		
 };
 
@@ -115,10 +115,10 @@ class GerRng_IVECO_Transport_Covered_W : I_E_Truck_02_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
     };
 
     class TransportBackpacks
@@ -173,10 +173,10 @@ class GerRng_IVECO_Transport_Covered_D : GerRng_IVECO_Transport_Covered_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
     };		
 };
 
@@ -207,10 +207,10 @@ class GerRng_IVECO_Medic_W : I_E_Truck_02_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_san_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_san_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_san_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_san_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
     };
 
     class TransportBackpacks
@@ -281,10 +281,10 @@ class GerRng_IVECO_Medic_D : GerRng_IVECO_Medic_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_san_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_san_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_san_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_san_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
     };		
 };
 
@@ -312,10 +312,10 @@ class GerRng_IVECO_Fuel_W : I_E_Truck_02_fuel_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_tank_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_tank_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_tank_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_tank_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
     };
 
     class TransportBackpacks
@@ -362,10 +362,10 @@ class GerRng_Iveco_Fuel_D : GerRng_IVECO_Fuel_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_tank_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_tank_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_tank_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_tank_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
     };		
 };
 
@@ -396,10 +396,10 @@ class GerRng_IVECO_Ammo_W : I_E_Truck_02_Ammo_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_ammo_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_ammo_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_ammo_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_ammo_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
     };
 
     class TransportBackpacks
@@ -452,10 +452,10 @@ class GerRng_IVECO_Ammo_D : GerRng_IVECO_Ammo_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_ammo_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_ammo_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_ammo_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_ammo_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
     };		
 };
 
@@ -486,10 +486,10 @@ class GerRng_IVECO_Repair_W : I_E_Truck_02_Box_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_rep_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_rep_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_rep_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-W_rep_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
     };
 
     class TransportBackpacks
@@ -547,9 +547,9 @@ class GerRng_IVECO_Repair_D : GerRng_IVECO_Repair_W {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_rep_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_rep_1.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_rep_0.paa",
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW-D_rep_1.paa",
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        "y\GR_Equipment_Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
     };		
 };
