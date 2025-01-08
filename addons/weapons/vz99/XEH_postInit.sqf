@@ -10,7 +10,7 @@ GVAR(nextReload) = QGVAR(HE);
     private _mortarVeh = vehicle ACE_player;
     if ((_mortarVeh == ACE_player) || {!(_mortarVeh isKindOf QGVAR(mortar))}) exitWith {false};
     if !([ACE_player, _mortarVeh, []] call ACEFUNC(common,canInteractWith)) exitWith {false};
-    
+
     [_mortarVeh, ACE_player] call FUNC(doReload);
 
     true

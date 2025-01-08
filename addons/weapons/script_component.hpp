@@ -1,3 +1,3 @@
 #define SUBCOMPONENT weapons
 #define SUBCOMPONENT_BEAUTIFIED Weapons
-#include "..\script_component.hpp"
+#include "\y\GerRng_\addons\main\script_component.hpp"
