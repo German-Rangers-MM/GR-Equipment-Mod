@@ -15,6 +15,7 @@ class CfgPatches
 	};
 };
 
+#include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
 #include "Cfginsignias.hpp"
 #include "CfgWeapons.hpp"
