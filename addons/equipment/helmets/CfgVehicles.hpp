@@ -29,21 +29,21 @@ class CfgVehicles {
 							displayName = "K-Chef";
 							condition = "";
 							exceptions[] = {};
-							statement = "["kk"] call FUNC(selectHelmet);"
+							statement = "["kk"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_2 {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["k1"] call FUNC(selectHelmet);"
+							statement = "["k1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_3 {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["k2"] call FUNC(selectHelmet);"
+							statement = "["k2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -58,7 +58,7 @@ class CfgVehicles {
 							displayName = "Z-ZFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["fzf"] call FUNC(selectHelmet);"
+							statement = "["fzf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							
@@ -66,7 +66,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["f1"] call FUNC(selectHelmet);"
+							statement = "["f1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							
@@ -74,7 +74,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["f2"] call FUNC(selectHelmet);"
+							statement = "["f2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -82,7 +82,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["f3"] call FUNC(selectHelmet);"
+							statement = "["f3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -90,7 +90,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["f4"] call FUNC(selectHelmet);"
+							statement = "["f4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -105,7 +105,7 @@ class CfgVehicles {
 							displayName = "V-ZFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["vzf"] call FUNC(selectHelmet);"
+							statement = "["vzf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							
@@ -113,7 +113,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["v1"] call FUNC(selectHelmet);"
+							statement = "["v1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							
@@ -121,7 +121,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["v2"] call FUNC(selectHelmet);"
+							statement = "["v2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -129,7 +129,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["v3"] call FUNC(selectHelmet);"
+							statement = "["v3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -137,7 +137,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["v4"] call FUNC(selectHelmet);"
+							statement = "["v4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -153,7 +153,7 @@ class CfgVehicles {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["agf"] call FUNC(selectHelmet);"
+							statement = "["agf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -161,7 +161,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a1"] call FUNC(selectHelmet);"
+							statement = "["a1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -169,7 +169,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a2"] call FUNC(selectHelmet);"
+							statement = "["a2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -177,7 +177,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a3"] call FUNC(selectHelmet);"
+							statement = "["a3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -185,7 +185,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a4"] call FUNC(selectHelmet);"
+							statement = "["a4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -193,7 +193,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a5"] call FUNC(selectHelmet);"
+							statement = "["a5"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -201,7 +201,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a6"] call FUNC(selectHelmet);"
+							statement = "["a6"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -209,7 +209,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a7"] call FUNC(selectHelmet);"
+							statement = "["a7"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -217,7 +217,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a8"] call FUNC(selectHelmet);"
+							statement = "["a8"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -225,7 +225,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a9"] call FUNC(selectHelmet);"
+							statement = "["a9"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -233,7 +233,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a10"] call FUNC(selectHelmet);"
+							statement = "["a10"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -241,7 +241,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a11"] call FUNC(selectHelmet);"
+							statement = "["a11"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -249,7 +249,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = "["a12"] call FUNC(selectHelmet);"
+							statement = "["a12"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -265,7 +265,7 @@ class CfgVehicles {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["bgf"] call FUNC(selectHelmet);"
+							statement = "["bgf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							
@@ -273,7 +273,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b1"] call FUNC(selectHelmet);"
+							statement = "["b1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -281,7 +281,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b2"] call FUNC(selectHelmet);"
+							statement = "["b2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -289,7 +289,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b3"] call FUNC(selectHelmet);"
+							statement = "["b3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -297,7 +297,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b4"] call FUNC(selectHelmet);"
+							statement = "["b4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -305,7 +305,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b5"] call FUNC(selectHelmet);"
+							statement = "["b5"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -313,7 +313,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b6"] call FUNC(selectHelmet);"
+							statement = "["b6"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -321,7 +321,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b7"] call FUNC(selectHelmet);"
+							statement = "["b7"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -329,7 +329,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b8"] call FUNC(selectHelmet);"
+							statement = "["b8"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -337,7 +337,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b9"] call FUNC(selectHelmet);"
+							statement = "["b9"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -345,7 +345,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b10"] call FUNC(selectHelmet);"
+							statement = "["b10"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -353,7 +353,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b11"] call FUNC(selectHelmet);"
+							statement = "["b11"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -361,7 +361,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = "["b12"] call FUNC(selectHelmet);"
+							statement = "["b12"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -377,7 +377,7 @@ class CfgVehicles {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["cgf"] call FUNC(selectHelmet);"
+							statement = "["cgf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							
@@ -385,7 +385,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c1"] call FUNC(selectHelmet);"
+							statement = "["c1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -393,7 +393,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c2"] call FUNC(selectHelmet);"
+							statement = "["c2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -401,7 +401,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c3"] call FUNC(selectHelmet);"
+							statement = "["c3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -409,7 +409,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c4"] call FUNC(selectHelmet);"
+							statement = "["c4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -417,7 +417,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c5"] call FUNC(selectHelmet);"
+							statement = "["c5"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -425,7 +425,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c6"] call FUNC(selectHelmet);"
+							statement = "["c6"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -433,7 +433,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c7"] call FUNC(selectHelmet);"
+							statement = "["c7"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -441,7 +441,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c8"] call FUNC(selectHelmet);"
+							statement = "["c8"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -449,7 +449,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c9"] call FUNC(selectHelmet);"
+							statement = "["c9"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -457,7 +457,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c10"] call FUNC(selectHelmet);"
+							statement = "["c10"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -465,7 +465,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c11"] call FUNC(selectHelmet);"
+							statement = "["c11"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -473,7 +473,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = "["c12"] call FUNC(selectHelmet);"
+							statement = "["c12"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -489,7 +489,7 @@ class CfgVehicles {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["zgf"] call FUNC(selectHelmet);"
+							statement = "["zgf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -497,7 +497,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z1"] call FUNC(selectHelmet);"
+							statement = "["z1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -505,7 +505,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z2"] call FUNC(selectHelmet);"
+							statement = "["z2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -513,7 +513,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z3"] call FUNC(selectHelmet);"
+							statement = "["z3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -521,7 +521,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z4"] call FUNC(selectHelmet);"
+							statement = "["z4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -529,7 +529,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z5"] call FUNC(selectHelmet);"
+							statement = "["z5"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -537,7 +537,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z6"] call FUNC(selectHelmet);"
+							statement = "["z6"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -545,7 +545,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z7"] call FUNC(selectHelmet);"
+							statement = "["z7"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -553,7 +553,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z8"] call FUNC(selectHelmet);"
+							statement = "["z8"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -561,7 +561,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z9"] call FUNC(selectHelmet);"
+							statement = "["z9"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -569,7 +569,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z10"] call FUNC(selectHelmet);"
+							statement = "["z10"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -577,7 +577,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z11"] call FUNC(selectHelmet);"
+							statement = "["z11"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -585,7 +585,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = "["z12"] call FUNC(selectHelmet);"
+							statement = "["z12"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -601,7 +601,7 @@ class CfgVehicles {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["ygf"] call FUNC(selectHelmet);"
+							statement = "["ygf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -609,7 +609,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y1"] call FUNC(selectHelmet);"
+							statement = "["y1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -617,7 +617,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y2"] call FUNC(selectHelmet);"
+							statement = "["y2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -625,7 +625,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y3"] call FUNC(selectHelmet);"
+							statement = "["y3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -633,7 +633,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y4"] call FUNC(selectHelmet);"
+							statement = "["y4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -641,7 +641,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y5"] call FUNC(selectHelmet);"
+							statement = "["y5"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -649,7 +649,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y6"] call FUNC(selectHelmet);"
+							statement = "["y6"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -657,7 +657,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y7"] call FUNC(selectHelmet);"
+							statement = "["y7"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -665,7 +665,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y8"] call FUNC(selectHelmet);"
+							statement = "["y8"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -673,7 +673,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y9"] call FUNC(selectHelmet);"
+							statement = "["y9"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -681,7 +681,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y10"] call FUNC(selectHelmet);"
+							statement = "["y10"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -689,7 +689,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y11"] call FUNC(selectHelmet);"
+							statement = "["y11"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -697,7 +697,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y12"] call FUNC(selectHelmet);"
+							statement = "["y12"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -713,7 +713,7 @@ class CfgVehicles {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["xgf"] call FUNC(selectHelmet);"
+							statement = "["xgf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -721,7 +721,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x1"] call FUNC(selectHelmet);"
+							statement = "["x1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -729,7 +729,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x2"] call FUNC(selectHelmet);"
+							statement = "["x2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -737,7 +737,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x3"] call FUNC(selectHelmet);"
+							statement = "["x3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -745,7 +745,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x4"] call FUNC(selectHelmet);"
+							statement = "["x4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -753,7 +753,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x5"] call FUNC(selectHelmet);"
+							statement = "["x5"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -761,7 +761,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x6"] call FUNC(selectHelmet);"
+							statement = "["x6"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -769,7 +769,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x7"] call FUNC(selectHelmet);"
+							statement = "["x7"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -777,7 +777,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x8"] call FUNC(selectHelmet);"
+							statement = "["x8"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -785,7 +785,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x9"] call FUNC(selectHelmet);"
+							statement = "["x9"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -793,7 +793,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x10"] call FUNC(selectHelmet);"
+							statement = "["x10"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -801,7 +801,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x11"] call FUNC(selectHelmet);"
+							statement = "["x11"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -809,7 +809,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x12"] call FUNC(selectHelmet);"
+							statement = "["x12"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};			
@@ -825,35 +825,35 @@ class CfgVehicles {
 							displayName = "TrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["wtf"] call FUNC(selectHelmet);"
+							statement = "["wtf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_2 {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["w1"] call FUNC(selectHelmet);"
+							statement = "["w1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_3 {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["w2"] call FUNC(selectHelmet);"
+							statement = "["w2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_4 {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["w3"] call FUNC(selectHelmet);"
+							statement = "["w3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_5 {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["w4"] call FUNC(selectHelmet);"
+							statement = "["w4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -869,35 +869,35 @@ class CfgVehicles {
 							displayName = "TrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["stf"] call FUNC(selectHelmet);"
+							statement = "["stf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_2 {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["s1"] call FUNC(selectHelmet);"
+							statement = "["s1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_3 {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["s2"] call FUNC(selectHelmet);"
+							statement = "["s2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_4 {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["s3"] call FUNC(selectHelmet);"
+							statement = "["s3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_5 {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["s4"] call FUNC(selectHelmet);"
+							statement = "["s4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -912,7 +912,7 @@ class CfgVehicles {
 							displayName = "M-AvD";
 							condition = "";
 							exceptions[] = {};
-							statement = "["mavd"] call FUNC(selectHelmet);"
+							statement = "["mavd"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							
@@ -920,7 +920,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m1"] call FUNC(selectHelmet);"
+							statement = "["m1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							
@@ -928,7 +928,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m2"] call FUNC(selectHelmet);"
+							statement = "["m2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -936,7 +936,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m3"] call FUNC(selectHelmet);"
+							statement = "["m3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -944,14 +944,14 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m4"] call FUNC(selectHelmet);"
+							statement = "["m4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_6 {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m5"] call FUNC(selectHelmet);"
+							statement = "["m5"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};						
@@ -966,7 +966,7 @@ class CfgVehicles {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["lgf"] call FUNC(selectHelmet);"
+							statement = "["lgf"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							
@@ -974,7 +974,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l1"] call FUNC(selectHelmet);"
+							statement = "["l1"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -982,7 +982,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l2"] call FUNC(selectHelmet);"
+							statement = "["l2"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 
@@ -990,28 +990,28 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l3"] call FUNC(selectHelmet);"
+							statement = "["l3"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_5 {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l4"] call FUNC(selectHelmet);"
+							statement = "["l4"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_6 {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l5"] call FUNC(selectHelmet);"
+							statement = "["l5"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 							class HelmpatchAction_7 {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l6"] call FUNC(selectHelmet);"
+							statement = "["l6"] call FUNC(selectHelmet)";
 							icon = "";
 							};
 						};
@@ -1021,7 +1021,7 @@ class CfgVehicles {
 						displayName = "Ohne Nummer";
 						condition = "";
 						exceptions[] = {};
-						statement = "["reset"] call FUNC(selectHelmet);"
+						statement = "["reset"] call FUNC(selectHelmet)";
 						icon = "";
 						};
 
@@ -1049,7 +1049,7 @@ class CfgVehicles {
 						displayName = "Kilo";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Kilo"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Kilo"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1057,7 +1057,7 @@ class CfgVehicles {
 						displayName = "Kilo_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Kilo_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Kilo_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1065,7 +1065,7 @@ class CfgVehicles {
 						displayName = "Kilo_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Kilo_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Kilo_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};
@@ -1081,7 +1081,7 @@ class CfgVehicles {
 						displayName = "Fox";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Fox"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Fox"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1089,7 +1089,7 @@ class CfgVehicles {
 						displayName = "Fox_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Fox_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Fox_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1097,7 +1097,7 @@ class CfgVehicles {
 						displayName = "Fox_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Fox_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Fox_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};	
@@ -1113,7 +1113,7 @@ class CfgVehicles {
 						displayName = "Victor";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Victor"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Victor"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1121,7 +1121,7 @@ class CfgVehicles {
 						displayName = "Victor Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Victor_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Victor_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1129,7 +1129,7 @@ class CfgVehicles {
 						displayName = "Victor Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Victor_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Victor_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};
@@ -1145,7 +1145,7 @@ class CfgVehicles {
 						displayName = "Alpha";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Alpha"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Alpha"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1153,7 +1153,7 @@ class CfgVehicles {
 						displayName = "Alpha_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Alpha_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Alpha_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1161,7 +1161,7 @@ class CfgVehicles {
 						displayName = "Alpha_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Alpha_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Alpha_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};
@@ -1177,7 +1177,7 @@ class CfgVehicles {
 						displayName = "Bravo";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Bravo"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Bravo"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1185,7 +1185,7 @@ class CfgVehicles {
 						displayName = "Bravo_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Bravo_trop"] call BIS_fnc_setUnitInsignia;"
+						statement = "[player,"Bravo_trop"] call BIS_fnc_setUnitInsignia";
 						icon = "";
 						};
 													
@@ -1193,7 +1193,7 @@ class CfgVehicles {
 						displayName = "Bravo_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Bravo_ft"] call BIS_fnc_setUnitInsignia;"
+						statement = "[player,"Bravo_ft"] call BIS_fnc_setUnitInsignia";
 						icon = "";
 						};
 					};
@@ -1209,7 +1209,7 @@ class CfgVehicles {
 						displayName = "Charlie";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Charlie"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Charlie"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1217,7 +1217,7 @@ class CfgVehicles {
 						displayName = "Charlie_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Charlie_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Charlie_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1225,7 +1225,7 @@ class CfgVehicles {
 						displayName = "Charlie_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Charlie_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Charlie_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};
@@ -1242,7 +1242,7 @@ class CfgVehicles {
 						displayName = "Delta";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Delta"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1250,7 +1250,7 @@ class CfgVehicles {
 						displayName = "Delta_Tropen";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta_trop"] call BIS_fnc_setUnitInsignia;"
+						statement = "[player,"Delta_trop"] call BIS_fnc_setUnitInsignia";
 						icon = "";
 						};
 						
@@ -1258,7 +1258,7 @@ class CfgVehicles {
 						displayName = "Delta_Tropen_low";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta_trop_l"] call BIS_fnc_setUnitInsignia;"
+						statement = "[player,"Delta_trop_l"] call BIS_fnc_setUnitInsignia";
 						icon = "";
 						};
 						
@@ -1266,7 +1266,7 @@ class CfgVehicles {
 						displayName = "Delta_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta_ft"] call BIS_fnc_setUnitInsignia;"
+						statement = "[player,"Delta_ft"] call BIS_fnc_setUnitInsignia";
 						icon = "";
 						};
 						
@@ -1274,7 +1274,7 @@ class CfgVehicles {
 						displayName = "Delta_Flecktarn_low";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta_ft_l"] call BIS_fnc_setUnitInsignia;"
+						statement = "[player,"Delta_ft_l"] call BIS_fnc_setUnitInsignia";
 						icon = "";
 						};
 						
@@ -1282,7 +1282,7 @@ class CfgVehicles {
 						displayName = "DM";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"DM"] call BIS_fnc_setUnitInsignia;"
+						statement = "[player,"DM"] call BIS_fnc_setUnitInsignia";
 						icon = "";
 						};
 					};
@@ -1298,7 +1298,7 @@ class CfgVehicles {
 						displayName = "Echo";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Echo"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Echo"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1306,7 +1306,7 @@ class CfgVehicles {
 						displayName = "Echo_Tropen";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Echo_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Echo_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1314,7 +1314,7 @@ class CfgVehicles {
 						displayName = "Echo_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Echo_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Echo_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};	
@@ -1347,7 +1347,7 @@ class CfgVehicles {
 						displayName = "Zulu_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Zulu_ft"] call BIS_fnc_setUnitInsignia; //;"						
+						statement = "[player,"Zulu_ft"] call BIS_fnc_setUnitInsignia; //";						
 						icon = "";
 						};
 						
@@ -1355,7 +1355,7 @@ class CfgVehicles {
 						displayName = "DM";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"DM"] call BIS_fnc_setUnitInsignia; //;"
+						statement = "[player,"DM"] call BIS_fnc_setUnitInsignia; //";
 						icon = "";
 						};
 					};
@@ -1371,7 +1371,7 @@ class CfgVehicles {
 						displayName = "Yankee";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Yankee"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Yankee"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1379,7 +1379,7 @@ class CfgVehicles {
 						displayName = "Yankee_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Yankee_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Yankee_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1387,7 +1387,7 @@ class CfgVehicles {
 						displayName = "Yankee_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Yankee_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Yankee_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};
@@ -1403,7 +1403,7 @@ class CfgVehicles {
 						displayName = "X-Ray";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"XRay"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"XRay"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1411,7 +1411,7 @@ class CfgVehicles {
 						displayName = "X-Ray_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"XRay_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"XRay_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1419,7 +1419,7 @@ class CfgVehicles {
 						displayName = "X-Ray_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"XRay_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"XRay_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};
@@ -1436,7 +1436,7 @@ class CfgVehicles {
 						displayName = "Whiskey";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Whiskey"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Whiskey"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};
@@ -1453,21 +1453,21 @@ class CfgVehicles {
 						displayName = "Sierra";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Sierra"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Sierra"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						class InsigniaAction_S_trop {
 						displayName = "Sierra_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Sierra_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Sierra_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						class InsigniaAction_S_ft {
 						displayName = "Sierra_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Sierra_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Sierra_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};	
@@ -1483,7 +1483,7 @@ class CfgVehicles {
 						displayName = "Mike";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Mike"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Mike"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1491,7 +1491,7 @@ class CfgVehicles {
 						displayName = "Mike_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Mike_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Mike_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1499,7 +1499,7 @@ class CfgVehicles {
 						displayName = "Mike_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Mike_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Mike_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};	
@@ -1515,7 +1515,7 @@ class CfgVehicles {
 						displayName = "Lima";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Lima"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Lima"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1523,7 +1523,7 @@ class CfgVehicles {
 						displayName = "Lima_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Lima_trop"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Lima_trop"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 						
@@ -1531,7 +1531,7 @@ class CfgVehicles {
 						displayName = "Lima_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Lima_ft"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Lima_ft"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};		
@@ -1548,7 +1548,7 @@ class CfgVehicles {
 						displayName = "Sanitäter";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Sani"] call BIS_fnc_setUnitInsignia;"						
+						statement = "[player,"Sani"] call BIS_fnc_setUnitInsignia";						
 						icon = "";
 						};
 					};	
