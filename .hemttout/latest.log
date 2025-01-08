@@ -1,103 +1,206 @@
-2025-01-08T04:11:20.945984Z TRACE ThreadId(01) version: 1.14.1
-2025-01-08T04:11:20.946015Z TRACE ThreadId(01) platform: windows
-2025-01-08T04:11:20.946022Z TRACE ThreadId(01) args: [
+2025-01-08T16:04:53.387364Z TRACE ThreadId(01) version: 1.14.1
+2025-01-08T16:04:53.387395Z TRACE ThreadId(01) platform: windows
+2025-01-08T16:04:53.387402Z TRACE ThreadId(01) args: [
     "C:\\Users\\kazak\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrettMayson.HEMTT_Microsoft.Winget.Source_8wekyb3d8bbwe\\hemtt.exe",
-    "check",
+    "launch",
 ]
-2025-01-08T04:11:20.947728Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod"
-2025-01-08T04:11:20.947739Z TRACE ThreadId(01) using project folder: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod"
-2025-01-08T04:11:20.947756Z TRACE ThreadId(01) using out folder: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout"
-2025-01-08T04:11:20.947822Z TRACE ThreadId(01) using build folder: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\check"
-2025-01-08T04:11:20.950087Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/equipment/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.950160Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/equipment/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.950489Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/equipment/vests/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.951025Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/equipment/helmets/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.958538Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/faction/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.958846Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/faction/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.961023Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.961144Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.961325Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.961364Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.961807Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/vz99/$PREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.961953Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/vz99/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.963169Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/csw/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.963382Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/rifles/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.963683Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/munitions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.963805Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/ressources/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.963838Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/ressources/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.963958Z TRACE ThreadId(01) checking for version macro in VfsPath { path: "/addons/main/script_version.hpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
-2025-01-08T04:11:20.966769Z  INFO ThreadId(01) Config loaded for GR-EQUIPMENT-MOD 1.0.0.0-16bbf206
-2025-01-08T04:11:20.966793Z TRACE ThreadId(01) Scanning E:\GitHubRepositories\GR MM\GR-Equipment-Mod\addons for addons
-2025-01-08T04:11:20.967057Z  INFO ThreadId(01) Running checks
-2025-01-08T04:11:20.967064Z TRACE ThreadId(01) phase: init (BOM Check) (start)
-2025-01-08T04:11:20.967071Z TRACE ThreadId(01) phase: init (BOM Check) (done)
-2025-01-08T04:11:20.967072Z TRACE ThreadId(01) phase: init (Hooks) (start)
-2025-01-08T04:11:20.968937Z TRACE ThreadId(01) phase: init (Hooks) (done)
-2025-01-08T04:11:20.968943Z TRACE ThreadId(01) phase: init (Stringtables) (start)
-2025-01-08T04:11:20.968945Z TRACE ThreadId(01) phase: init (Stringtables) (done)
-2025-01-08T04:11:20.968947Z TRACE ThreadId(01) phase: init (SQF) (start)
-2025-01-08T04:11:21.158752Z TRACE ThreadId(01) phase: init (SQF) (done)
-2025-01-08T04:11:21.158763Z TRACE ThreadId(01) phase: init (Rapifier) (start)
-2025-01-08T04:11:21.158765Z TRACE ThreadId(01) phase: init (Rapifier) (done)
-2025-01-08T04:11:21.158766Z TRACE ThreadId(01) phase: init (Binarize) (start)
-2025-01-08T04:11:21.158773Z TRACE ThreadId(01) Using Binarize path from registry
-2025-01-08T04:11:21.159080Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\y\\GerRng\\addons\\equipment" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\addons\\equipment"
-2025-01-08T04:11:21.167829Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\y\\GerRng\\addons\\faction" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\addons\\faction"
-2025-01-08T04:11:21.174938Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\y\\GerRng\\addons\\main" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\addons\\main"
-2025-01-08T04:11:21.181923Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\y\\GerRng\\addons\\ressouces" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\addons\\ressources"
-2025-01-08T04:11:21.189440Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\y\\GerRng\\addons\\weapons" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\addons\\weapons"
-2025-01-08T04:11:21.196609Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\A3\\Functions_F_Exp_A" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include\\A3\\Functions_F_Exp_A"
-2025-01-08T04:11:21.203413Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\A3\\ui_f" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include\\A3\\ui_f"
-2025-01-08T04:11:21.210739Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\A3\\ui_f_exp_a" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include\\A3\\ui_f_exp_a"
-2025-01-08T04:11:21.217471Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\x\\cba" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include\\x\\cba"
-2025-01-08T04:11:21.224786Z TRACE ThreadId(01) junction link "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\z\\ace" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include\\z\\ace"
-2025-01-08T04:11:21.231379Z TRACE ThreadId(01) phase: init (Binarize) (done)
-2025-01-08T04:11:21.231389Z TRACE ThreadId(01) phase: check (BOM Check) (start)
-2025-01-08T04:11:21.238138Z TRACE ThreadId(01) phase: check (BOM Check) (done)
-2025-01-08T04:11:21.238147Z TRACE ThreadId(01) phase: check (Hooks) (start)
-2025-01-08T04:11:21.238149Z TRACE ThreadId(01) phase: check (Hooks) (done)
-2025-01-08T04:11:21.238150Z TRACE ThreadId(01) phase: check (Stringtables) (start)
-2025-01-08T04:11:21.238172Z TRACE ThreadId(01) phase: check (Stringtables) (done)
-2025-01-08T04:11:21.238174Z TRACE ThreadId(01) phase: check (SQF) (start)
-2025-01-08T04:11:21.238219Z TRACE ThreadId(01) phase: check (SQF) (done)
-2025-01-08T04:11:21.238221Z TRACE ThreadId(01) phase: check (Rapifier) (start)
-2025-01-08T04:11:21.238245Z TRACE ThreadId(01) phase: check (Rapifier) (done)
-2025-01-08T04:11:21.238247Z TRACE ThreadId(01) phase: check (Binarize) (start)
-2025-01-08T04:11:21.261740Z TRACE ThreadId(01) checking textures & materials for /addons/weapons/vz99/data/vz99_vehicle.p3d
-2025-01-08T04:11:21.263701Z TRACE ThreadId(01) checking textures & materials for /addons/weapons/vz99/data/vz99_carry.p3d
-2025-01-08T04:11:21.265718Z  INFO ThreadId(01) Validated 2 files for binarization
-2025-01-08T04:11:21.265730Z TRACE ThreadId(01) phase: check (Binarize) (done)
-2025-01-08T04:11:21.265733Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
-2025-01-08T04:11:21.265735Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
-2025-01-08T04:11:21.265737Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
-2025-01-08T04:11:21.265774Z TRACE ThreadId(01) no pre_build hooks
-2025-01-08T04:11:21.265776Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
-2025-01-08T04:11:21.265777Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
-2025-01-08T04:11:21.279052Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
-2025-01-08T04:11:21.279062Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
-2025-01-08T04:11:21.315791Z TRACE ThreadId(20) sqf compiling /addons/weapons/vz99/functions/fnc_handlePlayerVehicleChanged.sqf
-2025-01-08T04:11:21.315791Z TRACE ThreadId(03) sqf compiling /addons/weapons/vz99/functions/fnc_doPickupWeapon.sqf
-2025-01-08T04:11:21.315791Z TRACE ThreadId(13) sqf compiling /addons/equipment/helmets/XEH_preStart.sqf
-2025-01-08T04:11:21.315791Z TRACE ThreadId(10) sqf compiling /addons/weapons/vz99/functions/fnc_doDeployWeapon.sqf
-2025-01-08T04:11:21.315825Z TRACE ThreadId(14) sqf compiling /addons/weapons/vz99/functions/fnc_canSelectNextMagazine.sqf
-2025-01-08T04:11:21.315791Z TRACE ThreadId(02) sqf compiling /addons/equipment/functions/fn_bobcat.sqf
-2025-01-08T04:11:21.315800Z TRACE ThreadId(11) sqf compiling /addons/weapons/vz99/functions/fnc_levelToGround.sqf
-2025-01-08T04:11:21.315805Z TRACE ThreadId(06) sqf compiling /addons/weapons/vz99/functions/fnc_canPickupWeapon.sqf
-2025-01-08T04:11:21.315802Z TRACE ThreadId(12) sqf compiling /addons/weapons/vz99/functions/fnc_doSelectNextMagazine.sqf
-2025-01-08T04:11:21.315802Z TRACE ThreadId(04) sqf compiling /addons/equipment/helmets/XEH_init.sqf
-2025-01-08T04:11:21.315868Z TRACE ThreadId(16) sqf compiling /addons/equipment/helmets/XEH_preInit.sqf
-2025-01-08T04:11:21.315836Z TRACE ThreadId(09) sqf compiling /addons/weapons/vz99/functions/fnc_doReload.sqf
-2025-01-08T04:11:21.315834Z TRACE ThreadId(08) sqf compiling /addons/weapons/vz99/functions/fnc_canDeployWeapon.sqf
-2025-01-08T04:11:21.315791Z TRACE ThreadId(18) sqf compiling /addons/equipment/helmets/XEH_postInit.sqf
-2025-01-08T04:11:21.315951Z TRACE ThreadId(17) sqf compiling /addons/weapons/vz99/XEH_preInit.sqf
-2025-01-08T04:11:21.316131Z TRACE ThreadId(07) sqf compiling /addons/equipment/helmets/functions/fnc_selectHelmet.sqf
-2025-01-08T04:11:21.316378Z TRACE ThreadId(19) sqf compiling /addons/weapons/vz99/functions/fnc_handleFired.sqf
-2025-01-08T04:11:21.316631Z TRACE ThreadId(15) sqf compiling /addons/weapons/vz99/XEH_postInit.sqf
-2025-01-08T04:11:21.316794Z TRACE ThreadId(22) sqf compiling /addons/weapons/vz99/XEH_preStart.sqf
-2025-01-08T04:11:21.365891Z  INFO ThreadId(01) Compiled 19 sqf files
-2025-01-08T04:11:21.365953Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
-2025-01-08T04:11:21.365955Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
-2025-01-08T04:11:21.566119Z  INFO ThreadId(01) Rapified 14 addon configs
-2025-01-08T04:11:21.566193Z TRACE ThreadId(01) phase: pre_build (Rapifier) (failed)
-2025-01-08T04:11:21.785719Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
-2025-01-08T04:11:21.933838Z TRACE ThreadId(01) wrote 8018 ci annotations to .hemttout/ci_annotations.txt
+2025-01-08T16:04:53.387705Z TRACE ThreadId(01) launch config: LaunchOptions { workshop: ["1779063631", "2369477168", "2589302544", "450814997", "463939057", "497660133"], dlc: [], presets: [], optionals: [], mission: None, parameters: ["-noPause", "-noPauseAudio", "-window"], executable: None, binarize: None, file_patching: None, instances: None, rapify: None }
+2025-01-08T16:04:53.394666Z DEBUG ThreadId(01) Arma 3 found at: D:\SteamLibrary\steamapps\common\Arma 3
+2025-01-08T16:04:53.394920Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod"
+2025-01-08T16:04:53.394929Z TRACE ThreadId(01) using project folder: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod"
+2025-01-08T16:04:53.394947Z TRACE ThreadId(01) using out folder: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout"
+2025-01-08T16:04:53.395024Z TRACE ThreadId(01) using build folder: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev"
+2025-01-08T16:04:53.397818Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.397864Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.398149Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.398211Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.398476Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/rifles/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.398722Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/munitions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.399035Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/vz99/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.399279Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/vz99/$PREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.400484Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/csw/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.400671Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/ressources/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.400704Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/ressources/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.400851Z TRACE ThreadId(01) checking for version macro in VfsPath { path: "/addons/main/script_version.hpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\kazak\\AppData\\Local\\Temp\\hemtt\\GitHubRepositories_GR MM_GR-Equipment-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod" } } } } } }] } } }
+2025-01-08T16:04:53.404126Z  INFO ThreadId(01) Config loaded for GR-EQUIPMENT-MOD 1.0.0.4-fab15901
+2025-01-08T16:04:53.404154Z TRACE ThreadId(01) Scanning E:\GitHubRepositories\GR MM\GR-Equipment-Mod\addons for addons
+2025-01-08T16:04:53.404414Z  INFO ThreadId(01) Creating `dev` version
+2025-01-08T16:04:53.404420Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2025-01-08T16:04:53.404425Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2025-01-08T16:04:53.404426Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2025-01-08T16:04:53.406560Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2025-01-08T16:04:53.406569Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2025-01-08T16:04:53.406571Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2025-01-08T16:04:53.406573Z TRACE ThreadId(01) phase: init (SQF) (start)
+2025-01-08T16:04:53.611233Z TRACE ThreadId(01) phase: init (SQF) (done)
+2025-01-08T16:04:53.611243Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2025-01-08T16:04:53.611245Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2025-01-08T16:04:53.611246Z TRACE ThreadId(01) phase: init (Files) (start)
+2025-01-08T16:04:53.611248Z TRACE ThreadId(01) phase: init (Files) (done)
+2025-01-08T16:04:53.611249Z TRACE ThreadId(01) phase: init (FilePatching) (start)
+2025-01-08T16:04:53.611251Z TRACE ThreadId(01) phase: init (FilePatching) (done)
+2025-01-08T16:04:53.611253Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2025-01-08T16:04:53.613620Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2025-01-08T16:04:53.613628Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2025-01-08T16:04:53.613630Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2025-01-08T16:04:53.613632Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2025-01-08T16:04:53.613651Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2025-01-08T16:04:53.613653Z TRACE ThreadId(01) phase: check (SQF) (start)
+2025-01-08T16:04:53.613697Z TRACE ThreadId(01) phase: check (SQF) (done)
+2025-01-08T16:04:53.613698Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2025-01-08T16:04:53.613722Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2025-01-08T16:04:53.613724Z TRACE ThreadId(01) phase: check (Files) (start)
+2025-01-08T16:04:53.613725Z TRACE ThreadId(01) phase: check (Files) (done)
+2025-01-08T16:04:53.613726Z TRACE ThreadId(01) phase: check (FilePatching) (start)
+2025-01-08T16:04:53.613728Z TRACE ThreadId(01) phase: check (FilePatching) (done)
+2025-01-08T16:04:53.613730Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2025-01-08T16:04:53.613732Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2025-01-08T16:04:53.613734Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2025-01-08T16:04:53.613773Z TRACE ThreadId(01) no pre_build hooks
+2025-01-08T16:04:53.613775Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2025-01-08T16:04:53.613776Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2025-01-08T16:04:53.616899Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2025-01-08T16:04:53.616904Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2025-01-08T16:04:53.624499Z TRACE ThreadId(04) sqf compiling /addons/weapons/vz99/XEH_preStart.sqf
+2025-01-08T16:04:53.624506Z TRACE ThreadId(06) sqf compiling /addons/weapons/vz99/functions/fnc_handleFired.sqf
+2025-01-08T16:04:53.624514Z TRACE ThreadId(10) sqf compiling /addons/weapons/vz99/functions/fnc_levelToGround.sqf
+2025-01-08T16:04:53.624501Z TRACE ThreadId(02) sqf compiling /addons/weapons/vz99/functions/fnc_canSelectNextMagazine.sqf
+2025-01-08T16:04:53.624501Z TRACE ThreadId(05) sqf compiling /addons/weapons/vz99/functions/fnc_doPickupWeapon.sqf
+2025-01-08T16:04:53.624506Z TRACE ThreadId(07) sqf compiling /addons/weapons/vz99/XEH_postInit.sqf
+2025-01-08T16:04:53.624577Z TRACE ThreadId(24) sqf compiling /addons/weapons/vz99/functions/fnc_doDeployWeapon.sqf
+2025-01-08T16:04:53.624501Z TRACE ThreadId(03) sqf compiling /addons/weapons/vz99/XEH_preInit.sqf
+2025-01-08T16:04:53.624510Z TRACE ThreadId(08) sqf compiling /addons/weapons/vz99/functions/fnc_doReload.sqf
+2025-01-08T16:04:53.624625Z TRACE ThreadId(13) sqf compiling /addons/weapons/vz99/functions/fnc_canPickupWeapon.sqf
+2025-01-08T16:04:53.624511Z TRACE ThreadId(09) sqf compiling /addons/weapons/vz99/functions/fnc_handlePlayerVehicleChanged.sqf
+2025-01-08T16:04:53.624649Z TRACE ThreadId(14) sqf compiling /addons/weapons/vz99/functions/fnc_doSelectNextMagazine.sqf
+2025-01-08T16:04:53.624673Z TRACE ThreadId(15) sqf compiling /addons/weapons/vz99/functions/fnc_canDeployWeapon.sqf
+2025-01-08T16:04:53.665908Z  INFO ThreadId(01) Compiled 13 sqf files
+2025-01-08T16:04:53.665958Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2025-01-08T16:04:53.665961Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2025-01-08T16:04:53.712186Z  INFO ThreadId(01) Rapified 10 addon configs
+2025-01-08T16:04:53.712250Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2025-01-08T16:04:53.712253Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2025-01-08T16:04:53.712259Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2025-01-08T16:04:53.712261Z TRACE ThreadId(01) phase: pre_build (FilePatching) (start)
+2025-01-08T16:04:53.712428Z TRACE ThreadId(02) junction link "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\addons\\main" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\addons\\main"
+2025-01-08T16:04:53.712428Z TRACE ThreadId(04) junction link "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\addons\\ressources" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\addons\\ressources"
+2025-01-08T16:04:53.712436Z TRACE ThreadId(03) junction link "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\addons\\weapons" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\addons\\weapons"
+2025-01-08T16:04:53.728461Z TRACE ThreadId(01) phase: pre_build (FilePatching) (done)
+2025-01-08T16:04:53.728521Z TRACE ThreadId(01) phase: build (start)
+2025-01-08T16:04:53.729358Z DEBUG ThreadId(01) "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\addons" already exists
+2025-01-08T16:04:53.729368Z DEBUG ThreadId(01) building "addons/main" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\addons\\GerRng_main.pbo"
+2025-01-08T16:04:53.729669Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-01-08T16:04:53.729767Z TRACE ThreadId(01) adding file "script_version.hpp"
+2025-01-08T16:04:53.729922Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2025-01-08T16:04:53.729953Z TRACE ThreadId(01) adding file "config.bin"
+2025-01-08T16:04:53.729986Z TRACE ThreadId(01) adding file "script_mod.hpp"
+2025-01-08T16:04:53.730290Z DEBUG ThreadId(01) "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\addons" already exists
+2025-01-08T16:04:53.730298Z DEBUG ThreadId(01) building "addons/ressources" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\addons\\GerRng_ressources.pbo"
+2025-01-08T16:04:53.730497Z TRACE ThreadId(01) adding file "BIS_AddonInfo.hpp"
+2025-01-08T16:04:53.730665Z TRACE ThreadId(01) adding file "config.bin"
+2025-01-08T16:04:53.730896Z DEBUG ThreadId(01) "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\addons" already exists
+2025-01-08T16:04:53.730902Z DEBUG ThreadId(01) building "addons/weapons" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\addons\\GerRng_weapons.pbo"
+2025-01-08T16:04:53.732931Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-01-08T16:04:53.733071Z TRACE ThreadId(01) adding file "config.bin"
+2025-01-08T16:04:53.733108Z TRACE ThreadId(01) adding file "munitions\\config.bin"
+2025-01-08T16:04:53.733144Z TRACE ThreadId(01) adding file "munitions\\CfgMagazines.hpp"
+2025-01-08T16:04:53.733206Z TRACE ThreadId(01) adding file "munitions\\CfgMagazineWells.hpp"
+2025-01-08T16:04:53.733296Z TRACE ThreadId(01) adding file "munitions\\CfgAmmo.hpp"
+2025-01-08T16:04:53.733356Z TRACE ThreadId(01) adding file "munitions\\script_component.hpp"
+2025-01-08T16:04:53.733402Z TRACE ThreadId(01) adding file "csw\\config.bin"
+2025-01-08T16:04:53.733466Z TRACE ThreadId(01) adding file "csw\\script_component.hpp"
+2025-01-08T16:04:53.733524Z TRACE ThreadId(01) adding file "csw\\CfgMagazines.hpp"
+2025-01-08T16:04:53.733583Z TRACE ThreadId(01) adding file "csw\\CfgMagazineGroups.hpp"
+2025-01-08T16:04:53.733642Z TRACE ThreadId(01) adding file "csw\\CfgWeapons.hpp"
+2025-01-08T16:04:53.733701Z TRACE ThreadId(01) adding file "csw\\CfgVehicles.hpp"
+2025-01-08T16:04:53.733859Z TRACE ThreadId(01) adding file "vz99\\XEH_PREP.hpp"
+2025-01-08T16:04:53.733892Z TRACE ThreadId(01) adding file "vz99\\XEH_preStart.sqfc"
+2025-01-08T16:04:53.733929Z TRACE ThreadId(01) adding file "vz99\\CfgCloudlets.hpp"
+2025-01-08T16:04:53.733989Z TRACE ThreadId(01) adding file "vz99\\CfgMagazines.hpp"
+2025-01-08T16:04:53.734050Z TRACE ThreadId(01) adding file "vz99\\CfgLights.hpp"
+2025-01-08T16:04:53.734139Z TRACE ThreadId(01) adding file "vz99\\script_component.hpp"
+2025-01-08T16:04:53.734171Z TRACE ThreadId(01) adding file "vz99\\config.bin"
+2025-01-08T16:04:53.734203Z TRACE ThreadId(01) adding file "vz99\\CfgAmmo.hpp"
+2025-01-08T16:04:53.734234Z TRACE ThreadId(01) adding file "vz99\\XEH_postInit.sqfc"
+2025-01-08T16:04:53.734295Z TRACE ThreadId(01) adding file "vz99\\CfgEventHandlers.hpp"
+2025-01-08T16:04:53.734357Z TRACE ThreadId(01) adding file "vz99\\XEH_postInit.sqf"
+2025-01-08T16:04:53.734418Z TRACE ThreadId(01) adding file "vz99\\CfgWeapons.hpp"
+2025-01-08T16:04:53.734479Z TRACE ThreadId(01) adding file "vz99\\XEH_preInit.sqfc"
+2025-01-08T16:04:53.734512Z TRACE ThreadId(01) adding file "vz99\\XEH_preStart.sqf"
+2025-01-08T16:04:53.734573Z TRACE ThreadId(01) adding file "vz99\\CfgVehicles.hpp"
+2025-01-08T16:04:53.734632Z TRACE ThreadId(01) adding file "vz99\\XEH_preInit.sqf"
+2025-01-08T16:04:53.734667Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_doPickupWeapon.sqfc"
+2025-01-08T16:04:53.734706Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_levelToGround.sqf"
+2025-01-08T16:04:53.734770Z TRACE ThreadId(01) adding file "vz99\\functions\\script_component.hpp"
+2025-01-08T16:04:53.734804Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_canPickupWeapon.sqfc"
+2025-01-08T16:04:53.734810Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_doSelectNextMagazine.sqfc"
+2025-01-08T16:04:53.734847Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_doPickupWeapon.sqf"
+2025-01-08T16:04:53.734880Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_canSelectNextMagazine.sqfc"
+2025-01-08T16:04:53.734886Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_levelToGround.sqfc"
+2025-01-08T16:04:53.734892Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_doReload.sqfc"
+2025-01-08T16:04:53.734928Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_doSelectNextMagazine.sqf"
+2025-01-08T16:04:53.734990Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_doReload.sqf"
+2025-01-08T16:04:53.735052Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_canPickupWeapon.sqf"
+2025-01-08T16:04:53.735114Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_handlePlayerVehicleChanged.sqf"
+2025-01-08T16:04:53.735177Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_canSelectNextMagazine.sqf"
+2025-01-08T16:04:53.735210Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_handleFired.sqfc"
+2025-01-08T16:04:53.735245Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_handleFired.sqf"
+2025-01-08T16:04:53.735305Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_doDeployWeapon.sqf"
+2025-01-08T16:04:53.735355Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_doDeployWeapon.sqfc"
+2025-01-08T16:04:53.735464Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_canDeployWeapon.sqf"
+2025-01-08T16:04:53.735512Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_canDeployWeapon.sqfc"
+2025-01-08T16:04:53.735519Z TRACE ThreadId(01) adding file "vz99\\functions\\fnc_handlePlayerVehicleChanged.sqfc"
+2025-01-08T16:04:53.735560Z TRACE ThreadId(01) adding file "vz99\\ui\\action_mortar_ca.paa"
+2025-01-08T16:04:53.735626Z TRACE ThreadId(01) adding file "vz99\\ui\\shell_ca.paa"
+2025-01-08T16:04:53.735688Z TRACE ThreadId(01) adding file "vz99\\ui\\action_shell_ca.paa"
+2025-01-08T16:04:53.735751Z TRACE ThreadId(01) adding file "vz99\\ui\\weaponSide_ca.paa"
+2025-01-08T16:04:53.735796Z TRACE ThreadId(01) adding file "vz99\\data\\water.rvmat"
+2025-01-08T16:04:53.735833Z TRACE ThreadId(01) adding file "vz99\\data\\vz99_carry.p3d"
+2025-01-08T16:04:53.735893Z TRACE ThreadId(01) adding file "vz99\\data\\front2_ca.paa"
+2025-01-08T16:04:53.735958Z TRACE ThreadId(01) adding file "vz99\\data\\model.cfg"
+2025-01-08T16:04:53.735989Z TRACE ThreadId(01) adding file "vz99\\data\\glass.rvmat"
+2025-01-08T16:04:53.736050Z TRACE ThreadId(01) adding file "vz99\\data\\vz99_vehicle.p3d"
+2025-01-08T16:04:53.736081Z TRACE ThreadId(01) adding file "vz99\\data\\plastic.rvmat"
+2025-01-08T16:04:53.736119Z TRACE ThreadId(01) adding file "rifles\\config.bin"
+2025-01-08T16:04:53.736153Z TRACE ThreadId(01) adding file "rifles\\script_component.hpp"
+2025-01-08T16:04:53.736212Z TRACE ThreadId(01) adding file "rifles\\CfgMagazineWells.hpp"
+2025-01-08T16:04:53.736270Z TRACE ThreadId(01) adding file "rifles\\CfgWeapons.hpp"
+2025-01-08T16:04:53.738365Z  INFO ThreadId(01) Built 3 PBOs
+2025-01-08T16:04:53.738378Z TRACE ThreadId(01) phase: build (done)
+2025-01-08T16:04:53.738391Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2025-01-08T16:04:53.738393Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2025-01-08T16:04:53.738395Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2025-01-08T16:04:53.738847Z  INFO ThreadId(01) Running hook: post_build/post_build.rhai
+2025-01-08T16:04:53.739297Z TRACE ThreadId(01) running script: /.hemtt/scripts/update_3_build.rhai
+2025-01-08T16:04:53.739928Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2025-01-08T16:04:53.739934Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2025-01-08T16:04:53.739936Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2025-01-08T16:04:53.739937Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2025-01-08T16:04:53.739941Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2025-01-08T16:04:53.739943Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2025-01-08T16:04:53.739944Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2025-01-08T16:04:53.739946Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2025-01-08T16:04:53.791754Z DEBUG ThreadId(01) copying "/mod.cpp" => "E:\\GitHubRepositories\\GR MM\\GR-Equipment-Mod\\.hemttout\\dev\\mod.cpp"
+2025-01-08T16:04:53.792349Z  INFO ThreadId(01) Copied 1 files
+2025-01-08T16:04:53.792366Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2025-01-08T16:04:53.792369Z TRACE ThreadId(01) phase: post_build (FilePatching) (start)
+2025-01-08T16:04:53.792456Z  INFO ThreadId(01) You can use the dev folder at `.hemttout/dev` to test your mod with file-patching.
+2025-01-08T16:04:53.792458Z TRACE ThreadId(01) phase: post_build (FilePatching) (done)
+2025-01-08T16:04:53.796336Z  INFO ThreadId(01) Launching "D:\\SteamLibrary\\steamapps\\common\\Arma 3" with:
+  -mod="D:\SteamLibrary\steamapps\workshop\content\107410\1779063631"
+  -mod="D:\SteamLibrary\steamapps\workshop\content\107410\2369477168"
+  -mod="D:\SteamLibrary\steamapps\workshop\content\107410\2589302544"
+  -mod="D:\SteamLibrary\steamapps\workshop\content\107410\450814997"
+  -mod="D:\SteamLibrary\steamapps\workshop\content\107410\463939057"
+  -mod="D:\SteamLibrary\steamapps\workshop\content\107410\497660133"
+  -mod="E:\GitHubRepositories\GR MM\GR-Equipment-Mod\.hemttout/dev"
+  -skipIntro
+  -noSplash
+  -showScriptErrors
+  -debug
+  -noPause
+  -noPauseAudio
+  -window
+  -filePatching
+2025-01-08T16:04:53.929408Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2025-01-08T16:04:54.042443Z TRACE ThreadId(01) wrote 5753 ci annotations to .hemttout/ci_annotations.txt
