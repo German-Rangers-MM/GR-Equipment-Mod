@@ -1,5 +1,5 @@
-mainprefix = "~MAINPREFIX~"     # Ideally, replace "y" across the whole repo with your mod's mainprefix, example "t" (without the "")
-prefix = "GerRng_"             # Ideally, replace "~PREFIX~" across the whole repo with your mod's prefix, example "mod" (without the "") 
+mainprefix = "y"     # Ideally, replace "y" across the whole repo with your mod's mainprefix, example "t" (without the "")
+prefix = "GerRng"             # Ideally, replace "~PREFIX~" across the whole repo with your mod's prefix, example "mod" (without the "") 
 
 name = "GR-EQUIPMENT-MOD"
 

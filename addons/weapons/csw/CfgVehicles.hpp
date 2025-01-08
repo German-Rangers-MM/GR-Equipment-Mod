@@ -1,5 +1,6 @@
 class CfgVehicles
 {
+  class B_G_HMG_02_high_F;
   class GVAR(HMG_M2_high_base): B_G_HMG_02_high_F{
     class Turrets: Turrets{
       calss MainTurret: MainTurret{
@@ -8,6 +9,7 @@ class CfgVehicles
       };
     };
   };
+  class B_G_HMG_02_F;
   class GVAR(HMG_M2_base): B_G_HMG_02_F{
     class Turrets: Turrets{
       calss MainTurret: MainTurret{

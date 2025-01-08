@@ -23,7 +23,7 @@ class WPExplosionEdit: WPExplosion
 		lifeTime = 15;			// life time of emitter
 	intensity = 1;
 	Interval = 1;
-	blockAIVisibility = true;
+	blockAIVisibility = "true";
   };
   class LightExp
   {
@@ -51,7 +51,7 @@ class WPExplosionVT: WPExplosionEdit
 		lifeTime = 15;			// life time of emitter
 	intensity = 1;
 	Interval = 1;
-	blockAIVisibility = true;
+	blockAIVisibility = "true";
   };
   class LightExp
   {
