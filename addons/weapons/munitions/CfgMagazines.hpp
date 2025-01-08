@@ -7,18 +7,18 @@ class CfgMagazines
     class GVAR(MAAWS_GMM_HE): MAA_MAAWS_GMM_HE
     {
         initspeed = 75;
-        ammo = GerRng_GMM_HE;
+        ammo = GVAR(GMM_HE);
     };
 
     class GVAR(MAAWS_GMM_HEAT): MAA_MAAWS_GMM_HEAT
     {
         initspeed = 75;
-        ammo = GerRng_GMM_HEAT;
+        ammo = GVAR(GMM_HEAT);
     };
 
     class GVAR(MAAWS_GMM_MT): MAA_MAAWS_GMM_MT
     {
         initspeed = 75;
-        ammo = GerRng_GMM_MT;
+        ammo = GVAR(GMM_MT);
     };
 };
