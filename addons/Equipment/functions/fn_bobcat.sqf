@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Author: Belbo
  *
  * Adds an action to a bobcat that will enable driver to raise and lower the plow, which can act as a blast shield against mines or as a crater remover.
@@ -53,7 +53,7 @@ if ( isClass(configFile >> "CfgPatches" >> "ace_interact_menu") ) then {
 
 };
 
-_target addEventHandler ["explosion",{
+_target addEventHandler ["Explosion",{
 	params ["_target","_damage"];
 	if (_target animationSourcePhase 'MovePlow' isEqualTo 1 && speed _target < 25 && (_target getHitPointDamage "hitengine")<0.8) then {
 		private _oldDamage = (damage _target)-_damage;
