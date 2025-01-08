@@ -20,636 +20,636 @@ class CfgVehicles {
 					
 						
 						class HelmpatchAction_K {
-						displayName = "Kilo";
-						condition = "";
-						exceptions[] = {};
-						statement = "";
-						icon = QPATHTOF(Helmets\icon\kilo.paa);
-							class HelmpatchAction_1 {
-							displayName = "K-Chef";
+							displayName = "Kilo";
 							condition = "";
 							exceptions[] = {};
-							statement = "["kk"] call FUNC(selectHelmet)";
-							icon = "";
+							statement = "";
+							icon = QPATHTOF(Helmets\icon\kilo.paa);
+							class HelmpatchAction_1 {
+								displayName = "K-Chef";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["kk"] call FUNC(selectHelmet));
+								icon = "";
 							};
 							class HelmpatchAction_2 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = "["k1"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "1";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["k1"] call FUNC(selectHelmet));
+								icon = "";
 							};
 							class HelmpatchAction_3 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = "["k2"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "2";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["k2"] call FUNC(selectHelmet));
+								icon = "";
 							};
 						};
 						
 						class HelmpatchAction_F {
-						displayName = "Fox";
-						condition = "";
-						exceptions[] = {};
-						statement = "";
-						icon = QPATHTOF(Helmets\icon\fox.paa);
-							class HelmpatchAction_F1 {
-							displayName = "Z-ZFhr";
+							displayName = "Fox";
 							condition = "";
 							exceptions[] = {};
-							statement = "["fzf"] call FUNC(selectHelmet)";
-							icon = "";
+							statement = "";
+							icon = QPATHTOF(Helmets\icon\fox.paa);
+							class HelmpatchAction_F1 {
+								displayName = "Z-ZFhr";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["fzf"] call FUNC(selectHelmet));
+								icon = "";
 							};
 							
 							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = "["f1"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "1";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["f1"] call FUNC(selectHelmet));
+								icon = "";
 							};
 							
 							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = "["f2"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "2";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["f2"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = "["f3"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "3";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["f3"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = "["f4"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "4";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["f4"] call FUNC(selectHelmet));
+								icon = "";
 							};
 						};
 						
 						class HelmpatchAction_V {
-						displayName = "Victor";
-						condition = "";
-						exceptions[] = {};
-						statement = "";
-						icon = QPATHTOF(Helmets\icon\victor.paa);
-							class HelmpatchAction_1 {
-							displayName = "V-ZFhr";
+							displayName = "Victor";
 							condition = "";
 							exceptions[] = {};
-							statement = "["vzf"] call FUNC(selectHelmet)";
-							icon = "";
+							statement = "";
+							icon = QPATHTOF(Helmets\icon\victor.paa);
+							class HelmpatchAction_1 {
+								displayName = "V-ZFhr";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["vzf"] call FUNC(selectHelmet));
+								icon = "";
 							};
 							
 							class HelmpatchAction_2 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = "["v1"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "1";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["v1"] call FUNC(selectHelmet));
+								icon = "";
 							};
 							
 							class HelmpatchAction_3 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = "["v2"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "2";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["v2"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_4 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = "["v3"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "3";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["v3"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_5 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = "["v4"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "4";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["v4"] call FUNC(selectHelmet));
+								icon = "";
 							};
 						};
 					
 						class HelmpatchAction_A {
-						displayName = "Alpha";
-						condition = "";
-						exceptions[] = {};
-						statement = "";
-						icon = QPATHTOF(Helmets\icon\alfa.paa);
-
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
+							displayName = "Alpha";
 							condition = "";
 							exceptions[] = {};
-							statement = "["agf"] call FUNC(selectHelmet)";
-							icon = "";
+							statement = "";
+							icon = QPATHTOF(Helmets\icon\alfa.paa);
+
+							class HelmpatchAction_GrpFhr {
+								displayName = "GrpFhr";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["agf"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a1"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "1";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a1"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a2"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "2";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a2"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a3"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "3";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a3"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a4"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "4";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a4"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a5"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "5";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a5"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a6"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "6";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a6"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a7"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "7";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a7"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a8"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "8";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a8"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a9"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "9";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a9"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a10"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "10";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a10"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a11"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "11";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a11"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = "["a12"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "12";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["a12"] call FUNC(selectHelmet));
+								icon = "";
 							};
 						};
 						
 						class HelmpatchAction_B {
-						displayName = "Bravo";
-						condition = "";
-						exceptions[] = {};
-						statement = "";
-						icon = QPATHTOF(Helmets\icon\bravo.paa);
-							
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
+							displayName = "Bravo";
 							condition = "";
 							exceptions[] = {};
-							statement = "["bgf"] call FUNC(selectHelmet)";
-							icon = "";
+							statement = "";
+							icon = QPATHTOF(Helmets\icon\bravo.paa);
+							
+							class HelmpatchAction_GrpFhr {
+								displayName = "GrpFhr";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["bgf"] call FUNC(selectHelmet));
+								icon = "";
 							};
 							
 							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b1"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "1";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b1"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b2"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "2";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b2"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b3"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "3";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b3"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b4"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "4";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b4"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b5"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "5";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b5"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b6"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "6";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b6"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b7"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "7";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b7"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b8"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "8";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b8"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b9"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "9";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b9"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b10"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "10";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b10"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b11"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "11";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b11"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = "["b12"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "12";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["b12"] call FUNC(selectHelmet));
+								icon = "";
 							};
 						};
 						
 						class HelmpatchAction_C {
-						displayName = "Charlie";
-						condition = "";
-						exceptions[] = {};
-						statement = "";
-						icon = QPATHTOF(Helmets\icon\charlie.paa);
-							
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
+							displayName = "Charlie";
 							condition = "";
 							exceptions[] = {};
-							statement = "["cgf"] call FUNC(selectHelmet)";
-							icon = "";
+							statement = "";
+							icon = QPATHTOF(Helmets\icon\charlie.paa);
+							
+							class HelmpatchAction_GrpFhr {
+								displayName = "GrpFhr";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["cgf"] call FUNC(selectHelmet));
+								icon = "";
 							};
 							
 							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c1"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "1";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c1"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c2"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "2";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c2"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c3"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "3";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c3"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c4"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "4";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c4"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c5"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "5";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c5"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c6"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "6";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c6"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c7"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "7";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c7"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c8"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "8";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c8"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c9"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "9";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c9"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c10"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "10";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c10"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c11"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "11";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c11"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = "["c12"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "12";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["c12"] call FUNC(selectHelmet));
+								icon = "";
 							};
 						};
 						
 						class HelmpatchAction_Z {
-						displayName = "Zulu";
-						condition = "";
-						exceptions[] = {};
-						statement = "";
-						icon = QPATHTOF(Helmets\icon\zulu.paa);
-
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
+							displayName = "Zulu";
 							condition = "";
 							exceptions[] = {};
-							statement = "["zgf"] call FUNC(selectHelmet)";
-							icon = "";
+							statement = "";
+							icon = QPATHTOF(Helmets\icon\zulu.paa);
+
+							class HelmpatchAction_GrpFhr {
+								displayName = "GrpFhr";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["zgf"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z1"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "1";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z1"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z2"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "2";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z2"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z3"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "3";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z3"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z4"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "4";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z4"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z5"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "5";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z5"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z6"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "6";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z6"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z7"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "7";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z7"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z8"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "8";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z8"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z9"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "9";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z9"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z10"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "10";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z10"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z11"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "11";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z11"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = "["z12"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "12";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["z12"] call FUNC(selectHelmet));
+								icon = "";
 							};
 						};
 						
 						class HelmpatchAction_Y {
-						displayName = "Yankee";
-						condition = "";
-						exceptions[] = {};
-						statement = "";
-						icon = QPATHTOF(Helmets\icon\yankee.paa);
-
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
+							displayName = "Yankee";
 							condition = "";
 							exceptions[] = {};
-							statement = "["ygf"] call FUNC(selectHelmet)";
-							icon = "";
+							statement = "";
+							icon = QPATHTOF(Helmets\icon\yankee.paa);
+
+							class HelmpatchAction_GrpFhr {
+								displayName = "GrpFhr";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["ygf"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = "["y1"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "1";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["y1"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = "["y2"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "2";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["y2"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = "["y3"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "3";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["y3"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = "["y4"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "4";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["y4"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = "["y5"] call FUNC(selectHelmet)";
-							icon = "";
+								displayName = "5";
+								condition = "";
+								exceptions[] = {};
+								statement = QUOTE(["y5"] call FUNC(selectHelmet));
+								icon = "";
 							};
 
 							class HelmpatchAction_6 {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y6"] call FUNC(selectHelmet)";
+							statement = QUOTE(["y6"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -657,7 +657,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y7"] call FUNC(selectHelmet)";
+							statement = QUOTE(["y7"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -665,7 +665,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y8"] call FUNC(selectHelmet)";
+							statement = QUOTE(["y8"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -673,7 +673,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y9"] call FUNC(selectHelmet)";
+							statement = QUOTE(["y9"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -681,7 +681,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y10"] call FUNC(selectHelmet)";
+							statement = QUOTE(["y10"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -689,7 +689,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y11"] call FUNC(selectHelmet)";
+							statement = QUOTE(["y11"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -697,7 +697,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = "["y12"] call FUNC(selectHelmet)";
+							statement = QUOTE(["y12"] call FUNC(selectHelmet));
 							icon = "";
 							};
 						};
@@ -713,7 +713,7 @@ class CfgVehicles {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["xgf"] call FUNC(selectHelmet)";
+							statement = QUOTE(["xgf"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -721,7 +721,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x1"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x1"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -729,7 +729,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x2"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x2"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -737,7 +737,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x3"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x3"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -745,7 +745,7 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x4"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x4"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -753,7 +753,7 @@ class CfgVehicles {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x5"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x5"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -761,7 +761,7 @@ class CfgVehicles {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x6"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x6"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -769,7 +769,7 @@ class CfgVehicles {
 							displayName = "7";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x7"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x7"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -777,7 +777,7 @@ class CfgVehicles {
 							displayName = "8";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x8"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x8"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -785,7 +785,7 @@ class CfgVehicles {
 							displayName = "9";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x9"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x9"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -793,7 +793,7 @@ class CfgVehicles {
 							displayName = "10";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x10"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x10"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -801,7 +801,7 @@ class CfgVehicles {
 							displayName = "11";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x11"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x11"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -809,7 +809,7 @@ class CfgVehicles {
 							displayName = "12";
 							condition = "";
 							exceptions[] = {};
-							statement = "["x12"] call FUNC(selectHelmet)";
+							statement = QUOTE(["x12"] call FUNC(selectHelmet));
 							icon = "";
 							};
 						};			
@@ -825,35 +825,35 @@ class CfgVehicles {
 							displayName = "TrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["wtf"] call FUNC(selectHelmet)";
+							statement = QUOTE(["wtf"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_2 {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["w1"] call FUNC(selectHelmet)";
+							statement = QUOTE(["w1"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_3 {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["w2"] call FUNC(selectHelmet)";
+							statement = QUOTE(["w2"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_4 {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["w3"] call FUNC(selectHelmet)";
+							statement = QUOTE(["w3"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_5 {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["w4"] call FUNC(selectHelmet)";
+							statement = QUOTE(["w4"] call FUNC(selectHelmet));
 							icon = "";
 							};
 						};
@@ -869,35 +869,35 @@ class CfgVehicles {
 							displayName = "TrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["stf"] call FUNC(selectHelmet)";
+							statement = QUOTE(["stf"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_2 {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["s1"] call FUNC(selectHelmet)";
+							statement = QUOTE(["s1"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_3 {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["s2"] call FUNC(selectHelmet)";
+							statement = QUOTE(["s2"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_4 {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["s3"] call FUNC(selectHelmet)";
+							statement = QUOTE(["s3"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_5 {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["s4"] call FUNC(selectHelmet)";
+							statement = QUOTE(["s4"] call FUNC(selectHelmet));
 							icon = "";
 							};
 						};
@@ -912,7 +912,7 @@ class CfgVehicles {
 							displayName = "M-AvD";
 							condition = "";
 							exceptions[] = {};
-							statement = "["mavd"] call FUNC(selectHelmet)";
+							statement = QUOTE(["mavd"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							
@@ -920,7 +920,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m1"] call FUNC(selectHelmet)";
+							statement = QUOTE(["m1"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							
@@ -928,7 +928,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m2"] call FUNC(selectHelmet)";
+							statement = QUOTE(["m2"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -936,7 +936,7 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m3"] call FUNC(selectHelmet)";
+							statement = QUOTE(["m3"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -944,14 +944,14 @@ class CfgVehicles {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m4"] call FUNC(selectHelmet)";
+							statement = QUOTE(["m4"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_6 {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["m5"] call FUNC(selectHelmet)";
+							statement = QUOTE(["m5"] call FUNC(selectHelmet));
 							icon = "";
 							};
 						};						
@@ -966,7 +966,7 @@ class CfgVehicles {
 							displayName = "GrpFhr";
 							condition = "";
 							exceptions[] = {};
-							statement = "["lgf"] call FUNC(selectHelmet)";
+							statement = QUOTE(["lgf"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							
@@ -974,7 +974,7 @@ class CfgVehicles {
 							displayName = "1";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l1"] call FUNC(selectHelmet)";
+							statement = QUOTE(["l1"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -982,7 +982,7 @@ class CfgVehicles {
 							displayName = "2";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l2"] call FUNC(selectHelmet)";
+							statement = QUOTE(["l2"] call FUNC(selectHelmet));
 							icon = "";
 							};
 
@@ -990,28 +990,28 @@ class CfgVehicles {
 							displayName = "3";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l3"] call FUNC(selectHelmet)";
+							statement = QUOTE(["l3"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_5 {
 							displayName = "4";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l4"] call FUNC(selectHelmet)";
+							statement = QUOTE(["l4"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_6 {
 							displayName = "5";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l5"] call FUNC(selectHelmet)";
+							statement = QUOTE(["l5"] call FUNC(selectHelmet));
 							icon = "";
 							};
 							class HelmpatchAction_7 {
 							displayName = "6";
 							condition = "";
 							exceptions[] = {};
-							statement = "["l6"] call FUNC(selectHelmet)";
+							statement = QUOTE(["l6"] call FUNC(selectHelmet));
 							icon = "";
 							};
 						};
@@ -1021,7 +1021,7 @@ class CfgVehicles {
 						displayName = "Ohne Nummer";
 						condition = "";
 						exceptions[] = {};
-						statement = "["reset"] call FUNC(selectHelmet)";
+						statement = QUOTE(["reset"] call FUNC(selectHelmet));
 						icon = "";
 						};
 
@@ -1049,7 +1049,7 @@ class CfgVehicles {
 						displayName = "Kilo";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Kilo"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Kilo"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1057,7 +1057,7 @@ class CfgVehicles {
 						displayName = "Kilo_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Kilo_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Kilo_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1065,7 +1065,7 @@ class CfgVehicles {
 						displayName = "Kilo_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Kilo_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Kilo_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1081,7 +1081,7 @@ class CfgVehicles {
 						displayName = "Fox";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Fox"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Fox"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1089,7 +1089,7 @@ class CfgVehicles {
 						displayName = "Fox_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Fox_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Fox_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1097,7 +1097,7 @@ class CfgVehicles {
 						displayName = "Fox_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Fox_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Fox_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
@@ -1113,7 +1113,7 @@ class CfgVehicles {
 						displayName = "Victor";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Victor"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Victor"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1121,7 +1121,7 @@ class CfgVehicles {
 						displayName = "Victor Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Victor_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Victor_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1129,7 +1129,7 @@ class CfgVehicles {
 						displayName = "Victor Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Victor_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Victor_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1145,7 +1145,7 @@ class CfgVehicles {
 						displayName = "Alpha";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Alpha"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Alpha"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1153,7 +1153,7 @@ class CfgVehicles {
 						displayName = "Alpha_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Alpha_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Alpha_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1161,7 +1161,7 @@ class CfgVehicles {
 						displayName = "Alpha_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Alpha_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Alpha_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1177,7 +1177,7 @@ class CfgVehicles {
 						displayName = "Bravo";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Bravo"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Bravo"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1185,7 +1185,7 @@ class CfgVehicles {
 						displayName = "Bravo_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Bravo_trop"] call BIS_fnc_setUnitInsignia";
+						statement = QUOTE([player,"Bravo_trop"] call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 													
@@ -1193,7 +1193,7 @@ class CfgVehicles {
 						displayName = "Bravo_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Bravo_ft"] call BIS_fnc_setUnitInsignia";
+						statement = QUOTE([player,"Bravo_ft"] call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 					};
@@ -1209,7 +1209,7 @@ class CfgVehicles {
 						displayName = "Charlie";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Charlie"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Charlie"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1217,7 +1217,7 @@ class CfgVehicles {
 						displayName = "Charlie_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Charlie_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Charlie_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1225,7 +1225,7 @@ class CfgVehicles {
 						displayName = "Charlie_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Charlie_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Charlie_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1242,7 +1242,7 @@ class CfgVehicles {
 						displayName = "Delta";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Delta"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1250,7 +1250,7 @@ class CfgVehicles {
 						displayName = "Delta_Tropen";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta_trop"] call BIS_fnc_setUnitInsignia";
+						statement = QUOTE([player,"Delta_trop"] call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 						
@@ -1258,7 +1258,7 @@ class CfgVehicles {
 						displayName = "Delta_Tropen_low";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta_trop_l"] call BIS_fnc_setUnitInsignia";
+						statement = QUOTE([player,"Delta_trop_l"] call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 						
@@ -1266,7 +1266,7 @@ class CfgVehicles {
 						displayName = "Delta_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta_ft"] call BIS_fnc_setUnitInsignia";
+						statement = QUOTE([player,"Delta_ft"] call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 						
@@ -1274,7 +1274,7 @@ class CfgVehicles {
 						displayName = "Delta_Flecktarn_low";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Delta_ft_l"] call BIS_fnc_setUnitInsignia";
+						statement = QUOTE([player,"Delta_ft_l"] call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 						
@@ -1282,7 +1282,7 @@ class CfgVehicles {
 						displayName = "DM";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"DM"] call BIS_fnc_setUnitInsignia";
+						statement = QUOTE([player,"DM"] call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 					};
@@ -1298,7 +1298,7 @@ class CfgVehicles {
 						displayName = "Echo";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Echo"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Echo"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1306,7 +1306,7 @@ class CfgVehicles {
 						displayName = "Echo_Tropen";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Echo_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Echo_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1314,7 +1314,7 @@ class CfgVehicles {
 						displayName = "Echo_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Echo_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Echo_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
@@ -1331,7 +1331,7 @@ class CfgVehicles {
 						displayName = "Zulu";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Zulu"] call BIS_fnc_setUnitInsignia; //remoteExec ["call",0,true];						
+						statement = QUOTE([player,"Zulu"] call BIS_fnc_setUnitInsignia;"				
 						icon = "";
 						};
 						
@@ -1339,7 +1339,7 @@ class CfgVehicles {
 						displayName = "Zulu_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Zulu_trop"] call BIS_fnc_setUnitInsignia; //;						
+						statement = QUOTE([player,"Zulu_trop"] call BIS_fnc_setUnitInsignia);					
 						icon = "";
 						};
 						
@@ -1347,7 +1347,7 @@ class CfgVehicles {
 						displayName = "Zulu_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Zulu_ft"] call BIS_fnc_setUnitInsignia; //";						
+						statement = QUOTE([player,"Zulu_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1355,7 +1355,7 @@ class CfgVehicles {
 						displayName = "DM";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"DM"] call BIS_fnc_setUnitInsignia; //";
+						statement = QUOTE([player,"DM"] call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 					};
@@ -1371,7 +1371,7 @@ class CfgVehicles {
 						displayName = "Yankee";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Yankee"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Yankee"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1379,7 +1379,7 @@ class CfgVehicles {
 						displayName = "Yankee_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Yankee_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Yankee_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1387,7 +1387,7 @@ class CfgVehicles {
 						displayName = "Yankee_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Yankee_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Yankee_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1403,7 +1403,7 @@ class CfgVehicles {
 						displayName = "X-Ray";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"XRay"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"XRay"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1411,7 +1411,7 @@ class CfgVehicles {
 						displayName = "X-Ray_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"XRay_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"XRay_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1419,7 +1419,7 @@ class CfgVehicles {
 						displayName = "X-Ray_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"XRay_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"XRay_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1436,7 +1436,7 @@ class CfgVehicles {
 						displayName = "Whiskey";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Whiskey"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Whiskey"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1453,21 +1453,21 @@ class CfgVehicles {
 						displayName = "Sierra";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Sierra"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Sierra"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						class InsigniaAction_S_trop {
 						displayName = "Sierra_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Sierra_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Sierra_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						class InsigniaAction_S_ft {
 						displayName = "Sierra_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Sierra_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Sierra_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
@@ -1483,7 +1483,7 @@ class CfgVehicles {
 						displayName = "Mike";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Mike"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Mike"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1491,7 +1491,7 @@ class CfgVehicles {
 						displayName = "Mike_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Mike_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Mike_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1499,7 +1499,7 @@ class CfgVehicles {
 						displayName = "Mike_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Mike_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Mike_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
@@ -1515,7 +1515,7 @@ class CfgVehicles {
 						displayName = "Lima";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Lima"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Lima"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1523,7 +1523,7 @@ class CfgVehicles {
 						displayName = "Lima_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Lima_trop"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Lima_trop"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1531,7 +1531,7 @@ class CfgVehicles {
 						displayName = "Lima_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Lima_ft"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Lima_ft"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};		
@@ -1548,7 +1548,7 @@ class CfgVehicles {
 						displayName = "Sanitäter";
 						condition = "";
 						exceptions[] = {};
-						statement = "[player,"Sani"] call BIS_fnc_setUnitInsignia";						
+						statement = QUOTE([player,"Sani"] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
@@ -1558,7 +1558,7 @@ class CfgVehicles {
 					
 					
 				};
-			}; //test	
+			};	
 		};
 	};
 };
