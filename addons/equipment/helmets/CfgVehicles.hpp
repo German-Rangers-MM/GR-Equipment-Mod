@@ -1049,7 +1049,7 @@ class CfgVehicles {
 						displayName = "Kilo";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Kilo"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Kilo") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1057,7 +1057,7 @@ class CfgVehicles {
 						displayName = "Kilo_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Kilo_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Kilo_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1065,7 +1065,7 @@ class CfgVehicles {
 						displayName = "Kilo_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Kilo_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Kilo_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1081,7 +1081,7 @@ class CfgVehicles {
 						displayName = "Fox";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Fox"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Fox") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1089,7 +1089,7 @@ class CfgVehicles {
 						displayName = "Fox_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Fox_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Fox_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1097,7 +1097,7 @@ class CfgVehicles {
 						displayName = "Fox_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Fox_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Fox_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
@@ -1113,7 +1113,7 @@ class CfgVehicles {
 						displayName = "Victor";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Victor"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Victor") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1121,7 +1121,7 @@ class CfgVehicles {
 						displayName = "Victor Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Victor_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Victor_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1129,7 +1129,7 @@ class CfgVehicles {
 						displayName = "Victor Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Victor_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Victor_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1145,7 +1145,7 @@ class CfgVehicles {
 						displayName = "Alpha";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Alpha"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Alpha") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1153,7 +1153,7 @@ class CfgVehicles {
 						displayName = "Alpha_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Alpha_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Alpha_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1161,7 +1161,7 @@ class CfgVehicles {
 						displayName = "Alpha_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Alpha_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Alpha_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1177,7 +1177,7 @@ class CfgVehicles {
 						displayName = "Bravo";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Bravo"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Bravo") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1185,7 +1185,7 @@ class CfgVehicles {
 						displayName = "Bravo_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Bravo_trop"] call BIS_fnc_setUnitInsignia);
+						statement = QUOTE(ARR_2(player,"Bravo_trop") call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 													
@@ -1193,7 +1193,7 @@ class CfgVehicles {
 						displayName = "Bravo_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Bravo_ft"] call BIS_fnc_setUnitInsignia);
+						statement = QUOTE(ARR_2(player,"Bravo_ft") call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 					};
@@ -1209,7 +1209,7 @@ class CfgVehicles {
 						displayName = "Charlie";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Charlie"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Charlie") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1217,7 +1217,7 @@ class CfgVehicles {
 						displayName = "Charlie_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Charlie_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Charlie_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1225,7 +1225,7 @@ class CfgVehicles {
 						displayName = "Charlie_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Charlie_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Charlie_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1242,7 +1242,7 @@ class CfgVehicles {
 						displayName = "Delta";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Delta"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Delta") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1250,7 +1250,7 @@ class CfgVehicles {
 						displayName = "Delta_Tropen";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Delta_trop"] call BIS_fnc_setUnitInsignia);
+						statement = QUOTE(ARR_2(player,"Delta_trop") call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 						
@@ -1258,7 +1258,7 @@ class CfgVehicles {
 						displayName = "Delta_Tropen_low";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Delta_trop_l"] call BIS_fnc_setUnitInsignia);
+						statement = QUOTE(ARR_2(player,"Delta_trop_l") call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 						
@@ -1266,7 +1266,7 @@ class CfgVehicles {
 						displayName = "Delta_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Delta_ft"] call BIS_fnc_setUnitInsignia);
+						statement = QUOTE(ARR_2(player,"Delta_ft") call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 						
@@ -1274,7 +1274,7 @@ class CfgVehicles {
 						displayName = "Delta_Flecktarn_low";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Delta_ft_l"] call BIS_fnc_setUnitInsignia);
+						statement = QUOTE(ARR_2(player,"Delta_ft_l") call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 						
@@ -1282,7 +1282,7 @@ class CfgVehicles {
 						displayName = "DM";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"DM"] call BIS_fnc_setUnitInsignia);
+						statement = QUOTE(ARR_2(player,"DM") call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 					};
@@ -1298,7 +1298,7 @@ class CfgVehicles {
 						displayName = "Echo";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Echo"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Echo") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1306,7 +1306,7 @@ class CfgVehicles {
 						displayName = "Echo_Tropen";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Echo_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Echo_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1314,7 +1314,7 @@ class CfgVehicles {
 						displayName = "Echo_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Echo_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Echo_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
@@ -1331,7 +1331,7 @@ class CfgVehicles {
 						displayName = "Zulu";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Zulu"] call BIS_fnc_setUnitInsignia;"				
+						statement = QUOTE(ARR_2(player,"Zulu") call BIS_fnc_setUnitInsignia;"				
 						icon = "";
 						};
 						
@@ -1339,7 +1339,7 @@ class CfgVehicles {
 						displayName = "Zulu_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Zulu_trop"] call BIS_fnc_setUnitInsignia);					
+						statement = QUOTE(ARR_2(player,"Zulu_trop") call BIS_fnc_setUnitInsignia);					
 						icon = "";
 						};
 						
@@ -1347,7 +1347,7 @@ class CfgVehicles {
 						displayName = "Zulu_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Zulu_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Zulu_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1355,7 +1355,7 @@ class CfgVehicles {
 						displayName = "DM";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"DM"] call BIS_fnc_setUnitInsignia);
+						statement = QUOTE(ARR_2(player,"DM") call BIS_fnc_setUnitInsignia);
 						icon = "";
 						};
 					};
@@ -1371,7 +1371,7 @@ class CfgVehicles {
 						displayName = "Yankee";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Yankee"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Yankee") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1379,7 +1379,7 @@ class CfgVehicles {
 						displayName = "Yankee_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Yankee_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Yankee_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1387,7 +1387,7 @@ class CfgVehicles {
 						displayName = "Yankee_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Yankee_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Yankee_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1403,7 +1403,7 @@ class CfgVehicles {
 						displayName = "X-Ray";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"XRay"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"XRay") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1411,7 +1411,7 @@ class CfgVehicles {
 						displayName = "X-Ray_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"XRay_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"XRay_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1419,7 +1419,7 @@ class CfgVehicles {
 						displayName = "X-Ray_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"XRay_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"XRay_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1436,7 +1436,7 @@ class CfgVehicles {
 						displayName = "Whiskey";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Whiskey"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Whiskey") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};
@@ -1453,21 +1453,21 @@ class CfgVehicles {
 						displayName = "Sierra";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Sierra"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Sierra") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						class InsigniaAction_S_trop {
 						displayName = "Sierra_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Sierra_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Sierra_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						class InsigniaAction_S_ft {
 						displayName = "Sierra_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Sierra_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Sierra_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
@@ -1483,7 +1483,7 @@ class CfgVehicles {
 						displayName = "Mike";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Mike"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Mike") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1491,7 +1491,7 @@ class CfgVehicles {
 						displayName = "Mike_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Mike_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Mike_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1499,7 +1499,7 @@ class CfgVehicles {
 						displayName = "Mike_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Mike_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Mike_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
@@ -1515,7 +1515,7 @@ class CfgVehicles {
 						displayName = "Lima";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Lima"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Lima") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1523,7 +1523,7 @@ class CfgVehicles {
 						displayName = "Lima_Tropentarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Lima_trop"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Lima_trop") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 						
@@ -1531,7 +1531,7 @@ class CfgVehicles {
 						displayName = "Lima_Flecktarn";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Lima_ft"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Lima_ft") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};		
@@ -1548,7 +1548,7 @@ class CfgVehicles {
 						displayName = "Sanitäter";
 						condition = "";
 						exceptions[] = {};
-						statement = QUOTE([player,"Sani"] call BIS_fnc_setUnitInsignia);						
+						statement = QUOTE(ARR_2(player,"Sani") call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
 					};	
