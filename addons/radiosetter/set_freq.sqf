@@ -1,7 +1,6 @@
 #include "script_component.hpp"
 
 _module = _this select 0;
-diag_log format ["Module: %1", _module];
 // Auf Serer warten
 if (!isServer) then {sleep 2};
 
@@ -19,15 +18,15 @@ private _syncedLandVehicles = synchronizedObjects _module select {
 private _syncedAirVehicles = synchronizedObjects _module select {
 	_x isKindOf "Air"
 };
-diag_log format ["Synced Objects (Land): %1", _syncedLandVehicles];
-diag_log format ["Synced Objects (Air): %1", _syncedAirVehicles];
 
 private _groundFreq = _module getVariable ["frequencyGround", ""];
 private _airFreq = _module getVariable ["frequencyAir", ""];
 
 
-diag_log format ["Ground Frequency: %1", _groundFreq];
-diag_log format ["Air Frequency: %1", _groundFreq];
+
+diag_log formatText ["Frequency-Setter (%1) initialized with:", _module];
+diag_log formatText ["AirFreq.: %1, AirVeh.: %2", _airFreq,_syncedAirVehicles];
+diag_log formatText ["GroundFreq.: %1, GroundVeh.: %2", _groundFreq,_syncedLandVehicles];
 
 
 {
