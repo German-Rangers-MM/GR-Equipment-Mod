@@ -1,71 +1,74 @@
-// GerRng_Faction\config.cpp 2024-04-23, 17:15
+#include "script_component.hpp"
 
-class CfgPatches {
-    class GerRng_ {
+class CfgPatches
+{
+    class ADDON
+    {
+		name = COMPONENT_NAME;
         units[] = {
-            "GerRng_AW101_Merlin_TTH_01",
-            "GerRng_CH_146_Griffon_Radar_01",
-            "GerRng_CH_146_Griffon_Transport_01",
-            "GerRng_Ch_146_Griffon_MedEvac_01",
-            "GerRng_Iveco_Medical_W",
-            "GerRng_Iveco_Transport_W",
-			"GerRng_Iveco_Transport_Covered_W",
-            "GerRng_Iveco_Fuel_W",
-            "GerRng_Iveco_Repair_W",
-            "GerRng_Iveco_Ammo_W",
-            "GerRng_Iveco_Medical_D",
-            "GerRng_Iveco_Transport_D",
-			"GerRng_Iveco_Transport_Covered_D",
-            "GerRng_Iveco_Fuel_D",
-            "GerRng_Iveco_Repair_D",
-            "GerRng_Iveco_Ammo_D",
-            "GerRng_CH_47F_TTH_01",
-			"GerRng_CH_47F_TTH_VIV_01",
-			"GerRng_Lkw15t_Box_W",
-			"GerRng_Lkw15t_Repair_W",
-			"GerRng_Lkw15t_Ammo_W",
-			"GerRng_Lkw15t_Flatbed_W",
-			"GerRng_Lkw15t_Box_D",
-			"GerRng_Lkw15t_Repair_D",
-			"GerRng_Lkw15t_Ammo_D",
-			"GerRng_Lkw15t_Flatbed_D",
-			"GerRng_CH_146_Griffon_CAS",
-			"GerRng_B_FENNEK_GER_Wdl",
-			"GerRng_B_FENNEK_GER_D",
-			"GerRng_B_FENNEK_GER_HMG_Wdl",
-			"GerRng_B_FENNEK_GER_HMG_D",
-			"GerRng_B_FENNEK_GER_GMG_Wdl",
-			"GerRng_B_FENNEK_GER_GMG_D",
-			"GerRng_FENNEK_NEF_W",
-			"GerRng_FENNEK_NEF_D",
-			"GerRng_Amarok_covered_GER_Grn",
-			"GerRng_Amarok_covered_comms_GER_Grn",
-			"GerRng_Amarok_covered_engineering_GER_Grn",
-			"GerRng_Amarok_engineering_GER_Grn",
-			"GerRng_Amarok_covered_san_GER_Grn",
+            "gerrng_AW101_Merlin_TTH_01",
+            "gerrng_CH_146_Griffon_Radar_01",
+            "gerrng_CH_146_Griffon_Transport_01",
+            "gerrng_Ch_146_Griffon_MedEvac_01",
+            "gerrng_Iveco_Medical_W",
+            "gerrng_Iveco_Transport_W",
+			"gerrng_Iveco_Transport_Covered_W",
+            "gerrng_Iveco_Fuel_W",
+            "gerrng_Iveco_Repair_W",
+            "gerrng_Iveco_Ammo_W",
+            "gerrng_Iveco_Medical_D",
+            "gerrng_Iveco_Transport_D",
+			"gerrng_Iveco_Transport_Covered_D",
+            "gerrng_Iveco_Fuel_D",
+            "gerrng_Iveco_Repair_D",
+            "gerrng_Iveco_Ammo_D",
+            "gerrng_CH_47F_TTH_01",
+			"gerrng_CH_47F_TTH_VIV_01",
+			"gerrng_Lkw15t_Box_W",
+			"gerrng_Lkw15t_Repair_W",
+			"gerrng_Lkw15t_Ammo_W",
+			"gerrng_Lkw15t_Flatbed_W",
+			"gerrng_Lkw15t_Box_D",
+			"gerrng_Lkw15t_Repair_D",
+			"gerrng_Lkw15t_Ammo_D",
+			"gerrng_Lkw15t_Flatbed_D",
+			"gerrng_CH_146_Griffon_CAS",
+			"gerrng_B_FENNEK_GER_Wdl",
+			"gerrng_B_FENNEK_GER_D",
+			"gerrng_B_FENNEK_GER_HMG_Wdl",
+			"gerrng_B_FENNEK_GER_HMG_D",
+			"gerrng_B_FENNEK_GER_GMG_Wdl",
+			"gerrng_B_FENNEK_GER_GMG_D",
+			"gerrng_FENNEK_NEF_W",
+			"gerrng_FENNEK_NEF_D",
+			"gerrng_Amarok_covered_GER_Grn",
+			"gerrng_Amarok_covered_comms_GER_Grn",
+			"gerrng_Amarok_covered_engineering_GER_Grn",
+			"gerrng_Amarok_engineering_GER_Grn",
+			"gerrng_Amarok_covered_san_GER_Grn",
 
-			"GerRng_Amarok_covered_GER_FLK",
-			"GerRng_Amarok_covered_comms_GER_FLK",
-			"GerRng_Amarok_covered_engineering_GER_FLK",
-			"GerRng_Amarok_engineering_GER_FLK",
-			"GerRng_Amarok_covered_san_GER_FLK",
+			"gerrng_Amarok_covered_GER_FLK",
+			"gerrng_Amarok_covered_comms_GER_FLK",
+			"gerrng_Amarok_covered_engineering_GER_FLK",
+			"gerrng_Amarok_engineering_GER_FLK",
+			"gerrng_Amarok_covered_san_GER_FLK",
 
-			"GerRng_Amarok_covered_GER_TRP",
-			"GerRng_Amarok_covered_comms_GER_TRP",
-			"GerRng_Amarok_covered_engineering_GER_TRP",
-			"GerRng_Amarok_engineering_GER_TRP",
-			"GerRng_Amarok_covered_san_GER_TRP",
+			"gerrng_Amarok_covered_GER_TRP",
+			"gerrng_Amarok_covered_comms_GER_TRP",
+			"gerrng_Amarok_covered_engineering_GER_TRP",
+			"gerrng_Amarok_engineering_GER_TRP",
+			"gerrng_Amarok_covered_san_GER_TRP",
 
-			"GerRng_Wiesel_AT",
-			"GerRng_Wiesel_AA",
-			"GerRng_Wiesel_CA",
-			"GerRng_Wiesel_SC",
-            "GerRng_WG_13_Sea_Lynx",
-            "GerRng_CH_53E_TTH_01",
-            "GerRng_CH_53E_TTH_VIV_01"
+			"gerrng_Wiesel_AT",
+			"gerrng_Wiesel_AA",
+			"gerrng_Wiesel_CA",
+			"gerrng_Wiesel_SC",
+            "gerrng_WG_13_Sea_Lynx",
+            "gerrng_CH_53E_TTH_01",
+            "gerrng_CH_53E_TTH_VIV_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+		requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Air_F_Beta_Heli_Transport_02",
             "A3_Air_F",
@@ -102,13 +105,14 @@ class CfgPatches {
             "CUP_AirVehicles_CH53E",
             "CUP_AirVehciles_AW159"
         };
-        author = "dalleburn, jan";
+        author = ECSTRING(main,Team);
+        VERSION_CONFIG;
         authors[] = {"Dalleburn, jan"};
     };
 };
 
 class CfgFactionClasses {
-    class GerRng_ {
+    class gerrng {
         displayName = "German Rangers";
         side = 1;
         flag = "\A3\ui_f\data\map\markers\flags\Germany_ca.paa";
@@ -119,7 +123,7 @@ class CfgFactionClasses {
 
 class CfgEditorCategories
 {
-    class GerRng_
+    class gerrng
     {
         displayName = "German Rangers";
         side = 1;
@@ -132,9 +136,9 @@ class CfgEditorSubcategories
     {
         displayName = "Amarok (BW)";
     };
-    class FennekSubcat
+    class AllschutzSubcat
     {
-        displayName = "Fennek";
+        displayName = "Pkw (Allschutz)";
     };
     class WieselSubcat
     {
@@ -147,7 +151,7 @@ class CfgEditorSubcategories
 };
 
 class ace_medical_facilities {
-    GerRng_Helme[] = { "GerRng_MedTent_01" };
+    gerrng[] = { "gerrng_MedTent_01" };
 };
 //class CBA_Extended_EventHandlers_base;
 

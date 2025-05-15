@@ -16,30 +16,30 @@ class I_MRAP_03_F: MRAP_03_base_F
 		{
 			displayName = "Flecktarn";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
+			faction[] = {"gerrng"};
 		};
 		class Tropen
 		{
 			displayName = "Tropentarn";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
+			faction[] = {"gerrng"};
 		};
 
         class FleckSan
 		{
 			displayName = "Flecktarn NEF";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\Strider_BW-W_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
+			faction[] = {"gerrng"};
 		};
 		class TropenSan
 		{
 			displayName = "Tropentarn NEF";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\Strider_BW-D_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
+			faction[] = {"gerrng"};
 		};
 	};
 };
@@ -51,15 +51,15 @@ class I_MRAP_03_hmg_F: MRAP_03_hmg_base_F
         {
             displayName = "Flecktarn";
             author = "dalleburn, jan";
-            textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
-            faction[] = {"GerRng_"};
+            textures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
+            faction[] = {"gerrng"};
         };
         class Tropen
         {
             displayName = "Tropentarn";
             author = "dalleburn, jan";
-            textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
-            faction[] = {"GerRng_"};
+            textures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
+            faction[] = {"gerrng"};
         };
     };
 };
@@ -71,35 +71,35 @@ class I_MRAP_03_gmg_F: MRAP_03_gmg_base_F
 		{
 			displayName = "Flecktarn";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
+			faction[] = {"gerrng"};
 		};
 		class Tropen
 		{
 			displayName = "Tropentarn";
 			author = "dalleburn, jan";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
+			faction[] = {"gerrng"};
 		};
     };
 };
 
-class GerRng_B_FENNEK_GER_Wdl : I_MRAP_03_F {
+class gerrng_B_FENNEK_GER_Wdl : I_MRAP_03_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Fennek Spähwagen (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-    ace_cargo_space = 20;
+    ace_cargo_space = 11;
     
-	editorCategory = "GerRng_";
-	editorSubcategory = "FennekSubcat";
+	editorCategory = "gerrng";
+	editorSubcategory = "AllschutzSubcat";
 
     hiddenSelections[] = {"Camo1","Camo2"};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 	textureList[] = {"Fleck",1};
     
     class TransportBackpacks
@@ -147,11 +147,11 @@ class GerRng_B_FENNEK_GER_Wdl : I_MRAP_03_F {
     };
 };
 
-class GerRng_B_FENNEK_GER_D : GerRng_B_FENNEK_GER_Wdl {
+class gerrng_B_FENNEK_GER_D : gerrng_B_FENNEK_GER_Wdl {
     displayName = "Fennek Spähwagen (Desert)";
 
 	textureList[]={"Tropen",1};	
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 };
 //--------------------------------------------------------------------------------------
 //
@@ -159,23 +159,23 @@ class GerRng_B_FENNEK_GER_D : GerRng_B_FENNEK_GER_Wdl {
 //
 //--------------------------------------------------------------------------------------
 
-class GerRng_B_FENNEK_GER_HMG_Wdl : I_MRAP_03_hmg_F {
+class gerrng_B_FENNEK_GER_HMG_Wdl : I_MRAP_03_hmg_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Fennek HMG (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-    ace_cargo_space = 20;
+    ace_cargo_space = 11;
     
-	editorCategory = "GerRng_";
-	editorSubcategory = "FennekSubcat";
+	editorCategory = "gerrng";
+	editorSubcategory = "AllschutzSubcat";
 
 	textureList[]={"Fleck",1};
     hiddenSelections[] = {"Camo1","Camo2"};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
     
     class TransportBackpacks
     {
@@ -222,11 +222,11 @@ class GerRng_B_FENNEK_GER_HMG_Wdl : I_MRAP_03_hmg_F {
     };	
 };
 
-class GerRng_B_FENNEK_GER_HMG_D : GerRng_B_FENNEK_GER_HMG_Wdl {
+class gerrng_B_FENNEK_GER_HMG_D : gerrng_B_FENNEK_GER_HMG_Wdl {
     displayName = "Fennek HMG (Desert)";
 
 	textureList[]={"Tropen",1};	
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 };
 
 //--------------------------------------------------------------------------------------
@@ -235,23 +235,23 @@ class GerRng_B_FENNEK_GER_HMG_D : GerRng_B_FENNEK_GER_HMG_Wdl {
 //
 //--------------------------------------------------------------------------------------
 
-class GerRng_B_FENNEK_GER_GMG_Wdl : I_MRAP_03_gmg_F {
+class gerrng_B_FENNEK_GER_GMG_Wdl : I_MRAP_03_gmg_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Fennek GMG (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-    ace_cargo_space = 20;
+    ace_cargo_space = 11;
     
-	editorCategory = "GerRng_";
-	editorSubcategory = "FennekSubcat";
+	editorCategory = "gerrng";
+	editorSubcategory = "AllschutzSubcat";
 
 	textureList[]={"Fleck",1};
     hiddenSelections[] = {"Camo1","Camo2"};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
     
     class TransportBackpacks
     {
@@ -298,11 +298,11 @@ class GerRng_B_FENNEK_GER_GMG_Wdl : I_MRAP_03_gmg_F {
     };	
 };
 
-class GerRng_B_FENNEK_GER_GMG_D : GerRng_B_FENNEK_GER_GMG_Wdl {
+class gerrng_B_FENNEK_GER_GMG_D : gerrng_B_FENNEK_GER_GMG_Wdl {
     displayName = "Fennek GMG (Desert)";
 
 	textureList[]={"Tropen",1};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_recon_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 };
 
 //--------------------------------------------------------------------------------------
@@ -311,23 +311,23 @@ class GerRng_B_FENNEK_GER_GMG_D : GerRng_B_FENNEK_GER_GMG_Wdl {
 //
 //--------------------------------------------------------------------------------------
 
-class GerRng_FENNEK_NEF_W : GerRng_B_FENNEK_GER_Wdl {
+class gerrng_FENNEK_NEF_W : gerrng_B_FENNEK_GER_Wdl {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Fennek Notarztfahrzeug (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
     ace_cargo_space = 20;
     attendant = 1;
 
-	editorCategory = "GerRng_";
-	editorSubcategory = "FennekSubcat";
+	editorCategory = "gerrng";
+	editorSubcategory = "AllschutzSubcat";
 
 	textureList[]={"FleckSan",1};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-W_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-W_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
     
     class TransportBackpacks
     {
@@ -390,9 +390,9 @@ class GerRng_FENNEK_NEF_W : GerRng_B_FENNEK_GER_Wdl {
     };			
 };
 
-class GerRng_FENNEK_NEF_D : GerRng_FENNEK_NEF_W {
+class gerrng_FENNEK_NEF_D : gerrng_FENNEK_NEF_W {
     displayName = "Fennek Notarztfahrzeug (Desert)";
 
 	textureList[]={"TropenSan",1};
-    hiddenSelectionsTextures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\Strider_BW-D_san_0.paa","\a3\data_f\vehicles\turret_co.paa"};				
+    hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};				
 };

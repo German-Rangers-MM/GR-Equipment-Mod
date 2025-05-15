@@ -8,21 +8,21 @@
 class CUP_B_CH47F_USA;
 class CUP_B_CH47F_VIV_USA;
 
-class GerRng_CH_47F_TTH_01 : CUP_B_CH47F_USA {
+class gerrng_CH_47F_TTH_01 : CUP_B_CH47F_USA {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "CH-47F Chinook STH";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_HPilot";
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47_ext_1_BW_co.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47_ext_2_BW_co.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47f_nalepky_BW_ca.paa"
+		QPATHTOF(data\ch47_ext_1_BW_co.paa),
+		QPATHTOF(data\ch47_ext_2_BW_co.paa),
+		QPATHTOF(data\ch47f_nalepky_BW_ca.paa)
 	};
 
 	class TransportBackpacks
@@ -70,21 +70,21 @@ class GerRng_CH_47F_TTH_01 : CUP_B_CH47F_USA {
 	};	
 };
 
-class GerRng_CH_47F_TTH_VIV_01 : CUP_B_CH47F_VIV_USA {
+class gerrng_CH_47F_TTH_VIV_01 : CUP_B_CH47F_VIV_USA {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "CH-47F Chinook STH (ViV)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_HPilot";
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47_ext_1_BW2_co.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47_ext_2_BW2_co.paa",
-    	"y\GR-Equipment-Mod\addons\GerRng_Faction\data\ch47f_nalepky_BW2_ca.paa"
+		QPATHTOF(data\ch47_ext_1_BW2_co.paa),
+		QPATHTOF(data\ch47_ext_2_BW2_co.paa),
+    	QPATHTOF(data\ch47f_nalepky_BW2_ca.paa)
 	};
  
 	class TransportBackpacks

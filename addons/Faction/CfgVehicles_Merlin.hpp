@@ -7,22 +7,27 @@
 //--------------------------------------------------------------------------------------
 class I_Heli_Transport_02_F;
 
-class GerRng_AW101_Merlin_TTH_01 : I_Heli_Transport_02_F {
+class gerrng_AW101_Merlin_TTH_01 : I_Heli_Transport_02_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "CH-101 Merlin TTH";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_HPilot";
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_anarc210";
+	tf_range = 40000;
+    tf_encryptionCode = "tf_west_radio_code";
 
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-49_BW-HFlg_0_main.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-49_BW-HFlg_1_tail.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-49_BW-HFlg_2_eng.paa"
+		QPATHTOF(data\CH-49_BW-HFlg_0_main.paa),
+		QPATHTOF(data\CH-49_BW-HFlg_1_tail.paa),
+		QPATHTOF(data\CH-49_BW-HFlg_2_eng.paa)
 	};
 	
 	class TransportBackpacks

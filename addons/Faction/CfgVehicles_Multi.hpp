@@ -10,24 +10,24 @@ class B_Truck_01_repair_F;
 class B_Truck_01_ammo_F;
 class Truck_01_flatbed_base_F;
 
-class GerRng_Lkw15t_Box_W : B_Truck_01_box_F {
+class gerrng_Lkw15t_Box_W : B_Truck_01_box_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 15t GL MULTI Container (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa"
+        QPATHTOF(data\HEMTT_BW-W_0.paa),
+        QPATHTOF(data\HEMTT_BW-W_1.paa),
+        QPATHTOF(data\HEMTT_BW-W_2.paa)
     };
     
     class TransportMagazines
@@ -65,16 +65,16 @@ class GerRng_Lkw15t_Box_W : B_Truck_01_box_F {
     };			
 };
 
-class GerRng_Lkw15t_Box_D : GerRng_Lkw15t_Box_W {
+class gerrng_Lkw15t_Box_D : gerrng_Lkw15t_Box_W {
 
     displayName = "Lkw 15t GL MULTI Container (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa"
+        QPATHTOF(data\HEMTT_BW-D_0.paa),
+        QPATHTOF(data\HEMTT_BW-D_1.paa),
+        QPATHTOF(data\HEMTT_BW-D_2.paa)
     };		
 };
 
@@ -84,16 +84,16 @@ class GerRng_Lkw15t_Box_D : GerRng_Lkw15t_Box_W {
 //
 //--------------------------------------------------------------------------------------
 
-class GerRng_Lkw15t_Repair_W : B_Truck_01_repair_F {
+class gerrng_Lkw15t_Repair_W : B_Truck_01_repair_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 15t GL MULTI Instandsetzung (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
     
 	ace_repair_canRepair = 1;
@@ -101,9 +101,9 @@ class GerRng_Lkw15t_Repair_W : B_Truck_01_repair_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa"
+        QPATHTOF(data\HEMTT_BW-W_0.paa),
+        QPATHTOF(data\HEMTT_BW-W_1.paa),
+        QPATHTOF(data\HEMTT_BW-W_2.paa)
     };
     
     class TransportMagazines
@@ -141,16 +141,16 @@ class GerRng_Lkw15t_Repair_W : B_Truck_01_repair_F {
     };			
 };
 
-class GerRng_Lkw15t_Repair_D : GerRng_Lkw15t_Repair_W {
+class gerrng_Lkw15t_Repair_D : gerrng_Lkw15t_Repair_W {
 
     displayName = "Lkw 15t GL MULTI Instantsetzung (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa"
+        QPATHTOF(data\HEMTT_BW-D_0.paa),
+        QPATHTOF(data\HEMTT_BW-D_1.paa),
+        QPATHTOF(data\HEMTT_BW-D_2.paa)
     };		
 };
 
@@ -160,24 +160,24 @@ class GerRng_Lkw15t_Repair_D : GerRng_Lkw15t_Repair_W {
 //
 //--------------------------------------------------------------------------------------
 
-class GerRng_Lkw15t_Ammo_W : B_Truck_01_ammo_F {
+class gerrng_Lkw15t_Ammo_W : B_Truck_01_ammo_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 15t GL MULTI Munition (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa"
+        QPATHTOF(data\HEMTT_BW-W_0.paa),
+        QPATHTOF(data\HEMTT_BW-W_1.paa),
+        QPATHTOF(data\HEMTT_BW-W_2.paa)
     };
     
     class TransportMagazines
@@ -221,16 +221,16 @@ class GerRng_Lkw15t_Ammo_W : B_Truck_01_ammo_F {
     };			
 };
 
-class GerRng_Lkw15t_Ammo_D : GerRng_Lkw15t_Ammo_W {
+class gerrng_Lkw15t_Ammo_D : gerrng_Lkw15t_Ammo_W {
 
     displayName = "Lkw 15t GL MULTI Munition (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa"
+        QPATHTOF(data\HEMTT_BW-D_0.paa),
+        QPATHTOF(data\HEMTT_BW-D_1.paa),
+        QPATHTOF(data\HEMTT_BW-D_2.paa)
     };		
 };
 
@@ -240,24 +240,24 @@ class GerRng_Lkw15t_Ammo_D : GerRng_Lkw15t_Ammo_W {
 //
 //--------------------------------------------------------------------------------------
 
-class GerRng_Lkw15t_Flatbed_W : Truck_01_flatbed_base_F {
+class gerrng_Lkw15t_Flatbed_W : Truck_01_flatbed_base_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 15t GL MULTI Pritsche (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-W_2.paa",
+        QPATHTOF(data\HEMTT_BW-W_0.paa),
+        QPATHTOF(data\HEMTT_BW-W_1.paa),
+        QPATHTOF(data\HEMTT_BW-W_2.paa),
     };
     
     class TransportMagazines
@@ -281,15 +281,15 @@ class GerRng_Lkw15t_Flatbed_W : Truck_01_flatbed_base_F {
     };			
 };
 
-class GerRng_Lkw15t_Flatbed_D : GerRng_Lkw15t_Flatbed_W {
+class gerrng_Lkw15t_Flatbed_D : gerrng_Lkw15t_Flatbed_W {
 
     displayName = "Lkw 15t GL MULTI Pritsche (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_1.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\HEMTT_BW-D_2.paa",
+        QPATHTOF(data\HEMTT_BW-D_0.paa),
+        QPATHTOF(data\HEMTT_BW-D_1.paa),
+        QPATHTOF(data\HEMTT_BW-D_2.paa),
     };		
 };

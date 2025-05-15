@@ -7,13 +7,13 @@
 //--------------------------------------------------------------------------------------
 class CUP_B_AW159_Unarmed_GER;
 
-class GerRng_WG_13_Sea_Lynx : CUP_B_AW159_Unarmed_GER {
+class gerrng_WG_13_Sea_Lynx : CUP_B_AW159_Unarmed_GER {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "WG-13 Sea Lynx Mk88a (Marine)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_HPilot";
 
 	

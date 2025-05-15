@@ -12,25 +12,25 @@ class I_E_Truck_02_fuel_F;
 class I_E_Truck_02_Box_F;
 class I_E_Truck_02_Ammo_F;
 
-class GerRng_IVECO_Transport_W : I_E_Truck_02_transport_F {
+class gerrng_IVECO_Transport_W : I_E_Truck_02_transport_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Transport offen (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_1.paa",
+        QPATHTOF(data\Zamak_BW-W_trp_0.paa),
+        QPATHTOF(data\Zamak_BW-W_trp_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        QPATHTOF(data\Zamak_BW_W_any_3.paa)
     };
     
     class TransportBackpacks
@@ -78,17 +78,17 @@ class GerRng_IVECO_Transport_W : I_E_Truck_02_transport_F {
     };			
 };
 
-class GerRng_IVECO_Transport_D : GerRng_IVECO_Transport_W {
+class gerrng_IVECO_Transport_D : gerrng_IVECO_Transport_W {
 
     displayName = "Lkw 7t Transport offen (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_1.paa",
+        QPATHTOF(data\Zamak_BW-D_trp_0.paa),
+        QPATHTOF(data\Zamak_BW-D_trp_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        QPATHTOF(data\Zamak_BW_D_any_3.paa)
     };		
 };
 
@@ -100,25 +100,25 @@ class GerRng_IVECO_Transport_D : GerRng_IVECO_Transport_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class GerRng_IVECO_Transport_Covered_W : I_E_Truck_02_F {
+class gerrng_IVECO_Transport_Covered_W : I_E_Truck_02_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Transport Plane (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_trp_1.paa",
+        QPATHTOF(data\Zamak_BW-W_trp_0.paa),
+        QPATHTOF(data\Zamak_BW-W_trp_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        QPATHTOF(data\Zamak_BW_W_any_3.paa)
     };
 
     class TransportBackpacks
@@ -166,17 +166,17 @@ class GerRng_IVECO_Transport_Covered_W : I_E_Truck_02_F {
     };			
 };
 
-class GerRng_IVECO_Transport_Covered_D : GerRng_IVECO_Transport_Covered_W {
+class gerrng_IVECO_Transport_Covered_D : gerrng_IVECO_Transport_Covered_W {
 
     displayName = "Lkw 7t Transport Plane (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_trp_1.paa",
+        QPATHTOF(data\Zamak_BW-D_trp_0.paa),
+        QPATHTOF(data\Zamak_BW-D_trp_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        QPATHTOF(data\Zamak_BW_D_any_3.paa)
     };		
 };
 
@@ -188,16 +188,16 @@ class GerRng_IVECO_Transport_Covered_D : GerRng_IVECO_Transport_Covered_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class GerRng_IVECO_Medic_W : I_E_Truck_02_F {
+class gerrng_IVECO_Medic_W : I_E_Truck_02_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Transport Sanität (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
 
     ace_cargo_space = 20;
@@ -207,10 +207,10 @@ class GerRng_IVECO_Medic_W : I_E_Truck_02_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_san_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_san_1.paa",
+        QPATHTOF(data\Zamak_BW-W_san_0.paa),
+        QPATHTOF(data\Zamak_BW-W_san_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        QPATHTOF(data\Zamak_BW_W_any_3.paa)
     };
 
     class TransportBackpacks
@@ -274,17 +274,17 @@ class GerRng_IVECO_Medic_W : I_E_Truck_02_F {
     };			
 };
 
-class GerRng_IVECO_Medic_D : GerRng_IVECO_Medic_W {
+class gerrng_IVECO_Medic_D : gerrng_IVECO_Medic_W {
 
     displayName = "Lkw 7t Transport Sanität (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_san_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_san_1.paa",
+        QPATHTOF(data\Zamak_BW-D_san_0.paa),
+        QPATHTOF(data\Zamak_BW-D_san_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        QPATHTOF(data\Zamak_BW_D_any_3.paa)
     };		
 };
 
@@ -297,25 +297,25 @@ class GerRng_IVECO_Medic_D : GerRng_IVECO_Medic_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class GerRng_IVECO_Fuel_W : I_E_Truck_02_fuel_F {
+class gerrng_IVECO_Fuel_W : I_E_Truck_02_fuel_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Treibstoff (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_tank_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_tank_1.paa",
+        QPATHTOF(data\Zamak_BW-W_tank_0.paa),
+        QPATHTOF(data\Zamak_BW-W_tank_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        QPATHTOF(data\Zamak_BW_W_any_3.paa)
     };
 
     class TransportBackpacks
@@ -355,17 +355,17 @@ class GerRng_IVECO_Fuel_W : I_E_Truck_02_fuel_F {
     };			
 };
 
-class GerRng_Iveco_Fuel_D : GerRng_IVECO_Fuel_W {
+class gerrng_Iveco_Fuel_D : gerrng_IVECO_Fuel_W {
 
     displayName = "Lkw 7t Treibstoff (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_tank_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_tank_1.paa",
+        QPATHTOF(data\Zamak_BW-D_tank_0.paa),
+        QPATHTOF(data\Zamak_BW-D_tank_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        QPATHTOF(data\Zamak_BW_D_any_3.paa)
     };		
 };
 
@@ -379,16 +379,16 @@ class GerRng_Iveco_Fuel_D : GerRng_IVECO_Fuel_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class GerRng_IVECO_Ammo_W : I_E_Truck_02_Ammo_F {
+class gerrng_IVECO_Ammo_W : I_E_Truck_02_Ammo_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Munition (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
 
     ace_cargo_space = 40;
@@ -396,10 +396,10 @@ class GerRng_IVECO_Ammo_W : I_E_Truck_02_Ammo_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_ammo_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_ammo_1.paa",
+        QPATHTOF(data\Zamak_BW-W_ammo_0.paa),
+        QPATHTOF(data\Zamak_BW-W_ammo_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        QPATHTOF(data\Zamak_BW_W_any_3.paa)
     };
 
     class TransportBackpacks
@@ -446,16 +446,16 @@ class GerRng_IVECO_Ammo_W : I_E_Truck_02_Ammo_F {
     };			
 };
 
-class GerRng_IVECO_Ammo_D : GerRng_IVECO_Ammo_W {
+class gerrng_IVECO_Ammo_D : gerrng_IVECO_Ammo_W {
     displayName = "Lkw 7t Munition (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_ammo_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_ammo_1.paa",
+        QPATHTOF(data\Zamak_BW-D_ammo_0.paa),
+        QPATHTOF(data\Zamak_BW-D_ammo_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        QPATHTOF(data\Zamak_BW_D_any_3.paa)
     };		
 };
 
@@ -468,16 +468,16 @@ class GerRng_IVECO_Ammo_D : GerRng_IVECO_Ammo_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class GerRng_IVECO_Repair_W : I_E_Truck_02_Box_F {
+class gerrng_IVECO_Repair_W : I_E_Truck_02_Box_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Instandsetzung (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "LkwSubcat";
 
     ace_cargo_space = 40;
@@ -486,10 +486,10 @@ class GerRng_IVECO_Repair_W : I_E_Truck_02_Box_F {
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_rep_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-W_rep_1.paa",
+        QPATHTOF(data\Zamak_BW-W_rep_0.paa),
+        QPATHTOF(data\Zamak_BW-W_rep_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_W_any_3.paa"
+        QPATHTOF(data\Zamak_BW_W_any_3.paa)
     };
 
     class TransportBackpacks
@@ -541,15 +541,15 @@ class GerRng_IVECO_Repair_W : I_E_Truck_02_Box_F {
 
 };
 
-class GerRng_IVECO_Repair_D : GerRng_IVECO_Repair_W {
+class gerrng_IVECO_Repair_D : gerrng_IVECO_Repair_W {
     displayName = "Lkw 7t Instandsetzung (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
     {
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_rep_0.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW-D_rep_1.paa",
+        QPATHTOF(data\Zamak_BW-D_rep_0.paa),
+        QPATHTOF(data\Zamak_BW-D_rep_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-        "y\GR-Equipment-Mod\addons\GerRng_Faction\data\Zamak_BW_D_any_3.paa"
+        QPATHTOF(data\Zamak_BW_D_any_3.paa)
     };		
 };

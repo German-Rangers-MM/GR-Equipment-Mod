@@ -1,0 +1,13 @@
+name = "GerRng"
+prefix = "GerRng"
+author = "Katalam, Tomcat, Kygan, YetheSamartaka, Battlekeeper, MJSTIC, Digii / Julian, MiszczuZPolski and Blue, ItsGiantCookie"
+mainprefix = "y"
+
+[files]
+include = [
+    "mod.cpp",
+    "icon.paa"
+]
+
+[version]
+git_hash = 0

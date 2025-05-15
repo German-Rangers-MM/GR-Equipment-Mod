@@ -7,7 +7,7 @@
 //--------------------------------------------------------------------------------------
 class Land_MedicalTent_01_NATO_generic_open_F;
 
-class GerRng_MedTent_01 : Land_MedicalTent_01_NATO_generic_open_F {
+class gerrng_MedTent_01 : Land_MedicalTent_01_NATO_generic_open_F {
     author = "dalleburn, jan";
     displayName = "Ger Rng Medical Tent";
 
@@ -25,7 +25,7 @@ class GerRng_MedTent_01 : Land_MedicalTent_01_NATO_generic_open_F {
 
 class B_supplyCrate_F;
 
-class GerRng_supplyCrate_F : B_supplyCrate_F {
+class gerrng_supplyCrate_F : B_supplyCrate_F {
     author = "dalleburn, jan";
     displayName = "Supply Box [GerRng]";
 

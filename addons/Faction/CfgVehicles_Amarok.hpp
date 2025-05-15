@@ -7,89 +7,90 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 		{
 			displayName = "Green";
 			author = "Cookie";
-			faction[] = {"GerRng_"};
+			faction[] = {"gerrng"};
 		};
 		class Flk
 		{
 			displayName = "Flecktarn";
 			author = "Cookie";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_FLK_CO.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\amarok_ext_FLK_CO.paa),QPATHTOF(data\amarok_ext_FLK_CO.paa),QPATHTOF(data\amarok_cover_FLK_CO.paa)};
+			faction[] = {"gerrng"};
 		};
 		class Trp
 		{
 			displayName = "Tropentarn";
 			author = "Cookie";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_TRP_CO.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\amarok_ext_TRP_CO.paa),QPATHTOF(data\amarok_ext_TRP_CO.paa),QPATHTOF(data\amarok_cover_TRP_CO.paa)};
+			faction[] = {"gerrng"};
 		};
 
 		class FlkSan
 		{
 			displayName = "Flecktarn (San)";
 			author = "Cookie";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_san_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_san_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_san_FLK_CO.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\amarok_ext_san_FLK_CO.paa),QPATHTOF(data\amarok_ext_san_FLK_CO.paa),QPATHTOF(data\amarok_cover_san_FLK_CO.paa)};
+			faction[] = {"gerrng"};
 		};
 		class TrpSan
 		{
 			displayName = "Tropentarn (San)";
 			author = "Cookie";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_san_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_san_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_san_TRP_CO.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\amarok_ext_san_TRP_CO.paa),QPATHTOF(data\amarok_ext_san_TRP_CO.paa),QPATHTOF(data\amarok_cover_san_TRP_CO.paa)};
+			faction[] = {"gerrng"};
 		};
 
 		class FlkCSS
 		{
 			displayName = "Flecktarn (CSS)";
 			author = "Cookie";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_css_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_css_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_FLK_CO.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\amarok_ext_css_FLK_CO.paa),QPATHTOF(data\amarok_ext_css_FLK_CO.paa),QPATHTOF(data\amarok_cover_FLK_CO.paa)};
+			faction[] = {"gerrng"};
 		};
 		class TrpCSS
 		{
 			displayName = "Tropentarn (CSS)";
 			author = "Cookie";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_css_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_css_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_TRP_CO.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\amarok_ext_css_TRP_CO.paa),QPATHTOF(data\amarok_ext_css_TRP_CO.paa),QPATHTOF(data\amarok_cover_TRP_CO.paa)};
+			faction[] = {"gerrng"};
 		};
 
 		class FlkSig
 		{
 			displayName = "Flecktarn (IuK)";
 			author = "Cookie";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_sig_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_sig_FLK_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_FLK_CO.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\amarok_ext_sig_FLK_CO.paa),QPATHTOF(data\amarok_ext_sig_FLK_CO.paa),QPATHTOF(data\amarok_cover_FLK_CO.paa)};
+			faction[] = {"gerrng"};
 		};
 		class TrpSig
 		{
 			displayName = "Tropentarn (IuK)";
 			author = "Cookie";
-			textures[] = {"y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_sig_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_ext_sig_TRP_CO.paa","y\GR-Equipment-Mod\addons\GerRng_Faction\data\amarok_cover_TRP_CO.paa"};
-			faction[] = {"GerRng_"};
+			textures[] = {QPATHTOF(data\amarok_ext_sig_TRP_CO.paa),QPATHTOF(data\amarok_ext_sig_TRP_CO.paa),QPATHTOF(data\amarok_cover_TRP_CO.paa)};
+			faction[] = {"gerrng"};
 		};
 	};
 };
 
-class GerRng_Amarok_covered_GER_Grn : I_E_Offroad_01_covered_F 
+class gerrng_Amarok_covered_GER_Grn : I_E_Offroad_01_covered_F 
 {
 
     author = "cookie";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Amarok (Green)";
+    displayName = CSTRING(amarok_green);
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
 	armor = 40;
 
-	editorCategory = "GerRng_";
+	editorCategory = "gerrng";
 	editorSubcategory = "AmarokSubcat";
 
 	tf_hasLRradio = 1;
 	tf_RadioType = "tf_rt1523g";
 	tf_range = 30000;
+    tf_encryptionCode = "tf_west_radio_code";
 
 	ace_cargo_space = 12;
 	
@@ -168,9 +169,9 @@ class GerRng_Amarok_covered_GER_Grn : I_E_Offroad_01_covered_F
 	};
 };
 
-class GerRng_Amarok_covered_comms_GER_Grn : GerRng_Amarok_covered_GER_Grn
+class gerrng_Amarok_covered_comms_GER_Grn : gerrng_Amarok_covered_GER_Grn
 {
-    displayName = "Amarok IuK (Green)";
+    displayName = CSTRING(amarok_iuk_green);
 	tf_range = 45000;
 	animationList[] = {
 		"hidePolice",1,
@@ -195,9 +196,9 @@ class GerRng_Amarok_covered_comms_GER_Grn : GerRng_Amarok_covered_GER_Grn
 
 };
 
-class GerRng_Amarok_covered_engineering_GER_Grn : GerRng_Amarok_covered_GER_Grn
+class gerrng_Amarok_covered_engineering_GER_Grn : gerrng_Amarok_covered_GER_Grn
 {
-    displayName = "Amarok CSS (Green)";
+    displayName = CSTRING(amarok_css_green);
 	ace_repair_canRepair = 1;
 	animationList[] = {
 		"hidePolice",1,
@@ -255,9 +256,9 @@ class GerRng_Amarok_covered_engineering_GER_Grn : GerRng_Amarok_covered_GER_Grn
 
 };
 
-class GerRng_Amarok_engineering_GER_Grn : GerRng_Amarok_covered_engineering_GER_Grn
+class gerrng_Amarok_engineering_GER_Grn : gerrng_Amarok_covered_engineering_GER_Grn
 {
-    displayName = "Amarok CSS (Green/No Cover)";
+    displayName = CSTRING(amarok_css_nc_green);
 	animationList[] = {
 		"hidePolice",1,
 		"HideServices",1,
@@ -281,9 +282,9 @@ class GerRng_Amarok_engineering_GER_Grn : GerRng_Amarok_covered_engineering_GER_
 
 };
 
-class GerRng_Amarok_covered_san_GER_Grn : GerRng_Amarok_covered_GER_Grn
+class gerrng_Amarok_covered_san_GER_Grn : gerrng_Amarok_covered_GER_Grn
 {
-    displayName = "Amarok SAN (Green)";
+    displayName = CSTRING(amarok_san_green);
 	attendant = 1;
     animationList[]={
         "hidePolice",0,
@@ -367,62 +368,62 @@ class GerRng_Amarok_covered_san_GER_Grn : GerRng_Amarok_covered_GER_Grn
 	};	
 };
 
-class GerRng_Amarok_covered_GER_FLK: GerRng_Amarok_covered_GER_Grn
+class gerrng_Amarok_covered_GER_FLK: gerrng_Amarok_covered_GER_Grn
 {
-    displayName = "Amarok (Flecktarn)";
+    displayName = CSTRING(amarok_flk);
 	textureList[]={"Flk",1};
 };
 
-class GerRng_Amarok_covered_GER_TRP: GerRng_Amarok_covered_GER_Grn
+class gerrng_Amarok_covered_GER_TRP: gerrng_Amarok_covered_GER_Grn
 {
-    displayName = "Amarok (Tropentarn)";
+    displayName = CSTRING(amarok_trp);
 	textureList[]={"Trp",1};
 };
 
-class GerRng_Amarok_covered_comms_GER_FLK: GerRng_Amarok_covered_comms_GER_Grn
+class gerrng_Amarok_covered_comms_GER_FLK: gerrng_Amarok_covered_comms_GER_Grn
 {
-    displayName = "Amarok IuK (Flecktarn)";
+    displayName = CSTRING(amarok_iuk_flk);
 	textureList[]={"FlkSig",1};
 };
 
-class GerRng_Amarok_covered_comms_GER_TRP: GerRng_Amarok_covered_comms_GER_Grn
+class gerrng_Amarok_covered_comms_GER_TRP: gerrng_Amarok_covered_comms_GER_Grn
 {
-    displayName = "Amarok IuK (Tropentarn)";
+    displayName = CSTRING(amarok_iuk_trp);
 	textureList[]={"TrpSig",1};
 };
 
-class GerRng_Amarok_covered_san_GER_FLK: GerRng_Amarok_covered_san_GER_Grn
+class gerrng_Amarok_covered_san_GER_FLK: gerrng_Amarok_covered_san_GER_Grn
 {
-    displayName = "Amarok SAN (Flecktarn)";
+    displayName = CSTRING(amarok_san_flk);
 	textureList[]={"FlkSan",1};
 };
 
-class GerRng_Amarok_san_covered_GER_TRP: GerRng_Amarok_covered_san_GER_Grn
+class gerrng_Amarok_san_covered_GER_TRP: gerrng_Amarok_covered_san_GER_Grn
 {
-    displayName = "Amarok SAN (Tropentarn)";
+    displayName = CSTRING(amarok_san_trp);
 	textureList[]={"TrpSan",1};
 };
 
-class GerRng_Amarok_engineering_covered_GER_FLK: GerRng_Amarok_covered_engineering_GER_Grn
+class gerrng_Amarok_engineering_covered_GER_FLK: gerrng_Amarok_covered_engineering_GER_Grn
 {
-    displayName = "Amarok CSS (Flecktarn)";
+    displayName = CSTRING(amarok_css_flk);
 	textureList[]={"FlkCSS",1};
 };
 
-class GerRng_Amarok_engineering_covered_GER_TRP: GerRng_Amarok_covered_engineering_GER_Grn
+class gerrng_Amarok_engineering_covered_GER_TRP: gerrng_Amarok_covered_engineering_GER_Grn
 {
-    displayName = "Amarok CSS (Tropentarn)";
+    displayName = CSTRING(amarok_css_trp);
 	textureList[]={"TrpCSS",1};
 };
 
-class GerRng_Amarok_engineering_GER_FLK: GerRng_Amarok_engineering_GER_Grn
+class gerrng_Amarok_engineering_GER_FLK: gerrng_Amarok_engineering_GER_Grn
 {
-    displayName = "Amarok CSS (Flecktarn/No Cover)";
+    displayName = CSTRING(amarok_css_nc_flk);
 	textureList[]={"FlkCSS",1};
 };
 
-class GerRng_Amarok_engineering_GER_TRP: GerRng_Amarok_engineering_GER_Grn
+class gerrng_Amarok_engineering_GER_TRP: gerrng_Amarok_engineering_GER_Grn
 {
-    displayName = "Amarok CSS (Tropentarn/No Cover)";
+    displayName = CSTRING(amarok_css_nc_trp);
 	textureList[]={"TrpCSS",1};
 };

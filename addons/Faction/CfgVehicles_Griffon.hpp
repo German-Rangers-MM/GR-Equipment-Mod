@@ -9,25 +9,30 @@ class CUP_I_412_Military_Radar_AAF;
 class CUP_I_412_Mil_Transport_AAF;
 class CUP_C_412_Medic;
 class CUP_I_412_Military_Armed_AAF;
-class CUP_I_412_dynamicLoadout_AAF;
+class CUP_412_dynamicLoadout_Base_F;
 
-class GerRng_CH_146_Griffon_Radar_01 : CUP_I_412_Military_Radar_AAF {
+class gerrng_CH_146_Griffon_Radar_01 : CUP_I_412_Military_Radar_AAF {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "OH-146 Griffon Aufklärung";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_HPilot";
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_anarc210";
+	tf_range = 40000;
+    tf_encryptionCode = "tf_west_radio_code";
 
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_0_main.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa"
+		QPATHTOF(data\CH-146_BW-HFlg_0_main.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_1_ext.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_2_ext2.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_3_sticker_73+08.paa)
 	};
 	
 	class TransportBackpacks
@@ -70,23 +75,28 @@ class GerRng_CH_146_Griffon_Radar_01 : CUP_I_412_Military_Radar_AAF {
 
 
 
-class GerRng_CH_146_Griffon_Transport_01 : CUP_I_412_Mil_Transport_AAF {
+class gerrng_CH_146_Griffon_Transport_01 : CUP_I_412_Mil_Transport_AAF {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "CH-146 Griffon Transport";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_HPilot";
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_anarc210";
+	tf_range = 40000;
+    tf_encryptionCode = "tf_west_radio_code";
 
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_0_main.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa"
+		QPATHTOF(data\CH-146_BW-HFlg_0_main.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_1_ext.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_2_ext2.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_3_sticker_73+08.paa)
 	};
 
 	hiddenSelectionsMaterials[] = 
@@ -143,23 +153,28 @@ class GerRng_CH_146_Griffon_Transport_01 : CUP_I_412_Mil_Transport_AAF {
 
 
 
-class GerRng_CH_146_Griffon_CAS_01 : CUP_I_412_Military_Armed_AAF {
+class gerrng_CH_146_Griffon_CAS_01 : CUP_412_dynamicLoadout_Base_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "AH-146 Griffon Multirole";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_HPilot";
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_anarc210";
+	tf_range = 40000;
+    tf_encryptionCode = "tf_west_radio_code";
 
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_0_main.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa"
+		QPATHTOF(data\CH-146_BW-HFlg_0_main.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_1_ext.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_2_ext2.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_3_sticker_73+08.paa)
 	};
 	class TransportBackpacks
 	{
@@ -209,22 +224,29 @@ class GerRng_CH_146_Griffon_CAS_01 : CUP_I_412_Military_Armed_AAF {
 	
 
 
-class GerRng_Ch_146_Griffon_MedEvac_01 : CUP_C_412_Medic {
+class gerrng_Ch_146_Griffon_MedEvac_01 : CUP_I_412_Military_Radar_AAF {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "HH-146 Griffon SAR";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_C_C_AirMedic_red_01";
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_anarc210";
+	tf_range = 40000;
+    tf_encryptionCode = "tf_west_radio_code";
+
+	attendant = 1;
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
 	{
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-SAR_0_main.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_1_ext.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_2_ext2.paa",
-		"y\GR-Equipment-Mod\addons\GerRng_Faction\data\CH-146_BW-HFlg_3_sticker_73+08.paa",
+		QPATHTOF(data\CH-146_BW-SAR_0_main.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_1_ext.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_2_ext2.paa),
+		QPATHTOF(data\CH-146_BW-HFlg_3_sticker_73+08.paa),
 		"\CUP\AirVehicles\CUP_AirVehicles_412\data\heli_medium01_military_in_co.paa"
 	};
 	hiddenSelectionsMaterials[] = 

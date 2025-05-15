@@ -1,0 +1,2 @@
+PREP(moduleInit);
+PREP(setFrequency);

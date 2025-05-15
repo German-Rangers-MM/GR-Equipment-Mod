@@ -8,14 +8,19 @@
 
 class CUP_B_Dingo_GER_Wdl;
 
-class GerRng_B_Dingo_GER_Wdl : CUP_B_Dingo_GER_Wdl {
+class gerrng_B_Dingo_GER_Wdl : CUP_B_Dingo_GER_Wdl {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Dingo ATF MG (Woodland)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+    ace_cargo_space = 11;
+    
+	editorCategory = "gerrng";
+	editorSubcategory = "AllschutzSubcat";
     
     class TransportBackpacks
     {
@@ -64,14 +69,19 @@ class GerRng_B_Dingo_GER_Wdl : CUP_B_Dingo_GER_Wdl {
 
 class CUP_B_Dingo_GER_Des;
 
-class GerRng_B_Dingo_GER_D : CUP_B_Dingo_GER_Des {
+class gerrng_B_Dingo_GER_D : CUP_B_Dingo_GER_Des {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Dingo ATF MG (Desert)";
     side = 1;
-    faction = "GerRng_";
+    faction = "gerrng";
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+    ace_cargo_space = 11;
+    
+	editorCategory = "gerrng";
+	editorSubcategory = "AllschutzSubcat";
     
     class TransportBackpacks
     {
