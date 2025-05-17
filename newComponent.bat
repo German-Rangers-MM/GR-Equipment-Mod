@@ -36,6 +36,11 @@ if "%ComponentBeautified%"=="" (
 choice /m "Are CBA XEH required?"
 set "cbaXEH=%ERRORLEVEL%"
 
+
+:: Prompt for CBA XEH
+choice /m "Is a Stringtable required?"
+set "stringtable=%ERRORLEVEL%"
+
 :: Convert Component to uppercase
 set "ComponentUpperCase="
 set "str=%Component%"
@@ -111,6 +116,7 @@ echo $relPath = $args[5]
 echo $relPathTrimmed = $args[6]
 echo $content = Get-Content -LiteralPath $inputFile -Raw
 echo $content = $content -replace 'COMPONENTREGULAR', $component
+echo $content = $content -replace 'COMPONENTQUOTE', "`"$component`""
 echo $content = $content -replace 'COMPONENTBEAUTIFIED', $componentBeautified
 echo $content = $content -replace 'COMPONENTUPPERCASE', $componentUpper
 echo $content = $content -replace 'RELATIVEPATH', $relPath
@@ -124,6 +130,12 @@ copy /Y "%templatePath%\script_component.hpp" "%tempFile%" > nul
 powershell -ExecutionPolicy Bypass -File "%tempPs%" "%tempFile%" "%folderPath%\script_component.hpp" "%Component%" "%ComponentBeautified%" "%ComponentUpperCase%" "%relativepath%" "%relativepathTrimmed%"
 del "%tempFile%"
 
+if %stringtable% equ 1 (
+    set "tempFile=%TEMP%\stringtable"
+    copy /Y "%templatePath%\stringtable.xml" "%tempFile%" > nul
+    powershell -ExecutionPolicy Bypass -File "%tempPs%" "%tempFile%" "%folderPath%\stringtable.xml" "%Component%" "%ComponentBeautified%" "%ComponentUpperCase%" "%relativepath%" "%relativepathTrimmed%"
+    del "%tempFile%"
+)
 :: Create PBOPREFIX
 echo %relativepathTrimmed%\addons\%Component% > "%folderPath%\$PBOPREFIX$"
 
@@ -601,4 +613,5 @@ if %finished% equ 2 (
 )
 echo Process finished.
 pause
+cls
 exit /b 0
