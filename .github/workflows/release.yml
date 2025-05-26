@@ -1,0 +1,61 @@
+name: Attach Latest Artifact to Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  attach-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get latest successful workflow run
+        id: get-workflow-run
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Replace 'build.yml' with your workflow file name
+          RESPONSE=$(curl -s \
+            -H "Authorization: token $GH_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/build.yml/runs?status=success&per_page=1")
+          
+          RUN_ID=$(echo "$RESPONSE" | jq -r '.workflow_runs[0].id')
+          if [ "$RUN_ID" = "null" ]; then
+            echo "No successful runs found"
+            exit 1
+          fi
+          echo "run_id=$RUN_ID" >> $GITHUB_OUTPUT
+
+      - name: Get workflow artifacts
+        id: get-artifacts
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ARTIFACTS_RESPONSE=$(curl -s \
+            -H "Authorization: token $GH_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ steps.get-workflow-run.outputs.run_id }}/artifacts")
+          
+          ARTIFACT_URLS=$(echo "$ARTIFACTS_RESPONSE" | jq -r '.artifacts[].archive_download_url')
+          echo "artifact_urls=$ARTIFACT_URLS" >> $GITHUB_OUTPUT
+
+      - name: Download artifacts
+        run: |
+          mkdir -p artifacts
+          I=1
+          for URL in ${{ steps.get-artifacts.outputs.artifact_urls }}; do
+            curl -L -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -o "artifacts/artifact_$I.zip" \
+              "$URL"
+            I=$((I+1))
+          done
+
+      - name: Attach artifacts to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            artifacts/*.zip
+          append: true
