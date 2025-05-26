@@ -1,0 +1,2 @@
+PREP(canStartSiren);
+PREP(canStopSiren);

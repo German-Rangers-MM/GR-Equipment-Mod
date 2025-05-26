@@ -1,4 +1,4 @@
-name = "German Rangers Equipment";
+name = "German Rangers Equipment Test Version";
 picture = "icon.paa";
 logoSmall = "icon.paa";
 logo = "icon.paa";

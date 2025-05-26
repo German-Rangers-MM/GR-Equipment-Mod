@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="gerrng">
+    <Package name="faction">
+        <Key ID="STR_gerrng_faction_amarok_flk">
+            <English>Amarok (Woodland (No Cover))</English>
+            <German>Amarok (Flecktarn (Kein Cover))</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_green">
+            <English>Amarok (Green (No Cover))</English>
+            <German>Amarok (Grün (Kein Cover))</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_trp">
+            <English>Amarok (Desert (No Cover))</English>
+            <German>Amarok (Tropentarn (Kein Cover))</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_covered_flk">
+            <English>Amarok (Woodland)</English>
+            <German>Amarok (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_covered_green">
+            <English>Amarok (Green)</English>
+            <German>Amarok (Grün)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_covered_trp">
+            <English>Amarok (Desert)</English>
+            <German>Amarok (Tropentarn)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_css_flk">
+            <English>Amarok CSS (Woodland)</English>
+            <German>Amarok CSS (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_css_green">
+            <English>Amarok CSS (Green)</English>
+            <German>Amarok CSS (Grün)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_css_trp">
+            <English>Amarok CSS (Desert)</English>
+            <German>Amarok CSS (Tropentarn)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_css_nc_flk">
+            <English>Amarok CSS (Woodland (No Cover))</English>
+            <German>Amarok CSS (Flecktarn (Kein Cover))</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_css_nc_green">
+            <English>Amarok CSS (Green (No Cover))</English>
+            <German>Amarok CSS (Grün (Kein Cover))</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_css_nc_trp">
+            <English>Amarok CSS (Desert (No Cover))</English>
+            <German>Amarok CSS (Tropentarn (Kein Cover))</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_iuk_flk">
+            <English>Amarok Comms (Woodland)</English>
+            <German>Amarok IuK (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_iuk_green">
+            <English>Amarok Comms (Green)</English>
+            <German>Amarok IuK (Grün)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_iuk_trp">
+            <English>Amarok Comms (Desert)</English>
+            <German>Amarok IuK (Tropentarn)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_san_flk">
+            <English>Amarok MED (Woodland)</English>
+            <German>Amarok SAN (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_san_green">
+            <English>Amarok MED (Green )</English>
+            <German>Amarok SAN (Grün)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_amarok_san_trp">
+            <English>Amarok MED (Desert)</English>
+            <German>Amarok SAN (Tropentarn)</German>
+        </Key>
+
+        
+        <Key ID="STR_gerrng_faction_subcat_pkw_light">
+            <English>Cars (Light)</English>
+            <German>PKW (Leicht)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_subcat_pkw_armored">
+            <English>Cars (Armored)</English>
+            <German>PKW (Geschützt)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_subcat_wiesel">
+            <English>Wiesel IFV</English>
+            <German>SPz Wiesel</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_subcat_lkw">
+            <English>Trucks (Iveco 7t/Multi 15t GL)</English>
+            <German>LKW (Iveco 7t/Multi 15t GL)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_subcat_heli_light">
+            <English>Helicopters (Light)</English>
+            <German>Helikopter (Leicht)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_subcat_heli_medium">
+            <English>Helicopters (Medium)</English>
+            <German>Helikopter (Mittelschwer)</German>
+        </Key>
+        <Key ID="STR_gerrng_faction_subcat_heli_heavy">
+            <English>Helicopters (Heavy)</English>
+            <German>Helikopter (Schwer)</German>
+        </Key>
+    </Package>
+</Project>

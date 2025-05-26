@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="gerrng">
+    <Package name="main">
+        <Key ID="STR_gerrng_main_Team">
+            <English>German Rangers Moddingteam</English>
+            <German>German Rangers Moddingteam</German>
+        </Key>
+    </Package>
+</Project>
