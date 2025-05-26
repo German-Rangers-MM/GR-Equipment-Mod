@@ -72,6 +72,3 @@ class ace_medical_facilities {
     gerrng[] = { QGVAR(MedTent_01) };
 };
 #include "CfgVehicles.hpp"
-
-#include "CfgEventHandlers.hpp"
-#include "CfgWeapons.hpp"

@@ -1,2 +1,0 @@
-PREP(canStartSiren);
-PREP(canStopSiren);
