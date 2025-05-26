@@ -24,13 +24,13 @@ class CfgAmmo
   class MAA_M_GMM_HEAT;
  	class GVAR(GMM_HEAT): MAA_M_GMM_HEAT
 	{
-      	maxSpeed = 275;
-   	initTime = 1.5;
-   	thrust = 35;
-   	thrustTime = 2.5;
-   	timeToLive = 40;
-   	manueuvrability = 25;
-   	sideAirFriction = 1.5;
+		maxSpeed = 275;
+		initTime = 1.5;
+		thrust = 35;
+		thrustTime = 2.5;
+		timeToLive = 40;
+		manueuvrability = 25;
+		sideAirFriction = 1.5;
 	};
 
   class MAA_M_GMM_MT;

@@ -8,7 +8,7 @@ class CfgPatches
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"cba_main"};
-        author = "German Rangers";
+        author = ECSTRING(main,Team);
         VERSION_CONFIG;
     };
 };

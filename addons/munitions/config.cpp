@@ -8,7 +8,7 @@ class CfgPatches {
 		requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {};
         author = ECSTRING(main,Team);
-        authors[] = {"J, Smith"};
+        authors[] = {"J, Smith", "Cookie"};
         addonRootClass = QUOTE(ADDON);
     };
 };

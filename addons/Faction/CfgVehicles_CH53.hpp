@@ -8,14 +8,19 @@
 class CUP_B_CH53E_GER;
 class CUP_B_CH53E_VIV_GER;
 
-class gerrng_CH_53E_TTH_01 : CUP_B_CH53E_GER {
+class GVAR(CH_53E_TTH_01) : CUP_B_CH53E_GER {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "CH-53G Super-Stallion STH";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Heli_H_Subcat);
+	
+	receiveRemoteTargets = 1;
 
 
 
@@ -64,14 +69,19 @@ class gerrng_CH_53E_TTH_01 : CUP_B_CH53E_GER {
 	};	
 };
 
-class gerrng_CH_53E_TTH_VIV_01 : CUP_B_CH53E_VIV_GER {
+class GVAR(CH_53E_TTH_VIV_01) : CUP_B_CH53E_VIV_GER {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "CH-53G Super-Stallion STH (ViV)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Heli_H_Subcat);
+	
+	receiveRemoteTargets = 1;
 
  
 	class TransportBackpacks

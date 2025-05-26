@@ -1,26 +1,26 @@
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 //
-//			Dingo
+//			Dingo MG
 //
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
 class CUP_B_Dingo_GER_Wdl;
 
-class gerrng_B_Dingo_GER_Wdl : CUP_B_Dingo_GER_Wdl {
+class GVAR(B_Dingo_GER_Wdl) : CUP_B_Dingo_GER_Wdl {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Dingo ATF MG (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
     ace_cargo_space = 11;
     
-	editorCategory = "gerrng";
-	editorSubcategory = "AllschutzSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_A_Subcat);
     
     class TransportBackpacks
     {
@@ -69,19 +69,149 @@ class gerrng_B_Dingo_GER_Wdl : CUP_B_Dingo_GER_Wdl {
 
 class CUP_B_Dingo_GER_Des;
 
-class gerrng_B_Dingo_GER_D : CUP_B_Dingo_GER_Des {
+class GVAR(B_Dingo_GER_D) : CUP_B_Dingo_GER_Des {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Dingo ATF MG (Desert)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
     ace_cargo_space = 11;
     
-	editorCategory = "gerrng";
-	editorSubcategory = "AllschutzSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_A_Subcat);
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };	
+};
+
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
+//
+//			Dingo GMG
+//
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
+
+class CUP_B_Dingo_GL_GER_Wdl;
+
+class GVAR(B_Dingo_GL_GER_Wdl) : CUP_B_Dingo_GER_Wdl {
+    author = "dalleburn, jan";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Dingo ATF GL (Woodland)";
+    side = 1;
+    faction = QGVAR(rangers_faction);
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+    ace_cargo_space = 11;
+    
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_A_Subcat);
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };	
+};
+
+class CUP_B_Dingo_GL_GER_Des;
+
+class GVAR(B_Dingo_GL_GER_D) : CUP_B_Dingo_GL_GER_Des {
+    author = "dalleburn, jan";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Dingo ATF GL (Desert)";
+    side = 1;
+    faction = QGVAR(rangers_faction);
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+    ace_cargo_space = 11;
+    
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_A_Subcat);
     
     class TransportBackpacks
     {

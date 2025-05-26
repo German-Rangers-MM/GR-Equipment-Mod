@@ -8,7 +8,7 @@
 class MRAP_03_base_F;
 class MRAP_03_hmg_base_F;
 class MRAP_03_gmg_base_F;
-class I_MRAP_03_F: MRAP_03_base_F
+class I_MRAP_03_F : MRAP_03_base_F
 {
     class TextureSources
 	{
@@ -17,14 +17,14 @@ class I_MRAP_03_F: MRAP_03_base_F
 			displayName = "Flecktarn";
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 		class Tropen
 		{
 			displayName = "Tropentarn";
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 
         class FleckSan
@@ -32,18 +32,19 @@ class I_MRAP_03_F: MRAP_03_base_F
 			displayName = "Flecktarn NEF";
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-W_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 		class TropenSan
 		{
 			displayName = "Tropentarn NEF";
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-D_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
 };
-class I_MRAP_03_hmg_F: MRAP_03_hmg_base_F
+class I_MRAP_03_hmg_F : MRAP_03_hmg_base_F
 {
     class TextureSources
     {
@@ -52,18 +53,18 @@ class I_MRAP_03_hmg_F: MRAP_03_hmg_base_F
             displayName = "Flecktarn";
             author = "dalleburn, jan";
             textures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
-            faction[] = {"gerrng"};
+            faction[] = {QGVAR(rangers_faction)};
         };
         class Tropen
         {
             displayName = "Tropentarn";
             author = "dalleburn, jan";
             textures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
-            faction[] = {"gerrng"};
+            faction[] = {QGVAR(rangers_faction)};
         };
     };
 };
-class I_MRAP_03_gmg_F: MRAP_03_gmg_base_F
+class I_MRAP_03_gmg_F : MRAP_03_gmg_base_F
 {
     class TextureSources
     {
@@ -72,31 +73,33 @@ class I_MRAP_03_gmg_F: MRAP_03_gmg_base_F
 			displayName = "Flecktarn";
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 		class Tropen
 		{
 			displayName = "Tropentarn";
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
     };
 };
 
-class gerrng_B_FENNEK_GER_Wdl : I_MRAP_03_F {
+class GVAR(B_FENNEK_GER_Wdl) : I_MRAP_03_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Fennek Spähwagen (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
     ace_cargo_space = 11;
     
-	editorCategory = "gerrng";
-	editorSubcategory = "AllschutzSubcat";
+	reportRemoteTargets = 1;
+    
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_A_Subcat);
 
     hiddenSelections[] = {"Camo1","Camo2"};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
@@ -147,7 +150,7 @@ class gerrng_B_FENNEK_GER_Wdl : I_MRAP_03_F {
     };
 };
 
-class gerrng_B_FENNEK_GER_D : gerrng_B_FENNEK_GER_Wdl {
+class GVAR(B_FENNEK_GER_D) : GVAR(B_FENNEK_GER_Wdl) {
     displayName = "Fennek Spähwagen (Desert)";
 
 	textureList[]={"Tropen",1};	
@@ -159,19 +162,21 @@ class gerrng_B_FENNEK_GER_D : gerrng_B_FENNEK_GER_Wdl {
 //
 //--------------------------------------------------------------------------------------
 
-class gerrng_B_FENNEK_GER_HMG_Wdl : I_MRAP_03_hmg_F {
+class GVAR(B_FENNEK_GER_HMG_Wdl) : I_MRAP_03_hmg_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Fennek HMG (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
     ace_cargo_space = 11;
+
+	reportRemoteTargets = 1;
     
-	editorCategory = "gerrng";
-	editorSubcategory = "AllschutzSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_A_Subcat);
 
 	textureList[]={"Fleck",1};
     hiddenSelections[] = {"Camo1","Camo2"};
@@ -222,7 +227,7 @@ class gerrng_B_FENNEK_GER_HMG_Wdl : I_MRAP_03_hmg_F {
     };	
 };
 
-class gerrng_B_FENNEK_GER_HMG_D : gerrng_B_FENNEK_GER_HMG_Wdl {
+class GVAR(B_FENNEK_GER_HMG_D) : GVAR(B_FENNEK_GER_HMG_Wdl) {
     displayName = "Fennek HMG (Desert)";
 
 	textureList[]={"Tropen",1};	
@@ -235,19 +240,21 @@ class gerrng_B_FENNEK_GER_HMG_D : gerrng_B_FENNEK_GER_HMG_Wdl {
 //
 //--------------------------------------------------------------------------------------
 
-class gerrng_B_FENNEK_GER_GMG_Wdl : I_MRAP_03_gmg_F {
+class GVAR(B_FENNEK_GER_GMG_Wdl) : I_MRAP_03_gmg_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Fennek GMG (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
     ace_cargo_space = 11;
+
+	reportRemoteTargets = 1;
     
-	editorCategory = "gerrng";
-	editorSubcategory = "AllschutzSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_A_Subcat);
 
 	textureList[]={"Fleck",1};
     hiddenSelections[] = {"Camo1","Camo2"};
@@ -298,7 +305,7 @@ class gerrng_B_FENNEK_GER_GMG_Wdl : I_MRAP_03_gmg_F {
     };	
 };
 
-class gerrng_B_FENNEK_GER_GMG_D : gerrng_B_FENNEK_GER_GMG_Wdl {
+class GVAR(B_FENNEK_GER_GMG_D) : GVAR(B_FENNEK_GER_GMG_Wdl) {
     displayName = "Fennek GMG (Desert)";
 
 	textureList[]={"Tropen",1};
@@ -311,20 +318,34 @@ class gerrng_B_FENNEK_GER_GMG_D : gerrng_B_FENNEK_GER_GMG_Wdl {
 //
 //--------------------------------------------------------------------------------------
 
-class gerrng_FENNEK_NEF_W : gerrng_B_FENNEK_GER_Wdl {
+class GVAR(B_FENNEK_med_base) : GVAR(B_FENNEK_GER_Wdl)
+{
+    scope = 1;
+    scopeCurator = 0;
+    class Sounds
+    {
+        sounndSets[] ={};
+        soundSetsInt[] = {"Mrap_03_Engine_RPM0_INT_SoundSet","Mrap_03_Engine_RPM1_INT_SoundSet","Mrap_03_Engine_RPM2_INT_SoundSet","Mrap_03_Engine_RPM3_INT_SoundSet","Mrap_03_Engine_RPM4_INT_SoundSet","Mrap_03_Rattling_INT_SoundSet","Mrap_03_Stress_INT_SoundSet","Mrap_03_Rain_INT_SoundSet","Mrap_03_Tires_Rock_Fast_INT_SoundSet","Mrap_03_Tires_Grass_Fast_INT_SoundSet","Mrap_03_Tires_Sand_Fast_INT_SoundSet","Mrap_03_Tires_Gravel_Fast_INT_SoundSet","Mrap_03_Tires_Mud_Fast_INT_SoundSet","Mrap_03_Tires_Asphalt_Fast_INT_SoundSet","Mrap_03_Tires_Water_Fast_INT_SoundSet","Mrap_03_Tires_Rock_Slow_INT_SoundSet","Mrap_03_Tires_Grass_Slow_INT_SoundSet","Mrap_03_Tires_Sand_Slow_INT_SoundSet","Mrap_03_Tires_Gravel_Slow_INT_SoundSet","Mrap_03_Tires_Mud_Slow_INT_SoundSet","Mrap_03_Tires_Asphalt_Slow_INT_SoundSet","Mrap_03_Tires_Water_Slow_INT_SoundSet","Mrap_03_Tires_Turn_Hard_INT_SoundSet","Mrap_03_Tires_Turn_Soft_INT_SoundSet","Mrap_03_Tires_Brake_Hard_INT_SoundSet","Mrap_03_Tires_Brake_Soft_INT_SoundSet","","Tires_Movement_Dirt_Int_01_SoundSet","Fennek_AmbulanceSiren_01_Int_SoundSet"};
+        soundSetsExt[] = {"Mrap_03_Engine_RPM0_EXT_SoundSet","Mrap_03_Engine_RPM1_EXT_SoundSet","Mrap_03_Engine_RPM2_EXT_SoundSet","Mrap_03_Engine_RPM3_EXT_SoundSet","Mrap_03_Engine_RPM4_EXT_SoundSet","Mrap_03_Rattling_EXT_SoundSet","Mrap_03_Stress_EXT_SoundSet","Mrap_03_Rain_EXT_SoundSet","Mrap_03_Tires_Rock_Fast_EXT_SoundSet","Mrap_03_Tires_Grass_Fast_EXT_SoundSet","Mrap_03_Tires_Sand_Fast_EXT_SoundSet","Mrap_03_Tires_Gravel_Fast_EXT_SoundSet","Mrap_03_Tires_Mud_Fast_EXT_SoundSet","Mrap_03_Tires_Asphalt_Fast_EXT_SoundSet","Mrap_03_Tires_Water_Fast_EXT_SoundSet","Mrap_03_Tires_Rock_Slow_EXT_SoundSet","Mrap_03_Tires_Grass_Slow_EXT_SoundSet","Mrap_03_Tires_Sand_Slow_EXT_SoundSet","Mrap_03_Tires_Gravel_Slow_EXT_SoundSet","Mrap_03_Tires_Mud_Slow_EXT_SoundSet","Mrap_03_Tires_Asphalt_Slow_EXT_SoundSet","Mrap_03_Tires_Water_Slow_EXT_SoundSet","Mrap_03_Tires_Turn_Hard_EXT_SoundSet","Mrap_03_Tires_Turn_Soft_EXT_SoundSet","Mrap_03_Tires_Brake_Hard_EXT_SoundSet","Mrap_03_Tires_Brake_Soft_EXT_SoundSet","","Tires_Movement_Dirt_Ext_01_SoundSet","Fennek_AmbulanceSiren_01_Ext_SoundSet"};
+    };
+};
+
+class GVAR(FENNEK_NEF_W) : GVAR(B_FENNEK_med_base) {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Fennek Notarztfahrzeug (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
     ace_cargo_space = 20;
     attendant = 1;
 
-	editorCategory = "gerrng";
-	editorSubcategory = "AllschutzSubcat";
+	reportRemoteTargets = 1;
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_A_Subcat);
 
 	textureList[]={"FleckSan",1};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-W_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
@@ -390,7 +411,7 @@ class gerrng_FENNEK_NEF_W : gerrng_B_FENNEK_GER_Wdl {
     };			
 };
 
-class gerrng_FENNEK_NEF_D : gerrng_FENNEK_NEF_W {
+class GVAR(FENNEK_NEF_D) : GVAR(FENNEK_NEF_W) {
     displayName = "Fennek Notarztfahrzeug (Desert)";
 
 	textureList[]={"TropenSan",1};

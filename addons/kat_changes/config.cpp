@@ -13,11 +13,10 @@ class CfgPatches {
             "ace_main",
             "cba_settings"
         };
-        author = "ItsGiantCookie";
-        authors[] = {"ItsGiantCookie"};
+        author = ECSTRING(main,Team);
+        authors[] = {"Cookie", "Cesrap"};
         VERSION_CONFIG;
     };
 };
 
 #include "CfgWeapons.hpp"
-

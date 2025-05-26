@@ -8,8 +8,9 @@ class CfgPatches
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
 		requiredAddons[]={"CUP_Creatures_People_LoadOrder"};
-        author = "German Rangers";
+        author = ECSTRING(main,Team);
         VERSION_CONFIG;
+        authors[] = {"Dalleburn", "Jan", "Cookie"};
     };
 };
 

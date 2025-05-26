@@ -1,5 +1,12 @@
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
+//
+//			Amarok (Offroad 01)
+//
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
 class Offroad_01_military_covered_base_F;
-class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
+class I_E_Offroad_01_covered_F : Offroad_01_military_covered_base_F
 {
 	class TextureSources
 	{
@@ -7,21 +14,21 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 		{
 			displayName = "Green";
 			author = "Cookie";
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 		class Flk
 		{
 			displayName = "Flecktarn";
 			author = "Cookie";
 			textures[] = {QPATHTOF(data\amarok_ext_FLK_CO.paa),QPATHTOF(data\amarok_ext_FLK_CO.paa),QPATHTOF(data\amarok_cover_FLK_CO.paa)};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 		class Trp
 		{
 			displayName = "Tropentarn";
 			author = "Cookie";
 			textures[] = {QPATHTOF(data\amarok_ext_TRP_CO.paa),QPATHTOF(data\amarok_ext_TRP_CO.paa),QPATHTOF(data\amarok_cover_TRP_CO.paa)};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 
 		class FlkSan
@@ -29,14 +36,14 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 			displayName = "Flecktarn (San)";
 			author = "Cookie";
 			textures[] = {QPATHTOF(data\amarok_ext_san_FLK_CO.paa),QPATHTOF(data\amarok_ext_san_FLK_CO.paa),QPATHTOF(data\amarok_cover_san_FLK_CO.paa)};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 		class TrpSan
 		{
 			displayName = "Tropentarn (San)";
 			author = "Cookie";
 			textures[] = {QPATHTOF(data\amarok_ext_san_TRP_CO.paa),QPATHTOF(data\amarok_ext_san_TRP_CO.paa),QPATHTOF(data\amarok_cover_san_TRP_CO.paa)};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 
 		class FlkCSS
@@ -44,14 +51,14 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 			displayName = "Flecktarn (CSS)";
 			author = "Cookie";
 			textures[] = {QPATHTOF(data\amarok_ext_css_FLK_CO.paa),QPATHTOF(data\amarok_ext_css_FLK_CO.paa),QPATHTOF(data\amarok_cover_FLK_CO.paa)};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 		class TrpCSS
 		{
 			displayName = "Tropentarn (CSS)";
 			author = "Cookie";
 			textures[] = {QPATHTOF(data\amarok_ext_css_TRP_CO.paa),QPATHTOF(data\amarok_ext_css_TRP_CO.paa),QPATHTOF(data\amarok_cover_TRP_CO.paa)};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 
 		class FlkSig
@@ -59,33 +66,33 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 			displayName = "Flecktarn (IuK)";
 			author = "Cookie";
 			textures[] = {QPATHTOF(data\amarok_ext_sig_FLK_CO.paa),QPATHTOF(data\amarok_ext_sig_FLK_CO.paa),QPATHTOF(data\amarok_cover_FLK_CO.paa)};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 		class TrpSig
 		{
 			displayName = "Tropentarn (IuK)";
 			author = "Cookie";
 			textures[] = {QPATHTOF(data\amarok_ext_sig_TRP_CO.paa),QPATHTOF(data\amarok_ext_sig_TRP_CO.paa),QPATHTOF(data\amarok_cover_TRP_CO.paa)};
-			faction[] = {"gerrng"};
+			faction[] = {QGVAR(rangers_faction)};
 		};
 	};
 };
 
-class gerrng_Amarok_covered_GER_Grn : I_E_Offroad_01_covered_F 
+class GVAR(Amarok_covered_GER_Grn) : I_E_Offroad_01_covered_F
 {
 
     author = "cookie";
     scope = 2;
     scopeCurator = 2;
-    displayName = CSTRING(amarok_green);
+    displayName = CSTRING(amarok_covered_green);
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
-	armor = 40;
+	armor = 80;
 
-	editorCategory = "gerrng";
-	editorSubcategory = "AmarokSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
 	tf_RadioType = "tf_rt1523g";
@@ -169,7 +176,73 @@ class gerrng_Amarok_covered_GER_Grn : I_E_Offroad_01_covered_F
 	};
 };
 
-class gerrng_Amarok_covered_comms_GER_Grn : gerrng_Amarok_covered_GER_Grn
+class GVAR(Amarok_GER_Grn) : GVAR(Amarok_covered_GER_Grn)
+{
+
+    author = "cookie";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = CSTRING(amarok_green);
+    side = 1;
+    faction = QGVAR(rangers_faction);
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+	
+	armor = 80;
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Pkw_L_Subcat);
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 30000;
+    tf_encryptionCode = "tf_west_radio_code";
+
+	ace_cargo_space = 12;
+	
+	textureList[]={"Green",1};
+	hiddenSelections[] = {"Camo","Camo2","Camo3"};
+	hiddenSelectionsTextures[]=
+	{
+		"a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa",
+		"a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa",
+		"a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_cover_grn_co.paa"
+	};
+
+	animationList[] = {
+		"hidePolice",1,
+		"HideServices",1,
+		"HideCover",1,
+		"StartBeaconLight",0,
+		"HideRoofRack",0,
+		"HideLoudSpeakers",1,
+		"HideAntennas",1,
+		"HideBeacon",1,
+		"HideSpotlight",1,
+		"HideDoor3",0,
+		"OpenDoor3",0,
+		"HideDoor1",0,
+		"HideDoor2",0,
+		"HideBackpacks",1,
+		"HideBumper1",1,
+		"HideBumper2",0,
+		"HideConstruction",0,
+		"BeaconsStart",0
+	};
+};
+
+class GVAR(Amarok_GER_FLK) : GVAR(Amarok_GER_Grn)
+{
+    displayName = CSTRING(amarok_flk);
+	textureList[]={"Flk",1};
+};
+
+class GVAR(Amarok_GER_TRP) : GVAR(Amarok_GER_Grn)
+{
+    displayName = CSTRING(amarok_trp);
+	textureList[]={"Trp",1};
+};
+
+class GVAR(Amarok_covered_comms_GER_Grn) : GVAR(Amarok_covered_GER_Grn)
 {
     displayName = CSTRING(amarok_iuk_green);
 	tf_range = 45000;
@@ -196,7 +269,7 @@ class gerrng_Amarok_covered_comms_GER_Grn : gerrng_Amarok_covered_GER_Grn
 
 };
 
-class gerrng_Amarok_covered_engineering_GER_Grn : gerrng_Amarok_covered_GER_Grn
+class GVAR(Amarok_covered_engineering_GER_Grn) : GVAR(Amarok_covered_GER_Grn)
 {
     displayName = CSTRING(amarok_css_green);
 	ace_repair_canRepair = 1;
@@ -256,7 +329,7 @@ class gerrng_Amarok_covered_engineering_GER_Grn : gerrng_Amarok_covered_GER_Grn
 
 };
 
-class gerrng_Amarok_engineering_GER_Grn : gerrng_Amarok_covered_engineering_GER_Grn
+class GVAR(Amarok_engineering_GER_Grn) : GVAR(Amarok_covered_engineering_GER_Grn)
 {
     displayName = CSTRING(amarok_css_nc_green);
 	animationList[] = {
@@ -282,7 +355,7 @@ class gerrng_Amarok_engineering_GER_Grn : gerrng_Amarok_covered_engineering_GER_
 
 };
 
-class gerrng_Amarok_covered_san_GER_Grn : gerrng_Amarok_covered_GER_Grn
+class GVAR(Amarok_covered_san_GER_Grn) : GVAR(Amarok_covered_GER_Grn)
 {
     displayName = CSTRING(amarok_san_green);
 	attendant = 1;
@@ -368,61 +441,61 @@ class gerrng_Amarok_covered_san_GER_Grn : gerrng_Amarok_covered_GER_Grn
 	};	
 };
 
-class gerrng_Amarok_covered_GER_FLK: gerrng_Amarok_covered_GER_Grn
+class GVAR(Amarok_covered_GER_FLK) : GVAR(Amarok_covered_GER_Grn)
 {
-    displayName = CSTRING(amarok_flk);
+    displayName = CSTRING(amarok_covered_flk);
 	textureList[]={"Flk",1};
 };
 
-class gerrng_Amarok_covered_GER_TRP: gerrng_Amarok_covered_GER_Grn
+class GVAR(Amarok_covered_GER_TRP) : GVAR(Amarok_covered_GER_Grn)
 {
-    displayName = CSTRING(amarok_trp);
+    displayName = CSTRING(amarok_covered_trp);
 	textureList[]={"Trp",1};
 };
 
-class gerrng_Amarok_covered_comms_GER_FLK: gerrng_Amarok_covered_comms_GER_Grn
+class GVAR(Amarok_covered_comms_GER_FLK) : GVAR(Amarok_covered_comms_GER_Grn)
 {
     displayName = CSTRING(amarok_iuk_flk);
 	textureList[]={"FlkSig",1};
 };
 
-class gerrng_Amarok_covered_comms_GER_TRP: gerrng_Amarok_covered_comms_GER_Grn
+class GVAR(Amarok_covered_comms_GER_TRP) : GVAR(Amarok_covered_comms_GER_Grn)
 {
     displayName = CSTRING(amarok_iuk_trp);
 	textureList[]={"TrpSig",1};
 };
 
-class gerrng_Amarok_covered_san_GER_FLK: gerrng_Amarok_covered_san_GER_Grn
+class GVAR(Amarok_covered_san_GER_FLK) : GVAR(Amarok_covered_san_GER_Grn)
 {
     displayName = CSTRING(amarok_san_flk);
 	textureList[]={"FlkSan",1};
 };
 
-class gerrng_Amarok_san_covered_GER_TRP: gerrng_Amarok_covered_san_GER_Grn
+class GVAR(Amarok_san_covered_GER_TRP) : GVAR(Amarok_covered_san_GER_Grn)
 {
     displayName = CSTRING(amarok_san_trp);
 	textureList[]={"TrpSan",1};
 };
 
-class gerrng_Amarok_engineering_covered_GER_FLK: gerrng_Amarok_covered_engineering_GER_Grn
+class GVAR(Amarok_engineering_covered_GER_FLK) : GVAR(Amarok_covered_engineering_GER_Grn)
 {
     displayName = CSTRING(amarok_css_flk);
 	textureList[]={"FlkCSS",1};
 };
 
-class gerrng_Amarok_engineering_covered_GER_TRP: gerrng_Amarok_covered_engineering_GER_Grn
+class GVAR(Amarok_engineering_covered_GER_TRP) : GVAR(Amarok_covered_engineering_GER_Grn)
 {
     displayName = CSTRING(amarok_css_trp);
 	textureList[]={"TrpCSS",1};
 };
 
-class gerrng_Amarok_engineering_GER_FLK: gerrng_Amarok_engineering_GER_Grn
+class GVAR(Amarok_engineering_GER_FLK) : GVAR(Amarok_engineering_GER_Grn)
 {
     displayName = CSTRING(amarok_css_nc_flk);
 	textureList[]={"FlkCSS",1};
 };
 
-class gerrng_Amarok_engineering_GER_TRP: gerrng_Amarok_engineering_GER_Grn
+class GVAR(Amarok_engineering_GER_TRP) : GVAR(Amarok_engineering_GER_Grn)
 {
     displayName = CSTRING(amarok_css_nc_trp);
 	textureList[]={"TrpCSS",1};

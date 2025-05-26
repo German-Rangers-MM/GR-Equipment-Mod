@@ -9,21 +9,32 @@ class CUP_I_412_Military_Radar_AAF;
 class CUP_I_412_Mil_Transport_AAF;
 class CUP_C_412_Medic;
 class CUP_I_412_Military_Armed_AAF;
+
 class CUP_412_dynamicLoadout_Base_F;
 
-class gerrng_CH_146_Griffon_Radar_01 : CUP_I_412_Military_Radar_AAF {
+class GVAR(CH_146_Griffon_Radar_01) : CUP_I_412_Military_Radar_AAF {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "OH-146 Griffon Aufklärung";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+
+	weapons[] = {"CMFlareLauncher"};
+	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Heli_L_Subcat);
 
 	tf_hasLRradio = 1;
 	tf_RadioType = "tf_anarc210";
 	tf_range = 40000;
     tf_encryptionCode = "tf_west_radio_code";
+
+	receiveRemoteTargets = 1;
+	reportRemoteTargets = 1;
+	
 
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
@@ -75,19 +86,27 @@ class gerrng_CH_146_Griffon_Radar_01 : CUP_I_412_Military_Radar_AAF {
 
 
 
-class gerrng_CH_146_Griffon_Transport_01 : CUP_I_412_Mil_Transport_AAF {
+class GVAR(CH_146_Griffon_Transport_01) : CUP_I_412_Mil_Transport_AAF {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "CH-146 Griffon Transport";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+
+	weapons[] = {"CMFlareLauncher"};
+	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Heli_L_Subcat);
 
 	tf_hasLRradio = 1;
 	tf_RadioType = "tf_anarc210";
 	tf_range = 40000;
     tf_encryptionCode = "tf_west_radio_code";
+
+	receiveRemoteTargets = 1;
 
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
@@ -153,19 +172,29 @@ class gerrng_CH_146_Griffon_Transport_01 : CUP_I_412_Mil_Transport_AAF {
 
 
 
-class gerrng_CH_146_Griffon_CAS_01 : CUP_412_dynamicLoadout_Base_F {
+class GVAR(CH_146_Griffon_CAS_01) : CUP_412_dynamicLoadout_Base_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "AH-146 Griffon Multirole";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+
+	weapons[] = {"CMFlareLauncher"};
+	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Heli_L_Subcat);
 
 	tf_hasLRradio = 1;
 	tf_RadioType = "tf_anarc210";
 	tf_range = 40000;
     tf_encryptionCode = "tf_west_radio_code";
+
+	receiveRemoteTargets = 1;
+	reportRemoteTargets = 1;
+	
 
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
@@ -224,14 +253,20 @@ class gerrng_CH_146_Griffon_CAS_01 : CUP_412_dynamicLoadout_Base_F {
 	
 
 
-class gerrng_Ch_146_Griffon_MedEvac_01 : CUP_I_412_Military_Radar_AAF {
+class GVAR(Ch_146_Griffon_MedEvac_01) : CUP_I_412_Military_Radar_AAF {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "HH-146 Griffon SAR";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_C_C_AirMedic_red_01";
+
+	weapons[] = {"CMFlareLauncher"};
+	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Heli_L_Subcat);
 
 	tf_hasLRradio = 1;
 	tf_RadioType = "tf_anarc210";
@@ -239,6 +274,10 @@ class gerrng_Ch_146_Griffon_MedEvac_01 : CUP_I_412_Military_Radar_AAF {
     tf_encryptionCode = "tf_west_radio_code";
 
 	attendant = 1;
+
+	receiveRemoteTargets = 1;
+	reportRemoteTargets = 1;
+	
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=

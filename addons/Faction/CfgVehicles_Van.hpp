@@ -1,20 +1,167 @@
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 //
-//			BW Transporter
+//			BW Sprinter
 //
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
 class C_Van_02_transport_F;
-class gerrng_Van_Transport_BW : C_Van_02_transport_F {
+class GVAR(Van_Transport_BW) : C_Van_02_transport_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Sprinter (BW Fuhrpark)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+	editorCategory = QGVAR(rangers_cat);
+    editorSubcategory = QGVAR(Pkw_L_Subcat);
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 15000;
+    tf_encryptionCode = "tf_west_radio_code";
+
+    hiddenSelections[] = {"camo1"};
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\Van_02_body_CO_bwfuhrpark_komp.paa)
+    };	
+    
+    textureList[]={};
+
+    class PlateInfos
+    {
+        // name of section where plate number should generated
+        name = "spz";
+        // color used for plate number in (r,g,b,a) format
+        color[] = {0,0,0,1};
+        plateFont		= "RobotoCondensedLight";
+        // "#" represent number & "$" represents letter
+        plateFormat		= "Y-### ###";
+        // Required even if you don't use any letters in plateFormat
+        plateLetters	= "ABCDEFHIKLMOPRSTVXYZ";
+    };
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=0;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };	
+};
+
+class C_Van_02_vehicle_F;
+class GVAR(Van_cargo_BW) : C_Van_02_vehicle_F {
+    author = "dalleburn, jan";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Sprinter Cargo (BW Fuhrpark)";
+    side = 1;
+    faction = QGVAR(rangers_faction);
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+	editorCategory = QGVAR(rangers_cat);
+    editorSubcategory = QGVAR(Pkw_L_Subcat);
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 15000;
+    tf_encryptionCode = "tf_west_radio_code";
+
+    hiddenSelections[] = {"camo1"};
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\Van_02_body_CO_bwfuhrpark_komp.paa)
+    };	
+    
+    textureList[]={};
+
+    class PlateInfos
+    {
+        // name of section where plate number should generated
+        name = "spz";
+        // color used for plate number in (r,g,b,a) format
+        color[] = {0,0,0,1};
+        plateFont		= "RobotoCondensedLight";
+        // "#" represent number & "$" represents letter
+        plateFormat		= "Y-### ###";
+        // Required even if you don't use any letters in plateFormat
+        plateLetters	= "ABCDEFHIKLMOPRSTVXYZ";
+    };
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=0;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };	
+};
+
+class C_Van_02_service_F;
+class GVAR(Van_service_BW) : C_Van_02_service_F {
+    author = "dalleburn, jan";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Sprinter Service (BW Fuhrpark)";
+    side = 1;
+    faction = QGVAR(rangers_faction);
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+	editorCategory = QGVAR(rangers_cat);
+    editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
 	tf_RadioType = "tf_rt1523g";
@@ -76,15 +223,18 @@ class gerrng_Van_Transport_BW : C_Van_02_transport_F {
 };
 
 class I_E_Van_02_medevac_F;
-class gerrng_Van_San_BW : I_E_Van_02_medevac_F
+class GVAR(Van_San_BW) : I_E_Van_02_medevac_F
 {
     author = "cookie";
     scope = 2;
     scopeCurator = 2;
     displayName = "Sprinter (RTW)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+	editorCategory = QGVAR(rangers_cat);
+    editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
 	tf_RadioType = "tf_rt1523g";
@@ -169,4 +319,144 @@ class gerrng_Van_San_BW : I_E_Van_02_medevac_F
 		class _xx_ACE_tourniquet {name="ACE_tourniquet";count=5;};
 		class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
     };	
+};
+
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
+//
+//			BW Pritsche
+//
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
+
+class C_Van_01_box_F;
+class GVAR(T5_box_BW) : C_Van_01_box_F 
+{
+    author = "cookie";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "T5 (Rüstsatzträger)";
+    side = 1;
+    faction = QGVAR(rangers_faction);
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+	editorCategory = QGVAR(rangers_cat);
+    editorSubcategory = QGVAR(Pkw_L_Subcat);
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 15000;
+    tf_encryptionCode = "tf_west_radio_code";
+    textureList[]={"WDL",1};
+    class TextureSources
+    {
+        class WDL
+        {
+            displayName = "Woodland";
+            author = "cookie";
+            textures[] = {QPATHTOF(data\T5_ext_wdl.paa),QPATHTOF(data\T5_adds_wdl.paa),"\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"};
+            factions[] = {QGVAR(rangers_faction)};
+        };
+    };
+
+    class PlateInfos
+    {
+        // name of section where plate number should generated
+        name = "spz";
+        // color used for plate number in (r,g,b,a) format
+        color[] = {0,0,0,1};
+        plateFont		= "RobotoCondensedLight";
+        // "#" represent number & "$" represents letter
+        plateFormat		= "Y-### ###";
+        // Required even if you don't use any letters in plateFormat
+        plateLetters	= "ABCDEFHIKLMOPRSTVXYZ";
+    };
+};
+
+class C_Van_01_fuel_F;
+class GVAR(T5_fuel_BW) : C_Van_01_fuel_F 
+{
+    author = "cookie";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "T5 (Treibstoff)";
+    side = 1;
+    faction = QGVAR(rangers_faction);
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+	editorCategory = QGVAR(rangers_cat);
+    editorSubcategory = QGVAR(Pkw_L_Subcat);
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 15000;
+    tf_encryptionCode = "tf_west_radio_code";
+    textureList[]={"WDL",1};
+    class TextureSources
+    {
+        class WDL
+        {
+            displayName = "Woodland";
+            author = "cookie";
+            textures[] = {QPATHTOF(data\T5_ext_wdl.paa),QPATHTOF(data\T5_tank_wdl.paa),"\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"};
+            factions[] = {QGVAR(rangers_faction)};
+        };
+    };
+
+    class PlateInfos
+    {
+        // name of section where plate number should generated
+        name = "spz";
+        // color used for plate number in (r,g,b,a) format
+        color[] = {0,0,0,1};
+        plateFont		= "RobotoCondensedLight";
+        // "#" represent number & "$" represents letter
+        plateFormat		= "Y-### ###";
+        // Required even if you don't use any letters in plateFormat
+        plateLetters	= "ABCDEFHIKLMOPRSTVXYZ";
+    };
+};
+
+class C_Van_01_transport_F;
+class GVAR(T5_transport_BW) : C_Van_01_transport_F 
+{
+    author = "cookie";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "T5 (Pritsche)";
+    side = 1;
+    faction = QGVAR(rangers_faction);
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+	editorCategory = QGVAR(rangers_cat);
+    editorSubcategory = QGVAR(Pkw_L_Subcat);
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 15000;
+    tf_encryptionCode = "tf_west_radio_code";
+    textureList[]={"WDL",1};
+    class TextureSources
+    {
+        class WDL
+        {
+            displayName = "Woodland";
+            author = "cookie";
+            textures[] = {QPATHTOF(data\T5_ext_wdl.paa),QPATHTOF(data\T5_adds_wdl.paa),"\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"};
+            factions[] = {QGVAR(rangers_faction)};
+        };
+    };
+
+    class PlateInfos
+    {
+        // name of section where plate number should generated
+        name = "spz";
+        // color used for plate number in (r,g,b,a) format
+        color[] = {0,0,0,1};
+        plateFont		= "RobotoCondensedLight";
+        // "#" represent number & "$" represents letter
+        plateFormat		= "Y-### ###";
+        // Required even if you don't use any letters in plateFormat
+        plateLetters	= "ABCDEFHIKLMOPRSTVXYZ";
+    };
 };

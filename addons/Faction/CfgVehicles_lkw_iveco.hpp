@@ -12,17 +12,17 @@ class I_E_Truck_02_fuel_F;
 class I_E_Truck_02_Box_F;
 class I_E_Truck_02_Ammo_F;
 
-class gerrng_IVECO_Transport_W : I_E_Truck_02_transport_F {
+class GVAR(IVECO_Transport_W) : I_E_Truck_02_transport_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Transport offen (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
@@ -78,7 +78,7 @@ class gerrng_IVECO_Transport_W : I_E_Truck_02_transport_F {
     };			
 };
 
-class gerrng_IVECO_Transport_D : gerrng_IVECO_Transport_W {
+class GVAR(IVECO_Transport_D) : GVAR(IVECO_Transport_W) {
 
     displayName = "Lkw 7t Transport offen (Desert)";
 
@@ -100,17 +100,17 @@ class gerrng_IVECO_Transport_D : gerrng_IVECO_Transport_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class gerrng_IVECO_Transport_Covered_W : I_E_Truck_02_F {
+class GVAR(IVECO_Transport_Covered_W) : I_E_Truck_02_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Transport Plane (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
@@ -166,7 +166,7 @@ class gerrng_IVECO_Transport_Covered_W : I_E_Truck_02_F {
     };			
 };
 
-class gerrng_IVECO_Transport_Covered_D : gerrng_IVECO_Transport_Covered_W {
+class GVAR(IVECO_Transport_Covered_D) : GVAR(IVECO_Transport_Covered_W) {
 
     displayName = "Lkw 7t Transport Plane (Desert)";
 
@@ -188,17 +188,17 @@ class gerrng_IVECO_Transport_Covered_D : gerrng_IVECO_Transport_Covered_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class gerrng_IVECO_Medic_W : I_E_Truck_02_F {
+class GVAR(IVECO_Medic_W) : I_E_Truck_02_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Transport Sanität (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
 
     ace_cargo_space = 20;
 
@@ -274,7 +274,7 @@ class gerrng_IVECO_Medic_W : I_E_Truck_02_F {
     };			
 };
 
-class gerrng_IVECO_Medic_D : gerrng_IVECO_Medic_W {
+class GVAR(IVECO_Medic_D) : GVAR(IVECO_Medic_W) {
 
     displayName = "Lkw 7t Transport Sanität (Desert)";
 
@@ -297,17 +297,17 @@ class gerrng_IVECO_Medic_D : gerrng_IVECO_Medic_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class gerrng_IVECO_Fuel_W : I_E_Truck_02_fuel_F {
+class GVAR(IVECO_Fuel_W) : I_E_Truck_02_fuel_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Treibstoff (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
@@ -355,7 +355,7 @@ class gerrng_IVECO_Fuel_W : I_E_Truck_02_fuel_F {
     };			
 };
 
-class gerrng_Iveco_Fuel_D : gerrng_IVECO_Fuel_W {
+class GVAR(Iveco_Fuel_D) : GVAR(IVECO_Fuel_W) {
 
     displayName = "Lkw 7t Treibstoff (Desert)";
 
@@ -379,17 +379,17 @@ class gerrng_Iveco_Fuel_D : gerrng_IVECO_Fuel_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class gerrng_IVECO_Ammo_W : I_E_Truck_02_Ammo_F {
+class GVAR(IVECO_Ammo_W) : I_E_Truck_02_Ammo_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Munition (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
 
     ace_cargo_space = 40;
     
@@ -446,7 +446,7 @@ class gerrng_IVECO_Ammo_W : I_E_Truck_02_Ammo_F {
     };			
 };
 
-class gerrng_IVECO_Ammo_D : gerrng_IVECO_Ammo_W {
+class GVAR(IVECO_Ammo_D) : GVAR(IVECO_Ammo_W) {
     displayName = "Lkw 7t Munition (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
@@ -468,17 +468,17 @@ class gerrng_IVECO_Ammo_D : gerrng_IVECO_Ammo_W {
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class gerrng_IVECO_Repair_W : I_E_Truck_02_Box_F {
+class GVAR(IVECO_Repair_W) : I_E_Truck_02_Box_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 7t Instandsetzung (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
 
     ace_cargo_space = 40;
 	ace_repair_canRepair = 1;
@@ -541,7 +541,7 @@ class gerrng_IVECO_Repair_W : I_E_Truck_02_Box_F {
 
 };
 
-class gerrng_IVECO_Repair_D : gerrng_IVECO_Repair_W {
+class GVAR(IVECO_Repair_D) : GVAR(IVECO_Repair_W) {
     displayName = "Lkw 7t Instandsetzung (Desert)";
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};

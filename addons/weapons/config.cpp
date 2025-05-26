@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class SUBADDON {
+    class ADDON {
 		name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
@@ -17,7 +17,7 @@ class CfgPatches {
             "cup_weapons_g36"
         };
         author = ECSTRING(main,Team);
-        authors[] = {"jan","J, Smith"};
+        authors[] = {"jan","J, Smith", "Cookie"};
 
         addonRootClass = QUOTE(ADDON);
     };

@@ -13,5 +13,4 @@
 #ifdef DEBUG_SETTINGS_FACTION
   #define DEBUG_SETTINGS DEBUG_SETTINGS_FACTION
 #endif
-
 #include "\y\gerrng\addons\main\script_macros.hpp"

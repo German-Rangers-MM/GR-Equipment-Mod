@@ -1,10 +1,89 @@
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateNV;
+class SensorTemplateLaser;
+class SensorTemplatePassiveRadar;
+class SensorTemplateAntiRadiation;
+class DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftPilot: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+
 class CfgVehicles {
+	class Air;
+	class Helicopter: Air
+	{
+		class Turrets;
+		class HitPoints;
+	};
+    class Helicopter_Base_F: Helicopter
+    {
+		class Turrets: Turrets
+		{
+			class MainTurret;
+		};
+		class Components;
+		class AnimationSources;
+		class Eventhandlers;
+		class ViewOptics;
+    };
+    class Helicopter_Base_H: Helicopter_Base_F
+    {
+		class RotorLibHelicopterProperties;
+		class ViewOptics;
+		class Turrets: Turrets
+		{
+			class CopilotTurret;
+			class MainTurret;
+		};
+		class AnimationSources;
+    };
+    class LandVehicle;
+    class Car: LandVehicle
+    {
+        class ACE_SelfActions
+        {
+            class sirencontrol
+            {
+                displayName = "Sirens";
+                condition = "true";
+                class startSiren
+                {
+                    displayName = "Start Siren";
+                    condition = QUOTE([ARR_2(_target,_player)] call FUNC(canStartSiren));
+                    exceptions[] = {"isNotInside"};
+                    statement = "[_target,'CustomSoundController1',1,0.2] remoteExec ['BIS_fnc_setCustomSoundController', 0, ['CustomSoundController1', netID _target] joinString ':'];";
+                    icon = "A3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa";
+                };
+                class stopSiren
+                {
+                    displayName = "Stop Siren";
+                    condition = QUOTE([ARR_2(_target,_player)] call FUNC(canStopSiren));
+                    exceptions[] = {"isNotInside"};
+                    statement = "[_target,'CustomSoundController1',0,0.4] remoteExec ['BIS_fnc_setCustomSoundController', 0, ['CustomSoundController1', netID _target] joinString ':'];";
+                    icon = "A3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa";
+                };
+            };
+        };
+    };
 
     #include "CfgVehicles_CH47.hpp"
     #include "CfgVehicles_CH53.hpp"
     #include "CfgVehicles_Griffon.hpp"
-    #include "CfgVehicles_Merlin.hpp"
-    #include "CfgVehicles_Lynx.hpp"
+    #include "CfgVehicles_UH60.hpp"
 
     
     #include "CfgVehicles_Amarok.hpp"
@@ -14,7 +93,10 @@ class CfgVehicles {
     #include "CfgVehicles_Multi.hpp"
     #include "CfgVehicles_Van.hpp"
     #include "CfgVehicles_Wiesel.hpp"
+
+    #include "CfgVehicles_Arty.hpp"
     
     #include "CfgVehicles_MedicalTent.hpp"
-};
 
+    #include "CfgVehicles_Import.hpp"
+};

@@ -10,17 +10,17 @@ class B_Truck_01_repair_F;
 class B_Truck_01_ammo_F;
 class Truck_01_flatbed_base_F;
 
-class gerrng_Lkw15t_Box_W : B_Truck_01_box_F {
+class GVAR(Lkw15t_Box_W) : B_Truck_01_box_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 15t GL MULTI Container (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -65,7 +65,7 @@ class gerrng_Lkw15t_Box_W : B_Truck_01_box_F {
     };			
 };
 
-class gerrng_Lkw15t_Box_D : gerrng_Lkw15t_Box_W {
+class GVAR(Lkw15t_Box_D) : GVAR(Lkw15t_Box_W) {
 
     displayName = "Lkw 15t GL MULTI Container (Desert)";
 
@@ -84,17 +84,17 @@ class gerrng_Lkw15t_Box_D : gerrng_Lkw15t_Box_W {
 //
 //--------------------------------------------------------------------------------------
 
-class gerrng_Lkw15t_Repair_W : B_Truck_01_repair_F {
+class GVAR(Lkw15t_Repair_W) : B_Truck_01_repair_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 15t GL MULTI Instandsetzung (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
     
 	ace_repair_canRepair = 1;
 
@@ -141,7 +141,7 @@ class gerrng_Lkw15t_Repair_W : B_Truck_01_repair_F {
     };			
 };
 
-class gerrng_Lkw15t_Repair_D : gerrng_Lkw15t_Repair_W {
+class GVAR(Lkw15t_Repair_D) : GVAR(Lkw15t_Repair_W) {
 
     displayName = "Lkw 15t GL MULTI Instantsetzung (Desert)";
 
@@ -160,17 +160,17 @@ class gerrng_Lkw15t_Repair_D : gerrng_Lkw15t_Repair_W {
 //
 //--------------------------------------------------------------------------------------
 
-class gerrng_Lkw15t_Ammo_W : B_Truck_01_ammo_F {
+class GVAR(Lkw15t_Ammo_W) : B_Truck_01_ammo_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 15t GL MULTI Munition (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -221,7 +221,7 @@ class gerrng_Lkw15t_Ammo_W : B_Truck_01_ammo_F {
     };			
 };
 
-class gerrng_Lkw15t_Ammo_D : gerrng_Lkw15t_Ammo_W {
+class GVAR(Lkw15t_Ammo_D) : GVAR(Lkw15t_Ammo_W) {
 
     displayName = "Lkw 15t GL MULTI Munition (Desert)";
 
@@ -240,17 +240,17 @@ class gerrng_Lkw15t_Ammo_D : gerrng_Lkw15t_Ammo_W {
 //
 //--------------------------------------------------------------------------------------
 
-class gerrng_Lkw15t_Flatbed_W : Truck_01_flatbed_base_F {
+class GVAR(Lkw15t_Flatbed_W) : Truck_01_flatbed_base_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
     displayName = "Lkw 15t GL MULTI Pritsche (Woodland)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = "gerrng";
-	editorSubcategory = "LkwSubcat";
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Lkw_Subcat);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -281,7 +281,7 @@ class gerrng_Lkw15t_Flatbed_W : Truck_01_flatbed_base_F {
     };			
 };
 
-class gerrng_Lkw15t_Flatbed_D : gerrng_Lkw15t_Flatbed_W {
+class GVAR(Lkw15t_Flatbed_D) : GVAR(Lkw15t_Flatbed_W) {
 
     displayName = "Lkw 15t GL MULTI Pritsche (Desert)";
 

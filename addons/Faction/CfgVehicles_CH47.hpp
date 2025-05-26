@@ -8,14 +8,19 @@
 class CUP_B_CH47F_USA;
 class CUP_B_CH47F_VIV_USA;
 
-class gerrng_CH_47F_TTH_01 : CUP_B_CH47F_USA {
+class GVAR(CH_47F_TTH_01) : CUP_B_CH47F_USA {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "CH-47F Chinook STH";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+	
+	receiveRemoteTargets = 1;
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Heli_H_Subcat);
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	hiddenSelectionsTextures[]=
@@ -70,14 +75,19 @@ class gerrng_CH_47F_TTH_01 : CUP_B_CH47F_USA {
 	};	
 };
 
-class gerrng_CH_47F_TTH_VIV_01 : CUP_B_CH47F_VIV_USA {
+class GVAR(CH_47F_TTH_VIV_01) : CUP_B_CH47F_VIV_USA {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
     displayName = "CH-47F Chinook STH (ViV)";
     side = 1;
-    faction = "gerrng";
+    faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+	
+	receiveRemoteTargets = 1;
+
+	editorCategory = QGVAR(rangers_cat);
+	editorSubcategory = QGVAR(Heli_H_Subcat);
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	hiddenSelectionsTextures[]=

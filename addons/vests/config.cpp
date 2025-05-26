@@ -11,6 +11,7 @@ class CfgPatches
 		requiredAddons[] = {"ace_main"};
         author = ECSTRING(main,Team);
         VERSION_CONFIG;
+        authors[] = {"Dalleburn", "Jan", "Cookie"};
 
         addonRootClass = QUOTE(ADDON);  
         
