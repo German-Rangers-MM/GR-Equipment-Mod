@@ -1,10 +1,22 @@
 name: HEMTT
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+    - main
+  pull_request:
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@v4
+    - name: Check for BOM
+      uses: arma-actions/bom-check@master
+      with:
+        path: 'addons'
+
   build:
     runs-on: ubuntu-latest
     steps:
@@ -21,6 +33,6 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: gerrng-${{ github.sha }}
+        name: gerrng-${{ github.sha }}-nobin
         path: .hemttout/@*
         include-hidden-files: true # Because .hemttout is a hidden directory
