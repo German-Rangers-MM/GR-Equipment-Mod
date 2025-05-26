@@ -1,0 +1,17 @@
+name = "GerRng"
+prefix = "GerRng"
+author = "jan, dalleburn, klasni, j. smith, cesrap, itsgiantcookie"
+files = [
+    "mod.cpp",
+    "icon.paa"
+]
+
+keyname = "{{prefix}}_{{version}}"
+signame = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+releasebuild = [
+    "@zip gerrng_{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+]
+
+[header_exts]
+version= "{{git \"id 8\"}}"
