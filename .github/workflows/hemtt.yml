@@ -18,7 +18,7 @@ jobs:
         path: 'addons'
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout the source code
       uses: actions/checkout@v4
@@ -27,7 +27,7 @@ jobs:
     - name: Run HEMTT build
       run: hemtt build
     - name: Rename build folder
-      run: mv .hemttout/build .hemttout/@gerrng
+      run: move .hemttout/build .hemttout/@gerrng
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
