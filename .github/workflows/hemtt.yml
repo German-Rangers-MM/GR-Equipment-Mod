@@ -1,0 +1,26 @@
+name: HEMTT
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@v4
+    - name: Setup HEMTT
+      uses: arma-actions/hemtt@v1
+      with:
+        annotate: false
+    - name: Run HEMTT build
+      run: hemtt build
+    - name: Rename build folder
+      run: mv .hemttout/build .hemttout/@gerrng
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: gerrng-${{ github.sha }}
+        path: .hemttout/@*
+        include-hidden-files: true # Because .hemttout is a hidden directory
