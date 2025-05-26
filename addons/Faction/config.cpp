@@ -4,14 +4,14 @@ class CfgPatches
 { 
     class ADDON
     { 
-        name = COMPONENT_NAME; 
-        units[] = {}; 
-        weapons[] = {}; 
-        requiredVersion = REQUIRED_VERSION; 
-        requiredAddons[] = {}; 
-        author = ECSTRING(main,Team); 
+        name = COMPONENT_NAME;
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {};
+        author = ECSTRING(main,Team);
+        authors[] = {"jan","dalleburn","cookie"};
         VERSION_CONFIG;
-        authors[] = {""};
     };
 };
 class CfgFactionClasses {
