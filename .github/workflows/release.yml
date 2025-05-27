@@ -49,7 +49,13 @@ jobs:
             curl -L -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -o "artifacts/artifact_$I.zip" \
               "$URL"
-            I=$((I+1))
+
+              # Extract file extension and rename
+              FILE="artifacts/artifact_$I.zip"
+              EXT="${FILE##*.}"
+              mv "$FILE" "artifacts/gerrng_${{ steps.get-version.outputs.version-tag }}_$I.$EXT"
+              I=$((I+1))
+              I=$((I+1))
           done
 
       - name: Attach artifacts to release
