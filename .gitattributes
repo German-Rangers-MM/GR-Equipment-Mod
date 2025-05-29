@@ -12,6 +12,8 @@ include/* linguist-vendored
 
 .git* export-ignore
 *.md export-ignore
+*.bat export-ignore
+*.toml export-ignore
 
 *.ogv filter=lfs diff=lfs merge=lfs -text
 
