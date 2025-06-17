@@ -53,7 +53,7 @@ jobs:
               # Extract file extension and rename
               FILE="artifacts/artifact_$I.zip"
               EXT="${FILE##*.}"
-              mv "$FILE" "artifacts/gerrng_${{ steps.get-version.outputs.version-tag }}_$I.$EXT"
+              mv "$FILE" "artifacts/gerrng_${{ github.ref_name }}.$EXT"
               I=$((I+1))
               I=$((I+1))
           done
