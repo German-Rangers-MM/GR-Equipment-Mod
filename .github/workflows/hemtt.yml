@@ -27,7 +27,8 @@ jobs:
     - name: Run HEMTT build
       run: hemtt build
     - name: Rename build folder
-      run: move .hemttout/build .hemttout/@German Rangers Equipment
+      shell: pwsh
+      run: Rename-Item -Path ".hemttout/build" -NewName "@German Rangers Equipment"
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
