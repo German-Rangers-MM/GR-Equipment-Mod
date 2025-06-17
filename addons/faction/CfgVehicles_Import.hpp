@@ -314,29 +314,8 @@ class GVAR(RHIB_Mk19): CUP_B_RHIB2Turret_USMC
 };
 
 // Drones
-class C_IDAP_UAV_06_antimine_F;
-class GVAR(UAV_06_antimine_F): C_IDAP_UAV_06_antimine_F
-{
-	side = 1;
-	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
-};
 
-class B_UAV_06_F;
-class GVAR(UAV_06_F): B_UAV_06_F
-{
-	side = 1;
-	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
-};
 
-class B_UAV_06_medical_F;
-class GVAR(UAV_06_medical_F): B_UAV_06_medical_F
-{
-	side = 1;
-	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
-};
 
 class B_UAV_01_F;
 class GVAR(UAV_01_F): B_UAV_01_F
@@ -709,8 +688,8 @@ class GVAR(C130J_USMC): CUP_B_C130J_USMC
 	crew = "CUP_B_GER_Fleck_HPilot";
 };
 
-class CUP_B_C130J_USMC_Cargo;
-class GVAR(C130J_USMC_Cargo): CUP_B_C130J_USMC_Cargo
+class CUP_B_C130J_Cargo_USMC;
+class GVAR(C130J_USMC_Cargo): CUP_B_C130J_Cargo_USMC
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);

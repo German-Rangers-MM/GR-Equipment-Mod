@@ -12,6 +12,8 @@ class I_E_Truck_02_fuel_F;
 class I_E_Truck_02_Box_F;
 class I_E_Truck_02_Ammo_F;
 
+class I_E_Truck_02_MRL_F;
+
 class GVAR(IVECO_Transport_W) : I_E_Truck_02_transport_F {
     author = "dalleburn, jan";
     scope = 2;
@@ -550,6 +552,93 @@ class GVAR(IVECO_Repair_D) : GVAR(IVECO_Repair_W) {
         QPATHTOF(data\Zamak_BW-D_rep_0.paa),
         QPATHTOF(data\Zamak_BW-D_rep_1.paa),
         "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+        QPATHTOF(data\Zamak_BW_D_any_3.paa)
+    };		
+};
+
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
+//
+//			Trucks MRLS
+//
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
+
+class GVAR(IVECO_MLRS_W) : I_E_Truck_02_MRL_F {
+    author = "dalleburn, jan";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Lkw 7t MLRS PULS (Woodland)";
+    side = 1;
+    faction = QGVAR(rangers_faction);
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+    
+	editorCategory = QGVAR(rangers_cat);
+
+    hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\Zamak_BW-W_trp_0.paa),
+        QPATHTOF(data\Zamak_BW-W_trp_1.paa),
+        "\A3\soft_f_Enoch\Truck_02\Data\Truck_02_MRL_EAF_co.paa",
+        QPATHTOF(data\Zamak_BW_W_any_3.paa)
+    };
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };			
+};
+
+class GVAR(IVECO_MLRS_D) : GVAR(IVECO_MLRS_W) {
+
+    displayName = "Lkw 7t MLRS PULS  (Desert)";
+
+    hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\Zamak_BW-D_trp_0.paa),
+        QPATHTOF(data\Zamak_BW-D_trp_1.paa),
+        "\A3\soft_f_Enoch\Truck_02\Data\Truck_02_MRL_EAF_co.paa",
         QPATHTOF(data\Zamak_BW_D_any_3.paa)
     };		
 };

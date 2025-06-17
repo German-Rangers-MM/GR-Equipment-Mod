@@ -56,26 +56,19 @@ class CfgVehicles {
     {
         class ACE_SelfActions
         {
-            class sirencontrol
+            class startSiren
             {
-                displayName = "Sirens";
-                condition = "true";
-                class startSiren
-                {
-                    displayName = "Start Siren";
-                    condition = QUOTE([ARR_2(_target,_player)] call FUNC(canStartSiren));
-                    exceptions[] = {"isNotInside"};
-                    statement = "[_target,'CustomSoundController1',1,0.2] remoteExec ['BIS_fnc_setCustomSoundController', 0, ['CustomSoundController1', netID _target] joinString ':'];";
-                    icon = "A3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa";
-                };
-                class stopSiren
-                {
-                    displayName = "Stop Siren";
-                    condition = QUOTE([ARR_2(_target,_player)] call FUNC(canStopSiren));
-                    exceptions[] = {"isNotInside"};
-                    statement = "[_target,'CustomSoundController1',0,0.4] remoteExec ['BIS_fnc_setCustomSoundController', 0, ['CustomSoundController1', netID _target] joinString ':'];";
-                    icon = "A3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa";
-                };
+                displayName = "Start Siren";
+                condition = "driver vehicle player == player && {getCustomSoundController [_target,'CustomSoundController1'] < 0.5}";
+                statement = "[_target,'CustomSoundController1',1,0.2] remoteExec ['BIS_fnc_setCustomSoundController', 0, ['CustomSoundController1', netID _target] joinString ':'];";
+                icon = "A3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa";
+            };
+            class stopSiren
+            {
+                displayName = "Stop Siren";
+                condition = "driver vehicle player == player && {getCustomSoundController [_target,'CustomSoundController1'] > 0.5}";
+                statement = "[_target,'CustomSoundController1',0,0.4] remoteExec ['BIS_fnc_setCustomSoundController', 0, ['CustomSoundController1', netID _target] joinString ':'];";
+                icon = "A3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa";
             };
         };
     };

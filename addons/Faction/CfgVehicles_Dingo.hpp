@@ -138,7 +138,7 @@ class GVAR(B_Dingo_GER_D) : CUP_B_Dingo_GER_Des {
 
 class CUP_B_Dingo_GL_GER_Wdl;
 
-class GVAR(B_Dingo_GL_GER_Wdl) : CUP_B_Dingo_GER_Wdl {
+class GVAR(B_Dingo_GL_GER_Wdl) : CUP_B_Dingo_GL_GER_Wdl {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;

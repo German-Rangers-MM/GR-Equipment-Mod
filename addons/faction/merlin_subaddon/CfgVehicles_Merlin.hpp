@@ -144,7 +144,7 @@ class GVAR(Merlin_MTH_base) : CUP_Merlin_Rescue_Base
 	displayName = "Merlin_MTH_base";
 	author = "cookie";
 	hiddenSelections[] = {"camo1","camo2"};
-	hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_1_RDAF_co.paa","\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_2_co.paa"};
+	hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_SAR_co.paa","\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_2_co.paa"};
 
 	attendant = 1;
 
@@ -466,7 +466,7 @@ class GVAR(Merlin_MTH_base) : CUP_Merlin_Rescue_Base
 			gunnerHasFlares = 0;
 		};
 	};
-	textureList[] = {"GRN",1};
+	textureList[] = {"SAR",1};
 	class TextureSources
 	{
 		class GRN
@@ -514,6 +514,7 @@ class GVAR(AW101_Merlin_MTH_01): GVAR(Merlin_MTH_base)
 	editorCategory = QGVAR(rangers_cat);
 	editorSubcategory = QGVAR(Heli_M_Subcat);
 	typicalCargo[] = {"CUP_B_GER_HPilot","CUP_B_GER_HPilot"};
-	hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_HC3\data\skins\rescue_01.paa","\CUP\AirVehicles\CUP_AirVehicles_HC3\data\skins\rescue_02.paa"};
+	hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_SAR_co.paa","\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_2_co.paa"};
 	editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_C_Merlin_HC3_CIV_Rescue.jpg";
+	textureList[] = {"GRN",1};
 };
