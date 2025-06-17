@@ -104,6 +104,50 @@ class GVAR(APC_Wheeled): B_APC_Wheeled_01_cannon_F
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class GVAR(APC_Wheeled_slat): GVAR(APC_Wheeled)
@@ -151,6 +195,50 @@ class GVAR(AFV_Wheeled): B_AFV_Wheeled_01_cannon_F
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class GVAR(AFV_Wheeled_slat): GVAR(AFV_Wheeled)
@@ -198,6 +286,50 @@ class GVAR(AFV_Wheeled_up): B_AFV_Wheeled_01_up_cannon_F
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class GVAR(AFV_Wheeled_up_slat): GVAR(AFV_Wheeled_up)
@@ -247,6 +379,50 @@ class GVAR(APC_Tracked_CRV): B_APC_Tracked_01_CRV_F
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 // Boats
@@ -358,6 +534,50 @@ class GVAR(LSV_01_unarmed_F): B_LSV_01_unarmed_F
 	editorCategory = QGVAR(rangers_cat);
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class B_LSV_01_armed_F;
@@ -368,6 +588,50 @@ class GVAR(LSV_01_armed_F): B_LSV_01_armed_F
 	editorCategory = QGVAR(rangers_cat);
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class B_LSV_01_AT_F;
@@ -378,6 +642,50 @@ class GVAR(LSV_01_AT_F): B_LSV_01_AT_F
 	editorCategory = QGVAR(rangers_cat);
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class CUP_I_LR_Transport_AAF;
@@ -415,6 +723,50 @@ class GVAR(LR_Transport): CUP_I_LR_Transport_AAF
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 class CUP_I_LR_MG_AAF;
 class GVAR(LR_MG): CUP_I_LR_MG_AAF
@@ -451,6 +803,50 @@ class GVAR(LR_MG): CUP_I_LR_MG_AAF
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class CUP_I_LR_SF_HMG_AAF;
@@ -488,6 +884,50 @@ class GVAR(LR_SF_HMG): CUP_I_LR_SF_HMG_AAF
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class CUP_I_LR_SF_GMG_AAF;
@@ -525,6 +965,50 @@ class GVAR(LR_SF_GMG): CUP_I_LR_SF_GMG_AAF
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class CUP_B_Jackal2_L2A1_GB_W;
@@ -560,6 +1044,50 @@ class GVAR(Jackal2_L2A1): CUP_B_Jackal2_L2A1_GB_W
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class CUP_B_Jackal2_GMG_GB_W;
@@ -595,6 +1123,50 @@ class GVAR(Jackal2_GMG): CUP_B_Jackal2_GMG_GB_W
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class CUP_B_BAF_Coyote_L2A1_W;
@@ -630,6 +1202,50 @@ class GVAR(Coyote_L2A1): CUP_B_BAF_Coyote_L2A1_W
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class CUP_B_BAF_Coyote_GMG_W;
@@ -665,6 +1281,50 @@ class GVAR(Coyote_GMG): CUP_B_BAF_Coyote_GMG_W
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class B_Quadbike_01_F;
@@ -770,6 +1430,50 @@ class GVAR(MBT_03_cannon_F): I_MBT_03_cannon_F
 	{
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
 	};
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
 };
 
 class CUP_B_Leopard2A6_GER;
