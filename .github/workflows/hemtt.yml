@@ -27,7 +27,7 @@ jobs:
     - name: Run HEMTT build
       run: hemtt build
     - name: Rename build folder
-      run: move .hemttout/build .hemttout/@gerrng
+      run: move .hemttout/build .hemttout/@German Rangers Equipment
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
