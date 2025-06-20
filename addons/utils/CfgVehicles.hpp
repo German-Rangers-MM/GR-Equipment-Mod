@@ -9,6 +9,9 @@ class CfgVehicles {
 				insertChildren = QUOTE([_player] call FUNC(addDesignatorActions));
 				icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
 			};
+            class GVAR(dropChemlight) {
+                displayName = "Drop Chemlight";
+            };
 		};
 	};
     

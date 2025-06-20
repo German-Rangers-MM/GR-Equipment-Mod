@@ -11,11 +11,12 @@ class CfgPatches
         requiredAddons[] = {}; 
         author = ECSTRING(main,Team); 
         VERSION_CONFIG;
-        authors[] = {"Cookie"};
+        authors[] = {"cookie"};
     };
 };
 
 #include "CfgEventHandlers.hpp"
+
 #include "CfgVehicles.hpp"
 
 #include "CfgWeapons.hpp"
