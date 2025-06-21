@@ -431,7 +431,7 @@ class GVAR(Lynx_Unarmed_Base): CUP_AW159_Unarmed_Base
 };
 
 class GVAR(WG_13_Sea_Lynx) : GVAR(Lynx_Unarmed_Base) {
-    author = "dalleburn, jan, cookie";
+    author = "cookie";
 	scope = 2;
 	scopeCurator = 2;
 	side = 1;
@@ -441,7 +441,7 @@ class GVAR(WG_13_Sea_Lynx) : GVAR(Lynx_Unarmed_Base) {
 	icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
     faction = QGVAR(rangers_faction);
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_L_Subcat);
 	
     crew = "CUP_B_GER_HPilot";
@@ -568,7 +568,7 @@ class GVAR(WG_13_Sea_Lynx_Armed): GVAR(Lynx_Dynamic_Base)
 	icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
     faction = QGVAR(rangers_faction);
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_L_Subcat);
 	crew = "CUP_B_GER_HPilot";
 	typicalCargo[] = {"CUP_B_GER_HPilot"};

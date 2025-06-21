@@ -16,7 +16,7 @@ class GVAR(Van_Transport_BW) : C_Van_02_transport_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = QGVAR(rangers_cat);
+	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -88,7 +88,7 @@ class GVAR(Van_cargo_BW) : C_Van_02_vehicle_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = QGVAR(rangers_cat);
+	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -160,7 +160,21 @@ class GVAR(Van_service_BW) : C_Van_02_service_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = QGVAR(rangers_cat);
+	animationList[]=
+    {
+        "beacon_front_hide",0,
+        "beacon_rear_hide",0,
+        "LED_lights_hide",0,
+        "reflective_tape_hide",0,
+        "side_protective_frame_hide",1,
+        "spare_tyre_hide",0,
+        "spare_tyre_holder_hide",0,
+        "roof_rack_hide",0,
+        "ladder_hide",0,
+        "front_protective_frame_hide",0,
+        "rearsteps_hide",0,
+        "sidesteps_hide",0
+    };
     editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -193,33 +207,39 @@ class GVAR(Van_service_BW) : C_Van_02_service_F {
     {
         class _xx_B_Parachute {backpack="B_Parachute";count=0;};
     };
-    class TransportMagazines
-    {
-        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
-        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
-    };
-    class TransportWeapons
-    {
-        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=0;};
-    };
-    class TransportItems
-    {
-        class _xx_Toolkit {name="Toolkit";count=1;};
-        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
-        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
-        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
-        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
-        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
-        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
-        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
-        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
-        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
-        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
-        class _xx_ACE_splint {name="ACE_splint";count=2;};
-        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
-        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
-        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
-    };	
+	class TransportMagazines
+	{
+		class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=5;};
+		class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+		class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+		class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+		class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+		class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+	};
+	class TransportWeapons
+	{
+		class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=1;};
+	};
+	class TransportItems
+	{
+		class _xx_Toolkit {name="Toolkit";count=4;};
+		class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+		class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+		class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+		class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+		class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+		class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+		class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+		class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+		class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+		class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+		class _xx_ACE_splint {name="ACE_splint";count=2;};
+		class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+		class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+		class _xx_ACE_rope12 {name="ACE_rope12";count=4;};
+		class _xx_ACE_rope6 {name="ACE_rope6";count=4;};
+		class _xx_ACE_Wheel {name="ACE_Wheel";count=20;};
+	};
 };
 
 class I_E_Van_02_medevac_F;
@@ -233,7 +253,7 @@ class GVAR(Van_San_BW) : I_E_Van_02_medevac_F
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = QGVAR(rangers_cat);
+	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -340,7 +360,7 @@ class GVAR(T5_box_BW) : C_Van_01_box_F
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = QGVAR(rangers_cat);
+	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -384,7 +404,7 @@ class GVAR(T5_fuel_BW) : C_Van_01_fuel_F
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = QGVAR(rangers_cat);
+	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -428,7 +448,7 @@ class GVAR(T5_transport_BW) : C_Van_01_transport_F
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = QGVAR(rangers_cat);
+	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;

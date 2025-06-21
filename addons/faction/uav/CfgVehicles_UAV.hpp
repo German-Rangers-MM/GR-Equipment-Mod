@@ -11,7 +11,7 @@ class GVAR(UAV_06_antimine_F): C_IDAP_UAV_06_antimine_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	class assembleInfo
 	{
 		assembleTo = "";
@@ -28,7 +28,7 @@ class GVAR(UAV_06_F): B_UAV_06_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class B_UAV_06_medical_F;
@@ -36,5 +36,5 @@ class GVAR(UAV_06_medical_F): B_UAV_06_medical_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };

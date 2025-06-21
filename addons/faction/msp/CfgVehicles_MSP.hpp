@@ -5,23 +5,40 @@
 //
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
-class B_Slingload_01_Cargo_F;
+class B_Slingload_01_Repair_F;
 
-class GVAR(MSP_Cargo_F): B_Slingload_01_Cargo_F
+class GVAR(MSP_Cargo_F): B_Slingload_01_Repair_F
 {
 	author = "cookie";
+	faction = QGVAR(rangers_faction);
+	editorCategory = "EdCat_Supplies";
 	side = 3;
 	scopeCurator = 2;
 	scope = 2;
 	supplyRadius = 10;
-	displayName = "MSP Container";
+	displayName = "Wartungs-Container";
 	ace_cargo_hasCargo = 1;
 	ace_cargo_space = 30;
-	ace_rearm_defaultSupply = 400;
-	ace_refuel_fuelCargo = 3000;
+	ace_rearm_defaultSupply = 600;
+	ace_refuel_fuelCargo = 2000;
 	transportRepair = 1e+12;
 	ace_repair_canRepair = 1;
-	ace_repair_spareWheels = 10;
+	class ACE_Cargo
+	{
+            class Cargo
+			{
+                class ACE_Wheel
+				{
+                    type = "ACE_Wheel";
+                    amount = 10;
+                };
+                class ACE_Track
+				{
+                    type = "ACE_Track";
+                    amount = 4;
+                };
+            };
+        };
 	class TransportItems
 	{
 		class _xx_Toolkit {name="Toolkit";count=5;};

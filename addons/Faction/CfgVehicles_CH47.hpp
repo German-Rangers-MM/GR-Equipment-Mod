@@ -19,7 +19,7 @@ class GVAR(CH_47F_TTH_01) : CUP_B_CH47F_USA {
 	
 	receiveRemoteTargets = 1;
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_H_Subcat);
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
@@ -86,7 +86,7 @@ class GVAR(CH_47F_TTH_VIV_01) : CUP_B_CH47F_VIV_USA {
 	
 	receiveRemoteTargets = 1;
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_H_Subcat);
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};

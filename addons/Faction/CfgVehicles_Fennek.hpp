@@ -100,7 +100,7 @@ class GVAR(B_FENNEK_GER_Wdl) : I_MRAP_03_F {
     
 	reportRemoteTargets = 1;
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_A_Subcat);
 
     hiddenSelections[] = {"Camo1","Camo2"};
@@ -177,7 +177,7 @@ class GVAR(B_FENNEK_GER_HMG_Wdl) : I_MRAP_03_hmg_F {
 
 	reportRemoteTargets = 1;
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_A_Subcat);
 
 	textureList[]={"Fleck",1};
@@ -255,7 +255,7 @@ class GVAR(B_FENNEK_GER_GMG_Wdl) : I_MRAP_03_gmg_F {
 
 	reportRemoteTargets = 1;
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_A_Subcat);
 
 	textureList[]={"Fleck",1};
@@ -346,7 +346,7 @@ class GVAR(FENNEK_NEF_W) : GVAR(B_FENNEK_med_base) {
 
 	reportRemoteTargets = 1;
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_A_Subcat);
 
 	textureList[]={"FleckSan",1};

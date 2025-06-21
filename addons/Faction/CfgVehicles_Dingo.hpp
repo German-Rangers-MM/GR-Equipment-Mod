@@ -19,7 +19,7 @@ class GVAR(B_Dingo_GER_Wdl) : CUP_B_Dingo_GER_Wdl {
 
     ace_cargo_space = 11;
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_A_Subcat);
     
     class TransportBackpacks
@@ -80,7 +80,7 @@ class GVAR(B_Dingo_GER_D) : CUP_B_Dingo_GER_Des {
 
     ace_cargo_space = 11;
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_A_Subcat);
     
     class TransportBackpacks
@@ -149,7 +149,7 @@ class GVAR(B_Dingo_GL_GER_Wdl) : CUP_B_Dingo_GL_GER_Wdl {
 
     ace_cargo_space = 11;
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_A_Subcat);
     
     class TransportBackpacks
@@ -210,7 +210,7 @@ class GVAR(B_Dingo_GL_GER_D) : CUP_B_Dingo_GL_GER_Des {
 
     ace_cargo_space = 11;
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_A_Subcat);
     
     class TransportBackpacks

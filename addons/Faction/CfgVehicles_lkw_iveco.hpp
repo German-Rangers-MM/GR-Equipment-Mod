@@ -23,7 +23,7 @@ class GVAR(IVECO_Transport_W) : I_E_Truck_02_transport_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Lkw_Subcat);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
@@ -111,7 +111,7 @@ class GVAR(IVECO_Transport_Covered_W) : I_E_Truck_02_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Lkw_Subcat);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
@@ -199,7 +199,7 @@ class GVAR(IVECO_Medic_W) : I_E_Truck_02_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Lkw_Subcat);
 
     ace_cargo_space = 20;
@@ -308,7 +308,7 @@ class GVAR(IVECO_Fuel_W) : I_E_Truck_02_fuel_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Lkw_Subcat);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
@@ -390,7 +390,7 @@ class GVAR(IVECO_Ammo_W) : I_E_Truck_02_Ammo_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Lkw_Subcat);
 
     ace_cargo_space = 40;
@@ -479,7 +479,7 @@ class GVAR(IVECO_Repair_W) : I_E_Truck_02_Box_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Lkw_Subcat);
 
     ace_cargo_space = 40;
@@ -573,7 +573,7 @@ class GVAR(IVECO_MLRS_W) : I_E_Truck_02_MRL_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
     
-	editorCategory = QGVAR(rangers_cat);
+	
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=

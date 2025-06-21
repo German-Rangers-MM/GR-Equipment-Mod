@@ -17,7 +17,7 @@ class GVAR(CH_53E_TTH_01) : CUP_B_CH53E_GER {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_H_Subcat);
 	
 	receiveRemoteTargets = 1;
@@ -78,7 +78,7 @@ class GVAR(CH_53E_TTH_VIV_01) : CUP_B_CH53E_VIV_GER {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_H_Subcat);
 	
 	receiveRemoteTargets = 1;

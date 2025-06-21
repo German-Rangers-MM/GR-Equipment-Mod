@@ -22,7 +22,7 @@ class GVAR(MedTent_01) : Land_MedicalTent_01_NATO_generic_open_F {
         "SolarPanel2_Hide",0
 	};
 };
-
+/*
 class B_supplyCrate_F;
 
 class GVAR(supplyCrate_F) : B_supplyCrate_F {
@@ -36,3 +36,4 @@ class GVAR(supplyCrate_F) : B_supplyCrate_F {
     ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
 
 };
+*/

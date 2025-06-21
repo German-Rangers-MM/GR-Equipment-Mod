@@ -6,7 +6,7 @@ class GVAR(M1133_MEV_Wdl) : CUP_B_M1133_MEV_Woodland
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
 };
@@ -16,7 +16,7 @@ class GVAR(Boxer_Empty_GER_WDL): CUP_B_Boxer_Empty_GER_WDL
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 };
 
@@ -25,7 +25,7 @@ class GVAR(Boxer_GMG_GER_WDL): CUP_B_Boxer_GMG_GER_WDL
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 };
 
@@ -34,7 +34,7 @@ class GVAR(Boxer_HMG_GER_WDL): CUP_B_Boxer_HMG_GER_WDL
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 };
 
@@ -43,7 +43,7 @@ class GVAR(Boxer_Empty_GER_DES): CUP_B_Boxer_Empty_GER_DES
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 };
 
@@ -52,7 +52,7 @@ class GVAR(Boxer_GMG_GER_DES): CUP_B_Boxer_GMG_GER_DES
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 };
 
@@ -61,7 +61,7 @@ class GVAR(Boxer_HMG_GER_DES): CUP_B_Boxer_HMG_GER_DES
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 };
 
@@ -70,13 +70,83 @@ class GVAR(APC_Wheeled): B_APC_Wheeled_01_cannon_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
 	animationList[] = {"showBags",0,"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",0,"showSLATTurret",0};
 	class EventHandlers : EventHandlers
 	{
+        fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
+        init = "";
+        killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
+        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
+        {
+            animChanged = "call cba_xeh_fnc_animChanged";
+            animDone = "call cba_xeh_fnc_animDone";
+            animStateChanged = "call cba_xeh_fnc_animStateChanged";
+            assembled = "call cba_xeh_fnc_assembled";
+            attached = "call cba_xeh_fnc_attached";
+            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
+            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
+            containerClosed = "call cba_xeh_fnc_containerClosed";
+            containerOpened = "call cba_xeh_fnc_containerOpened";
+            controlsShifted = "call cba_xeh_fnc_controlsShifted";
+            dammaged = "call cba_xeh_fnc_dammaged";
+            deleted = "call cba_xeh_fnc_deleted";
+            detached = "call cba_xeh_fnc_detached";
+            disassembled = "call cba_xeh_fnc_disassembled";
+            engine = "call cba_xeh_fnc_engine";
+            epeContact = "call cba_xeh_fnc_epeContact";
+            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
+            epeContactStart = "call cba_xeh_fnc_epeContactStart";
+            explosion = "call cba_xeh_fnc_explosion";
+            fired = "call cba_xeh_fnc_fired";
+            firedMan = "call cba_xeh_fnc_firedMan";
+            firedNear = "call cba_xeh_fnc_firedNear";
+            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
+            gear = "call cba_xeh_fnc_gear";
+            gestureChanged = "call cba_xeh_fnc_gestureChanged";
+            gestureDone = "call cba_xeh_fnc_gestureDone";
+            getIn = "call cba_xeh_fnc_getIn";
+            getInMan = "call cba_xeh_fnc_getInMan";
+            getOut = "call cba_xeh_fnc_getOut";
+            getOutMan = "call cba_xeh_fnc_getOutMan";
+            handleHeal = "call cba_xeh_fnc_handleHeal";
+            hit = "call cba_xeh_fnc_hit";
+            hitPart = "call cba_xeh_fnc_hitPart";
+            incomingMissile = "call cba_xeh_fnc_incomingMissile";
+            init = "call cba_xeh_fnc_init";
+            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
+            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
+            killed = "call cba_xeh_fnc_killed";
+            landedStopped = "call cba_xeh_fnc_landedStopped";
+            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
+            leaningChanged = "call cba_xeh_fnc_leaningChanged";
+            local = "call cba_xeh_fnc_local";
+            magazineReloading = "call cba_xeh_fnc_magazineReloading";
+            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
+            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
+            put = "call cba_xeh_fnc_put";
+            reloaded = "call cba_xeh_fnc_reloaded";
+            respawn = "call cba_xeh_fnc_respawn";
+            ropeAttach = "call cba_xeh_fnc_ropeAttach";
+            ropeBreak = "call cba_xeh_fnc_ropeBreak";
+            seatSwitched = "call cba_xeh_fnc_seatSwitched";
+            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
+            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
+            soundPlayed = "call cba_xeh_fnc_soundPlayed";
+            suppressed = "call cba_xeh_fnc_suppressed";
+            take = "call cba_xeh_fnc_take";
+            turnIn = "call cba_xeh_fnc_turnIn";
+            turnOut = "call cba_xeh_fnc_turnOut";
+            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
+            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
+            weaponChanged = "call cba_xeh_fnc_weaponChanged";
+            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
+            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
+            weaponRested = "call cba_xeh_fnc_weaponRested";
+        };
 	};
 	textureList[] = {"Sand",1};
 	class TextureSources
@@ -161,13 +231,83 @@ class GVAR(AFV_Wheeled): B_AFV_Wheeled_01_cannon_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",0};
 	class EventHandlers : EventHandlers
 	{
+        fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
+        init = "";
+        killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
+        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
+        {
+            animChanged = "call cba_xeh_fnc_animChanged";
+            animDone = "call cba_xeh_fnc_animDone";
+            animStateChanged = "call cba_xeh_fnc_animStateChanged";
+            assembled = "call cba_xeh_fnc_assembled";
+            attached = "call cba_xeh_fnc_attached";
+            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
+            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
+            containerClosed = "call cba_xeh_fnc_containerClosed";
+            containerOpened = "call cba_xeh_fnc_containerOpened";
+            controlsShifted = "call cba_xeh_fnc_controlsShifted";
+            dammaged = "call cba_xeh_fnc_dammaged";
+            deleted = "call cba_xeh_fnc_deleted";
+            detached = "call cba_xeh_fnc_detached";
+            disassembled = "call cba_xeh_fnc_disassembled";
+            engine = "call cba_xeh_fnc_engine";
+            epeContact = "call cba_xeh_fnc_epeContact";
+            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
+            epeContactStart = "call cba_xeh_fnc_epeContactStart";
+            explosion = "call cba_xeh_fnc_explosion";
+            fired = "call cba_xeh_fnc_fired";
+            firedMan = "call cba_xeh_fnc_firedMan";
+            firedNear = "call cba_xeh_fnc_firedNear";
+            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
+            gear = "call cba_xeh_fnc_gear";
+            gestureChanged = "call cba_xeh_fnc_gestureChanged";
+            gestureDone = "call cba_xeh_fnc_gestureDone";
+            getIn = "call cba_xeh_fnc_getIn";
+            getInMan = "call cba_xeh_fnc_getInMan";
+            getOut = "call cba_xeh_fnc_getOut";
+            getOutMan = "call cba_xeh_fnc_getOutMan";
+            handleHeal = "call cba_xeh_fnc_handleHeal";
+            hit = "call cba_xeh_fnc_hit";
+            hitPart = "call cba_xeh_fnc_hitPart";
+            incomingMissile = "call cba_xeh_fnc_incomingMissile";
+            init = "call cba_xeh_fnc_init";
+            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
+            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
+            killed = "call cba_xeh_fnc_killed";
+            landedStopped = "call cba_xeh_fnc_landedStopped";
+            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
+            leaningChanged = "call cba_xeh_fnc_leaningChanged";
+            local = "call cba_xeh_fnc_local";
+            magazineReloading = "call cba_xeh_fnc_magazineReloading";
+            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
+            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
+            put = "call cba_xeh_fnc_put";
+            reloaded = "call cba_xeh_fnc_reloaded";
+            respawn = "call cba_xeh_fnc_respawn";
+            ropeAttach = "call cba_xeh_fnc_ropeAttach";
+            ropeBreak = "call cba_xeh_fnc_ropeBreak";
+            seatSwitched = "call cba_xeh_fnc_seatSwitched";
+            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
+            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
+            soundPlayed = "call cba_xeh_fnc_soundPlayed";
+            suppressed = "call cba_xeh_fnc_suppressed";
+            take = "call cba_xeh_fnc_take";
+            turnIn = "call cba_xeh_fnc_turnIn";
+            turnOut = "call cba_xeh_fnc_turnOut";
+            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
+            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
+            weaponChanged = "call cba_xeh_fnc_weaponChanged";
+            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
+            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
+            weaponRested = "call cba_xeh_fnc_weaponRested";
+        };
 	};
 	textureList[] = {"Sand",1};
 	class TextureSources
@@ -252,13 +392,83 @@ class GVAR(AFV_Wheeled_up): B_AFV_Wheeled_01_up_cannon_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",0};
 	class EventHandlers : EventHandlers
 	{
+        fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
+        init = "";
+        killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
+        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
+        {
+            animChanged = "call cba_xeh_fnc_animChanged";
+            animDone = "call cba_xeh_fnc_animDone";
+            animStateChanged = "call cba_xeh_fnc_animStateChanged";
+            assembled = "call cba_xeh_fnc_assembled";
+            attached = "call cba_xeh_fnc_attached";
+            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
+            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
+            containerClosed = "call cba_xeh_fnc_containerClosed";
+            containerOpened = "call cba_xeh_fnc_containerOpened";
+            controlsShifted = "call cba_xeh_fnc_controlsShifted";
+            dammaged = "call cba_xeh_fnc_dammaged";
+            deleted = "call cba_xeh_fnc_deleted";
+            detached = "call cba_xeh_fnc_detached";
+            disassembled = "call cba_xeh_fnc_disassembled";
+            engine = "call cba_xeh_fnc_engine";
+            epeContact = "call cba_xeh_fnc_epeContact";
+            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
+            epeContactStart = "call cba_xeh_fnc_epeContactStart";
+            explosion = "call cba_xeh_fnc_explosion";
+            fired = "call cba_xeh_fnc_fired";
+            firedMan = "call cba_xeh_fnc_firedMan";
+            firedNear = "call cba_xeh_fnc_firedNear";
+            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
+            gear = "call cba_xeh_fnc_gear";
+            gestureChanged = "call cba_xeh_fnc_gestureChanged";
+            gestureDone = "call cba_xeh_fnc_gestureDone";
+            getIn = "call cba_xeh_fnc_getIn";
+            getInMan = "call cba_xeh_fnc_getInMan";
+            getOut = "call cba_xeh_fnc_getOut";
+            getOutMan = "call cba_xeh_fnc_getOutMan";
+            handleHeal = "call cba_xeh_fnc_handleHeal";
+            hit = "call cba_xeh_fnc_hit";
+            hitPart = "call cba_xeh_fnc_hitPart";
+            incomingMissile = "call cba_xeh_fnc_incomingMissile";
+            init = "call cba_xeh_fnc_init";
+            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
+            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
+            killed = "call cba_xeh_fnc_killed";
+            landedStopped = "call cba_xeh_fnc_landedStopped";
+            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
+            leaningChanged = "call cba_xeh_fnc_leaningChanged";
+            local = "call cba_xeh_fnc_local";
+            magazineReloading = "call cba_xeh_fnc_magazineReloading";
+            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
+            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
+            put = "call cba_xeh_fnc_put";
+            reloaded = "call cba_xeh_fnc_reloaded";
+            respawn = "call cba_xeh_fnc_respawn";
+            ropeAttach = "call cba_xeh_fnc_ropeAttach";
+            ropeBreak = "call cba_xeh_fnc_ropeBreak";
+            seatSwitched = "call cba_xeh_fnc_seatSwitched";
+            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
+            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
+            soundPlayed = "call cba_xeh_fnc_soundPlayed";
+            suppressed = "call cba_xeh_fnc_suppressed";
+            take = "call cba_xeh_fnc_take";
+            turnIn = "call cba_xeh_fnc_turnIn";
+            turnOut = "call cba_xeh_fnc_turnOut";
+            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
+            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
+            weaponChanged = "call cba_xeh_fnc_weaponChanged";
+            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
+            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
+            weaponRested = "call cba_xeh_fnc_weaponRested";
+        };
 	};
 	textureList[] = {"Sand",1};
 	class TextureSources
@@ -344,13 +554,83 @@ class GVAR(APC_Tracked_CRV): B_APC_Tracked_01_CRV_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
 	animationList[] = {"showCamonetHull",1};
 	class EventHandlers : EventHandlers
 	{
+        fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
+        init = "";
+        killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
+        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
+        {
+            animChanged = "call cba_xeh_fnc_animChanged";
+            animDone = "call cba_xeh_fnc_animDone";
+            animStateChanged = "call cba_xeh_fnc_animStateChanged";
+            assembled = "call cba_xeh_fnc_assembled";
+            attached = "call cba_xeh_fnc_attached";
+            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
+            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
+            containerClosed = "call cba_xeh_fnc_containerClosed";
+            containerOpened = "call cba_xeh_fnc_containerOpened";
+            controlsShifted = "call cba_xeh_fnc_controlsShifted";
+            dammaged = "call cba_xeh_fnc_dammaged";
+            deleted = "call cba_xeh_fnc_deleted";
+            detached = "call cba_xeh_fnc_detached";
+            disassembled = "call cba_xeh_fnc_disassembled";
+            engine = "call cba_xeh_fnc_engine";
+            epeContact = "call cba_xeh_fnc_epeContact";
+            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
+            epeContactStart = "call cba_xeh_fnc_epeContactStart";
+            explosion = "call cba_xeh_fnc_explosion";
+            fired = "call cba_xeh_fnc_fired";
+            firedMan = "call cba_xeh_fnc_firedMan";
+            firedNear = "call cba_xeh_fnc_firedNear";
+            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
+            gear = "call cba_xeh_fnc_gear";
+            gestureChanged = "call cba_xeh_fnc_gestureChanged";
+            gestureDone = "call cba_xeh_fnc_gestureDone";
+            getIn = "call cba_xeh_fnc_getIn";
+            getInMan = "call cba_xeh_fnc_getInMan";
+            getOut = "call cba_xeh_fnc_getOut";
+            getOutMan = "call cba_xeh_fnc_getOutMan";
+            handleHeal = "call cba_xeh_fnc_handleHeal";
+            hit = "call cba_xeh_fnc_hit";
+            hitPart = "call cba_xeh_fnc_hitPart";
+            incomingMissile = "call cba_xeh_fnc_incomingMissile";
+            init = "call cba_xeh_fnc_init";
+            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
+            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
+            killed = "call cba_xeh_fnc_killed";
+            landedStopped = "call cba_xeh_fnc_landedStopped";
+            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
+            leaningChanged = "call cba_xeh_fnc_leaningChanged";
+            local = "call cba_xeh_fnc_local";
+            magazineReloading = "call cba_xeh_fnc_magazineReloading";
+            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
+            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
+            put = "call cba_xeh_fnc_put";
+            reloaded = "call cba_xeh_fnc_reloaded";
+            respawn = "call cba_xeh_fnc_respawn";
+            ropeAttach = "call cba_xeh_fnc_ropeAttach";
+            ropeBreak = "call cba_xeh_fnc_ropeBreak";
+            seatSwitched = "call cba_xeh_fnc_seatSwitched";
+            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
+            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
+            soundPlayed = "call cba_xeh_fnc_soundPlayed";
+            suppressed = "call cba_xeh_fnc_suppressed";
+            take = "call cba_xeh_fnc_take";
+            turnIn = "call cba_xeh_fnc_turnIn";
+            turnOut = "call cba_xeh_fnc_turnOut";
+            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
+            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
+            weaponChanged = "call cba_xeh_fnc_weaponChanged";
+            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
+            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
+            weaponRested = "call cba_xeh_fnc_weaponRested";
+        };
 	};
 	textureList[] = {"Sand",1};
 	class TextureSources
@@ -431,7 +711,7 @@ class GVAR(MK10_GB): CUP_B_MK10_GB
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 };
 
@@ -440,7 +720,7 @@ class GVAR(LCU1600_HIL): CUP_B_LCU1600_HIL
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 };
 
@@ -449,7 +729,7 @@ class GVAR(SDV_01_F): B_SDV_01_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class B_Boat_Transport_01_F;
@@ -457,7 +737,7 @@ class GVAR(Boat_Transport_01_F): B_Boat_Transport_01_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 };
 
@@ -466,7 +746,7 @@ class GVAR(Boat_Armed_01_minigun_F): B_Boat_Armed_01_minigun_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 };
 
@@ -476,7 +756,7 @@ class GVAR(RHIB): CUP_B_RHIB_USMC
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 };
 
@@ -485,7 +765,7 @@ class GVAR(RHIB_Mk19): CUP_B_RHIB2Turret_USMC
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 };
 
@@ -498,7 +778,7 @@ class GVAR(UAV_01_F): B_UAV_01_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class B_UGV_02_Demining_F;
@@ -506,7 +786,7 @@ class GVAR(UGV_02_Demining_F): B_UGV_02_Demining_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class B_UGV_02_Science_F;
@@ -514,7 +794,7 @@ class GVAR(UGV_02_Science_F): B_UGV_02_Science_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class B_UAV_02_dynamicLoadout_F;
@@ -522,7 +802,7 @@ class GVAR(UAV_02_dynamicLoadout_F): B_UAV_02_dynamicLoadout_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 // Cars (Light)
@@ -531,7 +811,7 @@ class GVAR(LSV_01_unarmed_F): B_LSV_01_unarmed_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
     
@@ -585,7 +865,7 @@ class GVAR(LSV_01_armed_F): B_LSV_01_armed_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
     
@@ -639,7 +919,7 @@ class GVAR(LSV_01_AT_F): B_LSV_01_AT_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
     
@@ -693,7 +973,7 @@ class GVAR(LR_Transport): CUP_I_LR_Transport_AAF
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
@@ -773,7 +1053,7 @@ class GVAR(LR_MG): CUP_I_LR_MG_AAF
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
@@ -854,7 +1134,7 @@ class GVAR(LR_SF_HMG): CUP_I_LR_SF_HMG_AAF
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
@@ -935,7 +1215,7 @@ class GVAR(LR_SF_GMG): CUP_I_LR_SF_GMG_AAF
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
@@ -1017,7 +1297,7 @@ class GVAR(Jackal2_L2A1): CUP_B_Jackal2_L2A1_GB_W
 	side = 1;
 	displayName = "Jackal 2 L2A1";
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
@@ -1096,7 +1376,7 @@ class GVAR(Jackal2_GMG): CUP_B_Jackal2_GMG_GB_W
 	side = 1;
 	displayName = "Jackal 2 GMG";
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
@@ -1175,7 +1455,7 @@ class GVAR(Coyote_L2A1): CUP_B_BAF_Coyote_L2A1_W
 	side = 1;
 	displayName = "Coyote L2A1";
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
@@ -1254,7 +1534,7 @@ class GVAR(Coyote_GMG): CUP_B_BAF_Coyote_GMG_W
 	side = 1;
 	displayName = "Coyote GMG";
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 	
@@ -1332,7 +1612,7 @@ class GVAR(Quadbike_01_F): B_Quadbike_01_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 };
@@ -1344,7 +1624,7 @@ class GVAR(C130J_USMC): CUP_B_C130J_USMC
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	crew = "CUP_B_GER_Fleck_HPilot";
 };
 
@@ -1353,7 +1633,7 @@ class GVAR(C130J_USMC_Cargo): CUP_B_C130J_Cargo_USMC
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	crew = "CUP_B_GER_Fleck_HPilot";
 };
 
@@ -1363,7 +1643,7 @@ class GVAR(MBT_03_cannon_F): I_MBT_03_cannon_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_Tanks";
 	crew = "CUP_B_GER_Fleck_Crew";
 	
@@ -1426,9 +1706,80 @@ class GVAR(MBT_03_cannon_F): I_MBT_03_cannon_F
 		};
 	};
 	
+	
 	class EventHandlers : EventHandlers
 	{
+        fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
+        init = "";
+        killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
+        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
+        {
+            animChanged = "call cba_xeh_fnc_animChanged";
+            animDone = "call cba_xeh_fnc_animDone";
+            animStateChanged = "call cba_xeh_fnc_animStateChanged";
+            assembled = "call cba_xeh_fnc_assembled";
+            attached = "call cba_xeh_fnc_attached";
+            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
+            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
+            containerClosed = "call cba_xeh_fnc_containerClosed";
+            containerOpened = "call cba_xeh_fnc_containerOpened";
+            controlsShifted = "call cba_xeh_fnc_controlsShifted";
+            dammaged = "call cba_xeh_fnc_dammaged";
+            deleted = "call cba_xeh_fnc_deleted";
+            detached = "call cba_xeh_fnc_detached";
+            disassembled = "call cba_xeh_fnc_disassembled";
+            engine = "call cba_xeh_fnc_engine";
+            epeContact = "call cba_xeh_fnc_epeContact";
+            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
+            epeContactStart = "call cba_xeh_fnc_epeContactStart";
+            explosion = "call cba_xeh_fnc_explosion";
+            fired = "call cba_xeh_fnc_fired";
+            firedMan = "call cba_xeh_fnc_firedMan";
+            firedNear = "call cba_xeh_fnc_firedNear";
+            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
+            gear = "call cba_xeh_fnc_gear";
+            gestureChanged = "call cba_xeh_fnc_gestureChanged";
+            gestureDone = "call cba_xeh_fnc_gestureDone";
+            getIn = "call cba_xeh_fnc_getIn";
+            getInMan = "call cba_xeh_fnc_getInMan";
+            getOut = "call cba_xeh_fnc_getOut";
+            getOutMan = "call cba_xeh_fnc_getOutMan";
+            handleHeal = "call cba_xeh_fnc_handleHeal";
+            hit = "call cba_xeh_fnc_hit";
+            hitPart = "call cba_xeh_fnc_hitPart";
+            incomingMissile = "call cba_xeh_fnc_incomingMissile";
+            init = "call cba_xeh_fnc_init";
+            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
+            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
+            killed = "call cba_xeh_fnc_killed";
+            landedStopped = "call cba_xeh_fnc_landedStopped";
+            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
+            leaningChanged = "call cba_xeh_fnc_leaningChanged";
+            local = "call cba_xeh_fnc_local";
+            magazineReloading = "call cba_xeh_fnc_magazineReloading";
+            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
+            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
+            put = "call cba_xeh_fnc_put";
+            reloaded = "call cba_xeh_fnc_reloaded";
+            respawn = "call cba_xeh_fnc_respawn";
+            ropeAttach = "call cba_xeh_fnc_ropeAttach";
+            ropeBreak = "call cba_xeh_fnc_ropeBreak";
+            seatSwitched = "call cba_xeh_fnc_seatSwitched";
+            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
+            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
+            soundPlayed = "call cba_xeh_fnc_soundPlayed";
+            suppressed = "call cba_xeh_fnc_suppressed";
+            take = "call cba_xeh_fnc_take";
+            turnIn = "call cba_xeh_fnc_turnIn";
+            turnOut = "call cba_xeh_fnc_turnOut";
+            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
+            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
+            weaponChanged = "call cba_xeh_fnc_weaponChanged";
+            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
+            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
+            weaponRested = "call cba_xeh_fnc_weaponRested";
+        };
 	};
     
     class TransportBackpacks
@@ -1481,7 +1832,7 @@ class GVAR(Leopard2A6): CUP_B_Leopard2A6_GER
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = "EdSubcat_Tanks";
 };
 
@@ -1492,7 +1843,7 @@ class GVAR(AAA_System_01_F): B_AAA_System_01_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class B_Radar_System_01_F;
@@ -1500,7 +1851,7 @@ class GVAR(Radar_System_01_F): B_Radar_System_01_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class B_SAM_System_03_F;
@@ -1508,7 +1859,7 @@ class GVAR(SAM_System_03_F): B_SAM_System_03_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class B_Ship_Gun_01_F;
@@ -1516,7 +1867,7 @@ class GVAR(Ship_Gun_01_F): B_Ship_Gun_01_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class B_Ship_MRLS_01_F;
@@ -1524,7 +1875,7 @@ class GVAR(Ship_MRLS_01_F): B_Ship_MRLS_01_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 };
 
 class CUP_B_TOW2_TriPod_USMC;
@@ -1532,6 +1883,6 @@ class GVAR(TOW2_TriPod_USMC): CUP_B_TOW2_TriPod_USMC
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
-	editorCategory = QGVAR(rangers_cat);
+	
 	crew = "CUP_B_GER_Fleck_Crew";
 };

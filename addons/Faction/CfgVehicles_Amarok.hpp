@@ -91,7 +91,6 @@ class GVAR(Amarok_covered_GER_Grn) : I_E_Offroad_01_covered_F
 	
 	armor = 80;
 
-	editorCategory = QGVAR(rangers_cat);
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -189,7 +188,7 @@ class GVAR(Amarok_GER_Grn) : GVAR(Amarok_covered_GER_Grn)
 	
 	armor = 80;
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 
 	tf_hasLRradio = 1;

@@ -73,7 +73,7 @@ class GVAR(MH60S_MEV) : CUP_B_MH60L_DAP_2x_USN
     side = 1;
     displayName = "UH-60S MEV";
     faction = QGVAR(rangers_faction);
-    editorCategory = QGVAR(rangers_cat);
+    
 	editorSubcategory = QGVAR(Heli_M_Subcat);
     crew = "CUP_B_GER_Fleck_HPilot";
     typicalCargo[] = {"CUP_B_GER_Fleck_HPilot","CUP_B_GER_Fleck_HPilot"};

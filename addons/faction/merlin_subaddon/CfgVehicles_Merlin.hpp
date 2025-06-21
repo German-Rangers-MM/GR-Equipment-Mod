@@ -18,7 +18,7 @@ class GVAR(AW101_Merlin_TTH_01) : I_Heli_Transport_02_F {
 	
 	receiveRemoteTargets = 1;
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_M_Subcat);
 
 	tf_hasLRradio = 1;
@@ -511,7 +511,7 @@ class GVAR(AW101_Merlin_MTH_01): GVAR(Merlin_MTH_base)
 		class LoadmasterTurret: LoadmasterTurret{};
 	};
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_M_Subcat);
 	typicalCargo[] = {"CUP_B_GER_HPilot","CUP_B_GER_HPilot"};
 	hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_SAR_co.paa","\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_2_co.paa"};

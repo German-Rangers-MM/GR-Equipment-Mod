@@ -24,7 +24,7 @@ class GVAR(CH_146_Griffon_Radar_01) : CUP_I_412_Military_Radar_AAF {
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -98,7 +98,7 @@ class GVAR(CH_146_Griffon_Transport_01) : CUP_I_412_Mil_Transport_AAF {
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -184,7 +184,7 @@ class GVAR(CH_146_Griffon_CAS_01) : CUP_412_dynamicLoadout_Base_F {
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_L_Subcat);
 
 	tf_hasLRradio = 1;
@@ -265,7 +265,7 @@ class GVAR(Ch_146_Griffon_MedEvac_01) : CUP_I_412_Military_Radar_AAF {
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
 
-	editorCategory = QGVAR(rangers_cat);
+	
 	editorSubcategory = QGVAR(Heli_L_Subcat);
 
 	tf_hasLRradio = 1;
