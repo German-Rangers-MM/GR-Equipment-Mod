@@ -28,14 +28,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: alternative
-    attributes:
-      label: Beschreib mögliche alternative Lösungen, die du in Betracht gezogen hast.
-      placeholder: |
-        1. Tue dies
-        2. Mach das
-        3. Und so weiter
-  - type: textarea
     id: additional
     attributes:
       label: Hast du noch weitere Infos zum deinem Vorschlag? (Optional)
@@ -44,7 +36,7 @@ body:
     attributes:
       label: Noch ein paar Kleinigkeiten bevor du deinen Vorschlag abgeben kannst.
       options:
-        - label: Ich habe in Issues nachgesehen ob diese Problem bereits gemeldet wurde oder es bereits einen Pull-Request dazu gibt.
+        - label: Ich habe in Issues nachgesehen ob dieser Vorschlag bereits existiert oder es bereits einen Pull-Request dazu gibt.
           required: true
         - label: Ich würde gerne selbst an der Problemlösung mitarbeiten.
   - type: markdown
