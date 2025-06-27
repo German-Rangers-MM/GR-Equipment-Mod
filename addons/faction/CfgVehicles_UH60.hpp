@@ -16,7 +16,21 @@ class CUP_UH60S_Dap_2x_Dynamic_Base : CUP_Uh60S_Base
 };
 
 */
-class CUP_UH60S_Dap_2x_Dynamic_Base;
+class CUP_UH60S_Dap_2x_Dynamic_Base
+{
+    class components{
+        class TransportPylonsComponent
+        {
+            class pylons
+            {
+                class pylons1;
+                class pylons2;
+                class pylons3;
+                class pylons4;
+            };
+        };
+    };
+};
 class CUP_B_MH60L_DAP_2x_USN: CUP_UH60S_Dap_2x_Dynamic_Base
 {
     class components : components
