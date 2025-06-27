@@ -1662,7 +1662,13 @@ class GVAR(C130J_USMC_Cargo): CUP_B_C130J_Cargo_USMC
 };
 
 // Tanks
-class I_MBT_03_cannon_F;
+class I_MBT_03_cannon_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
 class GVAR(MBT_03_cannon_F): I_MBT_03_cannon_F
 {
 	side = 1;
