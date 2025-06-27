@@ -12,7 +12,6 @@ class CfgMagazines
         displayNameShort = "White Illumination";
     };
 
-    class 32Rnd_155mm_Mo_shells;
     class GerRng_8Rnd_120mm_Guided_HE: 32Rnd_155mm_Mo_shells
     {
         ammo = "Sh_155mm_AMOS_guided";
@@ -24,8 +23,7 @@ class CfgMagazines
         displayNameShort = "120mm Guided";
     };
 
-    class 32Rnd_155mm_Mo_shells;
-    class GerRng_8Rnd_120mm_Guided_HE: 32Rnd_155mm_Mo_shells
+    class GerRng_8Rnd_120mm_Laser_Guided_HE: 32Rnd_155mm_Mo_shells
     {
         ammo = "Sh_155mm_AMOS_guided";
         author = "Cookie";
