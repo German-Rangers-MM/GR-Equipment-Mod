@@ -65,7 +65,13 @@ class GVAR(Boxer_HMG_GER_DES): CUP_B_Boxer_HMG_GER_DES
 	editorSubcategory = "EdSubcat_APCs";
 };
 
-class B_APC_Wheeled_01_cannon_F;
+class B_APC_Wheeled_01_cannon_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
 class GVAR(APC_Wheeled): B_APC_Wheeled_01_cannon_F
 {
 	side = 1;
@@ -226,7 +232,13 @@ class GVAR(APC_Wheeled_slat): GVAR(APC_Wheeled)
 	animationList[] = {"showBags",0,"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",1,"showSLATTurret",1};
 };
 
-class B_AFV_Wheeled_01_cannon_F;
+class B_AFV_Wheeled_01_cannon_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
 class GVAR(AFV_Wheeled): B_AFV_Wheeled_01_cannon_F
 {
 	side = 1;
@@ -387,7 +399,13 @@ class GVAR(AFV_Wheeled_slat): GVAR(AFV_Wheeled)
 	textureList[] = {"Sand",1};
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",1};
 };
-class B_AFV_Wheeled_01_up_cannon_F;
+class B_AFV_Wheeled_01_up_cannon_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
 class GVAR(AFV_Wheeled_up): B_AFV_Wheeled_01_up_cannon_F
 {
 	side = 1;
@@ -549,7 +567,13 @@ class GVAR(AFV_Wheeled_up_slat): GVAR(AFV_Wheeled_up)
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",1};
 };
 
-class B_APC_Tracked_01_CRV_F;
+class B_APC_Tracked_01_CRV_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
 class GVAR(APC_Tracked_CRV): B_APC_Tracked_01_CRV_F
 {
 	side = 1;
