@@ -10,6 +10,11 @@
 
 class CUP_AW159_Unarmed_Base
 {
+	
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
 	class Turrets
 	{
 		class MainTurret;
