@@ -17,31 +17,18 @@
  
 params ["_target"];
 
-_target addAction [
-	(localize "STR_ADV_BOBCAT_PLOW_DOWN")
-	,{
-		params ["_target","_caller","_ID","_args"];
-		_target animateSource ["MovePlow", 1];
-	},[],-2,false,true,"","(driver _target) isEqualTo _this && _target animationSourcePhase 'MovePlow' isEqualTo 0",5
-];
-_target addAction [
-	(localize "STR_ADV_BOBCAT_PLOW_UP")
-	,{
-		params ["_target","_caller","_ID","_args"];
-		_target animateSource ["MovePlow", 0];
-	},[],-2,false,true,"","(driver _target) isEqualTo _this && _target animationSourcePhase 'MovePlow' isEqualTo 1",5
-];
+
 
 if ( isClass(configFile >> "CfgPatches" >> "ace_interact_menu") ) then {
 
-	_lowerPlow = ["lowerPlowAction",("<t color=""#00FF00"">" + (localize "STR_ADV_BOBCAT_PLOW_DOWN") + "</t>"),"",{
+	_lowerPlow = ["lowerPlowAction",("<t color=""#00FF00"">" + (localize "STR_gerrng_bobcat_plowDown") + "</t>"),"",{
 		
 		params ["_target", "_player", "_params"];
 		_target animateSource ["MovePlow", 1];
 		
 	},{ (driver _target) isEqualTo _player && _target animationSourcePhase 'MovePlow' isEqualTo 0 }] call ace_interact_menu_fnc_createAction;
 	
-	_raisePlow = ["raisePlowAction",("<t color=""#FF0000"">" + (localize "STR_ADV_BOBCAT_PLOW_UP") + "</t>"),"",{
+	_raisePlow = ["raisePlowAction",("<t color=""#FF0000"">" + (localize "STR_gerrng_bobcat_plowUp") + "</t>"),"",{
 		
 		params ["_target", "_player", "_params"];
 		_target animateSource ["MovePlow", 0];
@@ -51,7 +38,23 @@ if ( isClass(configFile >> "CfgPatches" >> "ace_interact_menu") ) then {
 	[_target , 1, ["ACE_SelfActions"],_lowerPlow] call ace_interact_menu_fnc_addActionToObject;
 	[_target , 1, ["ACE_SelfActions"],_raisePlow] call ace_interact_menu_fnc_addActionToObject;
 
+} else {
+	_target addAction [
+		(localize "STR_gerrng_bobcat_plowDown")
+		,{
+			params ["_target","_caller","_ID","_args"];
+			_target animateSource ["MovePlow", 1];
+		},[],-2,false,true,"","(driver _target) isEqualTo _this && _target animationSourcePhase 'MovePlow' isEqualTo 0",5
+	];
+	_target addAction [
+		(localize "STR_gerrng_bobcat_plowUp")
+		,{
+			params ["_target","_caller","_ID","_args"];
+			_target animateSource ["MovePlow", 0];
+		},[],-2,false,true,"","(driver _target) isEqualTo _this && _target animationSourcePhase 'MovePlow' isEqualTo 1",5
+	];
 };
+
 
 _target addEventHandler ["Explosion",{
 	params ["_target","_damage"];

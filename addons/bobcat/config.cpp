@@ -16,3 +16,23 @@ class CfgPatches
         
 	};
 };
+
+class Extended_Init_EventHandlers
+{
+	class B_APC_Tracked_01_CRV_F
+	{
+		class adv_bobcat_EVH_init
+		{
+			init = QUOTE(_this call FUNC(init));
+		};
+	};
+	class B_T_APC_Tracked_01_CRV_F
+	{
+		class adv_bobcat_EVH_init
+		{
+			init = QUOTE(_this call FUNC(init));
+		};
+	};
+};
+
+#include "CfgEventHandlers.hpp"

@@ -147,5 +147,4 @@ class CfgWeapons {
 	class GVAR(HMG_M3M_Mounted): HMG_M2_Mounted {
 		displayName = "M3M";
 	};
-	CREATE_CSW_PROXY(HMG_M3M_Static);
 };
