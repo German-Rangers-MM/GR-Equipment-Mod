@@ -10,7 +10,7 @@
 
 class CUP_AW159_Unarmed_Base
 {
-	
+	class Components;
     class EventHandlers
     {
         class CBA_Extended_EventHandlers;
