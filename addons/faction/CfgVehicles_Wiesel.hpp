@@ -6,10 +6,34 @@
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
-class I_LT_01_AT_F;
-class I_LT_01_AA_F;
-class I_LT_01_scout_F;
-class I_LT_01_cannon_F;
+class I_LT_01_AT_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
+class I_LT_01_AA_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
+class I_LT_01_scout_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
+class I_LT_01_cannon_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
 
 //Wiesel Stuff
 class GVAR(wiesel_AT) : I_LT_01_AT_F {

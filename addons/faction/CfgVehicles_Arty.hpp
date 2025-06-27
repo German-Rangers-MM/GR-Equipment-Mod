@@ -56,7 +56,13 @@ class GVAR(M270_HE_Wdl) : CUP_B_M270_HE_USMC
     };
 };
 
-class B_MBT_01_arty_F;
+class B_MBT_01_arty_F
+{
+    class EventHandlers
+    {
+        class CBA_Extended_EventHandlers;
+    };
+};
 class GVAR(MBT_01_arty_F) : B_MBT_01_arty_F
 {
     side = 1;
