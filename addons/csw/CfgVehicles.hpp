@@ -83,7 +83,7 @@ class CfgVehicles {
                 weapon = QGVAR(HMG_M3M_Mounted);
             };
         };
-        displayName = "M3M (High)";
+        displayName = CSTRING(m3m_veh_high);
         faction = QEGVAR(faction,rangers_faction);
         side = 1;
         crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -141,7 +141,7 @@ class CfgVehicles {
                 weapon = QGVAR(HMG_M3M_Mounted);
             };
         };
-        displayName = "M3M (Low)";
+        displayName = CSTRING(m3m_veh_low);
         faction = QEGVAR(faction,rangers_faction);
         side = 1;
         crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -172,7 +172,7 @@ class CfgVehicles {
             class ReloadMagazine: ReloadMagazine {};
             class Revolving: Revolving {};
         };
-        displayName = "M3M (High (Scope + Shield))";
+        displayName = CSTRING(m3m_veh_high_ScopeShield);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -199,7 +199,7 @@ class CfgVehicles {
             class ReloadMagazine: ReloadMagazine {};
             class Revolving: Revolving {};
         };
-        displayName = "M3M (Low (Scope + Shield))";
+        displayName = CSTRING(m3m_veh_low_ScopeShield);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -226,7 +226,7 @@ class CfgVehicles {
             class ReloadMagazine: ReloadMagazine {};
             class Revolving: Revolving {};
         };
-        displayName = "M3M (High (Scope))";
+        displayName = CSTRING(m3m_veh_high_Scope);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -253,7 +253,7 @@ class CfgVehicles {
             class ReloadMagazine: ReloadMagazine {};
             class Revolving: Revolving {};
         };
-        displayName = "M3M (Low (Scope))";
+        displayName = CSTRING(m3m_veh_low_Scope);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -280,7 +280,7 @@ class CfgVehicles {
             class ReloadMagazine: ReloadMagazine {};
             class Revolving: Revolving {};
         };
-        displayName = "M3M (High (Shield))";
+        displayName = CSTRING(m3m_veh_high_Shield);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -307,7 +307,7 @@ class CfgVehicles {
             class ReloadMagazine: ReloadMagazine {};
             class Revolving: Revolving {};
         };
-        displayName = "M3M (Low (Shield))";
+        displayName = CSTRING(m3m_veh_low_Shield);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";

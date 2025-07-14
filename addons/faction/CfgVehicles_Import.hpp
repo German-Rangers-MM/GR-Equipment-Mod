@@ -18,6 +18,21 @@ class GVAR(Boxer_Empty_GER_WDL): CUP_B_Boxer_Empty_GER_WDL
 	faction = QGVAR(rangers_faction);
 	
 	editorSubcategory = "EdSubcat_APCs";
+
+    maxOmega = 272.271;
+    peakTorque = 2825;
+    dampingRateZeroThrottleClutchEngaged = 2;
+
+    class complexGearbox
+    {
+        driveString = "D";
+        gearBoxMode = "auto";
+        GearboxRatios[] = {"R1",-10.094,"N",0,"D1",5.562,"D2",3.456,"D3",2.623,"D4",1.678,"D5",1.078,"D6",1};
+        moveOffGear = 1;
+        neutralString = "N";
+        reverseString = "R";
+        TransmissionRatios[] = {"High",6};
+    };
 };
 
 class CUP_B_Boxer_GMG_GER_WDL;
@@ -27,6 +42,21 @@ class GVAR(Boxer_GMG_GER_WDL): CUP_B_Boxer_GMG_GER_WDL
 	faction = QGVAR(rangers_faction);
 	
 	editorSubcategory = "EdSubcat_APCs";
+
+    maxOmega = 272.271;
+    peakTorque = 2825;
+    dampingRateZeroThrottleClutchEngaged = 2;
+
+    class complexGearbox
+    {
+        driveString = "D";
+        gearBoxMode = "auto";
+        GearboxRatios[] = {"R1",-10.094,"N",0,"D1",5.562,"D2",3.456,"D3",2.623,"D4",1.678,"D5",1.078,"D6",1};
+        moveOffGear = 1;
+        neutralString = "N";
+        reverseString = "R";
+        TransmissionRatios[] = {"High",6};
+    };
 };
 
 class CUP_B_Boxer_HMG_GER_WDL;
@@ -36,6 +66,21 @@ class GVAR(Boxer_HMG_GER_WDL): CUP_B_Boxer_HMG_GER_WDL
 	faction = QGVAR(rangers_faction);
 	
 	editorSubcategory = "EdSubcat_APCs";
+
+    maxOmega = 272.271;
+    peakTorque = 2825;
+    dampingRateZeroThrottleClutchEngaged = 2;
+
+    class complexGearbox
+    {
+        driveString = "D";
+        gearBoxMode = "auto";
+        GearboxRatios[] = {"R1",-10.094,"N",0,"D1",5.562,"D2",3.456,"D3",2.623,"D4",1.678,"D5",1.078,"D6",1};
+        moveOffGear = 1;
+        neutralString = "N";
+        reverseString = "R";
+        TransmissionRatios[] = {"High",6};
+    };
 };
 
 class CUP_B_Boxer_Empty_GER_DES;
@@ -45,6 +90,21 @@ class GVAR(Boxer_Empty_GER_DES): CUP_B_Boxer_Empty_GER_DES
 	faction = QGVAR(rangers_faction);
 	
 	editorSubcategory = "EdSubcat_APCs";
+
+    maxOmega = 272.271;
+    peakTorque = 2825;
+    dampingRateZeroThrottleClutchEngaged = 2;
+
+    class complexGearbox
+    {
+        driveString = "D";
+        gearBoxMode = "auto";
+        GearboxRatios[] = {"R1",-10.094,"N",0,"D1",5.562,"D2",3.456,"D3",2.623,"D4",1.678,"D5",1.078,"D6",1};
+        moveOffGear = 1;
+        neutralString = "N";
+        reverseString = "R";
+        TransmissionRatios[] = {"High",6};
+    };
 };
 
 class CUP_B_Boxer_GMG_GER_DES;
@@ -54,6 +114,21 @@ class GVAR(Boxer_GMG_GER_DES): CUP_B_Boxer_GMG_GER_DES
 	faction = QGVAR(rangers_faction);
 	
 	editorSubcategory = "EdSubcat_APCs";
+
+    maxOmega = 272.271;
+    peakTorque = 2825;
+    dampingRateZeroThrottleClutchEngaged = 2;
+
+    class complexGearbox
+    {
+        driveString = "D";
+        gearBoxMode = "auto";
+        GearboxRatios[] = {"R1",-10.094,"N",0,"D1",5.562,"D2",3.456,"D3",2.623,"D4",1.678,"D5",1.078,"D6",1};
+        moveOffGear = 1;
+        neutralString = "N";
+        reverseString = "R";
+        TransmissionRatios[] = {"High",6};
+    };
 };
 
 class CUP_B_Boxer_HMG_GER_DES;
@@ -63,15 +138,24 @@ class GVAR(Boxer_HMG_GER_DES): CUP_B_Boxer_HMG_GER_DES
 	faction = QGVAR(rangers_faction);
 	
 	editorSubcategory = "EdSubcat_APCs";
-};
 
-class B_APC_Wheeled_01_cannon_F
-{
-    class EventHandlers
+    maxOmega = 272.271;
+    peakTorque = 2825;
+    dampingRateZeroThrottleClutchEngaged = 2;
+
+    class complexGearbox
     {
-        class CBA_Extended_EventHandlers;
+        driveString = "D";
+        gearBoxMode = "auto";
+        GearboxRatios[] = {"R1",-10.094,"N",0,"D1",5.562,"D2",3.456,"D3",2.623,"D4",1.678,"D5",1.078,"D6",1};
+        moveOffGear = 1;
+        neutralString = "N";
+        reverseString = "R";
+        TransmissionRatios[] = {"High",6};
     };
 };
+
+class B_APC_Wheeled_01_cannon_F;
 class GVAR(APC_Wheeled): B_APC_Wheeled_01_cannon_F
 {
 	side = 1;
@@ -80,86 +164,20 @@ class GVAR(APC_Wheeled): B_APC_Wheeled_01_cannon_F
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
 	animationList[] = {"showBags",0,"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",0,"showSLATTurret",0};
-	class EventHandlers : EventHandlers
+	class EventHandlers
 	{
         fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
         init = "";
         killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
-        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
-        {
-            animChanged = "call cba_xeh_fnc_animChanged";
-            animDone = "call cba_xeh_fnc_animDone";
-            animStateChanged = "call cba_xeh_fnc_animStateChanged";
-            assembled = "call cba_xeh_fnc_assembled";
-            attached = "call cba_xeh_fnc_attached";
-            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
-            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
-            containerClosed = "call cba_xeh_fnc_containerClosed";
-            containerOpened = "call cba_xeh_fnc_containerOpened";
-            controlsShifted = "call cba_xeh_fnc_controlsShifted";
-            dammaged = "call cba_xeh_fnc_dammaged";
-            deleted = "call cba_xeh_fnc_deleted";
-            detached = "call cba_xeh_fnc_detached";
-            disassembled = "call cba_xeh_fnc_disassembled";
-            engine = "call cba_xeh_fnc_engine";
-            epeContact = "call cba_xeh_fnc_epeContact";
-            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
-            epeContactStart = "call cba_xeh_fnc_epeContactStart";
-            explosion = "call cba_xeh_fnc_explosion";
-            fired = "call cba_xeh_fnc_fired";
-            firedMan = "call cba_xeh_fnc_firedMan";
-            firedNear = "call cba_xeh_fnc_firedNear";
-            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
-            gear = "call cba_xeh_fnc_gear";
-            gestureChanged = "call cba_xeh_fnc_gestureChanged";
-            gestureDone = "call cba_xeh_fnc_gestureDone";
-            getIn = "call cba_xeh_fnc_getIn";
-            getInMan = "call cba_xeh_fnc_getInMan";
-            getOut = "call cba_xeh_fnc_getOut";
-            getOutMan = "call cba_xeh_fnc_getOutMan";
-            handleHeal = "call cba_xeh_fnc_handleHeal";
-            hit = "call cba_xeh_fnc_hit";
-            hitPart = "call cba_xeh_fnc_hitPart";
-            incomingMissile = "call cba_xeh_fnc_incomingMissile";
-            init = "call cba_xeh_fnc_init";
-            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
-            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
-            killed = "call cba_xeh_fnc_killed";
-            landedStopped = "call cba_xeh_fnc_landedStopped";
-            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
-            leaningChanged = "call cba_xeh_fnc_leaningChanged";
-            local = "call cba_xeh_fnc_local";
-            magazineReloading = "call cba_xeh_fnc_magazineReloading";
-            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
-            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
-            put = "call cba_xeh_fnc_put";
-            reloaded = "call cba_xeh_fnc_reloaded";
-            respawn = "call cba_xeh_fnc_respawn";
-            ropeAttach = "call cba_xeh_fnc_ropeAttach";
-            ropeBreak = "call cba_xeh_fnc_ropeBreak";
-            seatSwitched = "call cba_xeh_fnc_seatSwitched";
-            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
-            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
-            soundPlayed = "call cba_xeh_fnc_soundPlayed";
-            suppressed = "call cba_xeh_fnc_suppressed";
-            take = "call cba_xeh_fnc_take";
-            turnIn = "call cba_xeh_fnc_turnIn";
-            turnOut = "call cba_xeh_fnc_turnOut";
-            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
-            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
-            weaponChanged = "call cba_xeh_fnc_weaponChanged";
-            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
-            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
-            weaponRested = "call cba_xeh_fnc_weaponRested";
-        };
+        class XEH_CLASS { EXTENDED_EVENTHANDLERS };
 	};
 	textureList[] = {"Sand",1};
 	class TextureSources
 	{
 		class Sand
 		{
-			displayName = "Sand";
+			displayName = CSTRING(camo_snd);
 			author = "Bohemia Interactive";
 			textures[] = {"a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_base_co.paa","a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_adds_co.paa","a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_tows_co.paa","a3\Armor_F\Data\camonet_NATO_Desert_CO.paa","a3\Armor_F\Data\cage_sand_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
@@ -167,14 +185,14 @@ class GVAR(APC_Wheeled): B_APC_Wheeled_01_cannon_F
 		
 		class Sand_alt
 		{
-			displayName = "Sand (Woodland Camonet)";
+			displayName = CSTRING(camo_snd_wdlNetting);
 			author = "Bohemia Interactive";
 			textures[] = {"a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_base_co.paa","a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_adds_co.paa","a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_tows_co.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_sand_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
 		};
 		class Green
 		{
-			displayName = "Green";
+			displayName = CSTRING(camo_grn);
 			author = "Bohemia Interactive";
 			textures[] = {"A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_base_olive_CO.paa","A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_adds_olive_co.paa","A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_tows_olive_co.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_olive_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
@@ -232,13 +250,7 @@ class GVAR(APC_Wheeled_slat): GVAR(APC_Wheeled)
 	animationList[] = {"showBags",0,"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",1,"showSLATTurret",1};
 };
 
-class B_AFV_Wheeled_01_cannon_F
-{
-    class EventHandlers
-    {
-        class CBA_Extended_EventHandlers;
-    };
-};
+class B_AFV_Wheeled_01_cannon_F;
 class GVAR(AFV_Wheeled): B_AFV_Wheeled_01_cannon_F
 {
 	side = 1;
@@ -247,86 +259,20 @@ class GVAR(AFV_Wheeled): B_AFV_Wheeled_01_cannon_F
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",0};
-	class EventHandlers : EventHandlers
+	class EventHandlers
 	{
         fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
         init = "";
         killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
-        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
-        {
-            animChanged = "call cba_xeh_fnc_animChanged";
-            animDone = "call cba_xeh_fnc_animDone";
-            animStateChanged = "call cba_xeh_fnc_animStateChanged";
-            assembled = "call cba_xeh_fnc_assembled";
-            attached = "call cba_xeh_fnc_attached";
-            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
-            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
-            containerClosed = "call cba_xeh_fnc_containerClosed";
-            containerOpened = "call cba_xeh_fnc_containerOpened";
-            controlsShifted = "call cba_xeh_fnc_controlsShifted";
-            dammaged = "call cba_xeh_fnc_dammaged";
-            deleted = "call cba_xeh_fnc_deleted";
-            detached = "call cba_xeh_fnc_detached";
-            disassembled = "call cba_xeh_fnc_disassembled";
-            engine = "call cba_xeh_fnc_engine";
-            epeContact = "call cba_xeh_fnc_epeContact";
-            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
-            epeContactStart = "call cba_xeh_fnc_epeContactStart";
-            explosion = "call cba_xeh_fnc_explosion";
-            fired = "call cba_xeh_fnc_fired";
-            firedMan = "call cba_xeh_fnc_firedMan";
-            firedNear = "call cba_xeh_fnc_firedNear";
-            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
-            gear = "call cba_xeh_fnc_gear";
-            gestureChanged = "call cba_xeh_fnc_gestureChanged";
-            gestureDone = "call cba_xeh_fnc_gestureDone";
-            getIn = "call cba_xeh_fnc_getIn";
-            getInMan = "call cba_xeh_fnc_getInMan";
-            getOut = "call cba_xeh_fnc_getOut";
-            getOutMan = "call cba_xeh_fnc_getOutMan";
-            handleHeal = "call cba_xeh_fnc_handleHeal";
-            hit = "call cba_xeh_fnc_hit";
-            hitPart = "call cba_xeh_fnc_hitPart";
-            incomingMissile = "call cba_xeh_fnc_incomingMissile";
-            init = "call cba_xeh_fnc_init";
-            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
-            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
-            killed = "call cba_xeh_fnc_killed";
-            landedStopped = "call cba_xeh_fnc_landedStopped";
-            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
-            leaningChanged = "call cba_xeh_fnc_leaningChanged";
-            local = "call cba_xeh_fnc_local";
-            magazineReloading = "call cba_xeh_fnc_magazineReloading";
-            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
-            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
-            put = "call cba_xeh_fnc_put";
-            reloaded = "call cba_xeh_fnc_reloaded";
-            respawn = "call cba_xeh_fnc_respawn";
-            ropeAttach = "call cba_xeh_fnc_ropeAttach";
-            ropeBreak = "call cba_xeh_fnc_ropeBreak";
-            seatSwitched = "call cba_xeh_fnc_seatSwitched";
-            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
-            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
-            soundPlayed = "call cba_xeh_fnc_soundPlayed";
-            suppressed = "call cba_xeh_fnc_suppressed";
-            take = "call cba_xeh_fnc_take";
-            turnIn = "call cba_xeh_fnc_turnIn";
-            turnOut = "call cba_xeh_fnc_turnOut";
-            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
-            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
-            weaponChanged = "call cba_xeh_fnc_weaponChanged";
-            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
-            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
-            weaponRested = "call cba_xeh_fnc_weaponRested";
-        };
+        class XEH_CLASS { EXTENDED_EVENTHANDLERS };
 	};
 	textureList[] = {"Sand",1};
 	class TextureSources
 	{
 		class Sand
 		{
-			displayName = "Sand";
+			displayName = CSTRING(camo_snd);
 			author = "Bohemia Interactive";
 			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa","a3\Armor_F\Data\camonet_NATO_Desert_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
@@ -334,14 +280,14 @@ class GVAR(AFV_Wheeled): B_AFV_Wheeled_01_cannon_F
 		
 		class Sand_alt
 		{
-			displayName = "Sand (Woodland Camonet)";
+			displayName = CSTRING(camo_snd_wdlNetting);
 			author = "Bohemia Interactive";
 			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
 		};
 		class Green
 		{
-			displayName = "Green";
+			displayName = CSTRING(camo_grn);
 			author = "Bohemia Interactive";
 			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_green_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_green_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
@@ -399,13 +345,7 @@ class GVAR(AFV_Wheeled_slat): GVAR(AFV_Wheeled)
 	textureList[] = {"Sand",1};
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",1};
 };
-class B_AFV_Wheeled_01_up_cannon_F
-{
-    class EventHandlers
-    {
-        class CBA_Extended_EventHandlers;
-    };
-};
+class B_AFV_Wheeled_01_up_cannon_F;
 class GVAR(AFV_Wheeled_up): B_AFV_Wheeled_01_up_cannon_F
 {
 	side = 1;
@@ -414,86 +354,20 @@ class GVAR(AFV_Wheeled_up): B_AFV_Wheeled_01_up_cannon_F
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",0};
-	class EventHandlers : EventHandlers
+	class EventHandlers
 	{
         fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
         init = "";
         killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
-        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
-        {
-            animChanged = "call cba_xeh_fnc_animChanged";
-            animDone = "call cba_xeh_fnc_animDone";
-            animStateChanged = "call cba_xeh_fnc_animStateChanged";
-            assembled = "call cba_xeh_fnc_assembled";
-            attached = "call cba_xeh_fnc_attached";
-            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
-            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
-            containerClosed = "call cba_xeh_fnc_containerClosed";
-            containerOpened = "call cba_xeh_fnc_containerOpened";
-            controlsShifted = "call cba_xeh_fnc_controlsShifted";
-            dammaged = "call cba_xeh_fnc_dammaged";
-            deleted = "call cba_xeh_fnc_deleted";
-            detached = "call cba_xeh_fnc_detached";
-            disassembled = "call cba_xeh_fnc_disassembled";
-            engine = "call cba_xeh_fnc_engine";
-            epeContact = "call cba_xeh_fnc_epeContact";
-            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
-            epeContactStart = "call cba_xeh_fnc_epeContactStart";
-            explosion = "call cba_xeh_fnc_explosion";
-            fired = "call cba_xeh_fnc_fired";
-            firedMan = "call cba_xeh_fnc_firedMan";
-            firedNear = "call cba_xeh_fnc_firedNear";
-            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
-            gear = "call cba_xeh_fnc_gear";
-            gestureChanged = "call cba_xeh_fnc_gestureChanged";
-            gestureDone = "call cba_xeh_fnc_gestureDone";
-            getIn = "call cba_xeh_fnc_getIn";
-            getInMan = "call cba_xeh_fnc_getInMan";
-            getOut = "call cba_xeh_fnc_getOut";
-            getOutMan = "call cba_xeh_fnc_getOutMan";
-            handleHeal = "call cba_xeh_fnc_handleHeal";
-            hit = "call cba_xeh_fnc_hit";
-            hitPart = "call cba_xeh_fnc_hitPart";
-            incomingMissile = "call cba_xeh_fnc_incomingMissile";
-            init = "call cba_xeh_fnc_init";
-            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
-            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
-            killed = "call cba_xeh_fnc_killed";
-            landedStopped = "call cba_xeh_fnc_landedStopped";
-            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
-            leaningChanged = "call cba_xeh_fnc_leaningChanged";
-            local = "call cba_xeh_fnc_local";
-            magazineReloading = "call cba_xeh_fnc_magazineReloading";
-            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
-            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
-            put = "call cba_xeh_fnc_put";
-            reloaded = "call cba_xeh_fnc_reloaded";
-            respawn = "call cba_xeh_fnc_respawn";
-            ropeAttach = "call cba_xeh_fnc_ropeAttach";
-            ropeBreak = "call cba_xeh_fnc_ropeBreak";
-            seatSwitched = "call cba_xeh_fnc_seatSwitched";
-            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
-            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
-            soundPlayed = "call cba_xeh_fnc_soundPlayed";
-            suppressed = "call cba_xeh_fnc_suppressed";
-            take = "call cba_xeh_fnc_take";
-            turnIn = "call cba_xeh_fnc_turnIn";
-            turnOut = "call cba_xeh_fnc_turnOut";
-            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
-            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
-            weaponChanged = "call cba_xeh_fnc_weaponChanged";
-            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
-            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
-            weaponRested = "call cba_xeh_fnc_weaponRested";
-        };
+        class XEH_CLASS { EXTENDED_EVENTHANDLERS };
 	};
 	textureList[] = {"Sand",1};
 	class TextureSources
 	{
 		class Sand
 		{
-			displayName = "Sand";
+			displayName = CSTRING(camo_snd);
 			author = "Bohemia Interactive";
 			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa","a3\Armor_F\Data\camonet_NATO_Desert_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
@@ -501,14 +375,14 @@ class GVAR(AFV_Wheeled_up): B_AFV_Wheeled_01_up_cannon_F
 		
 		class Sand_alt
 		{
-			displayName = "Sand (Woodland Camonet)";
+			displayName = CSTRING(camo_snd_wdlNetting);
 			author = "Bohemia Interactive";
 			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
 		};
 		class Green
 		{
-			displayName = "Green";
+			displayName = CSTRING(camo_grn);
 			author = "Bohemia Interactive";
 			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_green_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_green_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
@@ -567,13 +441,7 @@ class GVAR(AFV_Wheeled_up_slat): GVAR(AFV_Wheeled_up)
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",1};
 };
 
-class B_APC_Tracked_01_CRV_F
-{
-    class EventHandlers
-    {
-        class CBA_Extended_EventHandlers;
-    };
-};
+class B_APC_Tracked_01_CRV_F;
 class GVAR(APC_Tracked_CRV): B_APC_Tracked_01_CRV_F
 {
 	side = 1;
@@ -582,86 +450,20 @@ class GVAR(APC_Tracked_CRV): B_APC_Tracked_01_CRV_F
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
 	animationList[] = {"showCamonetHull",1};
-	class EventHandlers : EventHandlers
+	class EventHandlers
 	{
         fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
         init = "";
         killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
-        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
-        {
-            animChanged = "call cba_xeh_fnc_animChanged";
-            animDone = "call cba_xeh_fnc_animDone";
-            animStateChanged = "call cba_xeh_fnc_animStateChanged";
-            assembled = "call cba_xeh_fnc_assembled";
-            attached = "call cba_xeh_fnc_attached";
-            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
-            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
-            containerClosed = "call cba_xeh_fnc_containerClosed";
-            containerOpened = "call cba_xeh_fnc_containerOpened";
-            controlsShifted = "call cba_xeh_fnc_controlsShifted";
-            dammaged = "call cba_xeh_fnc_dammaged";
-            deleted = "call cba_xeh_fnc_deleted";
-            detached = "call cba_xeh_fnc_detached";
-            disassembled = "call cba_xeh_fnc_disassembled";
-            engine = "call cba_xeh_fnc_engine";
-            epeContact = "call cba_xeh_fnc_epeContact";
-            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
-            epeContactStart = "call cba_xeh_fnc_epeContactStart";
-            explosion = "call cba_xeh_fnc_explosion";
-            fired = "call cba_xeh_fnc_fired";
-            firedMan = "call cba_xeh_fnc_firedMan";
-            firedNear = "call cba_xeh_fnc_firedNear";
-            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
-            gear = "call cba_xeh_fnc_gear";
-            gestureChanged = "call cba_xeh_fnc_gestureChanged";
-            gestureDone = "call cba_xeh_fnc_gestureDone";
-            getIn = "call cba_xeh_fnc_getIn";
-            getInMan = "call cba_xeh_fnc_getInMan";
-            getOut = "call cba_xeh_fnc_getOut";
-            getOutMan = "call cba_xeh_fnc_getOutMan";
-            handleHeal = "call cba_xeh_fnc_handleHeal";
-            hit = "call cba_xeh_fnc_hit";
-            hitPart = "call cba_xeh_fnc_hitPart";
-            incomingMissile = "call cba_xeh_fnc_incomingMissile";
-            init = "call cba_xeh_fnc_init";
-            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
-            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
-            killed = "call cba_xeh_fnc_killed";
-            landedStopped = "call cba_xeh_fnc_landedStopped";
-            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
-            leaningChanged = "call cba_xeh_fnc_leaningChanged";
-            local = "call cba_xeh_fnc_local";
-            magazineReloading = "call cba_xeh_fnc_magazineReloading";
-            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
-            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
-            put = "call cba_xeh_fnc_put";
-            reloaded = "call cba_xeh_fnc_reloaded";
-            respawn = "call cba_xeh_fnc_respawn";
-            ropeAttach = "call cba_xeh_fnc_ropeAttach";
-            ropeBreak = "call cba_xeh_fnc_ropeBreak";
-            seatSwitched = "call cba_xeh_fnc_seatSwitched";
-            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
-            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
-            soundPlayed = "call cba_xeh_fnc_soundPlayed";
-            suppressed = "call cba_xeh_fnc_suppressed";
-            take = "call cba_xeh_fnc_take";
-            turnIn = "call cba_xeh_fnc_turnIn";
-            turnOut = "call cba_xeh_fnc_turnOut";
-            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
-            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
-            weaponChanged = "call cba_xeh_fnc_weaponChanged";
-            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
-            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
-            weaponRested = "call cba_xeh_fnc_weaponRested";
-        };
+        class XEH_CLASS { EXTENDED_EVENTHANDLERS };
 	};
 	textureList[] = {"Sand",1};
 	class TextureSources
 	{
 		class Sand
 		{
-			displayName = "Sand";
+			displayName = CSTRING(camo_snd);
 			author = "Bohemia Interactive";
 			textures[] = {"A3\Armor_F_Beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa","A3\Armor_F_Beta\APC_Tracked_01\Data\mbt_01_body_co.paa","a3\data_f\vehicles\turret_co.paa","A3\Armor_F_Beta\APC_Tracked_01\Data\apc_tracked_01_crv_co.paa","a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
@@ -669,7 +471,7 @@ class GVAR(APC_Tracked_CRV): B_APC_Tracked_01_CRV_F
 		
 		class Sand_alt
 		{
-			displayName = "Sand (Woodland Camonet)";
+			displayName = CSTRING(camo_snd_wdlNetting);
 			author = "Bohemia Interactive";
 			textures[] = {"A3\Armor_F_Beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa","A3\Armor_F_Beta\APC_Tracked_01\Data\mbt_01_body_co.paa","a3\data_f\vehicles\turret_co.paa","A3\Armor_F_Beta\APC_Tracked_01\Data\apc_tracked_01_crv_co.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
@@ -677,7 +479,7 @@ class GVAR(APC_Tracked_CRV): B_APC_Tracked_01_CRV_F
 
 		class Green
 		{
-			displayName = "Green";
+			displayName = CSTRING(camo_grn);
 			author = "Bohemia Interactive";
 			textures[] = {"A3\Armor_F_exp\APC_Tracked_01\Data\apc_tracked_01_body_crv_olive_co.paa","A3\Armor_F_exp\APC_Tracked_01\Data\mbt_01_body_olive_co.paa","A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa","A3\Armor_F_exp\APC_Tracked_01\Data\apc_tracked_01_crv_olive_co.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
@@ -731,21 +533,25 @@ class GVAR(APC_Tracked_CRV): B_APC_Tracked_01_CRV_F
 
 // Boats
 class CUP_B_MK10_GB;
-class GVAR(MK10_GB): CUP_B_MK10_GB
+class GVAR(MK10): CUP_B_MK10_GB
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
 	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+    maxSpeed = 45;
 };
 
 class CUP_B_LCU1600_HIL;
-class GVAR(LCU1600_HIL): CUP_B_LCU1600_HIL
+class GVAR(LCU1600): CUP_B_LCU1600_HIL
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
 	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+    maxSpeed = 45;
 };
 
 class B_SDV_01_F;
@@ -793,41 +599,10 @@ class GVAR(RHIB_Mk19): CUP_B_RHIB2Turret_USMC
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 };
 
-// Drones
 
 
 
-class B_UAV_01_F;
-class GVAR(UAV_01_F): B_UAV_01_F
-{
-	side = 1;
-	faction = QGVAR(rangers_faction);
-	
-};
 
-class B_UGV_02_Demining_F;
-class GVAR(UGV_02_Demining_F): B_UGV_02_Demining_F
-{
-	side = 1;
-	faction = QGVAR(rangers_faction);
-	
-};
-
-class B_UGV_02_Science_F;
-class GVAR(UGV_02_Science_F): B_UGV_02_Science_F
-{
-	side = 1;
-	faction = QGVAR(rangers_faction);
-	
-};
-
-class B_UAV_02_dynamicLoadout_F;
-class GVAR(UAV_02_dynamicLoadout_F): B_UAV_02_dynamicLoadout_F
-{
-	side = 1;
-	faction = QGVAR(rangers_faction);
-	
-};
 
 // Cars (Light)
 class B_LSV_01_unarmed_F;
@@ -1662,13 +1437,7 @@ class GVAR(C130J_USMC_Cargo): CUP_B_C130J_Cargo_USMC
 };
 
 // Tanks
-class I_MBT_03_cannon_F
-{
-    class EventHandlers
-    {
-        class CBA_Extended_EventHandlers;
-    };
-};
+class I_MBT_03_cannon_F;
 class GVAR(MBT_03_cannon_F): I_MBT_03_cannon_F
 {
 	side = 1;
@@ -1737,79 +1506,13 @@ class GVAR(MBT_03_cannon_F): I_MBT_03_cannon_F
 	};
 	
 	
-	class EventHandlers : EventHandlers
+	class EventHandlers
 	{
         fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
         init = "";
         killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');";
-        class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers
-        {
-            animChanged = "call cba_xeh_fnc_animChanged";
-            animDone = "call cba_xeh_fnc_animDone";
-            animStateChanged = "call cba_xeh_fnc_animStateChanged";
-            assembled = "call cba_xeh_fnc_assembled";
-            attached = "call cba_xeh_fnc_attached";
-            cargoLoaded = "call cba_xeh_fnc_cargoLoaded";
-            cargoUnloaded = "call cba_xeh_fnc_cargoUnloaded";
-            containerClosed = "call cba_xeh_fnc_containerClosed";
-            containerOpened = "call cba_xeh_fnc_containerOpened";
-            controlsShifted = "call cba_xeh_fnc_controlsShifted";
-            dammaged = "call cba_xeh_fnc_dammaged";
-            deleted = "call cba_xeh_fnc_deleted";
-            detached = "call cba_xeh_fnc_detached";
-            disassembled = "call cba_xeh_fnc_disassembled";
-            engine = "call cba_xeh_fnc_engine";
-            epeContact = "call cba_xeh_fnc_epeContact";
-            epeContactEnd = "call cba_xeh_fnc_epeContactEnd";
-            epeContactStart = "call cba_xeh_fnc_epeContactStart";
-            explosion = "call cba_xeh_fnc_explosion";
-            fired = "call cba_xeh_fnc_fired";
-            firedMan = "call cba_xeh_fnc_firedMan";
-            firedNear = "call cba_xeh_fnc_firedNear";
-            fuel = "call cba_xeh_fnc_cba_xeh_fuel";
-            gear = "call cba_xeh_fnc_gear";
-            gestureChanged = "call cba_xeh_fnc_gestureChanged";
-            gestureDone = "call cba_xeh_fnc_gestureDone";
-            getIn = "call cba_xeh_fnc_getIn";
-            getInMan = "call cba_xeh_fnc_getInMan";
-            getOut = "call cba_xeh_fnc_getOut";
-            getOutMan = "call cba_xeh_fnc_getOutMan";
-            handleHeal = "call cba_xeh_fnc_handleHeal";
-            hit = "call cba_xeh_fnc_hit";
-            hitPart = "call cba_xeh_fnc_hitPart";
-            incomingMissile = "call cba_xeh_fnc_incomingMissile";
-            init = "call cba_xeh_fnc_init";
-            inventoryClosed = "call cba_xeh_fnc_inventoryClosed";
-            inventoryOpened = "call cba_xeh_fnc_inventoryOpened";
-            killed = "call cba_xeh_fnc_killed";
-            landedStopped = "call cba_xeh_fnc_landedStopped";
-            landedTouchDown = "call cba_xeh_fnc_landedTouchDown";
-            leaningChanged = "call cba_xeh_fnc_leaningChanged";
-            local = "call cba_xeh_fnc_local";
-            magazineReloading = "call cba_xeh_fnc_magazineReloading";
-            opticsModeChanged = "call cba_xeh_fnc_opticsModeChanged";
-            opticsSwitch = "call cba_xeh_fnc_opticsSwitch";
-            put = "call cba_xeh_fnc_put";
-            reloaded = "call cba_xeh_fnc_reloaded";
-            respawn = "call cba_xeh_fnc_respawn";
-            ropeAttach = "call cba_xeh_fnc_ropeAttach";
-            ropeBreak = "call cba_xeh_fnc_ropeBreak";
-            seatSwitched = "call cba_xeh_fnc_seatSwitched";
-            seatSwitchedMan = "call cba_xeh_fnc_seatSwitchedMan";
-            slotItemChanged = "call cba_xeh_fnc_slotItemChanged";
-            soundPlayed = "call cba_xeh_fnc_soundPlayed";
-            suppressed = "call cba_xeh_fnc_suppressed";
-            take = "call cba_xeh_fnc_take";
-            turnIn = "call cba_xeh_fnc_turnIn";
-            turnOut = "call cba_xeh_fnc_turnOut";
-            visionModeChanged = "call cba_xeh_fnc_visionModeChanged";
-            weaponAssembled = "call cba_xeh_fnc_weaponAssembled";
-            weaponChanged = "call cba_xeh_fnc_weaponChanged";
-            weaponDeployed = "call cba_xeh_fnc_weaponDeployed";
-            weaponDisassembled = "call cba_xeh_fnc_weaponDisassembled";
-            weaponRested = "call cba_xeh_fnc_weaponRested";
-        };
+        class XEH_CLASS { EXTENDED_EVENTHANDLERS };
 	};
     
     class TransportBackpacks

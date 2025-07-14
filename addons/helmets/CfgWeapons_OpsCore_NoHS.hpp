@@ -1,5 +1,4 @@
 class CUP_H_OpsCore_Covered_Fleck_NoHS;
-class CUP_H_OpsCore_Covered_Tropen_NoHS;
 
 class gerrng_OpsCore_Covered_NoHS_base: CUP_H_OpsCore_Covered_Fleck_NoHS {
 	author="German Rangers, Cookie";

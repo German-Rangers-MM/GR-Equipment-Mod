@@ -8,12 +8,6 @@ params ["_player"];
 private _actions = [];
 private _designators = [QGVAR(remote_designator_w), QGVAR(remote_designator_d)]; // Same classnames
 
-private _uuid = "";
-private _chars = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"];
-
-for "_i" from 0 to 2 do {
-    _uuid = _uuid + (_chars select floor random 16);
-};
 
 {
 	_item = _x;
@@ -26,7 +20,7 @@ for "_i" from 0 to 2 do {
 		};
 		_actions pushBack [
 			[
-				format ["place_%1_%2", _item,_uuid], // Unique action ID
+				format ["place_%1", _item], // Unique action ID
 				_displayName,
 				"", // Optional icon
 				{call FUNC(placeDesignator)},

@@ -24,9 +24,6 @@ private _airFreq = _module getVariable ["frequencyAir", ""];
 
 
 
-diag_log formatText ["Frequency-Setter (%1) initialized with:", _module];
-diag_log formatText ["AirFreq.: %1, AirVeh.: %2", _airFreq,_syncedAirVehicles];
-diag_log formatText ["GroundFreq.: %1, GroundVeh.: %2", _groundFreq,_syncedLandVehicles];
 
 
 {

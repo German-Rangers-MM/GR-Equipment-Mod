@@ -2,6 +2,7 @@
 <Project name="gerrng">
     <Package name="main">
         <Key ID="STR_gerrng_main_Team">
+            <Original>German Rangers Moddingteam</Original>
             <English>German Rangers Moddingteam</English>
             <German>German Rangers Moddingteam</German>
         </Key>

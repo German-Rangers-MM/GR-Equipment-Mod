@@ -58,14 +58,14 @@ class CfgVehicles {
         {
             class startSiren
             {
-                displayName = "Start Siren";
+                displayName = CSTRING(interaction_startSiren);
                 condition = "driver vehicle player == player && {getCustomSoundController [_target,'CustomSoundController1'] < 0.5}";
                 statement = "[_target,'CustomSoundController1',1,0.2] remoteExec ['BIS_fnc_setCustomSoundController', 0, ['CustomSoundController1', netID _target] joinString ':'];";
                 icon = "A3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa";
             };
             class stopSiren
             {
-                displayName = "Stop Siren";
+                displayName = CSTRING(interaction_stopSiren);
                 condition = "driver vehicle player == player && {getCustomSoundController [_target,'CustomSoundController1'] > 0.5}";
                 statement = "[_target,'CustomSoundController1',0,0.4] remoteExec ['BIS_fnc_setCustomSoundController', 0, ['CustomSoundController1', netID _target] joinString ':'];";
                 icon = "A3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa";
@@ -73,21 +73,16 @@ class CfgVehicles {
         };
     };
 
-    #include "CfgVehicles_CH47.hpp"
-    #include "CfgVehicles_CH53.hpp"
     #include "CfgVehicles_Griffon.hpp"
     #include "CfgVehicles_UH60.hpp"
 
     
-    #include "CfgVehicles_Amarok.hpp"
     #include "CfgVehicles_Dingo.hpp"
     #include "CfgVehicles_Fennek.hpp"
     #include "CfgVehicles_lkw_iveco.hpp"
     #include "CfgVehicles_Multi.hpp"
     #include "CfgVehicles_Van.hpp"
     #include "CfgVehicles_Wiesel.hpp"
-
-    #include "CfgVehicles_Arty.hpp"
     
     #include "CfgVehicles_MedicalTent.hpp"
 

@@ -23,37 +23,11 @@ class CfgPatches
             QGVAR(Box_ammo_M_F),
             QGVAR(Box_ammo_S_F),
 
-            QGVAR(UAV_06_F),
-            QGVAR(UAV_06_antimine_F),
-            QGVAR(UAV_06_medical_F),
-
-            QGVAR(Amarok_GER_Grn),
-            QGVAR(Amarok_GER_FLK),
-            QGVAR(Amarok_GER_TRP),
-            QGVAR(Amarok_covered_GER_Grn),
-            QGVAR(Amarok_covered_GER_FLK),
-            QGVAR(Amarok_covered_GER_TRP),
-            QGVAR(Amarok_covered_comms_GER_Grn),
-            QGVAR(Amarok_covered_comms_GER_FLK),
-            QGVAR(Amarok_covered_comms_GER_TRP),
-            QGVAR(Amarok_covered_san_GER_Grn),
-            QGVAR(Amarok_covered_san_GER_FLK),
-            QGVAR(Amarok_covered_san_GER_TRP),
-            QGVAR(Amarok_engineering_covered_GER_Grn),
-            QGVAR(Amarok_engineering_covered_GER_FLK),
-            QGVAR(Amarok_engineering_covered_GER_TRP),
-            QGVAR(Amarok_engineering_GER_Grn),
-            QGVAR(Amarok_engineering_GER_FLK),
-            QGVAR(Amarok_engineering_GER_TRP),
-
             QGVAR(M1129_MC_MK19_Wdl),
             QGVAR(M270_HE_Wdl),
             QGVAR(MBT_01_arty_F),
             QGVAR(M119),
             QGVAR(M252),
-
-            QGVAR(CH_47F_TTH_01),
-            QGVAR(CH_47F_TTH_VIV_01),
 
             QGVAR(CH_53E_TTH_01),
             QGVAR(CH_53E_TTH_VIV_01),
@@ -101,11 +75,6 @@ class CfgPatches
             QGVAR(Boat_Armed_01_minigun_F),
             QGVAR(RHIB),
             QGVAR(RHIB_Mk19),
-
-            QGVAR(UAV_01_F),
-            QGVAR(UGV_02_Demining_F),
-            QGVAR(UGV_02_Science_F),
-            QGVAR(UAV_02_dynamicLoadout_F),
 
             QGVAR(LSV_01_unarmed_F),
             QGVAR(LSV_01_armed_F),
@@ -247,4 +216,3 @@ class ace_medical_facilities {
 };
 #include "CfgVehicles.hpp"
 
-#include "CfgMagazines.hpp"

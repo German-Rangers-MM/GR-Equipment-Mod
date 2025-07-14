@@ -20,7 +20,7 @@ class GVAR(Lkw15t_Box_W) : B_Truck_01_box_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Lkw 15t GL MULTI Container (Woodland)";
+    displayName = CSTRING(lkw_15t_con_w);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -73,7 +73,7 @@ class GVAR(Lkw15t_Box_W) : B_Truck_01_box_F {
 
 class GVAR(Lkw15t_Box_D) : GVAR(Lkw15t_Box_W) {
 
-    displayName = "Lkw 15t GL MULTI Container (Desert)";
+    displayName = CSTRING(lkw_15t_con_d);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -94,7 +94,7 @@ class GVAR(Lkw15t_Repair_W) : B_Truck_01_repair_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Lkw 15t GL MULTI Instandsetzung (Woodland)";
+    displayName = CSTRING(lkw_15t_rep_w);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -149,7 +149,7 @@ class GVAR(Lkw15t_Repair_W) : B_Truck_01_repair_F {
 
 class GVAR(Lkw15t_Repair_D) : GVAR(Lkw15t_Repair_W) {
 
-    displayName = "Lkw 15t GL MULTI Instantsetzung (Desert)";
+    displayName = CSTRING(lkw_15t_rep_d);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -170,7 +170,7 @@ class GVAR(Lkw15t_Ammo_W) : B_Truck_01_ammo_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Lkw 15t GL MULTI Munition (Woodland)";
+    displayName = CSTRING(lkw_15t_ammo_w);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -229,7 +229,7 @@ class GVAR(Lkw15t_Ammo_W) : B_Truck_01_ammo_F {
 
 class GVAR(Lkw15t_Ammo_D) : GVAR(Lkw15t_Ammo_W) {
 
-    displayName = "Lkw 15t GL MULTI Munition (Desert)";
+    displayName = CSTRING(lkw_15t_ammo_d);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -250,7 +250,7 @@ class GVAR(Lkw15t_Flatbed_W) : Truck_01_flatbed_base_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Lkw 15t GL MULTI Pritsche (Woodland)";
+    displayName = CSTRING(lkw_15t_flatbed_w);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -289,7 +289,7 @@ class GVAR(Lkw15t_Flatbed_W) : Truck_01_flatbed_base_F {
 
 class GVAR(Lkw15t_Flatbed_D) : GVAR(Lkw15t_Flatbed_W) {
 
-    displayName = "Lkw 15t GL MULTI Pritsche (Desert)";
+    displayName = CSTRING(lkw_15t_flatbed_d);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -310,7 +310,7 @@ class GVAR(Lkw15t_transport_W) : B_Truck_01_transport_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Lkw 15t GL MULTI Transport (Woodland)";
+    displayName = CSTRING(lkw_15t_transport_w);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -369,7 +369,7 @@ class GVAR(Lkw15t_transport_W) : B_Truck_01_transport_F {
 
 class GVAR(Lkw15t_transport_D) : GVAR(Lkw15t_transport_W) {
 
-    displayName = "Lkw 15t GL MULTI Transport (Desert)";
+    displayName = CSTRING(lkw_15t_transport_d);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -384,7 +384,7 @@ class GVAR(Lkw15t_covered_W) : B_Truck_01_covered_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Lkw 15t GL MULTI Abgedeckt (Woodland)";
+    displayName = CSTRING(lkw_15t_covered_w);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -444,7 +444,7 @@ class GVAR(Lkw15t_covered_W) : B_Truck_01_covered_F {
 
 class GVAR(Lkw15t_covered_D) : GVAR(Lkw15t_covered_W) {
 
-    displayName = "Lkw 15t GL MULTI Abgedeckt (Desert)";
+    displayName = CSTRING(lkw_15t_covered_d);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
@@ -466,7 +466,7 @@ class GVAR(Lkw15t_medical_W) : B_Truck_01_medical_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Lkw 15t GL MULTI SAN (Woodland)";
+    displayName = CSTRING(lkw_15t_med_w);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -526,7 +526,7 @@ class GVAR(Lkw15t_medical_W) : B_Truck_01_medical_F {
 
 class GVAR(Lkw15t_medical_D) : GVAR(Lkw15t_medical_W) {
 
-    displayName = "Lkw 15t GL MULTI SAN (Desert)";
+    displayName = CSTRING(lkw_15t_med_d);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
@@ -548,7 +548,7 @@ class GVAR(Lkw15t_fuel_W) : B_Truck_01_fuel_F {
     author = "dalleburn";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Lkw 15t GL MULTI Treibstoff (Woodland)";
+    displayName = CSTRING(lkw_15t_fuel_w);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -607,7 +607,7 @@ class GVAR(Lkw15t_fuel_W) : B_Truck_01_fuel_F {
 
 class GVAR(Lkw15t_fuel_D) : GVAR(Lkw15t_fuel_W) {
 
-    displayName = "Lkw 15t GL MULTI Treibstoff (Desert)";
+    displayName = CSTRING(lkw_15t_fuel_d);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=

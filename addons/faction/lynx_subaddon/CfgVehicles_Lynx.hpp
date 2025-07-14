@@ -11,10 +11,7 @@
 class CUP_AW159_Unarmed_Base
 {
 	class Components;
-    class EventHandlers
-    {
-        class CBA_Extended_EventHandlers;
-    };
+    class EventHandlers;
 	class Turrets
 	{
 		class MainTurret;
@@ -462,6 +459,7 @@ class GVAR(WG_13_Sea_Lynx) : GVAR(Lynx_Unarmed_Base) {
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+        class XEH_CLASS { EXTENDED_EVENTHANDLERS };
 	};
 	editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AW159\Data\preview\CUP_B_AW159_Unarmed_GB.jpg";
 	maximumLoad = 1000;
@@ -514,6 +512,7 @@ class GVAR(Lynx_Dynamic_Base): GVAR(Lynx_Unarmed_Base)
 	scope = 1;
 	side = 1;
 	scopeCurator = 0;
+	ace_fastroping_enabled = 0;
 	class Components: Components
 	{
 		class TransportPylonsComponent
@@ -588,6 +587,7 @@ class GVAR(WG_13_Sea_Lynx_Armed): GVAR(Lynx_Dynamic_Base)
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+        class XEH_CLASS { EXTENDED_EVENTHANDLERS };
 	};
 	editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AW159\Data\preview\CUP_B_AW159_Unarmed_GB.jpg";
 	class TransportWeapons

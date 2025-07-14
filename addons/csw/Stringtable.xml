@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="gerrng">
+    <Package name="csw">
+        <Container name="M3M_carry">
+            <Key ID="STR_gerrng_csw_m3m_gunbag_displayName">
+                <Original>[CSW] M3M</Original>
+                <English>[CSW] M3M</English>
+                <German>[CSW] M3M</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3mShield_gunbag_displayName">
+                <Original>[CSW] M3M w/ Shield</Original>
+                <English>[CSW] M3M w/ Shield</English>
+                <German>[CSW] M3M mit Schild</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3mScope_gunbag_displayName">
+                <Original>[CSW] M3M w/ Scope</Original>
+                <English>[CSW] M3M w/ Scope</English>
+                <German>[CSW] M3M mit Optik</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3mShieldScope_gunbag_displayName">
+                <Original>[CSW] M3M w/ Shield + Scope</Original>
+                <English>[CSW] M3M w/ Shield + Scope</English>
+                <German>[CSW] M3M mit Schild + Optik</German>
+            </Key>
+        </Container>
+        <Container name="M3M_vehicle">
+            <Key ID="STR_gerrng_csw_m3m_veh_low">
+                <Original>M3M (Low)</Original>
+                <English>M3M (Low)</English>
+                <German>M3M (Niedrig)</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3m_veh_high">
+                <Original>M3M (High)</Original>
+                <English>M3M (High)</English>
+                <German>M3M (Hoch)</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3m_veh_low_ScopeShield">
+                <Original>M3M (Low (Scope + Shield))</Original>
+                <English>M3M (Low (Scope + Shield))</English>
+                <German>M3M (Niedrig (Optik + Schild))</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3m_veh_high_ScopeShield">
+                <Original>M3M (High (Scope + Shield))</Original>
+                <English>M3M (High (Scope + Shield))</English>
+                <German>M3M (Hoch (Optik + Schild))</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3m_veh_high_Scope">
+                <Original>M3M (High (Scope))</Original>
+                <English>M3M (High (Scope))</English>
+                <German>M3M (Hoch (Optik))</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3m_veh_low_Scope">
+                <Original>M3M (Low (Scope))</Original>
+                <English>M3M (Low (Scope))</English>
+                <German>M3M (Niedrig (Optik))</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3m_veh_high_Shield">
+                <Original>M3M (High (Shield))</Original>
+                <English>M3M (High (Shield))</English>
+                <German>M3M (Hoch (Schild))</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_m3m_veh_low_Shield">
+                <Original>M3M (Low (Shield))</Original>
+                <English>M3M (Low (Shield))</English>
+                <German>M3M (Niedrig (Schild))</German>
+            </Key>
+        </Container>
+        <Container name="GraMaWa">
+            <Key ID="STR_gerrng_csw_graMaWa_gunbag_displayName">
+                <Original>[CSW] GraMaWa</Original>
+                <English>[CSW] GraMaWa</English>
+                <German>[CSW] GraMaWa</German>
+            </Key>
+        </Container>
+        <Container name="munitions">
+            <Key ID="STR_gerrng_csw_100Rnd_127x99_ball">
+                <Original>[CSW] 100 Rnd Belt 127x99mm Ball</Original>
+                <English>[CSW] 100 Rnd Belt 127x99mm Ball</English>
+                <German>[CSW] Gurt 100 Sch. 127x99mm Ball</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_150Rnd_127x99_ball">
+                <Original>[CSW] 150 Rnd Belt 127x99mm Ball</Original>
+                <English>[CSW] 150 Rnd Belt 127x99mm Ball</English>
+                <German>[CSW] Gurt 150 Sch. 127x99mm Ball</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_200Rnd_127x99_ball">
+                <Original>[CSW] 200 Rnd Belt 127x99mm Ball</Original>
+                <English>[CSW] 200 Rnd Belt 127x99mm Ball</English>
+                <German>[CSW] Gurt 200 Sch. 127x99mm Ball</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_100Rnd_127x99_tracer">
+                <Original>[CSW] 100 Rnd Belt 127x99mm Tracer</Original>
+                <English>[CSW] 100 Rnd Belt 127x99mm Tracer</English>
+                <German>[CSW] Gurt 100 Sch. 127x99mm Leuchtspur</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_150Rnd_127x99_tracer">
+                <Original>[CSW] 150 Rnd Belt 127x99mm Tracer</Original>
+                <English>[CSW] 150 Rnd Belt 127x99mm Tracer</English>
+                <German>[CSW] Gurt 150 Sch. 127x99mm Leuchtspur</German>
+            </Key>
+            <Key ID="STR_gerrng_csw_200Rnd_127x99_tracer">
+                <Original>[CSW] 200 Rnd Belt 127x99mm Tracer</Original>
+                <English>[CSW] 200 Rnd Belt 127x99mm Tracer</English>
+                <German>[CSW] Gurt 200 Sch. 127x99mm Leuchtspur</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>

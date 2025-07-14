@@ -16,14 +16,14 @@ class I_MRAP_03_F : MRAP_03_base_F
 	{
 		class Fleck
 		{
-			displayName = "Flecktarn";
+			displayName = CSTRING(camo_flk);
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 		class Tropen
 		{
-			displayName = "Tropentarn";
+			displayName = CSTRING(camo_trp);
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {QGVAR(rangers_faction)};
@@ -31,14 +31,14 @@ class I_MRAP_03_F : MRAP_03_base_F
 
         class FleckSan
 		{
-			displayName = "Flecktarn NEF";
+			displayName = CSTRING(camo_flk_san);
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-W_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 		class TropenSan
 		{
-			displayName = "Tropentarn NEF";
+			displayName = CSTRING(camo_trp_san);
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-D_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {QGVAR(rangers_faction)};
@@ -52,14 +52,14 @@ class I_MRAP_03_hmg_F : MRAP_03_hmg_base_F
     {
         class Fleck
         {
-            displayName = "Flecktarn";
+            displayName = CSTRING(camo_flk);
             author = "dalleburn, jan";
             textures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
             faction[] = {QGVAR(rangers_faction)};
         };
         class Tropen
         {
-            displayName = "Tropentarn";
+            displayName = CSTRING(camo_trp);
             author = "dalleburn, jan";
             textures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
             faction[] = {QGVAR(rangers_faction)};
@@ -72,14 +72,14 @@ class I_MRAP_03_gmg_F : MRAP_03_gmg_base_F
     {
         class Fleck
 		{
-			displayName = "Flecktarn";
+			displayName = CSTRING(camo_flk);
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-W_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 		class Tropen
 		{
-			displayName = "Tropentarn";
+			displayName = CSTRING(camo_trp);
 			author = "dalleburn, jan";
 			textures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
 			faction[] = {QGVAR(rangers_faction)};
@@ -91,7 +91,7 @@ class GVAR(B_FENNEK_GER_Wdl) : I_MRAP_03_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Fennek Spähwagen (Woodland)";
+    displayName = CSTRING(fennek_flk);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -153,10 +153,65 @@ class GVAR(B_FENNEK_GER_Wdl) : I_MRAP_03_F {
 };
 
 class GVAR(B_FENNEK_GER_D) : GVAR(B_FENNEK_GER_Wdl) {
-    displayName = "Fennek Spähwagen (Desert)";
+    displayName = CSTRING(fennek_trp);
 
 	textureList[]={"Tropen",1};	
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
+};
+
+class GVAR(B_FENNEK_GER_SF_Wdl): GVAR(B_FENNEK_GER_Wdl) {
+    displayName = CSTRING(fennek_flk_sf);
+    author = "dalleburn, jan";
+    
+    class TransportBackpacks
+    {
+        class _xx_B_Parachute {backpack="B_Parachute";count=0;};
+    };
+    class TransportMagazines
+    {
+        class _xx_CUP_30Rnd_556x45_G36 {magazine="CUP_30Rnd_556x45_G36";count=10;};
+        class _xx_CUP_30Rnd_556x45_PMAG_BLACK {magazine="CUP_30Rnd_556x45_PMAG_BLACK";count=10;};
+        class _xx_CUP_20Rnd_762x51_HK417 {magazine="CUP_20Rnd_762x51_HK417";count=10;};
+        class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch {magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";count=2;};
+        class _xx_HandGrenade {magazine="HandGrenade";count=5;};
+        class _xx_SmokeShell {magazine="SmokeShell";count=4;};
+        class _xx_SmokeShellGreen {magazine="SmokeShellGreen";count=4;};
+        class _xx_SmokeShellRed	{magazine="SmokeShellRed";count=4;};
+        class _xx_1Rnd_HE_Grenade_shell	{magazine="1Rnd_HE_Grenade_shell";count=4;};
+        class _xx_ACE_40mm_Flare_ir	{magazine="ACE_40mm_Flare_ir";count=4;};
+        class _xx_1Rnd_Smoke_Grenade_shell	{magazine="1Rnd_Smoke_Grenade_shell";count=4;};
+        class _xx_ACE_Chemlight_HiGreen	{magazine="ACE_Chemlight_HiGreen";count=10;};
+        class _xx_ACE_Chemlight_HiRed {magazine="ACE_Chemlight_HiRed";count=10;};
+    };
+    class TransportWeapons
+    {
+        class _xx_CUP_arifle_G36A {weapon="CUP_arifle_G36A";count=2;};
+        class _xx_CUP_launch_M72A6 {weapon="CUP_launch_M72A6";count=2;};
+    };
+    class TransportItems
+    {
+        class _xx_Toolkit {name="Toolkit";count=1;};
+        class _xx_ACE_fieldDressing {name="ACE_fieldDressing";count=5;};
+        class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=5;};
+        class _xx_ACE_packingBandage {name="ACE_packingBandage";count=5;};
+        class _xx_ACE_quikclot {name="ACE_quikclot";count=5;};
+        class _xx_kat_chestSeal {name="kat_chestSeal";count=2;};
+        class _xx_ACE_EarPlugs {name="ACE_EarPlugs";count=10;};
+        class _xx_ACE_EntrenchingTool {name="ACE_EntrenchingTool";count=1;};
+        class _xx_ACE_IR_Strobe_Item {name="ACE_IR_Strobe_Item";count=10;};
+        class _xx_ACE_morphine {name="ACE_morphine";count=2;};
+        class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=5;};
+        class _xx_ACE_splint {name="ACE_splint";count=2;};
+        class _xx_ACE_wirecutter {name="ACE_wirecutter";count=1;};
+        class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
+        class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
+    };
+};
+
+class GVAR(B_FENNEK_GER_SF_D): GVAR(B_FENNEK_GER_SF_Wdl) {
+    displayName = CSTRING(fennek_trp_sf);
+    author = "dalleburn, jan";
+    textureList[] = {"Tropen",1};
 };
 //--------------------------------------------------------------------------------------
 //
@@ -168,7 +223,7 @@ class GVAR(B_FENNEK_GER_HMG_Wdl) : I_MRAP_03_hmg_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Fennek HMG (Woodland)";
+    displayName = CSTRING(fennek_flk_hmg);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -230,7 +285,7 @@ class GVAR(B_FENNEK_GER_HMG_Wdl) : I_MRAP_03_hmg_F {
 };
 
 class GVAR(B_FENNEK_GER_HMG_D) : GVAR(B_FENNEK_GER_HMG_Wdl) {
-    displayName = "Fennek HMG (Desert)";
+    displayName = CSTRING(fennek_trp_hmg);
 
 	textureList[]={"Tropen",1};	
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
@@ -246,7 +301,7 @@ class GVAR(B_FENNEK_GER_GMG_Wdl) : I_MRAP_03_gmg_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Fennek GMG (Woodland)";
+    displayName = CSTRING(fennek_flk_gmg);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -308,7 +363,7 @@ class GVAR(B_FENNEK_GER_GMG_Wdl) : I_MRAP_03_gmg_F {
 };
 
 class GVAR(B_FENNEK_GER_GMG_D) : GVAR(B_FENNEK_GER_GMG_Wdl) {
-    displayName = "Fennek GMG (Desert)";
+    displayName = CSTRING(fennek_trp_gmg);
 
 	textureList[]={"Tropen",1};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
@@ -336,7 +391,7 @@ class GVAR(FENNEK_NEF_W) : GVAR(B_FENNEK_med_base) {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Fennek Notarztfahrzeug (Woodland)";
+    displayName = CSTRING(fennek_flk_san);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -414,7 +469,7 @@ class GVAR(FENNEK_NEF_W) : GVAR(B_FENNEK_med_base) {
 };
 
 class GVAR(FENNEK_NEF_D) : GVAR(FENNEK_NEF_W) {
-    displayName = "Fennek Notarztfahrzeug (Desert)";
+    displayName = CSTRING(fennek_trp_san);
 
 	textureList[]={"TropenSan",1};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};				

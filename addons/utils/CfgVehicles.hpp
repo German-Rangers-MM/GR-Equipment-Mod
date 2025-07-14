@@ -6,11 +6,18 @@ class CfgVehicles {
 				displayName = "Place Remote Designator";
 				condition = QUOTE([_player] call FUNC(canPlaceDesignator));
 				statement = "";
+				exceptions[] = {"isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
 				insertChildren = QUOTE([_player] call FUNC(addDesignatorActions));
 				icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
 			};
             class GVAR(dropChemlight) {
-                displayName = "Drop Chemlight";
+                displayName = "Drop Chemlights";
+				condition = "true";
+				exceptions[] = {"isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+				statement = "";
+				insertChildren = QUOTE([_player] call FUNC(populateChemlights));
+				icon = "a3\modules_f_curator\data\portraitchemlight_ca.paa";
+				showDisabled = 1;
             };
 		};
 	};

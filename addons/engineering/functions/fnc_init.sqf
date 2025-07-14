@@ -21,14 +21,14 @@ params ["_target"];
 
 if ( isClass(configFile >> "CfgPatches" >> "ace_interact_menu") ) then {
 
-	_lowerPlow = ["lowerPlowAction",("<t color=""#00FF00"">" + (localize "STR_gerrng_bobcat_plowDown") + "</t>"),"",{
+	_lowerPlow = ["lowerPlowAction",("<t color=""#00FF00"">" + (localize "STR_gerrng_engineering_plowDown") + "</t>"),"",{
 		
 		params ["_target", "_player", "_params"];
 		_target animateSource ["MovePlow", 1];
 		
 	},{ (driver _target) isEqualTo _player && _target animationSourcePhase 'MovePlow' isEqualTo 0 }] call ace_interact_menu_fnc_createAction;
 	
-	_raisePlow = ["raisePlowAction",("<t color=""#FF0000"">" + (localize "STR_gerrng_bobcat_plowUp") + "</t>"),"",{
+	_raisePlow = ["raisePlowAction",("<t color=""#FF0000"">" + (localize "STR_gerrng_engineering_plowUp") + "</t>"),"",{
 		
 		params ["_target", "_player", "_params"];
 		_target animateSource ["MovePlow", 0];

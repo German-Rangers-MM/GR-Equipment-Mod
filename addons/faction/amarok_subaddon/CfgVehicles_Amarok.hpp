@@ -12,67 +12,67 @@ class I_E_Offroad_01_covered_F : Offroad_01_military_covered_base_F
 	{
 		class Green
 		{
-			displayName = "Green";
+			displayName = CSTRING(camo_grn);
 			author = "Cookie";
 			faction[] = {QGVAR(rangers_faction)};
 		};
 		class Flk
 		{
-			displayName = "Flecktarn";
+			displayName = CSTRING(camo_flk);
 			author = "Cookie";
-			textures[] = {QPATHTOF(data\amarok_ext_FLK_CO.paa),QPATHTOF(data\amarok_ext_FLK_CO.paa),QPATHTOF(data\amarok_cover_FLK_CO.paa)};
+			textures[] = {QPATHTOF(amarok_subaddon\data\amarok_ext_FLK_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_ext_FLK_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_cover_FLK_CO.paa)};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 		class Trp
 		{
-			displayName = "Tropentarn";
+			displayName = CSTRING(camo_trp);
 			author = "Cookie";
-			textures[] = {QPATHTOF(data\amarok_ext_TRP_CO.paa),QPATHTOF(data\amarok_ext_TRP_CO.paa),QPATHTOF(data\amarok_cover_TRP_CO.paa)};
+			textures[] = {QPATHTOF(amarok_subaddon\data\amarok_ext_TRP_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_ext_TRP_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_cover_TRP_CO.paa)};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 
 		class FlkSan
 		{
-			displayName = "Flecktarn (San)";
+			displayName = CSTRING(camo_flk_san);
 			author = "Cookie";
-			textures[] = {QPATHTOF(data\amarok_ext_san_FLK_CO.paa),QPATHTOF(data\amarok_ext_san_FLK_CO.paa),QPATHTOF(data\amarok_cover_san_FLK_CO.paa)};
+			textures[] = {QPATHTOF(amarok_subaddon\data\amarok_ext_san_FLK_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_ext_san_FLK_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_cover_san_FLK_CO.paa)};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 		class TrpSan
 		{
-			displayName = "Tropentarn (San)";
+			displayName = CSTRING(camo_trp_san);
 			author = "Cookie";
-			textures[] = {QPATHTOF(data\amarok_ext_san_TRP_CO.paa),QPATHTOF(data\amarok_ext_san_TRP_CO.paa),QPATHTOF(data\amarok_cover_san_TRP_CO.paa)};
+			textures[] = {QPATHTOF(amarok_subaddon\data\amarok_ext_san_TRP_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_ext_san_TRP_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_cover_san_TRP_CO.paa)};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 
 		class FlkCSS
 		{
-			displayName = "Flecktarn (CSS)";
+			displayName = CSTRING(camo_flk_css);
 			author = "Cookie";
-			textures[] = {QPATHTOF(data\amarok_ext_css_FLK_CO.paa),QPATHTOF(data\amarok_ext_css_FLK_CO.paa),QPATHTOF(data\amarok_cover_FLK_CO.paa)};
+			textures[] = {QPATHTOF(amarok_subaddon\data\amarok_ext_css_FLK_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_ext_css_FLK_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_cover_FLK_CO.paa)};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 		class TrpCSS
 		{
-			displayName = "Tropentarn (CSS)";
+			displayName = CSTRING(camo_trp_css);
 			author = "Cookie";
-			textures[] = {QPATHTOF(data\amarok_ext_css_TRP_CO.paa),QPATHTOF(data\amarok_ext_css_TRP_CO.paa),QPATHTOF(data\amarok_cover_TRP_CO.paa)};
+			textures[] = {QPATHTOF(amarok_subaddon\data\amarok_ext_css_TRP_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_ext_css_TRP_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_cover_TRP_CO.paa)};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 
 		class FlkSig
 		{
-			displayName = "Flecktarn (IuK)";
+			displayName = CSTRING(camo_flk_C2);
 			author = "Cookie";
-			textures[] = {QPATHTOF(data\amarok_ext_sig_FLK_CO.paa),QPATHTOF(data\amarok_ext_sig_FLK_CO.paa),QPATHTOF(data\amarok_cover_FLK_CO.paa)};
+			textures[] = {QPATHTOF(amarok_subaddon\data\amarok_ext_sig_FLK_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_ext_sig_FLK_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_cover_FLK_CO.paa)};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 		class TrpSig
 		{
-			displayName = "Tropentarn (IuK)";
+			displayName = CSTRING(camo_trp_C2);
 			author = "Cookie";
-			textures[] = {QPATHTOF(data\amarok_ext_sig_TRP_CO.paa),QPATHTOF(data\amarok_ext_sig_TRP_CO.paa),QPATHTOF(data\amarok_cover_TRP_CO.paa)};
+			textures[] = {QPATHTOF(amarok_subaddon\data\amarok_ext_sig_TRP_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_ext_sig_TRP_CO.paa),QPATHTOF(amarok_subaddon\data\amarok_cover_TRP_CO.paa)};
 			faction[] = {QGVAR(rangers_faction)};
 		};
 	};
@@ -377,6 +377,12 @@ class GVAR(Amarok_covered_san_GER_Grn) : GVAR(Amarok_covered_GER_Grn)
         "HideBumper2",0,
         "HideConstruction",0,
         "BeaconsStart",0
+	};
+
+	class Sounds
+	{
+		soundSetsExt[] = {"Offroad_01_Engine_RPM0_EXT_SoundSet","Offroad_01_Engine_RPM1_EXT_SoundSet","Offroad_01_Engine_RPM2_EXT_SoundSet","Offroad_01_Engine_RPM3_EXT_SoundSet","Offroad_01_Engine_RPM4_EXT_SoundSet","Offroad_01_Rattling_EXT_SoundSet","Offroad_01_Stress_EXT_SoundSet","Offroad_01_Rain_EXT_SoundSet","Offroad_01_Tires_Rock_Fast_EXT_SoundSet","Offroad_01_Tires_Grass_Fast_EXT_SoundSet","Offroad_01_Tires_Sand_Fast_EXT_SoundSet","Offroad_01_Tires_Gravel_Fast_EXT_SoundSet","Offroad_01_Tires_Mud_Fast_EXT_SoundSet","Offroad_01_Tires_Asphalt_Fast_EXT_SoundSet","Offroad_01_Tires_Water_Fast_EXT_SoundSet","Offroad_01_Tires_Rock_Slow_EXT_SoundSet","Offroad_01_Tires_Grass_Slow_EXT_SoundSet","Offroad_01_Tires_Sand_Slow_EXT_SoundSet","Offroad_01_Tires_Gravel_Slow_EXT_SoundSet","Offroad_01_Tires_Mud_Slow_EXT_SoundSet","Offroad_01_Tires_Asphalt_Slow_EXT_SoundSet","Offroad_01_Tires_Water_Slow_EXT_SoundSet","Offroad_01_Tires_Turn_Hard_EXT_SoundSet","Offroad_01_Tires_Turn_Soft_EXT_SoundSet","Offroad_01_Tires_Brake_Hard_EXT_SoundSet","Offroad_01_Tires_Brake_Soft_EXT_SoundSet","","Tires_Movement_Dirt_Ext_01_SoundSet","Van_02_AmbulanceSiren_BW_01_Ext_SoundSet"};
+		soundSetsInt[] = {"Offroad_01_Engine_RPM0_INT_SoundSet","Offroad_01_Engine_RPM1_INT_SoundSet","Offroad_01_Engine_RPM2_INT_SoundSet","Offroad_01_Engine_RPM3_INT_SoundSet","Offroad_01_Engine_RPM4_INT_SoundSet","Offroad_01_Rattling_INT_SoundSet","Offroad_01_Stress_INT_SoundSet","Offroad_01_Rain_INT_SoundSet","Offroad_01_Tires_Rock_Fast_OPEN_SoundSet","Offroad_01_Tires_Grass_Fast_OPEN_SoundSet","Offroad_01_Tires_Sand_Fast_OPEN_SoundSet","Offroad_01_Tires_Gravel_Fast_OPEN_SoundSet","Offroad_01_Tires_Mud_Fast_OPEN_SoundSet","Offroad_01_Tires_Asphalt_Fast_OPEN_SoundSet","Offroad_01_Tires_Water_Fast_OPEN_SoundSet","Offroad_01_Tires_Rock_Slow_OPEN_SoundSet","Offroad_01_Tires_Grass_Slow_OPEN_SoundSet","Offroad_01_Tires_Sand_Slow_OPEN_SoundSet","Offroad_01_Tires_Gravel_Slow_OPEN_SoundSet","Offroad_01_Tires_Mud_Slow_OPEN_SoundSet","Offroad_01_Tires_Asphalt_Slow_OPEN_SoundSet","Offroad_01_Tires_Water_Slow_OPEN_SoundSet","Offroad_01_Tires_Turn_Hard_OPEN_SoundSet","Offroad_01_Tires_Turn_Soft_OPEN_SoundSet","Offroad_01_Tires_Brake_Hard_OPEN_SoundSet","Offroad_01_Tires_Brake_Soft_OPEN_SoundSet","","Tires_Movement_Dirt_Int_01_SoundSet","Van_02_AmbulanceSiren_BW_01_Int_SoundSet"};
 	};
 
 	class TransportBackpacks

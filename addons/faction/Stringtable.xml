@@ -1,107 +1,505 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="gerrng">
     <Package name="faction">
-        <Key ID="STR_gerrng_faction_amarok_flk">
-            <English>Amarok (Woodland (No Cover))</English>
-            <German>Amarok (Flecktarn (Kein Cover))</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_green">
-            <English>Amarok (Green (No Cover))</English>
-            <German>Amarok (Grün (Kein Cover))</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_trp">
-            <English>Amarok (Desert (No Cover))</English>
-            <German>Amarok (Tropentarn (Kein Cover))</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_covered_flk">
-            <English>Amarok (Woodland)</English>
-            <German>Amarok (Flecktarn)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_covered_green">
-            <English>Amarok (Green)</English>
-            <German>Amarok (Grün)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_covered_trp">
-            <English>Amarok (Desert)</English>
-            <German>Amarok (Tropentarn)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_css_flk">
-            <English>Amarok CSS (Woodland)</English>
-            <German>Amarok CSS (Flecktarn)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_css_green">
-            <English>Amarok CSS (Green)</English>
-            <German>Amarok CSS (Grün)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_css_trp">
-            <English>Amarok CSS (Desert)</English>
-            <German>Amarok CSS (Tropentarn)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_css_nc_flk">
-            <English>Amarok CSS (Woodland (No Cover))</English>
-            <German>Amarok CSS (Flecktarn (Kein Cover))</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_css_nc_green">
-            <English>Amarok CSS (Green (No Cover))</English>
-            <German>Amarok CSS (Grün (Kein Cover))</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_css_nc_trp">
-            <English>Amarok CSS (Desert (No Cover))</English>
-            <German>Amarok CSS (Tropentarn (Kein Cover))</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_iuk_flk">
-            <English>Amarok Comms (Woodland)</English>
-            <German>Amarok IuK (Flecktarn)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_iuk_green">
-            <English>Amarok Comms (Green)</English>
-            <German>Amarok IuK (Grün)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_iuk_trp">
-            <English>Amarok Comms (Desert)</English>
-            <German>Amarok IuK (Tropentarn)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_san_flk">
-            <English>Amarok MED (Woodland)</English>
-            <German>Amarok SAN (Flecktarn)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_san_green">
-            <English>Amarok MED (Green )</English>
-            <German>Amarok SAN (Grün)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_amarok_san_trp">
-            <English>Amarok MED (Desert)</English>
-            <German>Amarok SAN (Tropentarn)</German>
-        </Key>
 
-        
-        <Key ID="STR_gerrng_faction_subcat_pkw_light">
-            <English>Cars (Light)</English>
-            <German>PKW (Leicht)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_subcat_pkw_armored">
-            <English>Cars (Armored)</English>
-            <German>PKW (Geschützt)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_subcat_wiesel">
-            <English>Wiesel IFV</English>
-            <German>SPz Wiesel</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_subcat_lkw">
-            <English>Trucks (Iveco 7t/Multi 15t GL)</English>
-            <German>LKW (Iveco 7t/Multi 15t GL)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_subcat_heli_light">
-            <English>Helicopters (Light)</English>
-            <German>Helikopter (Leicht)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_subcat_heli_medium">
-            <English>Helicopters (Medium)</English>
-            <German>Helikopter (Mittelschwer)</German>
-        </Key>
-        <Key ID="STR_gerrng_faction_subcat_heli_heavy">
-            <English>Helicopters (Heavy)</English>
-            <German>Helikopter (Schwer)</German>
-        </Key>
+        <Container name="camo">
+            <Key ID="STR_gerrng_faction_camo_wdl">
+                <Original>Woodland</Original>
+                <English>Woodland</English>
+                <German>Waldtarn</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_grn">
+                <Original>Green</Original>
+                <English>Green</English>
+                <German>Grün</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_snd">
+                <Original>Sand</Original>
+                <English>Sand</English>
+                <German>Sand</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_snd_wdlNetting">
+                <Original>Sand (Woodland Netting)</Original>
+                <English>Sand (Woodland Netting)</English>
+                <German>Sand (Tarnetz Wald)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_des">
+                <Original>Desert</Original>
+                <English>Desert</English>
+                <German>Wüstentarn</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_flk">
+                <Original>Flecktarn</Original>
+                <English>Flecktarn</English>
+                <German>Flecktarn</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_flk_san">
+                <Original>Flecktarn (Medic)</Original>
+                <English>Flecktarn (Medic)</English>
+                <German>Flecktarn (San)</German>
+            </Key>
+            
+            <Key ID="STR_gerrng_faction_camo_flk_css">
+                <Original>Flecktarn (CSS)</Original>
+                <English>Flecktarn (CSS)</English>
+                <German>Flecktarn (CSS)</German>
+            </Key>
+            
+            <Key ID="STR_gerrng_faction_camo_flk_C2">
+                <Original>Flecktarn (C2)</Original>
+                <English>Flecktarn (C2)</English>
+                <German>Flecktarn (IuK)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_trp">
+                <Original>Tropentarn</Original>
+                <English>Tropentarn</English>
+                <German>Tropentarn</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_trp_san">
+                <Original>Tropentarn (Medic)</Original>
+                <English>Tropentarn (Medic)</English>
+                <German>Tropentarn (San)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_trp_css">
+                <Original>Tropentarn (CSS)</Original>
+                <English>Tropentarn (CSS)</English>
+                <German>Tropentarn (CSS)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_camo_trp_C2">
+                <Original>Tropentarn (C2)</Original>
+                <English>Tropentarn (C2)</English>
+                <German>Tropentarn (IuK)</German>
+            </Key>
+        </Container>
+        <Container name="amarok">
+            <Key ID="STR_gerrng_faction_amarok_flk">
+                <Original>Amarok (Woodland (No Cover))</Original>
+                <English>Amarok (Woodland (No Cover))</English>
+                <German>Amarok (Flecktarn (Kein Cover))</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_green">
+                <Original>Amarok (Green (No Cover))</Original>
+                <English>Amarok (Green (No Cover))</English>
+                <German>Amarok (Grün (Kein Cover))</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_trp">
+                <Original>Amarok (Desert (No Cover))</Original>
+                <English>Amarok (Desert (No Cover))</English>
+                <German>Amarok (Tropentarn (Kein Cover))</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_covered_flk">
+                <Original>Amarok (Woodland)</Original>
+                <English>Amarok (Woodland)</English>
+                <German>Amarok (Flecktarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_covered_green">
+                <Original>Amarok (Green)</Original>
+                <English>Amarok (Green)</English>
+                <German>Amarok (Grün)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_covered_trp">
+                <Original>Amarok (Desert)</Original>
+                <English>Amarok (Desert)</English>
+                <German>Amarok (Tropentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_css_flk">
+                <Original>Amarok CSS (Woodland)</Original>
+                <English>Amarok CSS (Woodland)</English>
+                <German>Amarok CSS (Flecktarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_css_green">
+                <Original>Amarok CSS (Green)</Original>
+                <English>Amarok CSS (Green)</English>
+                <German>Amarok CSS (Grün)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_css_trp">
+                <Original>Amarok CSS (Desert)</Original>
+                <English>Amarok CSS (Desert)</English>
+                <German>Amarok CSS (Tropentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_css_nc_flk">
+                <Original>Amarok CSS (Woodland (No Cover))</Original>
+                <English>Amarok CSS (Woodland (No Cover))</English>
+                <German>Amarok CSS (Flecktarn (Kein Cover))</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_css_nc_green">
+                <Original>Amarok CSS (Green (No Cover))</Original>
+                <English>Amarok CSS (Green (No Cover))</English>
+                <German>Amarok CSS (Grün (Kein Cover))</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_css_nc_trp">
+                <Original>Amarok CSS (Desert (No Cover))</Original>
+                <English>Amarok CSS (Desert (No Cover))</English>
+                <German>Amarok CSS (Tropentarn (Kein Cover))</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_iuk_flk">
+                <Original>Amarok C2 (Woodland)</Original>
+                <English>Amarok C2 (Woodland)</English>
+                <German>Amarok IuK (Flecktarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_iuk_green">
+                <Original>Amarok C2 (Green)</Original>
+                <English>Amarok C2 (Green)</English>
+                <German>Amarok IuK (Grün)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_iuk_trp">
+                <Original>Amarok C2 (Desert)</Original>
+                <English>Amarok C2 (Desert)</English>
+                <German>Amarok IuK (Tropentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_san_flk">
+                <Original>Amarok MED (Woodland)</Original>
+                <English>Amarok MED (Woodland)</English>
+                <German>Amarok SAN (Flecktarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_san_green">
+                <Original>Amarok MED (Green)</Original>
+                <English>Amarok MED (Green )</English>
+                <German>Amarok SAN (Grün)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_san_trp">
+                <Original>Amarok MED (Desert)</Original>
+                <English>Amarok MED (Desert)</English>
+                <German>Amarok SAN (Tropentarn)</German>
+            </Key>
+        </Container>
+
+        <Container name="boxes">
+            <Key ID="STR_gerrng_faction_box_ammo_l">
+                <Original>Ammo Box (Large)</Original>
+                <English>Ammo Box (Large)</English>
+                <German>Munitionskiste (Groß)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_box_ammo_s">
+                <Original>Ammo Box (Small)</Original>
+                <English>Ammo Box (Small)</English>
+                <German>Munitionskiste (Klein)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_box_ammo_m">
+                <Original>Ammo Box (Medium)</Original>
+                <English>Ammo Box (Medium)</English>
+                <German>Munitionskiste (Mittel)</German>
+            </Key>
+        </Container>
+
+        <Container name="fennek">
+            <Key ID="STR_gerrng_faction_fennek_flk">
+                <Original>Fennek Recon (Woodland)</Original>
+                <English>Fennek Recon (Woodland)</English>
+                <German>Fennek Spähwagen (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_trp">
+                <Original>Fennek Recon (Desert)</Original>
+                <English>Fennek Recon (Desert)</English>
+                <German>Fennek Spähwagen (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_flk_san">
+                <Original>Fennek NEF (Woodland)</Original>
+                <English>Fennek NEF (Woodland)</English>
+                <German>Fennek NEF (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_trp_san">
+                <Original>Fennek NEF (Desert)</Original>
+                <English>Fennek NEF (Desert)</English>
+                <German>Fennek NEF (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_flk_hmg">
+                <Original>Fennek HMG (Woodland)</Original>
+                <English>Fennek HMG (Woodland)</English>
+                <German>Fennek HMG (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_trp_hmg">
+                <Original>Fennek HMG (Desert)</Original>
+                <English>Fennek HMG (Desert)</English>
+                <German>Fennek HMG (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_flk_gmg">
+                <Original>Fennek GMG (Woodland)</Original>
+                <English>Fennek GMG (Woodland)</English>
+                <German>Fennek GMG (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_trp_gmg">
+                <Original>Fennek GMG (Desert)</Original>
+                <English>Fennek GMG (Desert)</English>
+                <German>Fennek GMG (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_flk_sf">
+                <Original>Fennek SF (Woodland)</Original>
+                <English>Fennek SF (Woodland)</English>
+                <German>Fennek SF (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_trp_sf">
+                <Original>Fennek SF (Desert)</Original>
+                <English>Fennek SF (Desert)</English>
+                <German>Fennek SF (Wüstentarn)</German>
+            </Key>
+        </Container>
+
+        <Container name="griffon">
+            <Key ID="STR_gerrng_faction_OH146">
+                <Original>OH-146 Griffon Recon</Original>
+                <English>OH-146 Griffon Recon</English>
+                <German>OH-146 Griffon Aufklärung</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_CH146">
+                <Original>CH-146 Griffon Transport</Original>
+                <English>CH-146 Griffon Transport</English>
+                <German>CH-146 Griffon Transport</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_AH146">
+                <Original>AH-146 Griffon Multirole</Original>
+                <English>AH-146 Griffon Multirole</English>
+                <German>AH-146 Griffon Multirole</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_MH146">
+                <Original>MH-146 Griffon SAR</Original>
+                <English>MH-146 Griffon SAR</English>
+                <German>MH-146 Griffon SAR</German>
+            </Key>
+        </Container>
+
+        <Container name="lkw_7t">
+            <Key ID="STR_gerrng_faction_lkw_7t_w">
+                <Original>7t Truck Transport open (Woodland)</Original>
+                <English>7t Truck Transport open (Woodland)</English>
+                <German>Lkw 7t Transport offen (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_d">
+                <Original>7t Truck Transport open (Desert)</Original>
+                <English>7t Truck Transport open (Desert)</English>
+                <German>Lkw 7t Transport offen (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_covered_w">
+                <Original>7t Truck Transport covered (Woodland)</Original>
+                <English>7t Truck Transport covered (Woodland)</English>
+                <German>Lkw 7t Transport Plane (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_covered_d">
+                <Original>7t Truck Transport covered (Desert)</Original>
+                <English>7t Truck Transport covered (Desert)</English>
+                <German>Lkw 7t Transport Plane (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_med_w">
+                <Original>7t Truck Medical (Woodland)</Original>
+                <English>7t Truck Medical (Woodland)</English>
+                <German>Lkw 7t Transport Sanität (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_med_d">
+                <Original>7t Truck Medical (Desert)</Original>
+                <English>7t Truck Medical (Desert)</English>
+                <German>Lkw 7t Transport Sanität (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_fuel_w">
+                <Original>7t Truck Fuel (Woodland)</Original>
+                <English>7t Truck Fuel (Woodland)</English>
+                <German>Lkw 7t Treibstoff (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_fuel_d">
+                <Original>7t Truck Fuel (Desert)</Original>
+                <English>7t Truck Fuel (Desert)</English>
+                <German>Lkw 7t Treibstoff (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_ammo_w">
+                <Original>7t Truck Ammo (Woodland)</Original>
+                <English>7t Truck Ammo (Woodland)</English>
+                <German>Lkw 7t Munition (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_ammo_d">
+                <Original>7t Truck Ammo (Desert)</Original>
+                <English>7t Truck Ammo (Desert)</English>
+                <German>Lkw 7t Munition (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_repair_w">
+                <Original>7t Truck Repair (Woodland)</Original>
+                <English>7t Truck Repair (Woodland)</English>
+                <German>Lkw 7t Instandsetzung (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_repair_d">
+                <Original>7t Truck Repair (Desert)</Original>
+                <English>7t Truck Repair (Desert)</English>
+                <German>Lkw 7t Instandsetzung (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_mlrs_w">
+                <Original>7t Truck MLRS PULS (Woodland)</Original>
+                <English>7t Truck MLRS PULS (Woodland)</English>
+                <German>Lkw 7t MLRS PULS (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_mlrs_d">
+                <Original>7t Truck MLRS PULS (Desert)</Original>
+                <English>7t Truck MLRS PULS (Desert)</English>
+                <German>Lkw 7t MLRS PULS (Wüstentarn)</German>
+            </Key>
+        </Container>
+        <Container name="lkw_15t">
+            <Key ID="STR_gerrng_faction_lkw_15t_con_w">
+                <Original>15t Truck MULTI Container (Woodland)</Original>
+                <English>15t Truck MULTI Container (Woodland)</English>
+                <German>Lkw 15t GL MULTI Container (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_con_d">
+                <Original>15t Truck MULTI Container (Desert)</Original>
+                <English>15t Truck MULTI Container (Desert)</English>
+                <German>Lkw 15t GL MULTI Container (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_rep_w">
+                <Original>15t Truck MULTI Repair (Woodland)</Original>
+                <English>15t Truck MULTI Repair (Woodland)</English>
+                <German>Lkw 15t GL MULTI Instandsetzung (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_rep_d">
+                <Original>15t Truck MULTI Repair (Desert)</Original>
+                <English>15t Truck MULTI Repair (Desert)</English>
+                <German>Lkw 15t GL MULTI Instandsetzung (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_ammo_w">
+                <Original>15t Truck MULTI Ammo (Woodland)</Original>
+                <English>15t Truck MULTI Ammo (Woodland)</English>
+                <German>Lkw 15t GL MULTI Munition (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_ammo_d">
+                <Original>15t Truck MULTI Ammo (Desert)</Original>
+                <English>15t Truck MULTI Ammo (Desert)</English>
+                <German>Lkw 15t GL MULTI Munition (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_flatbed_w">
+                <Original>15t Truck MULTI Flatbed (Woodland)</Original>
+                <English>15t Truck MULTI Flatbed (Woodland)</English>
+                <German>Lkw 15t GL MULTI Pritsche (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_flatbed_d">
+                <Original>15t Truck MULTI Flatbed (Desert)</Original>
+                <English>15t Truck MULTI Flatbed (Desert)</English>
+                <German>Lkw 15t GL MULTI Pritsche (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_transport_w">
+                <Original>15t Truck MULTI Transport (Woodland)</Original>
+                <English>15t Truck MULTI Transport (Woodland)</English>
+                <German>Lkw 15t GL MULTI Transport (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_transport_d">
+                <Original>15t Truck MULTI Transport (Desert)</Original>
+                <English>15t Truck MULTI Transport (Desert)</English>
+                <German>Lkw 15t GL MULTI Transport (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_covered_w">
+                <Original>15t Truck MULTI Transport covered (Woodland)</Original>
+                <English>15t Truck MULTI Transport covered (Woodland)</English>
+                <German>Lkw 15t GL MULTI Transport Plane (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_covered_d">
+                <Original>15t Truck MULTI Transport covered (Desert)</Original>
+                <English>15t Truck MULTI Transport covered (Desert)</English>
+                <German>Lkw 15t GL MULTI Transport Plane (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_med_w">
+                <Original>15t Truck MULTI Medical (Woodland)</Original>
+                <English>15t Truck MULTI Medical (Woodland)</English>
+                <German>Lkw 15t GL MULTI Sanität (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_med_d">
+                <Original>15t Truck MULTI Medical (Desert)</Original>
+                <English>15t Truck MULTI Medical (Desert)</English>
+                <German>Lkw 15t GL MULTI Sanität (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_fuel_w">
+                <Original>15t Truck MULTI Fuel (Woodland)</Original>
+                <English>15t Truck MULTI Fuel (Woodland)</English>
+                <German>Lkw 15t GL MULTI Treibstoff (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_15t_fuel_d">
+                <Original>15t Truck MULTI Fuel (Desert)</Original>
+                <English>15t Truck MULTI Fuel (Desert)</English>
+                <German>Lkw 15t GL MULTI Treibstoff (Wüstentarn)</German>
+            </Key>
+        </Container>
+
+        <Container name="arty">
+            <Key ID="STR_gerrng_faction_120mm_illum">
+                <Original>120mm Illum. Flare White</Original>
+                <English>120mm Illum. Flare White</English>
+                <German>120mm Gefechtsfeldbeleuchtung Weiß</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_120mm_illum_short">
+                <Original>White Illum.</Original>
+                <English>White Illum.</English>
+                <German>Leucht. Weiß</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_120mm_guided_he">
+                <Original>120mm Guided HE</Original>
+                <English>120mm Guided HE</English>
+                <German>120mm Sprenggranate (Gelenkt)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_120mm_guided_he_short">
+                <Original>HE Guided</Original>
+                <English>HE Guided</English>
+                <German>Sprenggranate (Gelenkt)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_120mm_laser_guided_he">
+                <Original>120mm Laser Guided HE</Original>
+                <English>120mm Laser Guided HE</English>
+                <German>120mm Sprenggranate (Laser-Gelenkt)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_120mm_laser_guided_he_short">
+                <Original>HE Laser Guided</Original>
+                <English>HE Laser Guided</English>
+                <German>Sprenggr. (Laser)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_M1129_MC">
+                <Original>M1129 Mortar-Carrier GMG</Original>
+                <English>M1129 Mortar-Carrier GMG</English>
+                <German>M1129 Mörserträger GMG</German>
+            </Key>
+        </Container>
+
+        <Container name="subcat">
+            <Key ID="STR_gerrng_faction_subcat_pkw_light">
+                <Original>Cars (Light)</Original>
+                <English>Cars (Light)</English>
+                <German>PKW (Leicht)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_subcat_pkw_armored">
+                <Original>Cars (Armored)</Original>
+                <English>Cars (Armored)</English>
+                <German>PKW (Geschützt)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_subcat_wiesel">
+                <Original>Wiesel IFV</Original>
+                <English>Wiesel IFV</English>
+                <German>SPz Wiesel</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_subcat_lkw">
+                <Original>Trucks (Iveco 7t/Multi 15t GL)</Original>
+                <English>Trucks (Iveco 7t/Multi 15t GL)</English>
+                <German>LKW (Iveco 7t/Multi 15t GL)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_subcat_heli_light">
+                <Original>Helicopters (Light)</Original>
+                <English>Helicopters (Light)</English>
+                <German>Helikopter (Leicht)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_subcat_heli_medium">
+                <Original>Helicopters (Medium)</Original>
+                <English>Helicopters (Medium)</English>
+                <German>Helikopter (Mittelschwer)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_subcat_heli_heavy">
+                <Original>Helicopters (Heavy)</Original>
+                <English>Helicopters (Heavy)</English>
+                <German>Helikopter (Schwer)</German>
+            </Key>
+        </Container>
+
+        <Container name="interactions">
+            <Key ID="STR_gerrng_faction_interaction_start_siren">
+                <Original>Start Siren</Original>
+                <English>Start Siren</English>
+                <German>Signalhorn einschalten</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_interaction_stop_siren">
+                <Original>Stop Siren</Original>
+                <English>Stop Siren</English>
+                <German>Signalhorn ausschalten</German>
+            </Key>
+        </Container>
     </Package>
 </Project>

@@ -11,8 +11,6 @@ class CfgPatches
 		requiredAddons[] = {"ace_main"};
         author = ECSTRING(main,Team);
         VERSION_CONFIG;
-
-        addonRootClass = QUOTE(ADDON);  
         
 	};
 };
@@ -36,3 +34,4 @@ class Extended_Init_EventHandlers
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"

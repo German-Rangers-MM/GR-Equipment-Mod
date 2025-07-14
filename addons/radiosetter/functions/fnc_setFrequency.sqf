@@ -18,7 +18,5 @@ if(_vehicle call TFAR_fnc_hasVehicleRadio) then {
         _freqs set [0,_newFreq ];
         _settings set [2,_freqs];
         [[_object,_radioId],_settings] call TFAR_fnc_setLrSettings;
-        diag_log format ["Changed Channel 0 to %1 on %2 for %3", _newFreq,_radioId,_object];
-        diag_log "----------------------------------------------------------";
     } forEach _radios;
 };

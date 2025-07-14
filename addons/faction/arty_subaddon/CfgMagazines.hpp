@@ -7,9 +7,9 @@ class CfgMagazines
         author = "Cookie";
         count = 8;
         descriptionShort = "";
-        displayName = "120mm Illum. Flare White";
+        displayName = CSTRING(120mm_illum);
         displayNameMFDFormat = "HE";
-        displayNameShort = "White Illumination";
+        displayNameShort = CSTRING(120mm_illum_short);
     };
 
     class GerRng_8Rnd_120mm_Guided_HE: 32Rnd_155mm_Mo_shells
@@ -18,19 +18,19 @@ class CfgMagazines
         author = "Cookie";
         count = 8;
         descriptionShort = "";
-        displayName = "120mm Guided HE";
-        displayNameMFDFormat = "GUIDED";
-        displayNameShort = "120mm Guided";
+        displayName = CSTRING(120mm_guided_he);
+        displayNameMFDFormat = "HE GUIDED";
+        displayNameShort = CSTRING(120mm_guided_he_short);
     };
 
     class GerRng_8Rnd_120mm_Laser_Guided_HE: 32Rnd_155mm_Mo_shells
     {
-        ammo = "Sh_155mm_AMOS_guided";
+        ammo = "Sh_155mm_AMOS_LG";
         author = "Cookie";
         count = 8;
         descriptionShort = "";
-        displayName = "120mm Laser Guided HE";
-        displayNameMFDFormat = "LASER GUID";
-        displayNameShort = "120mm Laser Guided";
+        displayName = CSTRING(120mm_laser_guided_he);
+        displayNameMFDFormat = "HE LASER";
+        displayNameShort = CSTRING(120mm_laser_guided_he_short);
     };
 };

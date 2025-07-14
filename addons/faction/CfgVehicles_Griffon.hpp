@@ -16,7 +16,7 @@ class GVAR(CH_146_Griffon_Radar_01) : CUP_I_412_Military_Radar_AAF {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
-    displayName = "OH-146 Griffon Aufklärung";
+    displayName = CSTRING(OH146);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
@@ -90,7 +90,7 @@ class GVAR(CH_146_Griffon_Transport_01) : CUP_I_412_Mil_Transport_AAF {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
-    displayName = "CH-146 Griffon Transport";
+    displayName = CSTRING(CH146);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
@@ -176,7 +176,7 @@ class GVAR(CH_146_Griffon_CAS_01) : CUP_412_dynamicLoadout_Base_F {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
-    displayName = "AH-146 Griffon Multirole";
+    displayName = CSTRING(AH146);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
@@ -257,7 +257,7 @@ class GVAR(Ch_146_Griffon_MedEvac_01) : CUP_I_412_Military_Radar_AAF {
     author = "dalleburn, jan";
     scope = 2;
     scopeCurator = 2;
-    displayName = "HH-146 Griffon SAR";
+    displayName = CSTRING(MH146);
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_C_C_AirMedic_red_01";

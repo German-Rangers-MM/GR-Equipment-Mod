@@ -67,7 +67,7 @@ class GVAR(Box_ammo_L_F): Land_PlasticCase_01_large_olive_F
 	side = 3;
 	scopeCurator = 2;
 	scope = 2;
-	displayName = "Munitionskiste (Groß)";
+	displayName = CSTRING(box_ammo_l);
 	ace_dragging_canCarry = 0;
 	ace_dragging_canDrag = 0;
 	ace_rearm_defaultSupply = 400;
@@ -86,7 +86,7 @@ class GVAR(Box_ammo_M_F): Land_PlasticCase_01_medium_olive_F
 	side = 3;
 	scopeCurator = 2;
 	scope = 2;
-	displayName = "Munitionskiste (Mittel)";
+	displayName = CSTRING(box_ammo_m);
 	ace_dragging_canCarry = 0;
 	ace_dragging_canDrag = 0;
 	ace_rearm_defaultSupply = 200;
@@ -105,7 +105,7 @@ class GVAR(Box_ammo_S_F): Land_PlasticCase_01_small_olive_F
 	side = 3;
 	scopeCurator = 2;
 	scope = 2;
-	displayName = "Munitionskiste (Klein)";
+	displayName = CSTRING(box_ammo_s);
 	ace_dragging_canCarry = 0;
 	ace_dragging_canDrag = 0;
 	ace_rearm_defaultSupply = 100;

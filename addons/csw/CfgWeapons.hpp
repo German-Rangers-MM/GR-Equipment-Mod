@@ -8,7 +8,7 @@ class CfgWeapons {
 	class GVAR(M3M_carry): Launcher_Base_F 
 	{
 		scope = 2;
-		displayName = "[CSW] M3M Gun-Bag";
+		displayName = CSTRING(m3m_gunbag_displayName);
 		model = QACEPATHTOF(apl,ACE_CSW_Bag.p3d);
 		modes[] = {};
 		picture = "\CUP\Weapons\CUP_Weapons_StaticWeapons\M2\data\ui\icomap_M2_ca.paa";
@@ -35,7 +35,7 @@ class CfgWeapons {
 	
 	class GVAR(M3M_carry_Scope): Launcher_Base_F {
 		scope = 2;
-		displayName = "[CSW] M3M Gun-Bag (Scope)";
+		displayName = CSTRING(m3mScope_gunbag_displayName);
 		model = QACEPATHTOF(apl,ACE_CSW_Bag.p3d);
 		modes[] = {};
 		picture = "\CUP\Weapons\CUP_Weapons_StaticWeapons\M2\data\ui\icomap_M2_ca.paa";
@@ -63,7 +63,7 @@ class CfgWeapons {
 	class GVAR(M3M_carry_ScopeShield): Launcher_Base_F
 	{
 		scope = 2;
-		displayName = "[CSW] M3M Gun-Bag (Scope + Shield)";
+		displayName = CSTRING(m3mScopeShield_gunbag_displayName);
 		model = QACEPATHTOF(apl,ACE_CSW_Bag.p3d);
 		modes[] = {};
 		picture = "\CUP\Weapons\CUP_Weapons_StaticWeapons\M2\data\ui\icomap_M2_ca.paa";
@@ -89,7 +89,7 @@ class CfgWeapons {
 	
 	class GVAR(M3M_carry_Shield): Launcher_Base_F {
 		scope = 2;
-		displayName = "[CSW] M3M Gun-Bag (Shield)";
+		displayName = CSTRING(m3mShield_gunbag_displayName);
 		model = QACEPATHTOF(apl,ACE_CSW_Bag.p3d);
 		modes[] = {};
 		picture = "\CUP\Weapons\CUP_Weapons_StaticWeapons\M2\data\ui\icomap_M2_ca.paa";
@@ -117,7 +117,7 @@ class CfgWeapons {
 	class GVAR(GraMaWa_carry): Launcher_Base_F 
 	{
 		scope = 2;
-		displayName = "[CSW] GraMaWa Gun-Bag";
+		displayName = CSTRING(graMaWa_gunbag_displayName);
 		model = QACEPATHTOF(apl,ACE_CSW_Bag.p3d);
 				modes[] = {};
 		picture = "\CUP\Weapons\CUP_Weapons_StaticWeapons\M2\data\ui\icomap_M2_ca.paa";

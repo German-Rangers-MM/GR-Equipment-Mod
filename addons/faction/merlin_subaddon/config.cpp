@@ -16,9 +16,6 @@ class CfgPatches
     };
 };
 
-class SensorTemplateActiveRadar;
-class SensorTemplateAntiRadiation;
-class SensorTemplateIR;
 class SensorTemplateLaser;
 class SensorTemplateMan;
 class SensorTemplateNV;
@@ -26,22 +23,7 @@ class SensorTemplatePassiveRadar;
 class SensorTemplateVisual;
 class DefaultVehicleSystemsDisplayManagerRight;
 class DefaultVehicleSystemsDisplayManagerLeft;
-class VehicleSystemsTemplateLeftPilot: DefaultVehicleSystemsDisplayManagerLeft
-{
-	class Components;
-};
-class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
-{
-	class Components;
-};
-class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft
-{
-	class Components;
-};
-class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight
-{
-	class Components;
-};
+
 
 class CfgVehicles
 {

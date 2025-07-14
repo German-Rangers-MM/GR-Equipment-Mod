@@ -3,7 +3,7 @@ class CfgMagazines {
     class ace_csw_100Rnd_127x99_mag;
     class MAGAZINE(100Rnd_127x99_mag_csw): ace_csw_100Rnd_127x99_mag{
         author = "J. Smith";
-        displayName = "[CSW] 100Rnd 127x99 Belt Ball";
+        displayName = CSTRING(100Rnd_127x99_ball);
         model = "\A3\Structures_F_EPB\Items\Military\Ammobox_rounds_F.p3d";
         type = 256;
         count = 100;
@@ -11,15 +11,15 @@ class CfgMagazines {
     };
     
     class MAGAZINE(150Rnd_127x99_mag_csw): MAGAZINE(100Rnd_127x99_mag_csw){
-        displayName = "[CSW] 150Rnd 127x99 Belt Ball";
+        displayName = CSTRING(150Rnd_127x99_ball);
         count = 150;
-        mass = 110;
+        mass = 144;
     };
     
     class MAGAZINE(200Rnd_127x99_mag_csw): MAGAZINE(100Rnd_127x99_mag_csw){
-        displayName = "[CSW] 200Rnd 127x99 Belt Ball";
+        displayName = CSTRING(200Rnd_127x99_ball);
         count = 200;
-        mass = 110;
+        mass = 192;
     };
 
 
@@ -27,7 +27,7 @@ class CfgMagazines {
     class ace_csw_100Rnd_127x99_mag_red;
     class MAGAZINE(100Rnd_127x99_mag_red_csw): ace_csw_100Rnd_127x99_mag_red{
         author = "J. Smith";
-        displayName = "[CSW] 100Rnd 127x99 Belt Tracer";
+        displayName = CSTRING(100Rnd_127x99_tracer);
         model = "\A3\Structures_F_EPB\Items\Military\Ammobox_rounds_F.p3d";
         type = 256;
         count = 100;
@@ -35,14 +35,14 @@ class CfgMagazines {
     };
     
     class MAGAZINE(150Rnd_127x99_mag_red_csw): MAGAZINE(100Rnd_127x99_mag_red_csw){
-        displayName = "[CSW] 150Rnd 127x99 Belt Tracer";
+        displayName = CSTRING(150Rnd_127x99_tracer);
         count = 150;
-        mass = 110;
+        mass = 144;
     };
     
     class MAGAZINE(200Rnd_127x99_mag_red_csw): MAGAZINE(100Rnd_127x99_mag_red_csw){
-        displayName = "[CSW] 200Rnd 127x99 Belt Tracer";
+        displayName = CSTRING(200Rnd_127x99_tracer);
         count = 200;
-        mass = 110;
+        mass = 192;
     };
 };

@@ -3,3 +3,5 @@ PREP(canPickupDesignator);
 PREP(canPlaceDesignator);
 PREP(pickupDesignator);
 PREP(placeDesignator);
+PREP(populateChemlights);
+PREP(dropChemlight);

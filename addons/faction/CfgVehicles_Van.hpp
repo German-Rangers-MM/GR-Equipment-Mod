@@ -272,6 +272,13 @@ class GVAR(Van_San_BW) : I_E_Van_02_medevac_F
     
     textureList[]={};
 
+    class Sounds
+    {
+        soundSets[] = {};
+        soundSetsExt[] = {"Van_02_Eng_01_Idle_Ext_SoundSet","Van_02_Eng_01_Rpm_01_Ext_SoundSet","Van_02_Eng_01_Rpm_02_Ext_SoundSet","Van_02_Eng_01_Rpm_03_Ext_SoundSet","Van_02_Eng_01_Rpm_04_Ext_SoundSet","Van_02_Eng_01_Rpm_05_Ext_SoundSet","Van_02_Tires_Gravel_01_Ext_SoundSet","Van_02_Tires_Asphalt_01_Ext_SoundSet","Van_02_Tires_Grass_Mud_01_Ext_SoundSet","Van_02_Tires_Sand_01_Ext_SoundSet","Van_02_Tires_Rock_01_Ext_SoundSet","Van_02_Tires_Water_01_Ext_SoundSet","Van_02_Brakes_Asphalt_01_Ext_SoundSet","Van_02_TurnLeft_Asphalt_01_Ext_SoundSet","Van_02_TurnRight_Asphalt_01_Ext_SoundSet","Van_02_Brakes_Dirt_01_Ext_SoundSet","Van_02_TurnLeft_Dirt_01_Ext_SoundSet","Van_02_TurnRight_Dirt_01_Ext_SoundSet","Van_02_Tires_Movement_Dirt_Ext_01_SoundSet","Van_02_Rain_01_Ext_SoundSet","Van_02_AmbulanceSiren_BW_01_Ext_SoundSet"};
+        soundSetsInt[] = {"Van_02_Eng_01_Idle_Int_SoundSet","Van_02_Eng_01_Rpm_01_Int_SoundSet","Van_02_Eng_01_Rpm_02_Int_SoundSet","Van_02_Eng_01_Rpm_03_Int_SoundSet","Van_02_Eng_01_Rpm_04_Int_SoundSet","Van_02_Eng_01_Rpm_05_Int_SoundSet","Van_02_Noise_Hard_01_Int_SoundSet","Van_02_Tires_Gravel_01_Int_SoundSet","Van_02_Tires_Asphalt_01_Int_SoundSet","Van_02_Tires_Grass_Mud_01_Int_SoundSet","Van_02_Tires_Sand_01_Int_SoundSet","Van_02_Tires_Rock_01_Int_SoundSet","Van_02_Tires_Water_01_Int_SoundSet","Van_02_Brakes_Asphalt_01_Int_SoundSet","Van_02_TurnLeft_Asphalt_01_Int_SoundSet","Van_02_TurnRight_Asphalt_01_Int_SoundSet","Van_02_Brakes_Dirt_01_Int_SoundSet","Van_02_Tires_Movement_Dirt_Int_01_SoundSet","Van_02_Rain_01_Int_SoundSet","Van_02_AmbulanceSiren_BW_01_Int_SoundSet"};
+    };
+
     class PlateInfos
     {
         // name of section where plate number should generated

@@ -20,3 +20,7 @@
 
 #define ACEPATHTOF(component,path) \z\ace\addons\component\path
 #define QACEPATHTOF(component,path) QUOTE(ACEPATHTOF(component,path))
+
+// Check
+#define CHECK(CONDITION) if (CONDITION) exitWith {}
+#define CHECKRET(CONDITION,RETURN) if (CONDITION) exitWith {RETURN;}

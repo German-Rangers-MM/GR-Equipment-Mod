@@ -15,3 +15,11 @@ class Extended_PostInit_EventHandlers {
         init = QUOTE(call COMPILE_SCRIPT(XEH_postInit));
     };
 };
+
+class Extended_InitPost_EventHandlers {
+    class GVAR(miclic) {
+        class GVAR(miclic_addIgniteAction) {
+            clientInit = QUOTE(_this call FUNC(addIgniteMiclicAction));
+        };
+    };
+};

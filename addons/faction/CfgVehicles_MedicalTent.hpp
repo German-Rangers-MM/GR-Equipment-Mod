@@ -9,7 +9,7 @@ class Land_MedicalTent_01_NATO_generic_open_F;
 
 class GVAR(MedTent_01) : Land_MedicalTent_01_NATO_generic_open_F {
     author = "dalleburn, jan";
-    displayName = "Ger Rng Medical Tent";
+    displayName = "GerRng Medical Tent";
 
     hiddenSelections[] = {"Camo"};
     hiddenSelectionsTextures[]=

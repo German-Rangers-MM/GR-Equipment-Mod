@@ -30,9 +30,9 @@ class GVAR(AW101_Merlin_TTH_01) : I_Heli_Transport_02_F {
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	hiddenSelectionsTextures[]=
 	{
-		QPATHTOF(data\CH-49_BW-HFlg_0_main.paa),
-		QPATHTOF(data\CH-49_BW-HFlg_1_tail.paa),
-		QPATHTOF(data\CH-49_BW-HFlg_2_eng.paa)
+		QPATHTOF(merlin_subaddon\data\CH-49_BW-HFlg_0_main.paa),
+		QPATHTOF(merlin_subaddon\data\CH-49_BW-HFlg_1_tail.paa),
+		QPATHTOF(merlin_subaddon\data\CH-49_BW-HFlg_2_eng.paa)
 	};
 	
 	class TransportBackpacks
