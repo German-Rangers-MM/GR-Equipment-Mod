@@ -24,3 +24,23 @@
 // Check
 #define CHECK(CONDITION) if (CONDITION) exitWith {}
 #define CHECKRET(CONDITION,RETURN) if (CONDITION) exitWith {RETURN;}
+
+#ifdef SUBPREP
+    #undef SUBPREP
+#endif
+
+#ifdef DISABLE_COMPILE_CACHE
+    #define SUBPREP(sub,fncName) DFUNC(fncName) = compileScript [QPATHTOF(functions\sub\DOUBLES(fnc,fncName).sqf)]
+#else
+    #define SUBPREP(sub,fncName) [QPATHTOF(functions\sub\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction
+#endif
+
+#ifdef PREPSUB
+    #undef PREPSUB
+#endif
+
+#ifdef DISABLE_COMPILE_CACHE
+    #define PREPSUB(sub,fncName) DFUNC(fncName) = compileScript [QPATHTOF(sub\functions\DOUBLES(fnc,fncName).sqf)]
+#else
+    #define PREPSUB(sub,fncName) [QPATHTOF(sub\functions\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction
+#endif

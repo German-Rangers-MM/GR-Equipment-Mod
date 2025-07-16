@@ -10,17 +10,17 @@
             <Key ID="STR_gerrng_csw_m3mShield_gunbag_displayName">
                 <Original>[CSW] M3M w/ Shield</Original>
                 <English>[CSW] M3M w/ Shield</English>
-                <German>[CSW] M3M mit Schild</German>
+                <German>[CSW] M3M m/ Schild</German>
             </Key>
             <Key ID="STR_gerrng_csw_m3mScope_gunbag_displayName">
                 <Original>[CSW] M3M w/ Scope</Original>
                 <English>[CSW] M3M w/ Scope</English>
-                <German>[CSW] M3M mit Optik</German>
+                <German>[CSW] M3M m/ Optik</German>
             </Key>
-            <Key ID="STR_gerrng_csw_m3mShieldScope_gunbag_displayName">
+            <Key ID="STR_gerrng_csw_m3mScopeShield_gunbag_displayName">
                 <Original>[CSW] M3M w/ Shield + Scope</Original>
                 <English>[CSW] M3M w/ Shield + Scope</English>
-                <German>[CSW] M3M mit Schild + Optik</German>
+                <German>[CSW] M3M m/ Schild + Optik</German>
             </Key>
         </Container>
         <Container name="M3M_vehicle">

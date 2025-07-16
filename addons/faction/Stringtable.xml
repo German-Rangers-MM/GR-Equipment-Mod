@@ -162,6 +162,21 @@
                 <English>Amarok MED (Desert)</English>
                 <German>Amarok SAN (Tropentarn)</German>
             </Key>
+            <Key ID="STR_gerrng_faction_amarok_mp_grn">
+                <Original>Amarok MP (Green)</Original>
+                <English>Amarok MP (Green)</English>
+                <German>Amarok Feldjäger (Grün)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_mp_flk">
+                <Original>Amarok MP (Woodland)</Original>
+                <English>Amarok MP (Woodland)</English>
+                <German>Amarok Feldjäger (Flecktarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_amarok_mp_trp">
+                <Original>Amarok MP (Desert)</Original>
+                <English>Amarok MP (Desert)</English>
+                <German>Amarok Feldjäger (Tropentarn)</German>
+            </Key>
         </Container>
 
         <Container name="boxes">
@@ -232,6 +247,16 @@
                 <Original>Fennek SF (Desert)</Original>
                 <English>Fennek SF (Desert)</English>
                 <German>Fennek SF (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_flk_hmg_sf">
+                <Original>Fennek SF HMG (Woodland)</Original>
+                <English>Fennek SF HMG (Woodland)</English>
+                <German>Fennek SF HMG (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_fennek_trp_hmg_sf">
+                <Original>Fennek SF HMG (Desert)</Original>
+                <English>Fennek SF HMG (Desert)</English>
+                <German>Fennek SF HMG (Wüstentarn)</German>
             </Key>
         </Container>
 
@@ -490,12 +515,12 @@
         </Container>
 
         <Container name="interactions">
-            <Key ID="STR_gerrng_faction_interaction_start_siren">
+            <Key ID="STR_gerrng_faction_interaction_startSiren">
                 <Original>Start Siren</Original>
                 <English>Start Siren</English>
                 <German>Signalhorn einschalten</German>
             </Key>
-            <Key ID="STR_gerrng_faction_interaction_stop_siren">
+            <Key ID="STR_gerrng_faction_interaction_stopSiren">
                 <Original>Stop Siren</Original>
                 <English>Stop Siren</English>
                 <German>Signalhorn ausschalten</German>

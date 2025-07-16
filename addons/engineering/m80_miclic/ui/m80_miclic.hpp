@@ -92,26 +92,26 @@ class GVAR(miclic_ui) {
             h = "0.0528162 * safezoneH";
             text = "";
             tooltip = CSTRING(rotaryTooltip);
-            onMouseButtonDown = QUOTE([ARR_2(_this select 1, 0)] call FUNC(onRotatorClicked););
-            onMouseButtonDblClick = QUOTE([ARR_2(_this select 1, 0)] call FUNC(onRotatorClicked););
+            onMouseButtonDown = QUOTE([ARR_2(_this select 1,0)] call FUNC(onRotatorClicked););
+            onMouseButtonDblClick = QUOTE([ARR_2(_this select 1,0)] call FUNC(onRotatorClicked););
         };
         class FuseRotary: DelayRotary {
             idc = m80_miclic_rotary_fuse;
             x = "0.565 * safezoneH + safezoneX";
-            onMouseButtonDown = QUOTE([ARR_2(_this select 1, 1)] call FUNC(onRotatorClicked););
-            onMouseButtonDblClick = QUOTE([ARR_2(_this select 1, 1)] call FUNC(onRotatorClicked););
+            onMouseButtonDown = QUOTE([ARR_2(_this select 1,1)] call FUNC(onRotatorClicked););
+            onMouseButtonDblClick = QUOTE([ARR_2(_this select 1,1)] call FUNC(onRotatorClicked););
         };
         class DistanceRotary: DelayRotary {
             idc = m80_miclic_rotary_distance;
             x = "0.705 * safezoneH + safezoneX";
-            onMouseButtonDown = QUOTE([ARR_2(_this select 1, 2)] call FUNC(onRotatorClicked););
-            onMouseButtonDblClick = QUOTE([ARR_2(_this select 1, 2)] call FUNC(onRotatorClicked););
+            onMouseButtonDown = QUOTE([ARR_2(_this select 1,2)] call FUNC(onRotatorClicked););
+            onMouseButtonDblClick = QUOTE([ARR_2(_this select 1,2)] call FUNC(onRotatorClicked););
         };
         class AngleRotary: DelayRotary {
             idc = m80_miclic_rotary_angle;
             x = "0.851 * safezoneH + safezoneX";
-            onMouseButtonDown = QUOTE([ARR_2(_this select 1, 3)] call FUNC(onRotatorClicked););
-            onMouseButtonDblClick = QUOTE([ARR_2(_this select 1, 3)] call FUNC(onRotatorClicked););
+            onMouseButtonDown = QUOTE([ARR_2(_this select 1,3)] call FUNC(onRotatorClicked););
+            onMouseButtonDblClick = QUOTE([ARR_2(_this select 1,3)] call FUNC(onRotatorClicked););
         };
 
         // ARM BUTTON

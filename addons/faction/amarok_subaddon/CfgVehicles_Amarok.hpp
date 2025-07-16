@@ -173,6 +173,59 @@ class GVAR(Amarok_covered_GER_Grn) : I_E_Offroad_01_covered_F
 		class _xx_ACE_tourniquet {name="ACE_tourniquet";count=2;};
 		class _xx_ACE_rope12 {name="ACE_rope12";count=1;};
 	};
+	
+    class PlateInfos
+    {
+        // name of section where plate number should generated
+        name = "spz";
+        // color used for plate number in (r,g,b,a) format
+        color[] = {0,0,0,1};
+        plateFont		= "RobotoCondensedLight";
+        // "#" represent number & "$" represents letter
+        plateFormat		= "Y-### ###";
+        // Required even if you don't use any letters in plateFormat
+        plateLetters	= "ABCDEFHIKLMOPRSTVXYZ";
+    };
+};
+
+class GVAR(Amarok_covered_mp_GER_Grn) : GVAR(Amarok_covered_GER_Grn)
+{
+	displayName = CSTRING(amarok_mp_grn);
+	textureList[] = {"Green",1};
+	hiddenSelections[] = {"Camo","Camo2","Camo3"};
+	hiddenSelectionsTextures[]=
+	{
+		"a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa",
+		"a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa",
+		"a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_cover_grn_co.paa"
+	};
+
+	animationList[] = {
+		"hidePolice",0,
+		"HideServices",1,
+		"HideCover",0,
+		"StartBeaconLight",0,
+		"HideRoofRack",1,
+		"HideLoudSpeakers",1,
+		"HideAntennas",1,
+		"HideBeacon",1,
+		"HideSpotlight",1,
+		"HideDoor3",0,
+		"OpenDoor3",0,
+		"HideDoor1",0,
+		"HideDoor2",0,
+		"HideBackpacks",1,
+		"HideBumper1",1,
+		"HideBumper2",0,
+		"HideConstruction",0,
+		"BeaconsStart",0
+	};
+
+	class Sounds
+	{
+		soundSetsExt[] = {"Offroad_01_Engine_RPM0_EXT_SoundSet","Offroad_01_Engine_RPM1_EXT_SoundSet","Offroad_01_Engine_RPM2_EXT_SoundSet","Offroad_01_Engine_RPM3_EXT_SoundSet","Offroad_01_Engine_RPM4_EXT_SoundSet","Offroad_01_Rattling_EXT_SoundSet","Offroad_01_Stress_EXT_SoundSet","Offroad_01_Rain_EXT_SoundSet","Offroad_01_Tires_Rock_Fast_EXT_SoundSet","Offroad_01_Tires_Grass_Fast_EXT_SoundSet","Offroad_01_Tires_Sand_Fast_EXT_SoundSet","Offroad_01_Tires_Gravel_Fast_EXT_SoundSet","Offroad_01_Tires_Mud_Fast_EXT_SoundSet","Offroad_01_Tires_Asphalt_Fast_EXT_SoundSet","Offroad_01_Tires_Water_Fast_EXT_SoundSet","Offroad_01_Tires_Rock_Slow_EXT_SoundSet","Offroad_01_Tires_Grass_Slow_EXT_SoundSet","Offroad_01_Tires_Sand_Slow_EXT_SoundSet","Offroad_01_Tires_Gravel_Slow_EXT_SoundSet","Offroad_01_Tires_Mud_Slow_EXT_SoundSet","Offroad_01_Tires_Asphalt_Slow_EXT_SoundSet","Offroad_01_Tires_Water_Slow_EXT_SoundSet","Offroad_01_Tires_Turn_Hard_EXT_SoundSet","Offroad_01_Tires_Turn_Soft_EXT_SoundSet","Offroad_01_Tires_Brake_Hard_EXT_SoundSet","Offroad_01_Tires_Brake_Soft_EXT_SoundSet","","Tires_Movement_Dirt_Ext_01_SoundSet","Van_02_AmbulanceSiren_BW_01_Ext_SoundSet"};
+		soundSetsInt[] = {"Offroad_01_Engine_RPM0_INT_SoundSet","Offroad_01_Engine_RPM1_INT_SoundSet","Offroad_01_Engine_RPM2_INT_SoundSet","Offroad_01_Engine_RPM3_INT_SoundSet","Offroad_01_Engine_RPM4_INT_SoundSet","Offroad_01_Rattling_INT_SoundSet","Offroad_01_Stress_INT_SoundSet","Offroad_01_Rain_INT_SoundSet","Offroad_01_Tires_Rock_Fast_OPEN_SoundSet","Offroad_01_Tires_Grass_Fast_OPEN_SoundSet","Offroad_01_Tires_Sand_Fast_OPEN_SoundSet","Offroad_01_Tires_Gravel_Fast_OPEN_SoundSet","Offroad_01_Tires_Mud_Fast_OPEN_SoundSet","Offroad_01_Tires_Asphalt_Fast_OPEN_SoundSet","Offroad_01_Tires_Water_Fast_OPEN_SoundSet","Offroad_01_Tires_Rock_Slow_OPEN_SoundSet","Offroad_01_Tires_Grass_Slow_OPEN_SoundSet","Offroad_01_Tires_Sand_Slow_OPEN_SoundSet","Offroad_01_Tires_Gravel_Slow_OPEN_SoundSet","Offroad_01_Tires_Mud_Slow_OPEN_SoundSet","Offroad_01_Tires_Asphalt_Slow_OPEN_SoundSet","Offroad_01_Tires_Water_Slow_OPEN_SoundSet","Offroad_01_Tires_Turn_Hard_OPEN_SoundSet","Offroad_01_Tires_Turn_Soft_OPEN_SoundSet","Offroad_01_Tires_Brake_Hard_OPEN_SoundSet","Offroad_01_Tires_Brake_Soft_OPEN_SoundSet","","Tires_Movement_Dirt_Int_01_SoundSet","Van_02_AmbulanceSiren_BW_01_Int_SoundSet"};
+	};
 };
 
 class GVAR(Amarok_GER_Grn) : GVAR(Amarok_covered_GER_Grn)
@@ -455,6 +508,17 @@ class GVAR(Amarok_covered_GER_FLK) : GVAR(Amarok_covered_GER_Grn)
 class GVAR(Amarok_covered_GER_TRP) : GVAR(Amarok_covered_GER_Grn)
 {
     displayName = CSTRING(amarok_covered_trp);
+	textureList[]={"Trp",1};
+};
+
+class GVAR(Amarok_covered_mp_GER_FLK) : GVAR(Amarok_covered_mp_GER_Grn)
+{
+	displayName = CSTRING(amarok_mp_flk);
+	textureList[]={"Flk",1};
+};
+class GVAR(Amarok_covered_mp_GER_TRP) : GVAR(Amarok_covered_mp_GER_Grn)
+{
+	displayName = CSTRING(amarok_mp_trp);
 	textureList[]={"Trp",1};
 };
 

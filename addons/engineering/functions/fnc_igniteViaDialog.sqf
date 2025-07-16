@@ -21,4 +21,4 @@ _angle = [_display, m80_miclic_lcd_angle] call FUNC(getLCDValue);
 // Close dialog
 closeDialog 1;
 
-hint formatText ["%1:%2%3s %4%2%5s %6%2%7m %8%2%9° %10", LLSTRING(igniteText), linebreak, _delay, LLSTRING(delay), _fuse, LLSTRING(fuse), _distance, LLSTRING(launchDistance), _angle, LLSTRING(angle)];
+hint formatText ["%1:%2%3s %4%2%5s %6%2%7m %8%2%9° %10", LLSTRING(igniteText), lineBreak, _delay, LLSTRING(delay), _fuse, LLSTRING(fuse), _distance, LLSTRING(launchDistance), _angle, LLSTRING(angle)];
