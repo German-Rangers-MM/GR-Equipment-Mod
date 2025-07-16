@@ -2,13 +2,14 @@
 workshop = [
     "450814997", # CBA_A3's Workshop ID
     "463939057", # ACE3's Workshop ID
-    "2369477168", # Advanced Developer Tools's Workshop ID
+    "3499977893", # Advanced Developer Tools's Workshop ID
     "2020940806", # KAT - Advanced Medical's Workshop ID
     "2522638637", # ACEAX - Core's Workshop ID
     "894678801", # TFAR
     "1779063631", # ZEN
     "2589302544", # MAA
-    "623475643" # 3DEN Enhanced
+    "623475643", # 3DEN Enhanced
+    "2073243184" # 3Den Stringtable Viewer
 ]
 
 [cup]
@@ -17,4 +18,5 @@ workshop = [
     "497660133", # CUP Weapons
     "541888371", # CUP Vehicles
     "497661914", # CUP Units
+    "1224892496",
 ]

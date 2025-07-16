@@ -1,6 +1,6 @@
-name = "GerRng"
+name = "German Rangers Equipment"
 prefix = "GerRng"
-author = "jan, dalleburn, klasni, j. smith, cesrap, itsgiantcookie"
+author = "jan, dalleburn, J. Smith,KlasNi, Cesrap, lightning, ItsGiantCookie"
 mainprefix = "y"
 
 [files]

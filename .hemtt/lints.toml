@@ -6,7 +6,7 @@ options.ignore_unused = true
 [sqf.banned_commands]
 options.ignore = [
     "addPublicVariableEventHandler", # Alt syntax is broken, we are using main syntax
-    "createSoundSource", # Greatly attenuated when in first person and in a vehicle
+    "createSoundSource" # Greatly attenuated when in first person and in a vehicle
 ]
 
 [sqf.banned_macros]
