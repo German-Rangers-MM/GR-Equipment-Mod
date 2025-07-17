@@ -11,7 +11,7 @@ class CfgVehicles {
 				icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
 			};
             class GVAR(dropChemlight) {
-                displayName = "Drop Chemlights";
+                displayName = "Drop Marking Item";
 				condition = "true";
 				exceptions[] = {"isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
 				statement = "";

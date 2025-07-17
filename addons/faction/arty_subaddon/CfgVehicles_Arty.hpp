@@ -115,6 +115,7 @@ class GVAR(M270_HE_Wdl) : CUP_B_M270_HE_USMC
             factions[] = {QGVAR(rangers_faction)};
         };
     };
+    textureList[] = {"Woodland",1};
 };
 
 class B_MBT_01_arty_F;
@@ -150,6 +151,7 @@ class GVAR(MBT_01_arty_F) : B_MBT_01_arty_F
             factions[] = {QGVAR(rangers_faction)};
         };
     };
+    textureList[] = {"Sand",1};
     animationList[] =
     {
         "showCamonetTurret",1,

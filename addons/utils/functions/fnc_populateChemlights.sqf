@@ -7,7 +7,19 @@ private _cfgMagazines = configFile >> "CfgMagazines";
 
 
 // Define base chemlight classes for inheritance checks
-private _baseChemlights = ["Chemlight_blue", "Chemlight_red", "Chemlight_green", "Chemlight_yellow"];
+private _baseChemlights =
+[
+    "Chemlight_blue",
+    "Chemlight_red",
+    "Chemlight_green",
+    "Chemlight_yellow",
+    "B_IR_Grenade",
+    "O_IR_Grenade",
+    "I_IR_Grenade",
+    "I_E_IR_Grenade",
+    "O_R_IR_Grenade",
+    "ACE_HandFlare_Base"
+];
 
 // Count unique magazines
 private _magCounts = createHashMap;

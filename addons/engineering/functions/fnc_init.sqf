@@ -57,14 +57,16 @@ if ( isClass(configFile >> "CfgPatches" >> "ace_interact_menu") ) then {
 
 
 _target addEventHandler ["Explosion",{
-	params ["_target","_damage"];
-	if (_target animationSourcePhase 'MovePlow' isEqualTo 1 && speed _target < 25 && (_target getHitPointDamage "hitengine")<0.8) then {
-		private _oldDamage = (damage _target)-_damage;
-		private _newDamage = _oldDamage+(_damage)*0.1;
-		{_target setHitPointDamage [_x,_newDamage];nil} count [
-			"hitengine","hitrtrack","hitltrack","#light_l","#light_l_flare","#light_r","#light_r_flare"
-		];
-		nil
+	params ["_target","_damage", "_explosionSource"];
+	if (_explosionSource isKindOf "MineGeneric") then {
+		if (_target animationSourcePhase 'MovePlow' isEqualTo 1 && speed _target < 25 && (_target getHitPointDamage "hitengine")<0.8) then {
+			private _oldDamage = (damage _target)-_damage;
+			private _newDamage = _oldDamage+(_damage)*0.1;
+			{_target setHitPointDamage [_x,_newDamage];nil} count [
+				"hitengine","hitrtrack","hitltrack","#light_l","#light_l_flare","#light_r","#light_r_flare"
+			];
+			nil
+		};
 	};
 }];
 

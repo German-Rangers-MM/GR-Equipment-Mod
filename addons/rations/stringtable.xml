@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="gerrng">
+    <Package name="rations">
+        <Container name="interface">
+            <Key ID="STR_GerRng_rations_unpackX">
+                <Original>Unpacking %1</Original>
+                <English>Unpacking %1</English>
+                <German>Entpacke %1</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>

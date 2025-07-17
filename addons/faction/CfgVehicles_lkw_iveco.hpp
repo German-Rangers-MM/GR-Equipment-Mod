@@ -202,7 +202,7 @@ class GVAR(IVECO_Medic_W) : I_E_Truck_02_Medical_F {
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
 
-    ace_cargo_space = 20;
+    ace_cargo_space = 21;
 
     attendant = 1;
     
@@ -393,7 +393,7 @@ class GVAR(IVECO_Ammo_W) : I_E_Truck_02_Ammo_F {
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
 
-    ace_cargo_space = 40;
+    ace_cargo_space = 21;
     
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
@@ -482,7 +482,7 @@ class GVAR(IVECO_Repair_W) : I_E_Truck_02_Box_F {
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
 
-    ace_cargo_space = 40;
+    ace_cargo_space = 21;
 	ace_repair_canRepair = 1;
     
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};

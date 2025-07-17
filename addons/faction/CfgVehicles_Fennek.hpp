@@ -511,7 +511,7 @@ class GVAR(FENNEK_NEF_W) : GVAR(B_FENNEK_med_base) {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
 
-    ace_cargo_space = 20;
+    ace_cargo_space = 11;
     attendant = 1;
 
 	reportRemoteTargets = 1;
