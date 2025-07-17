@@ -58,7 +58,6 @@ if ( isClass(configFile >> "CfgPatches" >> "ace_interact_menu") ) then {
 
 _target addEventHandler ["Explosion",{
 	params ["_target","_damage", "_explosionSource"];
-	diag_log format ["Explosion on %1 with damage %2 from %3", _target, _damage];
 	if (_target animationSourcePhase 'MovePlow' isEqualTo 1 && speed _target < 25 && (_target getHitPointDamage "hitengine")<0.8) then {
 		private _oldDamage = (damage _target)-_damage;
 		private _newDamage = _oldDamage+(_damage)*0.1;
