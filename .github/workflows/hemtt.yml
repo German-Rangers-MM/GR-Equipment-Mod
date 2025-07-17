@@ -22,6 +22,8 @@ jobs:
     steps:
     - name: Checkout the source code
       uses: actions/checkout@v4
+      with:
+        lfs: true  # Enable Git LFS support
     - name: Setup HEMTT
       uses: arma-actions/hemtt@v1
     - name: Run HEMTT build
