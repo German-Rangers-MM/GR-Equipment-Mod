@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="gerrng">
+    <Package name="radiosetter">
+        <Container name="actions">
+            <Key ID="STR_gerrng_radiosetter_sortByRadioRange">
+                <Original>Sort by radio range</Original>
+                <English>Sort by radio range</English>
+                <German>Nach Funkreichweite sortieren</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>

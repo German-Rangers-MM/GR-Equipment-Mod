@@ -16,6 +16,7 @@ class GVAR(CH_47F_TTH_01) : CUP_B_CH47F_USA {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+	editorPreview = QPATHTOF(CH47_subaddon\data\preview\CH_47F_TTH_01.jpg);
 	
 	receiveRemoteTargets = 1;
 

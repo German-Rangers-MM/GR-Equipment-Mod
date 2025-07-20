@@ -13,7 +13,6 @@ class CfgWeapons {
 		descriptionShort = "Remote Designator WDL [NATO]";
 		ACE_isTool = 1;
 		picture = "\A3\Static_F_Mark\Designator_01\Data\UI\Designator_01_CA.paa";
-		// editorPreview = "\y\tfw_radios\addons\rf3080\data\editorui\rf3080.jpg";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 50;
@@ -28,7 +27,6 @@ class CfgWeapons {
 	class GVAR(remote_designator_d): GVAR(remote_designator_w) {
 		displayname = "Remote Designator DES [NATO]";
 		descriptionShort = "Remote Designator DES [NATO]";
-		// editorPreview = "\y\tfw_radios\addons\rf3080\data\editorui\rf3080.jpg";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 50;

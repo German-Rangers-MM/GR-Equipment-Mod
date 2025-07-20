@@ -44,3 +44,5 @@
 #else
     #define PREPSUB(sub,fncName) [QPATHTOF(sub\functions\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction
 #endif
+
+// This part includes parts of the CBA and ACE3 macro libraries

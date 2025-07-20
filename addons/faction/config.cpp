@@ -12,16 +12,6 @@ class CfgPatches
         VERSION_CONFIG;
         authors[] = {""};
         units[] = {
-            QGVAR(WG_13_Sea_Lynx),
-            QGVAR(WG_13_Sea_Lynx_Armed),
-
-            QGVAR(AW101_Merlin_TTH_01),
-            QGVAR(AW101_Merlin_MTH_01),
-
-            QGVAR(MSP_Cargo_F),
-            QGVAR(Box_ammo_L_F),
-            QGVAR(Box_ammo_M_F),
-            QGVAR(Box_ammo_S_F),
 
             QGVAR(M1129_MC_MK19_Wdl),
             QGVAR(M270_HE_Wdl),

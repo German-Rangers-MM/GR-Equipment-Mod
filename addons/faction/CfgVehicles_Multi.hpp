@@ -24,6 +24,7 @@ class GVAR(Lkw15t_Box_W) : B_Truck_01_box_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-W.jpg);
 
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
@@ -74,6 +75,7 @@ class GVAR(Lkw15t_Box_W) : B_Truck_01_box_F {
 class GVAR(Lkw15t_Box_D) : GVAR(Lkw15t_Box_W) {
 
     displayName = CSTRING(lkw_15t_con_d);
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-D.jpg);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -98,6 +100,7 @@ class GVAR(Lkw15t_Repair_W) : B_Truck_01_repair_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-W_rep.jpg);
 
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
@@ -150,6 +153,7 @@ class GVAR(Lkw15t_Repair_W) : B_Truck_01_repair_F {
 class GVAR(Lkw15t_Repair_D) : GVAR(Lkw15t_Repair_W) {
 
     displayName = CSTRING(lkw_15t_rep_d);
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-D_rep.jpg);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -174,6 +178,7 @@ class GVAR(Lkw15t_Ammo_W) : B_Truck_01_ammo_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-W_ammo.jpg);
 
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
@@ -230,6 +235,7 @@ class GVAR(Lkw15t_Ammo_W) : B_Truck_01_ammo_F {
 class GVAR(Lkw15t_Ammo_D) : GVAR(Lkw15t_Ammo_W) {
 
     displayName = CSTRING(lkw_15t_ammo_d);
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-D_ammo.jpg);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -254,6 +260,7 @@ class GVAR(Lkw15t_Flatbed_W) : Truck_01_flatbed_base_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-W_flatbed.jpg);
 
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
@@ -290,6 +297,7 @@ class GVAR(Lkw15t_Flatbed_W) : Truck_01_flatbed_base_F {
 class GVAR(Lkw15t_Flatbed_D) : GVAR(Lkw15t_Flatbed_W) {
 
     displayName = CSTRING(lkw_15t_flatbed_d);
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-D_flatbed.jpg);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -314,6 +322,7 @@ class GVAR(Lkw15t_transport_W) : B_Truck_01_transport_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-W_trp.jpg);
 
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
@@ -370,6 +379,7 @@ class GVAR(Lkw15t_transport_W) : B_Truck_01_transport_F {
 class GVAR(Lkw15t_transport_D) : GVAR(Lkw15t_transport_W) {
 
     displayName = CSTRING(lkw_15t_transport_d);
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-D_trp.jpg);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=
@@ -388,6 +398,7 @@ class GVAR(Lkw15t_covered_W) : B_Truck_01_covered_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-W_covered.jpg);
 
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
@@ -445,6 +456,7 @@ class GVAR(Lkw15t_covered_W) : B_Truck_01_covered_F {
 class GVAR(Lkw15t_covered_D) : GVAR(Lkw15t_covered_W) {
 
     displayName = CSTRING(lkw_15t_covered_d);
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-D_covered.jpg);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
@@ -470,6 +482,7 @@ class GVAR(Lkw15t_medical_W) : B_Truck_01_medical_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-W_med.jpg);
 
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
@@ -527,6 +540,7 @@ class GVAR(Lkw15t_medical_W) : B_Truck_01_medical_F {
 class GVAR(Lkw15t_medical_D) : GVAR(Lkw15t_medical_W) {
 
     displayName = CSTRING(lkw_15t_med_d);
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-D_med.jpg);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[]=
@@ -552,6 +566,7 @@ class GVAR(Lkw15t_fuel_W) : B_Truck_01_fuel_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-W_fuel.jpg);
 
 	
 	editorSubcategory = QGVAR(Lkw_Subcat);
@@ -608,6 +623,7 @@ class GVAR(Lkw15t_fuel_W) : B_Truck_01_fuel_F {
 class GVAR(Lkw15t_fuel_D) : GVAR(Lkw15t_fuel_W) {
 
     displayName = CSTRING(lkw_15t_fuel_d);
+    editorPreview = QPATHTOF(data\preview\HEMTT_BW-D_fuel.jpg);
 
     hiddenSelections[] = {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[]=

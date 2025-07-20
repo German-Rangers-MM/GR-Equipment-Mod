@@ -68,8 +68,8 @@ class GVAR(Box_ammo_L_F): Land_PlasticCase_01_large_olive_F
 	scopeCurator = 2;
 	scope = 2;
 	displayName = CSTRING(box_ammo_l);
-	ace_dragging_canCarry = 0;
-	ace_dragging_canDrag = 0;
+	ace_dragging_canCarry = 1;
+	ace_dragging_canDrag = 1;
 	ace_rearm_defaultSupply = 400;
 	explosionEffect = "BasicAmmoExplosion";
 	hiddenSelections[] = {"Camo","Camo2"};
@@ -77,6 +77,7 @@ class GVAR(Box_ammo_L_F): Land_PlasticCase_01_large_olive_F
 		"a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_olive_CO.paa",
 		QPATHTOF(data\PlasticCase_01_Ammo_Logo_01_CA)
 	};
+	editorPreview = QPATHTOF(data\preview\Box_ammo_L_F.jpg);
 };
 
 class GVAR(Box_ammo_M_F): Land_PlasticCase_01_medium_olive_F
@@ -87,8 +88,8 @@ class GVAR(Box_ammo_M_F): Land_PlasticCase_01_medium_olive_F
 	scopeCurator = 2;
 	scope = 2;
 	displayName = CSTRING(box_ammo_m);
-	ace_dragging_canCarry = 0;
-	ace_dragging_canDrag = 0;
+	ace_dragging_canCarry = 1;
+	ace_dragging_canDrag = 1;
 	ace_rearm_defaultSupply = 200;
 	explosionEffect = "BasicAmmoExplosion";
 	hiddenSelections[] = {"Camo","Camo2"};
@@ -96,6 +97,7 @@ class GVAR(Box_ammo_M_F): Land_PlasticCase_01_medium_olive_F
 		"a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_olive_CO.paa",
 		QPATHTOF(data\PlasticCase_01_Ammo_Logo_01_CA)
 	};
+	editorPreview = QPATHTOF(data\preview\Box_ammo_M_F.jpg);
 };
 
 class GVAR(Box_ammo_S_F): Land_PlasticCase_01_small_olive_F
@@ -106,8 +108,8 @@ class GVAR(Box_ammo_S_F): Land_PlasticCase_01_small_olive_F
 	scopeCurator = 2;
 	scope = 2;
 	displayName = CSTRING(box_ammo_s);
-	ace_dragging_canCarry = 0;
-	ace_dragging_canDrag = 0;
+	ace_dragging_canCarry = 1;
+	ace_dragging_canDrag = 1;
 	ace_rearm_defaultSupply = 100;
 	explosionEffect = "BasicAmmoExplosion";
 	hiddenSelections[] = {"Camo","Camo2"};
@@ -115,4 +117,5 @@ class GVAR(Box_ammo_S_F): Land_PlasticCase_01_small_olive_F
 		"a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_olive_CO.paa",
 		QPATHTOF(data\PlasticCase_01_Ammo_Logo_01_CA)
 	};
+	editorPreview = QPATHTOF(data\preview\Box_ammo_S_F.jpg);
 };

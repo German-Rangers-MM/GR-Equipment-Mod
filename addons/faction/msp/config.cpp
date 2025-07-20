@@ -6,7 +6,12 @@ class CfgPatches
     { 
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
-        units[] = {}; 
+        units[] = {
+            QGVAR(MSP_Cargo_F),
+            QGVAR(Box_ammo_L_F),
+            QGVAR(Box_ammo_M_F),
+            QGVAR(Box_ammo_S_F)
+            }; 
         weapons[] = {}; 
         requiredVersion = REQUIRED_VERSION; 
         requiredAddons[] = {}; 

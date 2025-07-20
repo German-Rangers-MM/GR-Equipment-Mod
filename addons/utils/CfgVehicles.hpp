@@ -2,18 +2,21 @@ class CfgVehicles {
 	class Man;
 	class CAManBase: Man {
         class ACE_SelfActions {
-			class GVAR(place_designator) {
-				displayName = "Place Remote Designator";
-				condition = QUOTE([_player] call FUNC(canPlaceDesignator));
-				statement = "";
-				exceptions[] = {"isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
-				insertChildren = QUOTE([_player] call FUNC(addDesignatorActions));
-				icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+			class ACE_Equipment
+			{
+				class GVAR(place_designator) {
+					displayName = "Place Remote Designator";
+					condition = QUOTE([_player] call FUNC(canPlaceDesignator));
+					statement = "";
+					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+					insertChildren = QUOTE([_player] call FUNC(addDesignatorActions));
+					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+				};
 			};
             class GVAR(dropChemlight) {
                 displayName = "Drop Marking Item";
-				condition = "true";
-				exceptions[] = {"isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+				condition = QUOTE([_player] call FUNC(canDropMarker));
+				exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
 				statement = "";
 				insertChildren = QUOTE([_player] call FUNC(populateChemlights));
 				icon = "a3\modules_f_curator\data\portraitchemlight_ca.paa";

@@ -87,6 +87,7 @@ class CfgVehicles {
         faction = QEGVAR(faction,rangers_faction);
         side = 1;
         crew = "CUP_B_GER_BW_Fleck_Soldier";
+        editorPreview = QPATHTOF(data\preview\HMG_M3M_high.jpg);
 
         class ACE_CSW {
             enabled = 1;
@@ -145,6 +146,7 @@ class CfgVehicles {
         faction = QEGVAR(faction,rangers_faction);
         side = 1;
         crew = "CUP_B_GER_BW_Fleck_Soldier";
+        editorPreview = QPATHTOF(data\preview\HMG_M3M.jpg);
 
         class ACE_CSW {
             enabled = 1;
@@ -173,6 +175,7 @@ class CfgVehicles {
             class Revolving: Revolving {};
         };
         displayName = CSTRING(m3m_veh_high_ScopeShield);
+        editorPreview = QPATHTOF(data\preview\HMG_M3M_high_ScopeShield.jpg);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -200,6 +203,7 @@ class CfgVehicles {
             class Revolving: Revolving {};
         };
         displayName = CSTRING(m3m_veh_low_ScopeShield);
+        editorPreview = QPATHTOF(data\preview\HMG_M3M_ScopeShield.jpg);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -227,6 +231,7 @@ class CfgVehicles {
             class Revolving: Revolving {};
         };
         displayName = CSTRING(m3m_veh_high_Scope);
+        editorPreview = QPATHTOF(data\preview\HMG_M3M_high_Scope.jpg);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -254,6 +259,7 @@ class CfgVehicles {
             class Revolving: Revolving {};
         };
         displayName = CSTRING(m3m_veh_low_Scope);
+        editorPreview = QPATHTOF(data\preview\HMG_M3M_Scope.jpg);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -281,6 +287,7 @@ class CfgVehicles {
             class Revolving: Revolving {};
         };
         displayName = CSTRING(m3m_veh_high_Shield);
+        editorPreview = QPATHTOF(data\preview\HMG_M3M_high_Shield.jpg);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -308,6 +315,7 @@ class CfgVehicles {
             class Revolving: Revolving {};
         };
         displayName = CSTRING(m3m_veh_low_Shield);
+        editorPreview = QPATHTOF(data\preview\HMG_M3M_Shield.jpg);
         class ACE_CSW {
             enabled = 1;
             proxyWeapon = "ace_csw_HMG_M2";
@@ -356,6 +364,7 @@ class CfgVehicles {
         faction = QEGVAR(faction,rangers_faction);
         side = 1;
         crew = "CUP_B_GER_BW_Fleck_Soldier";
+        editorPreview = QPATHTOF(data\preview\GraMaWa.jpg);
         class Turrets: Turrets {
             class MainTurret: MainTurret {
 				primaryGunner = 1;

@@ -442,6 +442,7 @@ class GVAR(WG_13_Sea_Lynx) : GVAR(Lynx_Unarmed_Base) {
 	picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
 	icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
     faction = QGVAR(rangers_faction);
+	editorPreview = QPATHTOF(data\preview\WG_13_Sea_Lynx.jpg);
 
 	
 	editorSubcategory = QGVAR(Heli_L_Subcat);
@@ -461,7 +462,6 @@ class GVAR(WG_13_Sea_Lynx) : GVAR(Lynx_Unarmed_Base) {
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
         class XEH_CLASS { EXTENDED_EVENTHANDLERS };
 	};
-	editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AW159\Data\preview\CUP_B_AW159_Unarmed_GB.jpg";
 	maximumLoad = 1000;
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"240Rnd_CMFlare_Chaff_Magazine"};
@@ -571,6 +571,7 @@ class GVAR(WG_13_Sea_Lynx_Armed): GVAR(Lynx_Dynamic_Base)
 	picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
 	icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
     faction = QGVAR(rangers_faction);
+	editorPreview = QPATHTOF(data\preview\WG_13_Sea_Lynx_Armed.jpg);
 
 	
 	editorSubcategory = QGVAR(Heli_L_Subcat);
@@ -589,7 +590,6 @@ class GVAR(WG_13_Sea_Lynx_Armed): GVAR(Lynx_Dynamic_Base)
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
         class XEH_CLASS { EXTENDED_EVENTHANDLERS };
 	};
-	editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AW159\Data\preview\CUP_B_AW159_Unarmed_GB.jpg";
 	class TransportWeapons
 	{
 		class _xx_CUP_arifle_G36C

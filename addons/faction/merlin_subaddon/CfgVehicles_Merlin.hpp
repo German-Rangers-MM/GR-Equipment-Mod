@@ -15,6 +15,7 @@ class GVAR(AW101_Merlin_TTH_01) : I_Heli_Transport_02_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+	editorPreview = QPATHTOF(data\preview\CH-101_Merlin_TTH.jpg);
 	
 	receiveRemoteTargets = 1;
 
@@ -83,7 +84,6 @@ class GVAR(AW101_Merlin_TTH_01) : I_Heli_Transport_02_F {
 //Merlin MTH
 
 class AllVehicles;
-class thingX;
 class Air: AllVehicles
 {
 	class NewTurret;
@@ -105,6 +105,7 @@ class Helicopter_Base_F: Helicopter
 	class DefaultEventhandlers;
 	class HitPoints: HitPoints
 	{
+		/*
 		class HitHull;
 		class HitHRotor;
 		class HitGlass1;
@@ -112,6 +113,7 @@ class Helicopter_Base_F: Helicopter
 		class HitGlass3;
 		class HitGlass4;
 		class HitGlass5;
+		*/
 	};
 	class Components;
 	class Turrets: Turrets
@@ -492,6 +494,7 @@ class GVAR(AW101_Merlin_MTH_01): GVAR(Merlin_MTH_base)
 	scope = 2;
 	scopeCurator = 2;
 	displayName = "CH-101 Merlin MTH";
+	editorPreview = QPATHTOF(data\preview\CH-101_Merlin_MTH.jpg);
 	
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
@@ -515,6 +518,5 @@ class GVAR(AW101_Merlin_MTH_01): GVAR(Merlin_MTH_base)
 	editorSubcategory = QGVAR(Heli_M_Subcat);
 	typicalCargo[] = {"CUP_B_GER_HPilot","CUP_B_GER_HPilot"};
 	hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_SAR_co.paa","\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_2_co.paa"};
-	editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_C_Merlin_HC3_CIV_Rescue.jpg";
 	textureList[] = {"GRN",1};
 };

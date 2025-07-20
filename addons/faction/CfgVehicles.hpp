@@ -23,34 +23,6 @@ class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
 };
 
 class CfgVehicles {
-	class Air;
-	class Helicopter: Air
-	{
-		class Turrets;
-		class HitPoints;
-	};
-    class Helicopter_Base_F: Helicopter
-    {
-		class Turrets: Turrets
-		{
-			class MainTurret;
-		};
-		class Components;
-		class AnimationSources;
-		class Eventhandlers;
-		class ViewOptics;
-    };
-    class Helicopter_Base_H: Helicopter_Base_F
-    {
-		class RotorLibHelicopterProperties;
-		class ViewOptics;
-		class Turrets: Turrets
-		{
-			class CopilotTurret;
-			class MainTurret;
-		};
-		class AnimationSources;
-    };
     class LandVehicle;
     class Car: LandVehicle
     {
@@ -73,10 +45,6 @@ class CfgVehicles {
         };
     };
 
-    #include "CfgVehicles_Griffon.hpp"
-    #include "CfgVehicles_UH60.hpp"
-
-    
     #include "CfgVehicles_Dingo.hpp"
     #include "CfgVehicles_Fennek.hpp"
     #include "CfgVehicles_lkw_iveco.hpp"

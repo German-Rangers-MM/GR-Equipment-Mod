@@ -3,6 +3,7 @@ class CfgWeapons {
 
 	class ACE_ItemCore;
 	class CBA_MiscItem_ItemInfo;
+
 	class GVAR(HydrationBladder_3L): ACE_ItemCore {
 		author = "Boz";
 		scope = 2;

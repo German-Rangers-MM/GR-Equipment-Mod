@@ -16,6 +16,11 @@ if(_vehicle call TFAR_fnc_hasVehicleRadio) then {
         _freqs = _settings select 2;
         if (_vehicle isKindOf "Air") then {_newFreq = _airFreq} else {_newFreq = _groundFreq};
         _freqs set [0,_newFreq ];
+        _freqs set [1,"60"];
+        _freqs set [2,"61"];
+        _freqs set [3,"62"];
+        _freqs set [4,"67"];
+        _freqs set [5,"75"];
         _settings set [2,_freqs];
         [[_object,_radioId],_settings] call TFAR_fnc_setLrSettings;
     } forEach _radios;

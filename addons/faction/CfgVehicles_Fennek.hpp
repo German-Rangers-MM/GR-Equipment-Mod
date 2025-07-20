@@ -95,6 +95,7 @@ class GVAR(B_FENNEK_GER_Wdl) : I_MRAP_03_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(fennek_subaddon\data\preview\B_FENNEK_GER_Wdl.jpg);
 
     ace_cargo_space = 11;
     
@@ -154,6 +155,7 @@ class GVAR(B_FENNEK_GER_Wdl) : I_MRAP_03_F {
 
 class GVAR(B_FENNEK_GER_D) : GVAR(B_FENNEK_GER_Wdl) {
     displayName = CSTRING(fennek_trp);
+    editorPreview = QPATHTOF(fennek_subaddon\data\preview\B_FENNEK_GER_D.jpg);
 
 	textureList[]={"Tropen",1};	
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
@@ -257,6 +259,7 @@ class GVAR(B_FENNEK_GER_HMG_Wdl) : I_MRAP_03_hmg_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(fennek_subaddon\data\preview\B_FENNEK_GER_HMG_Wdl.jpg);
 
     ace_cargo_space = 11;
 
@@ -316,6 +319,7 @@ class GVAR(B_FENNEK_GER_HMG_Wdl) : I_MRAP_03_hmg_F {
 
 class GVAR(B_FENNEK_GER_HMG_D) : GVAR(B_FENNEK_GER_HMG_Wdl) {
     displayName = CSTRING(fennek_trp_hmg);
+    editorPreview = QPATHTOF(fennek_subaddon\data\preview\B_FENNEK_GER_HMG_D.jpg);
 
 	textureList[]={"Tropen",1};	
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
@@ -405,6 +409,8 @@ class GVAR(B_FENNEK_GER_SF_HMG_D): GVAR(B_FENNEK_GER_SF_HMG_Wdl) {
     textureList[] = {"Tropen",1};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
     crew = "CUP_B_GER_Soldier_Scout";
+    editorPreview = QPATHTOF(fennek_subaddon\data\preview\B_FENNEK_GER_HMG_D.jpg);
+
 };
 //--------------------------------------------------------------------------------------
 //
@@ -420,6 +426,7 @@ class GVAR(B_FENNEK_GER_GMG_Wdl) : I_MRAP_03_gmg_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(fennek_subaddon\data\preview\B_FENNEK_GER_GMG_Wdl.jpg);
 
     ace_cargo_space = 11;
 
@@ -479,6 +486,7 @@ class GVAR(B_FENNEK_GER_GMG_Wdl) : I_MRAP_03_gmg_F {
 
 class GVAR(B_FENNEK_GER_GMG_D) : GVAR(B_FENNEK_GER_GMG_Wdl) {
     displayName = CSTRING(fennek_trp_gmg);
+    editorPreview = QPATHTOF(fennek_subaddon\data\preview\B_FENNEK_GER_GMG_D.jpg);
 
 	textureList[]={"Tropen",1};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_recon_0.paa),"\a3\data_f\vehicles\turret_co.paa"};
@@ -510,6 +518,7 @@ class GVAR(FENNEK_NEF_W) : GVAR(B_FENNEK_med_base) {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(fennek_subaddon\data\preview\FENNEK_NEF_W.jpg);
 
     ace_cargo_space = 11;
     attendant = 1;
@@ -585,6 +594,7 @@ class GVAR(FENNEK_NEF_W) : GVAR(B_FENNEK_med_base) {
 
 class GVAR(FENNEK_NEF_D) : GVAR(FENNEK_NEF_W) {
     displayName = CSTRING(fennek_trp_san);
+    editorPreview = QPATHTOF(fennek_subaddon\data\preview\FENNEK_NEF_D.jpg);
 
 	textureList[]={"TropenSan",1};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Strider_BW-D_san_0.paa),"\a3\data_f\vehicles\turret_co.paa"};				

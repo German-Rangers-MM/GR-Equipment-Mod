@@ -7,6 +7,7 @@ class CfgWeapons
     {
         scope = 1;
         displayName = "gerrng Plate Carrier Base";
+        editorPreview = QPATHTOF(data\preview\gerrng_PlateCarrier_Base.jpg);
         model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Tropentarn.paa)};
         hiddenSelections[] = {"Camo"};
@@ -51,6 +52,7 @@ class CfgWeapons
     {
         scope = 2;
         displayName = "gerrng Plate Carrier (Tropentarn)";
+        editorPreview = QPATHTOF(data\preview\gerrng_PlateCarrier1_Tropentarn.jpg);
         model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Tropentarn.paa)};
         hiddenSelections[] = {"Camo"};
@@ -61,6 +63,7 @@ class CfgWeapons
     {
         scope = 2;
         displayName = "gerrng Plate Carrier (Flecktarn)";
+        editorPreview = QPATHTOF(data\preview\gerrng_PlateCarrier1_Flecktarn.jpg);
         model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Flecktarn.paa)};
         hiddenSelections[] = {"Camo"};
@@ -71,6 +74,7 @@ class CfgWeapons
     {
         scope = 2;
         displayName = "gerrng Plate Carrier (Flecktarn B)";
+        editorPreview = QPATHTOF(data\preview\gerrng_PlateCarrier1_Flecktarn_B.jpg);
         model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Flecktarn_B.paa)};
         hiddenSelections[] = {"Camo"};
@@ -81,6 +85,7 @@ class CfgWeapons
     {
         scope = 2;
         displayName = "gerrng Plate Carrier (Wintertarn)";
+        editorPreview = QPATHTOF(data\preview\gerrng_PlateCarrier1_Wintertarn.jpg);
         // picture = "\x\cfp\addons\vests\PlateCarrier1\ui\gerrngy.jpg";
         model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Wintertarn.paa)};

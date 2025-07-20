@@ -87,6 +87,7 @@ class GVAR(MH60S_MEV) : CUP_B_MH60L_DAP_2x_USN
     side = 1;
     displayName = "UH-60S MEV";
     faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(data\preview\MH60S_MEV.jpg);
     
 	editorSubcategory = QGVAR(Heli_M_Subcat);
     crew = "CUP_B_GER_Fleck_HPilot";
@@ -97,7 +98,15 @@ class GVAR(MH60S_MEV) : CUP_B_MH60L_DAP_2x_USN
     attendant = 1;
     
     class components : components
-    {
+    {   
+        class presets
+        {
+            class Empty
+            {
+                displayName = "Empty";
+                attachment[] = {"","","",""};
+            };
+        };
         class TransportPylonsComponent : TransportPylonsComponent
         {
             UIPicture = "\CUP\AirVehicles\CUP_AirVehicles_UH60\data\ui\CUP_UH60M_2_3DEN_CA.paa";
@@ -816,5 +825,606 @@ class GVAR(MH60S_MEV) : CUP_B_MH60L_DAP_2x_USN
             helmetRight[] = {0.07,0,0};
             helmetDown[] = {0,-0.07,0};
         };
+    };
+};
+
+class GVAR(MH_60S_2_pylon) : GVAR(MH60S_MEV)
+{
+    displayName = "MH-60S DAP (2 Stores)";
+    scope = 2;
+    scopeCurator = 2;
+    class components : components
+    {
+        class SensorsManagerComponent
+        {
+            class Components
+            {
+                class IRSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 1;
+                    angleRangeHorizontal = 30;
+                    angleRangeVertical = 30;
+                    animDirection = "CopilotTurret";
+                    color[] = {1,0,0,1};
+                    componentType = "IRSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxFogSeeThrough = 0.995;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 110;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 1500;
+
+                    class AirTarget
+                    {
+                        maxRange = 2000;
+                        minRange = 0;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 2000;
+                        minRange = 0;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                };
+                class LaserSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 1;
+                    angleRangeHorizontal = 180;
+                    angleRangeVertical = 180;
+                    animDirection = "";
+                    color[] = {1,1,1,0};
+                    componentType = "LaserSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 1e+10;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 0;
+
+                    class AirTarget
+                    {
+                        maxRange = 6000;
+                        minRange = 6000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 6000;
+                        minRange = 6000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                };
+                class NVSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 1;
+                    angleRangeHorizontal = 30;
+                    angleRangeVertical = 30;
+                    animDirection = "CopilotTurret";
+                    color[] = {1,1,1,0};
+                    componentType = "NVSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 110;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 1000;
+                    
+                    class AirTarget
+                    {
+                        maxRange = 2000;
+                        minRange = 50;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 2000;
+                        minRange = 50;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                };
+                class ActiveSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 0;
+                    angleRangeHorizontal = 120;
+                    angleRangeVertical = 120;
+                    animDirection = "";
+                    color[] = {1,0.5,0.5,0.5};
+                    componentType = "ActiveRadarSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 1e+10;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 8000;
+
+                    class AirTarget
+                    {
+                        maxRange = 12000;
+                        minRange = 12000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 12000;
+                        minRange = 12000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                };
+                class PassiveSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 0;
+                    angleRangeHorizontal = 360;
+                    angleRangeVertical = 360;
+                    animDirection = "";
+                    color[] = {0.5,1,0.5,0.5};
+                    componentType = "PassiveRadarSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 1e+10;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 12000;
+
+                    class AirTarget
+                    {
+                        maxRange = 16000;
+                        minRange = 16000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 16000;
+                        minRange = 16000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                };
+                class VisualSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 1;
+                    angleRangeHorizontal = 30;
+                    angleRangeVertical = 30;
+                    animDirection = "CopilotTurret";
+                    color[] = {1,1,0.5,0.8};
+                    componentType = "VisualSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxFogSeeThrough = 0.94;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 110;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    nightRangeCoef = 0;
+                    typeRecognitionDistance = 1250;
+                    class AirTarget
+                    {
+                        maxRange = 1000;
+                        minRange = 0;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 1000;
+                        minRange = 0;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                };
+            };
+        };
+    
+        class TransportPylonsComponent : TransportPylonsComponent
+        {
+            UIPicture = "\CUP\AirVehicles\CUP_AirVehicles_UH60\data\ui\CUP_UH60M_2_3DEN_CA.paa";
+            class presets
+            {
+                class AntiTank
+                {
+                    attachment[] = {"","CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M","CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M",""};
+                    displayName = "AT";
+                };
+                class Empty
+                {
+                    attachment[] = {"","","",""};
+                    displayName = "Empty";
+                };
+                class Escort
+                {
+                    attachment[] = {"","CUP_PylonPod_19Rnd_Rocket_FFAR_M","CUP_PylonPod_19Rnd_Rocket_FFAR_M",""};
+                    displayName = "Escort";
+                };
+                class MultiRole
+                {
+                    attachment[] = {"","CUP_PylonPod_19Rnd_Rocket_FFAR_M","CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M",""};
+                    displayName = "Multirole";
+                };
+            };
+            class pylons : pylons
+            {
+                class pylons1: pylons1
+                {
+                    attachment = "";
+                    bay = -1;
+                    hardpoints[] = {};
+                    priority = 5;
+                    turret[] = {};
+                    UIposition[] = {2,0.35};
+                };
+                class pylons2: pylons2
+                {
+                    attachment = "CUP_PylonPod_19Rnd_Rocket_FFAR_M";
+                    bay = -1;
+                    hardpoints[] = {"B_FUELTANK_HELI","UNI_SCALPEL","B_ASRRAM_EJECTOR","DAR","DAGR","B_SHRIEKER","CUP_NATO_HELO_SMALL","CUP_NATO_HELO_LARGE","CUP_NATO_HELO_UH60"};
+                    priority = 4;
+                    turret[] = {};
+                    UIposition[] = {0.08,0.4};
+                };
+                class pylons3: pylons3
+                {
+                    attachment = "CUP_PylonPod_19Rnd_Rocket_FFAR_M";
+                    bay = -1;
+                    hardpoints[] = {"B_FUELTANK_HELI","UNI_SCALPEL","B_ASRRAM_EJECTOR","DAR","DAGR","B_SHRIEKER","CUP_NATO_HELO_SMALL","CUP_NATO_HELO_LARGE","CUP_NATO_HELO_UH60"};
+                    mirroredMissilePos = 2;
+                    priority = 4;
+                    turret[] = {};
+                    UIposition[] = {0.57,0.4};
+                };
+                class pylons4: pylons4
+                {
+                    attachment = "";
+                    bay = -1;
+                    hardpoints[] = {};
+                    priority = 5;
+                    turret[] = {};
+                    UIposition[] = {2,0.35};
+                };
+            };
+        };
+    };
+    animationList[] =
+    {
+        "Filters_Hide",0,
+        "Hide_ESSS2x",0,
+        "Hide_ESSS4x",1,
+        "Hide_Nose",0,
+        "Hide_Probe",0,
+        "Navyclan_hide",1,
+        "Navyclan2_hide",1
+
+    };
+    textureList[] = {"Black",1};
+};
+
+class GVAR(MH_60S_4_pylon) : GVAR(MH_60S_2_pylon)
+{
+    displayName = "MH-60S DAP (4 Stores)";
+    scope = 2;
+    scopeCurator = 2;
+    class components : components
+    {
+        class SensorsManagerComponent
+        {
+            class Components
+            {
+                class IRSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 1;
+                    angleRangeHorizontal = 30;
+                    angleRangeVertical = 30;
+                    animDirection = "CopilotTurret";
+                    color[] = {1,0,0,1};
+                    componentType = "IRSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxFogSeeThrough = 0.995;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 110;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 1500;
+
+                    class AirTarget
+                    {
+                        maxRange = 2000;
+                        minRange = 0;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 2000;
+                        minRange = 0;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                };
+                class LaserSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 1;
+                    angleRangeHorizontal = 180;
+                    angleRangeVertical = 180;
+                    animDirection = "";
+                    color[] = {1,1,1,0};
+                    componentType = "LaserSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 1e+10;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 0;
+
+                    class AirTarget
+                    {
+                        maxRange = 6000;
+                        minRange = 6000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 6000;
+                        minRange = 6000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                };
+                class NVSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 1;
+                    angleRangeHorizontal = 30;
+                    angleRangeVertical = 30;
+                    animDirection = "CopilotTurret";
+                    color[] = {1,1,1,0};
+                    componentType = "NVSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 110;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 1000;
+                    
+                    class AirTarget
+                    {
+                        maxRange = 2000;
+                        minRange = 50;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 2000;
+                        minRange = 50;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                };
+                class ActiveSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 0;
+                    angleRangeHorizontal = 120;
+                    angleRangeVertical = 120;
+                    animDirection = "";
+                    color[] = {1,0.5,0.5,0.5};
+                    componentType = "ActiveRadarSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 1e+10;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 8000;
+
+                    class AirTarget
+                    {
+                        maxRange = 12000;
+                        minRange = 12000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 12000;
+                        minRange = 12000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                };
+                class PassiveSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 0;
+                    angleRangeHorizontal = 360;
+                    angleRangeVertical = 360;
+                    animDirection = "";
+                    color[] = {0.5,1,0.5,0.5};
+                    componentType = "PassiveRadarSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 1e+10;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    typeRecognitionDistance = 12000;
+
+                    class AirTarget
+                    {
+                        maxRange = 16000;
+                        minRange = 16000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 16000;
+                        minRange = 16000;
+                        objectDistanceLimitCoef = -1;
+                        viewDistanceLimitCoef = -1;
+                    };
+                };
+                class VisualSensorComponent
+                {
+                    aimDown = 0;
+                    allowsMarking = 1;
+                    angleRangeHorizontal = 30;
+                    angleRangeVertical = 30;
+                    animDirection = "CopilotTurret";
+                    color[] = {1,1,0.5,0.8};
+                    componentType = "VisualSensorComponent";
+                    groundNoiseDistanceCoef = -1;
+                    maxFogSeeThrough = 0.94;
+                    maxGroundNoiseDistance = -1;
+                    maxSpeedThreshold = 0;
+                    maxTrackableATL = 1e+10;
+                    maxTrackableSpeed = 110;
+                    minSpeedThreshold = 0;
+                    minTrackableATL = -1e+10;
+                    minTrackableSpeed = -1e+10;
+                    nightRangeCoef = 0;
+                    typeRecognitionDistance = 1250;
+                    class AirTarget
+                    {
+                        maxRange = 1000;
+                        minRange = 0;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                    class GroundTarget
+                    {
+                        maxRange = 1000;
+                        minRange = 0;
+                        objectDistanceLimitCoef = 1;
+                        viewDistanceLimitCoef = 1;
+                    };
+                };
+            };
+        };
+        class TransportPylonsComponent : TransportPylonsComponent
+        {
+            class presets
+            {
+                class AntiTank
+                {
+                    attachment[] = {"CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M","CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M","CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M","CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M"};
+                    displayName = "AT";
+                };
+                class Empty
+                {
+                    attachment[] = {"","","",""};
+                    displayName = "Empty";
+                };
+                class Escort
+                {
+                    attachment[] = {"CUP_PylonPod_19Rnd_Rocket_FFAR_M","CUP_PylonPod_19Rnd_Rocket_FFAR_M","CUP_PylonPod_19Rnd_Rocket_FFAR_M","CUP_PylonPod_19Rnd_Rocket_FFAR_M"};
+                    displayName = "Escort";
+                };
+                class MultiRole
+                {
+                    attachment[] = {"CUP_PylonPod_19Rnd_Rocket_FFAR_M","CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M","CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M","CUP_PylonPod_19Rnd_Rocket_FFAR_M"};
+                    displayName = "Multirole";
+                };
+            };
+            UIPicture = "\CUP\AirVehicles\CUP_AirVehicles_UH60\data\ui\CUP_UH60M_4_3DEN_CA.paa";
+            class pylons : pylons
+            {
+                class pylons1: pylons1
+                {
+                    attachment = "CUP_PylonPod_19Rnd_Rocket_FFAR_M";
+                    bay = -1;
+                    hardpoints[] = {"B_FUELTANK_HELI","UNI_SCALPEL","B_ASRRAM_EJECTOR","DAR","DAGR","B_SHRIEKER","CUP_NATO_HELO_SMALL","CUP_NATO_HELO_LARGE","CUP_NATO_HELO_UH60"};
+                    priority = 5;
+                    turret[] = {};
+                    UIposition[] = {0.06,0.35};
+                };
+                class pylons2: pylons2
+                {
+                    attachment = "CUP_PylonPod_19Rnd_Rocket_FFAR_M";
+                    bay = -1;
+                    hardpoints[] = {"B_FUELTANK_HELI","UNI_SCALPEL","B_ASRRAM_EJECTOR","DAR","DAGR","B_SHRIEKER","CUP_NATO_HELO_SMALL","CUP_NATO_HELO_LARGE","CUP_NATO_HELO_UH60"};
+                    priority = 4;
+                    turret[] = {};
+                    UIposition[] = {0.08,0.4};
+                };
+                class pylons3: pylons3
+                {
+                    attachment = "CUP_PylonPod_19Rnd_Rocket_FFAR_M";
+                    bay = -1;
+                    hardpoints[] = {"B_FUELTANK_HELI","UNI_SCALPEL","B_ASRRAM_EJECTOR","DAR","DAGR","B_SHRIEKER","CUP_NATO_HELO_SMALL","CUP_NATO_HELO_LARGE","CUP_NATO_HELO_UH60"};
+                    mirroredMissilePos = 2;
+                    priority = 4;
+                    turret[] = {};
+                    UIposition[] = {0.57,0.4};
+                };
+                class pylons4: pylons4
+                {
+                    attachment = "CUP_PylonPod_19Rnd_Rocket_FFAR_M";
+                    bay = -1;
+                    hardpoints[] = {"B_FUELTANK_HELI","UNI_SCALPEL","B_ASRRAM_EJECTOR","DAR","DAGR","B_SHRIEKER","CUP_NATO_HELO_SMALL","CUP_NATO_HELO_LARGE","CUP_NATO_HELO_UH60"};
+                    priority = 4;
+                    turret[] = {};
+                    UIposition[] = {0.59,0.35};
+                };
+            };
+        };
+    };
+    animationList[] =
+    {
+        "Filters_Hide",0,
+        "Hide_ESSS2x",1,
+        "Hide_ESSS4x",0,
+        "Hide_Nose",0,
+        "Hide_Probe",0,
+        "Navyclan_hide",1,
+        "Navyclan2_hide",1
     };
 };

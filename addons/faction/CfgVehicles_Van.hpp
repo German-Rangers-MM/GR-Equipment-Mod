@@ -15,6 +15,7 @@ class GVAR(Van_Transport_BW) : C_Van_02_transport_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\Van_Transport_BW.jpg);
 
 	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
@@ -87,6 +88,7 @@ class GVAR(Van_cargo_BW) : C_Van_02_vehicle_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\Van_cargo_BW.jpg);
 
 	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
@@ -159,6 +161,7 @@ class GVAR(Van_service_BW) : C_Van_02_service_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\Van_service_BW.jpg);
 
 	animationList[]=
     {
@@ -252,6 +255,7 @@ class GVAR(Van_San_BW) : I_E_Van_02_medevac_F
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\Van_San_BW.jpg);
 
 	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
@@ -366,6 +370,7 @@ class GVAR(T5_box_BW) : C_Van_01_box_F
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\T5_box_BW.jpg);
 
 	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
@@ -410,6 +415,7 @@ class GVAR(T5_fuel_BW) : C_Van_01_fuel_F
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\T5_fuel_BW.jpg);
 
 	
     editorSubcategory = QGVAR(Pkw_L_Subcat);
@@ -454,6 +460,7 @@ class GVAR(T5_transport_BW) : C_Van_01_transport_F
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_BW_Fleck_Soldier";
+    editorPreview = QPATHTOF(data\preview\T5_transport_BW.jpg);
 
 	
     editorSubcategory = QGVAR(Pkw_L_Subcat);

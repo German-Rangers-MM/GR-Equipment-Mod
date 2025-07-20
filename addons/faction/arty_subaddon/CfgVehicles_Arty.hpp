@@ -123,6 +123,8 @@ class GVAR(MBT_01_arty_F) : B_MBT_01_arty_F
 {
     side = 1;
     faction = QGVAR(rangers_faction);
+
+    editorPreview = QPATHTOF(faction\data\preview\MBT_01_arty_F.jpg);
 	
     hiddenSelectionsTextures[] = {"A3\armor_f_gamma\MBT_01\Data\MBT_01_body_CO.paa","A3\armor_f_gamma\MBT_01\data\MBT_01_scorcher_co.paa","A3\Data_F\Vehicles\Turret_CO.paa","A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"};
     crew = "CUP_B_GER_Fleck_Crew";

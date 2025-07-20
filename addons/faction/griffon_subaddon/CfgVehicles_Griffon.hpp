@@ -8,7 +8,6 @@
 class CUP_I_412_Military_Radar_AAF;
 class CUP_I_412_Mil_Transport_AAF;
 class CUP_C_412_Medic;
-class CUP_I_412_Military_Armed_AAF;
 
 class CUP_412_dynamicLoadout_Base_F;
 
@@ -20,6 +19,7 @@ class GVAR(CH_146_Griffon_Radar_01) : CUP_I_412_Military_Radar_AAF {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+	editorPreview = QPATHTOF(griffon_subaddon\data\preview\CH_146_Griffon_Radar_01.jpg);
 
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
@@ -94,6 +94,7 @@ class GVAR(CH_146_Griffon_Transport_01) : CUP_I_412_Mil_Transport_AAF {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+	editorPreview = QPATHTOF(griffon_subaddon\data\preview\CH_146_Griffon_Transport_01.jpg);
 
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
@@ -180,6 +181,7 @@ class GVAR(CH_146_Griffon_CAS_01) : CUP_412_dynamicLoadout_Base_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+	editorPreview = QPATHTOF(griffon_subaddon\data\preview\CH_146_Griffon_CAS_01.jpg);
 
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
@@ -261,6 +263,7 @@ class GVAR(Ch_146_Griffon_MedEvac_01) : CUP_I_412_Military_Radar_AAF {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_C_C_AirMedic_red_01";
+	editorPreview = QPATHTOF(griffon_subaddon\data\preview\Ch_146_Griffon_MedEvac_01.jpg);
 
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};

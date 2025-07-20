@@ -28,3 +28,15 @@ class CfgFactionClasses {
 #include "CfgVehicles.hpp"
 
 #include "CfgEventHandlers.hpp"
+
+class ace_arsenal_sorts {
+    class sortBase;
+
+    class GVAR(radioRangeSort): sortBase {
+        scope = 2;
+        displayName = CSTRING(sortByRadioRange);
+        statement =  QUOTE(call FUNC(sortTFRange));
+        condition = "true";
+        tabs[] = { {5, 12}, { } };
+    };
+};

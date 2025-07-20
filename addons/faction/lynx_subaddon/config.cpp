@@ -6,7 +6,10 @@ class CfgPatches
     { 
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
-        units[] = {}; 
+        units[] = {
+            QGVAR(WG_13_Sea_Lynx),
+            QGVAR(WG_13_Sea_Lynx_Armed)
+        }; 
         weapons[] = {}; 
         requiredVersion = REQUIRED_VERSION; 
         requiredAddons[] = {}; 

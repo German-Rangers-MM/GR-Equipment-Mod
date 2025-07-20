@@ -5,7 +5,13 @@ class CfgPatches
     class ADDON
     { 
         name = COMPONENT_NAME; 
-        units[] = {}; 
+        units[] = {
+            QGVAR(waterCarrier),
+            QGVAR(epaBox_1_5),
+            QGVAR(epaBox_5_9),
+            QGVAR(epaBox_10_14),
+            QGVAR(epaBox_15_19)
+        }; 
         weapons[] = {
             QGVAR(EPa_typ_i_2_2),
             QGVAR(EPa_typ_i_1_2),

@@ -20,6 +20,7 @@ class GVAR(wiesel_AT) : I_LT_01_AT_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_Fleck_Crew";
+	editorPreview = QPATHTOF(data\preview\Wiesel_AT.jpg);
 
 	
     hiddenSelections[] = {"camo1","camo2","CamoNet","CamoSlat"};
@@ -70,6 +71,7 @@ class GVAR(wiesel_AA) : I_LT_01_AA_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_Fleck_Crew";
+	editorPreview = QPATHTOF(data\preview\Wiesel_AA.jpg);
 	
 
     
@@ -122,6 +124,7 @@ class GVAR(wiesel_SC) : I_LT_01_scout_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_Fleck_Crew";
+	editorPreview = QPATHTOF(data\preview\Wiesel_SC.jpg);
 	
 
     
@@ -177,6 +180,7 @@ class GVAR(wiesel_CA) : I_LT_01_cannon_F {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_Fleck_Crew";
+	editorPreview = QPATHTOF(data\preview\Wiesel_CA.jpg);
 	
 
     
@@ -233,6 +237,7 @@ class GVAR(wiesel_AT_slat) : GVAR(wiesel_AT) {
 		"showSLATHull",1,
 		"showTools",0
 	};
+	editorPreview = QPATHTOF(data\preview\Wiesel_AT_slat.jpg);
 };
 
 class GVAR(wiesel_AA_slat) : GVAR(wiesel_AA) {
@@ -246,6 +251,7 @@ class GVAR(wiesel_AA_slat) : GVAR(wiesel_AA) {
 		"showSLATHull",1,
 		"showTools",0
 	};
+	editorPreview = QPATHTOF(data\preview\Wiesel_AA_slat.jpg);
 };
 
 class GVAR(wiesel_SC_slat) : GVAR(wiesel_SC) {
@@ -259,6 +265,7 @@ class GVAR(wiesel_SC_slat) : GVAR(wiesel_SC) {
 		"showSLATHull",1,
 		"showTools",0
 	};
+	editorPreview = QPATHTOF(data\preview\Wiesel_SC_slat.jpg);
 };
 
 class GVAR(wiesel_CA_slat) : GVAR(wiesel_CA) {
@@ -272,4 +279,5 @@ class GVAR(wiesel_CA_slat) : GVAR(wiesel_CA) {
 		"showSLATHull",1,
 		"showTools",0
 	};
+	editorPreview = QPATHTOF(data\preview\Wiesel_CA_slat.jpg);
 };

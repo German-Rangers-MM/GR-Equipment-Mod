@@ -160,6 +160,7 @@ class GVAR(APC_Wheeled): B_APC_Wheeled_01_cannon_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(data\preview\APC_Wheeled.jpg);
 	
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
@@ -248,6 +249,7 @@ class GVAR(APC_Wheeled_slat): GVAR(APC_Wheeled)
 {
 	displayName = "Badger IFV (Slat)";
 	animationList[] = {"showBags",0,"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",1,"showSLATTurret",1};
+    editorPreview = QPATHTOF(data\preview\APC_Wheeled_slat.jpg);
 };
 
 class B_AFV_Wheeled_01_cannon_F;
@@ -255,6 +257,7 @@ class GVAR(AFV_Wheeled): B_AFV_Wheeled_01_cannon_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(data\preview\AFV_Wheeled.jpg);
 	
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
@@ -344,12 +347,14 @@ class GVAR(AFV_Wheeled_slat): GVAR(AFV_Wheeled)
 	displayName = "Rooikat 120 (Slat)";
 	textureList[] = {"Sand",1};
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",1};
+    editorPreview = QPATHTOF(data\preview\AFV_Wheeled_slat.jpg);
 };
 class B_AFV_Wheeled_01_up_cannon_F;
 class GVAR(AFV_Wheeled_up): B_AFV_Wheeled_01_up_cannon_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(data\preview\AFV_Wheeled_up.jpg);
 	
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
@@ -439,6 +444,7 @@ class GVAR(AFV_Wheeled_up_slat): GVAR(AFV_Wheeled_up)
 	displayName = "Rooikat 120 UP (Slat)";
 	textureList[] = {"Sand",1};
 	animationList[] = {"showCamonetHull",1,"showCamonetTurret",1,"showSLATHull",1};
+    editorPreview = QPATHTOF(data\preview\AFV_Wheeled_up_slat.jpg);
 };
 
 class B_APC_Tracked_01_CRV_F;
@@ -446,6 +452,7 @@ class GVAR(APC_Tracked_CRV): B_APC_Tracked_01_CRV_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(data\preview\APC_Tracked_CRV.jpg);
 	
 	editorSubcategory = "EdSubcat_APCs";
 	crew = "CUP_B_GER_Fleck_Crew";
@@ -541,6 +548,11 @@ class GVAR(MK10): CUP_B_MK10_GB
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 
     maxSpeed = 45;
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 30000;
+    tf_encryptionCode = "tf_west_radio_code";
 };
 
 class CUP_B_LCU1600_HIL;
@@ -552,6 +564,11 @@ class GVAR(LCU1600): CUP_B_LCU1600_HIL
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 
     maxSpeed = 45;
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 30000;
+    tf_encryptionCode = "tf_west_radio_code";
 };
 
 class B_SDV_01_F;
@@ -588,6 +605,11 @@ class GVAR(RHIB): CUP_B_RHIB_USMC
 	faction = QGVAR(rangers_faction);
 	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 30000;
+    tf_encryptionCode = "tf_west_radio_code";
 };
 
 class CUP_B_RHIB2Turret_USMC;
@@ -597,6 +619,11 @@ class GVAR(RHIB_Mk19): CUP_B_RHIB2Turret_USMC
 	faction = QGVAR(rangers_faction);
 	
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
+
+	tf_hasLRradio = 1;
+	tf_RadioType = "tf_rt1523g";
+	tf_range = 30000;
+    tf_encryptionCode = "tf_west_radio_code";
 };
 
 
@@ -772,6 +799,7 @@ class GVAR(LR_Transport): CUP_I_LR_Transport_AAF
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(data\preview\LR_Transport.jpg);
 	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -852,6 +880,7 @@ class GVAR(LR_MG): CUP_I_LR_MG_AAF
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(data\preview\LR_MG.jpg);
 	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -933,6 +962,7 @@ class GVAR(LR_SF_HMG): CUP_I_LR_SF_HMG_AAF
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(data\preview\LR_SF_HMG.jpg);
 	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -1014,6 +1044,7 @@ class GVAR(LR_SF_GMG): CUP_I_LR_SF_GMG_AAF
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(data\preview\LR_SF_GMG.jpg);
 	
 	editorSubcategory = QGVAR(Pkw_L_Subcat);
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
@@ -1442,6 +1473,7 @@ class GVAR(MBT_03_cannon_F): I_MBT_03_cannon_F
 {
 	side = 1;
 	faction = QGVAR(rangers_faction);
+    editorPreview = QPATHTOF(previews\MBT_03_cannon_F.jpg);
 	
 	editorSubcategory = "EdSubcat_Tanks";
 	crew = "CUP_B_GER_Fleck_Crew";

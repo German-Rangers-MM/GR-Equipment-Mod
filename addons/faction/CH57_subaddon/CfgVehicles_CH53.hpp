@@ -16,6 +16,7 @@ class GVAR(CH_53E_TTH_01) : CUP_B_CH53E_GER {
     side = 1;
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_HPilot";
+	editorPreview = QPATHTOF(CH47_subaddon\data\preview\CH_53E_TTH_01.jpg);
 
 	
 	editorSubcategory = QGVAR(Heli_H_Subcat);
