@@ -42,6 +42,19 @@ class gerrng_OpsCore_Covered_NoHS_base: CUP_H_OpsCore_Covered_Fleck_NoHS {
 	};
 };
 
+class gerrng_OpsCore_Covered_Fleck_NoHS: gerrng_OpsCore_Covered_NoHS_base {
+	scope=2;
+	displayName="OpsCore MT NoHS (Fleck)";
+	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+	hiddenSelectionsTextures[]=
+	{
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
+		"",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+	};
+};
+
 //Alpha
 class gerrng_OpsCore_Covered_Fleck_NoHS_agf: gerrng_OpsCore_Covered_NoHS_base {
 	scope=2;
@@ -1423,7 +1436,18 @@ class gerrng_OpsCore_Covered_Fleck_NoHS_k2: gerrng_OpsCore_Covered_NoHS_base {
 /*----------------------Tropentarn----------------------*/
 /*------------------------------------------------------*/
 
-
+class gerrng_OpsCore_Covered_Tropen_NoHS: gerrng_OpsCore_Covered_NoHS_base {
+	scope=2;
+	displayName="OpsCore MT NoHS (Tropen)";
+	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+	hiddenSelectionsTextures[]=
+	{
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
+		"",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+	};
+};
 
 //Alpha
 class gerrng_OpsCore_Covered_Tropen_NoHS_agf: gerrng_OpsCore_Covered_NoHS_base {

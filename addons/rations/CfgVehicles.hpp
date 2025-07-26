@@ -45,7 +45,7 @@ class CfgVehicles
         ace_cargo_space = 0;
         ace_dragging_canCarry = 1;
         ace_dragging_canDrag = 1;
-        maximumLoad = 1000;
+        maximumLoad = 1200;
 
         class TransportItems
         {

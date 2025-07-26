@@ -181,7 +181,7 @@ class CfgWeapons {
 		model = QACEPATHTOF(field_rations,data\mre_type3.p3d);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 10;
+            mass = 8;
         };
         acex_field_rations_hungerSatiated = 20;
         acex_field_rations_consumeTime = 10;
@@ -343,9 +343,9 @@ class CfgWeapons {
         model = QACEPATHTOF(field_rations,data\mre_type6.p3d);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 5;
+            mass = 4;
         };
-        acex_field_rations_hungerSatiated = 10;
+        acex_field_rations_hungerSatiated = 15;
         acex_field_rations_consumeTime = 5;
         acex_field_rations_consumeText = ACECSTRING(field_rations,EatingX);
         ACE_isFieldRationItem = 1;
@@ -367,7 +367,7 @@ class CfgWeapons {
         displayName = "Schokomüsli";
         descriptionShort = "Eine Portion Schokomüsli.";
     };
-    class GVAR(Milchreis): GVAR(Snack_Griessspeise_Fruechte) {
+    class GVAR(Snack_Milchreis): GVAR(Snack_Griessspeise_Fruechte) {
         displayName = "Milchreis";
         descriptionShort = "Eine Portion Milchreis.";
     };
@@ -403,10 +403,6 @@ class CfgWeapons {
         displayName = "Mousse au Chocolat";
         descriptionShort = "Eine Portion Mousse au Chocolat.";
     };
-    class GVAR(Snack_Milchreis): GVAR(Snack_Griessspeise_Fruechte) {
-        displayName = "Milchreis mit Zimt und Zucker";
-        descriptionShort = "Eine Portion Milchreis mit Zimt und Zucker.";
-    };
 
 
     class GVAR(Misc_Dosenbrot_2_2): ACE_ItemCore {
@@ -420,7 +416,7 @@ class CfgWeapons {
         {
             mass = 4;
         };
-        acex_field_rations_hungerSatiated = 5;
+        acex_field_rations_hungerSatiated = 10;
         acex_field_rations_consumeTime = 3;
         acex_field_rations_consumeText = ACECSTRING(field_rations,EatingX);
         acex_field_rations_replacementItem = QGVAR(Misc_Dosenbrot_1_2);
@@ -445,7 +441,7 @@ class CfgWeapons {
         {
             mass = 4;
         };
-        acex_field_rations_hungerSatiated = 2;
+        acex_field_rations_hungerSatiated = 5;
         acex_field_rations_consumeTime = 2;
         acex_field_rations_replacementItem = QGVAR(Misc_Hartkekse_3_4);
     };
@@ -487,7 +483,7 @@ class CfgWeapons {
 		model = "\A3\Props_F_Orange\Humanitarian\Supplies\PaperBox_01_small_closed_F.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 33;
+			mass = 28;
 		};
 	
 		GVAR(epa_content)[] = {QGVAR(Meal_Ravioli_Champignonsauce), QGVAR(Meal_Indische_Reispfanne), QGVAR(Snack_Griessspeise_Fruechte), QGVAR(Misc_Dosenbrot_2_2), QGVAR(Misc_Hartkekse_4_4)};
@@ -525,7 +521,7 @@ class CfgWeapons {
     class GVAR(EPa_typ_v): GVAR(EPa_typ_i) {
         displayName = "EPa Typ 5";
         descriptionShort = "EPa Typ 5 Tortellini mit Schweinefleischfüllung u. Reis mit Putenfleisch";
-        GVAR(epa_content)[] = {QGVAR(Meal_Tortellini), QGVAR(Meal_Reis_Putenfleisch), QGVAR(Misc_Dosenbrot_2_2), QGVAR(Misc_Hartkekse_4_4)};
+        GVAR(epa_content)[] = {QGVAR(Meal_Tortellini), QGVAR(Meal_Reis_Putenfleisch), QGVAR(Snack_Obstsalat), QGVAR(Misc_Dosenbrot_2_2), QGVAR(Misc_Hartkekse_4_4)};
     };
 
     class GVAR(EPa_typ_vi): GVAR(EPa_typ_i) {
@@ -535,7 +531,7 @@ class CfgWeapons {
         model = "\z\ace\addons\field_rations\data\mre_type2.p3d";
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 28;
+            mass = 26;
         };
     };
 
@@ -593,7 +589,7 @@ class CfgWeapons {
         GVAR(epa_content)[] = {QGVAR(Meal_Kartoffeltopf_Rind), QGVAR(Meal_Nudeltopf_Bella), QGVAR(Snack_Schokomuesli), QGVAR(Snack_Milchreis), QGVAR(Misc_Dosenbrot_2_2), QGVAR(Misc_Hartkekse_4_4)};
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 38;
+            mass = 33;
         };
     };
 

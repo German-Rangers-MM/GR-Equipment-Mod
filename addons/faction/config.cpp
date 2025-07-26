@@ -159,10 +159,10 @@ class CfgFactionClasses {
 
 class CfgEditorCategories
 {
-    class GVAR(rangers_cat)
+    class GVAR(rangers_objectst)
     {
-        displayName = "German Rangers";
-        side = 1;
+        displayName = "German Rangers Objects";
+        side = 3;
     };
 };
 

@@ -16,7 +16,7 @@ class gerrng_OpsCore_Covered_SF_base: CUP_H_OpsCore_Covered_Fleck_SF {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_part_1_tan_co.paa",
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 	class ItemInfo: HeadgearItem
 	{
@@ -42,6 +42,19 @@ class gerrng_OpsCore_Covered_SF_base: CUP_H_OpsCore_Covered_Fleck_SF {
 	};
 };
 
+class gerrng_OpsCore_Covered_Fleck_SF: gerrng_OpsCore_Covered_SF_base {
+	scope=2;
+	displayName="OpsCore MT SF (Fleck)";
+	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+	hiddenSelectionsTextures[]=
+	{
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
+		"",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+	};
+};
+
 //Alpha
 class gerrng_OpsCore_Covered_Fleck_SF_agf: gerrng_OpsCore_Covered_SF_base {
 	scope=2;
@@ -52,7 +65,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_agf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a1: gerrng_OpsCore_Covered_SF_base {
@@ -64,7 +77,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a2: gerrng_OpsCore_Covered_SF_base {
@@ -76,7 +89,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a3: gerrng_OpsCore_Covered_SF_base {
@@ -88,7 +101,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a4: gerrng_OpsCore_Covered_SF_base {
@@ -100,7 +113,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a5: gerrng_OpsCore_Covered_SF_base {
@@ -112,7 +125,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a6: gerrng_OpsCore_Covered_SF_base {
@@ -125,7 +138,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a7: gerrng_OpsCore_Covered_SF_base {
@@ -138,7 +151,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a8: gerrng_OpsCore_Covered_SF_base {
@@ -151,7 +164,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a9: gerrng_OpsCore_Covered_SF_base {
@@ -164,7 +177,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a10: gerrng_OpsCore_Covered_SF_base {
@@ -177,7 +190,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a11: gerrng_OpsCore_Covered_SF_base {
@@ -190,7 +203,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_a12: gerrng_OpsCore_Covered_SF_base {
@@ -203,7 +216,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_a12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\alpha_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -217,7 +230,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_ygf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y1: gerrng_OpsCore_Covered_SF_base {
@@ -229,7 +242,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y2: gerrng_OpsCore_Covered_SF_base {
@@ -241,7 +254,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y3: gerrng_OpsCore_Covered_SF_base {
@@ -253,7 +266,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y4: gerrng_OpsCore_Covered_SF_base {
@@ -265,7 +278,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y5: gerrng_OpsCore_Covered_SF_base {
@@ -277,7 +290,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y6: gerrng_OpsCore_Covered_SF_base {
@@ -290,7 +303,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y7: gerrng_OpsCore_Covered_SF_base {
@@ -303,7 +316,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y8: gerrng_OpsCore_Covered_SF_base {
@@ -316,7 +329,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y9: gerrng_OpsCore_Covered_SF_base {
@@ -329,7 +342,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y10: gerrng_OpsCore_Covered_SF_base {
@@ -342,7 +355,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y11: gerrng_OpsCore_Covered_SF_base {
@@ -355,7 +368,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_y12: gerrng_OpsCore_Covered_SF_base {
@@ -368,7 +381,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_y12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\yankee_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -382,7 +395,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_cgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c1: gerrng_OpsCore_Covered_SF_base {
@@ -394,7 +407,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c2: gerrng_OpsCore_Covered_SF_base {
@@ -406,7 +419,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c3: gerrng_OpsCore_Covered_SF_base {
@@ -418,7 +431,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c4: gerrng_OpsCore_Covered_SF_base {
@@ -430,7 +443,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c5: gerrng_OpsCore_Covered_SF_base {
@@ -442,7 +455,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c6: gerrng_OpsCore_Covered_SF_base {
@@ -455,7 +468,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c7: gerrng_OpsCore_Covered_SF_base {
@@ -468,7 +481,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c8: gerrng_OpsCore_Covered_SF_base {
@@ -481,7 +494,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c9: gerrng_OpsCore_Covered_SF_base {
@@ -494,7 +507,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c10: gerrng_OpsCore_Covered_SF_base {
@@ -507,7 +520,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c11: gerrng_OpsCore_Covered_SF_base {
@@ -520,7 +533,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_c12: gerrng_OpsCore_Covered_SF_base {
@@ -533,7 +546,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_c12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\charlie_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -547,7 +560,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_fzf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\fox_zf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_f1: gerrng_OpsCore_Covered_SF_base {
@@ -559,7 +572,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_f1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\fox_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_f2: gerrng_OpsCore_Covered_SF_base {
@@ -571,7 +584,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_f2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\fox_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_f3: gerrng_OpsCore_Covered_SF_base {
@@ -583,7 +596,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_f3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\fox_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_f4: gerrng_OpsCore_Covered_SF_base {
@@ -595,7 +608,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_f4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\fox_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -609,7 +622,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_vzf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\victor_zf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_v1: gerrng_OpsCore_Covered_SF_base {
@@ -621,7 +634,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_v1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\victor_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_v2: gerrng_OpsCore_Covered_SF_base {
@@ -633,7 +646,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_v2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\victor_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_v3: gerrng_OpsCore_Covered_SF_base {
@@ -645,7 +658,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_v3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\victor_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_v4: gerrng_OpsCore_Covered_SF_base {
@@ -657,7 +670,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_v4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\victor_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -671,7 +684,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_zgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z1: gerrng_OpsCore_Covered_SF_base {
@@ -683,7 +696,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z2: gerrng_OpsCore_Covered_SF_base {
@@ -695,7 +708,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z3: gerrng_OpsCore_Covered_SF_base {
@@ -707,7 +720,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z4: gerrng_OpsCore_Covered_SF_base {
@@ -719,7 +732,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z5: gerrng_OpsCore_Covered_SF_base {
@@ -731,7 +744,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z6: gerrng_OpsCore_Covered_SF_base {
@@ -744,7 +757,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z7: gerrng_OpsCore_Covered_SF_base {
@@ -757,7 +770,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z8: gerrng_OpsCore_Covered_SF_base {
@@ -770,7 +783,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z9: gerrng_OpsCore_Covered_SF_base {
@@ -783,7 +796,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z10: gerrng_OpsCore_Covered_SF_base {
@@ -796,7 +809,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z11: gerrng_OpsCore_Covered_SF_base {
@@ -809,7 +822,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_z12: gerrng_OpsCore_Covered_SF_base {
@@ -822,7 +835,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_z12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\zulu_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -836,7 +849,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_bgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b1: gerrng_OpsCore_Covered_SF_base {
@@ -848,7 +861,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b2: gerrng_OpsCore_Covered_SF_base {
@@ -860,7 +873,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b3: gerrng_OpsCore_Covered_SF_base {
@@ -872,7 +885,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b4: gerrng_OpsCore_Covered_SF_base {
@@ -884,7 +897,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b5: gerrng_OpsCore_Covered_SF_base {
@@ -896,7 +909,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b6: gerrng_OpsCore_Covered_SF_base {
@@ -909,7 +922,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b7: gerrng_OpsCore_Covered_SF_base {
@@ -922,7 +935,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b8: gerrng_OpsCore_Covered_SF_base {
@@ -935,7 +948,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b9: gerrng_OpsCore_Covered_SF_base {
@@ -948,7 +961,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b10: gerrng_OpsCore_Covered_SF_base {
@@ -961,7 +974,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b11: gerrng_OpsCore_Covered_SF_base {
@@ -974,7 +987,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_b12: gerrng_OpsCore_Covered_SF_base {
@@ -987,7 +1000,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_b12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\bravo_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1001,7 +1014,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_xgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x1: gerrng_OpsCore_Covered_SF_base {
@@ -1013,7 +1026,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x2: gerrng_OpsCore_Covered_SF_base {
@@ -1025,7 +1038,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x3: gerrng_OpsCore_Covered_SF_base {
@@ -1037,7 +1050,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x4: gerrng_OpsCore_Covered_SF_base {
@@ -1049,7 +1062,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x5: gerrng_OpsCore_Covered_SF_base {
@@ -1061,7 +1074,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x6: gerrng_OpsCore_Covered_SF_base {
@@ -1074,7 +1087,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x7: gerrng_OpsCore_Covered_SF_base {
@@ -1087,7 +1100,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x8: gerrng_OpsCore_Covered_SF_base {
@@ -1100,7 +1113,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x9: gerrng_OpsCore_Covered_SF_base {
@@ -1113,7 +1126,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x10: gerrng_OpsCore_Covered_SF_base {
@@ -1126,7 +1139,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x11: gerrng_OpsCore_Covered_SF_base {
@@ -1139,7 +1152,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_x12: gerrng_OpsCore_Covered_SF_base {
@@ -1152,7 +1165,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_x12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\x-ray_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1166,7 +1179,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_lgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\lima_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_l1: gerrng_OpsCore_Covered_SF_base {
@@ -1178,7 +1191,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_l1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\lima_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_l2: gerrng_OpsCore_Covered_SF_base {
@@ -1190,7 +1203,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_l2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\lima_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_l3: gerrng_OpsCore_Covered_SF_base {
@@ -1202,7 +1215,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_l3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\lima_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_l4: gerrng_OpsCore_Covered_SF_base {
@@ -1214,7 +1227,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_l4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\lima_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_l5: gerrng_OpsCore_Covered_SF_base {
@@ -1226,7 +1239,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_l5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\lima_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_l6: gerrng_OpsCore_Covered_SF_base {
@@ -1239,7 +1252,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_l6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\lima_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1253,7 +1266,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_mavd: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\mike_avd.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_m1: gerrng_OpsCore_Covered_SF_base {
@@ -1265,7 +1278,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_m1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\mike_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_m2: gerrng_OpsCore_Covered_SF_base {
@@ -1277,7 +1290,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_m2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\mike_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_m3: gerrng_OpsCore_Covered_SF_base {
@@ -1289,7 +1302,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_m3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\mike_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_m4: gerrng_OpsCore_Covered_SF_base {
@@ -1301,7 +1314,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_m4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\mike_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_m5: gerrng_OpsCore_Covered_SF_base {
@@ -1313,7 +1326,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_m5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\mike_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1327,7 +1340,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_sgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\sierra_tf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_s1: gerrng_OpsCore_Covered_SF_base {
@@ -1339,7 +1352,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_s1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\sierra_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_s2: gerrng_OpsCore_Covered_SF_base {
@@ -1351,7 +1364,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_s2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\sierra_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_s3: gerrng_OpsCore_Covered_SF_base {
@@ -1363,7 +1376,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_s3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\sierra_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_s4: gerrng_OpsCore_Covered_SF_base {
@@ -1375,7 +1388,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_s4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\sierra_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1389,7 +1402,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_kk: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\kilo_k.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_k1: gerrng_OpsCore_Covered_SF_base {
@@ -1401,7 +1414,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_k1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\kilo_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Fleck_SF_k2: gerrng_OpsCore_Covered_SF_base {
@@ -1413,7 +1426,7 @@ class gerrng_OpsCore_Covered_Fleck_SF_k2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
 		QPATHTOF(data\kilo_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1423,7 +1436,18 @@ class gerrng_OpsCore_Covered_Fleck_SF_k2: gerrng_OpsCore_Covered_SF_base {
 /*----------------------Tropentarn----------------------*/
 /*------------------------------------------------------*/
 
-
+class gerrng_OpsCore_Covered_Tropen_SF: gerrng_OpsCore_Covered_SF_base {
+	scope=2;
+	displayName="OpsCore MT SF (Tropen)";
+	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+	hiddenSelectionsTextures[]=
+	{
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
+		"",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+	};
+};
 
 //Alpha
 class gerrng_OpsCore_Covered_Tropen_SF_agf: gerrng_OpsCore_Covered_SF_base {
@@ -1435,7 +1459,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_agf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a1: gerrng_OpsCore_Covered_SF_base {
@@ -1447,7 +1471,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a2: gerrng_OpsCore_Covered_SF_base {
@@ -1459,7 +1483,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a3: gerrng_OpsCore_Covered_SF_base {
@@ -1471,7 +1495,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a4: gerrng_OpsCore_Covered_SF_base {
@@ -1483,7 +1507,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a5: gerrng_OpsCore_Covered_SF_base {
@@ -1495,7 +1519,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a6: gerrng_OpsCore_Covered_SF_base {
@@ -1508,7 +1532,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a7: gerrng_OpsCore_Covered_SF_base {
@@ -1521,7 +1545,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a8: gerrng_OpsCore_Covered_SF_base {
@@ -1534,7 +1558,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a9: gerrng_OpsCore_Covered_SF_base {
@@ -1547,7 +1571,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a10: gerrng_OpsCore_Covered_SF_base {
@@ -1560,7 +1584,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a11: gerrng_OpsCore_Covered_SF_base {
@@ -1573,7 +1597,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_a12: gerrng_OpsCore_Covered_SF_base {
@@ -1586,7 +1610,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_a12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\alpha_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1600,7 +1624,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_ygf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y1: gerrng_OpsCore_Covered_SF_base {
@@ -1612,7 +1636,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y2: gerrng_OpsCore_Covered_SF_base {
@@ -1624,7 +1648,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y3: gerrng_OpsCore_Covered_SF_base {
@@ -1636,7 +1660,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y4: gerrng_OpsCore_Covered_SF_base {
@@ -1648,7 +1672,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y5: gerrng_OpsCore_Covered_SF_base {
@@ -1660,7 +1684,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y6: gerrng_OpsCore_Covered_SF_base {
@@ -1673,7 +1697,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y7: gerrng_OpsCore_Covered_SF_base {
@@ -1686,7 +1710,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y8: gerrng_OpsCore_Covered_SF_base {
@@ -1699,7 +1723,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y9: gerrng_OpsCore_Covered_SF_base {
@@ -1712,7 +1736,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y10: gerrng_OpsCore_Covered_SF_base {
@@ -1725,7 +1749,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y11: gerrng_OpsCore_Covered_SF_base {
@@ -1738,7 +1762,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_y12: gerrng_OpsCore_Covered_SF_base {
@@ -1751,7 +1775,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_y12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\yankee_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1765,7 +1789,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_cgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c1: gerrng_OpsCore_Covered_SF_base {
@@ -1777,7 +1801,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c2: gerrng_OpsCore_Covered_SF_base {
@@ -1789,7 +1813,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c3: gerrng_OpsCore_Covered_SF_base {
@@ -1801,7 +1825,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c4: gerrng_OpsCore_Covered_SF_base {
@@ -1813,7 +1837,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c5: gerrng_OpsCore_Covered_SF_base {
@@ -1825,7 +1849,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c6: gerrng_OpsCore_Covered_SF_base {
@@ -1838,7 +1862,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c7: gerrng_OpsCore_Covered_SF_base {
@@ -1851,7 +1875,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c8: gerrng_OpsCore_Covered_SF_base {
@@ -1864,7 +1888,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c9: gerrng_OpsCore_Covered_SF_base {
@@ -1877,7 +1901,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c10: gerrng_OpsCore_Covered_SF_base {
@@ -1890,7 +1914,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c11: gerrng_OpsCore_Covered_SF_base {
@@ -1903,7 +1927,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_c12: gerrng_OpsCore_Covered_SF_base {
@@ -1916,7 +1940,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_c12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\charlie_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1930,7 +1954,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_fzf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\fox_zf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_f1: gerrng_OpsCore_Covered_SF_base {
@@ -1942,7 +1966,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_f1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\fox_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_f2: gerrng_OpsCore_Covered_SF_base {
@@ -1954,7 +1978,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_f2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\fox_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_f3: gerrng_OpsCore_Covered_SF_base {
@@ -1966,7 +1990,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_f3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\fox_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_f4: gerrng_OpsCore_Covered_SF_base {
@@ -1978,7 +2002,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_f4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\fox_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -1992,7 +2016,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_vzf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\victor_zf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_v1: gerrng_OpsCore_Covered_SF_base {
@@ -2004,7 +2028,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_v1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\victor_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_v2: gerrng_OpsCore_Covered_SF_base {
@@ -2016,7 +2040,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_v2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\victor_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_v3: gerrng_OpsCore_Covered_SF_base {
@@ -2028,7 +2052,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_v3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\victor_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_v4: gerrng_OpsCore_Covered_SF_base {
@@ -2040,7 +2064,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_v4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\victor_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -2054,7 +2078,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_zgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z1: gerrng_OpsCore_Covered_SF_base {
@@ -2066,7 +2090,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z2: gerrng_OpsCore_Covered_SF_base {
@@ -2078,7 +2102,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z3: gerrng_OpsCore_Covered_SF_base {
@@ -2090,7 +2114,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z4: gerrng_OpsCore_Covered_SF_base {
@@ -2102,7 +2126,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z5: gerrng_OpsCore_Covered_SF_base {
@@ -2114,7 +2138,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z6: gerrng_OpsCore_Covered_SF_base {
@@ -2127,7 +2151,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z7: gerrng_OpsCore_Covered_SF_base {
@@ -2140,7 +2164,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z8: gerrng_OpsCore_Covered_SF_base {
@@ -2153,7 +2177,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z9: gerrng_OpsCore_Covered_SF_base {
@@ -2166,7 +2190,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z10: gerrng_OpsCore_Covered_SF_base {
@@ -2179,7 +2203,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z11: gerrng_OpsCore_Covered_SF_base {
@@ -2192,7 +2216,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_z12: gerrng_OpsCore_Covered_SF_base {
@@ -2205,7 +2229,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_z12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\zulu_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -2219,7 +2243,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_bgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b1: gerrng_OpsCore_Covered_SF_base {
@@ -2231,7 +2255,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b2: gerrng_OpsCore_Covered_SF_base {
@@ -2243,7 +2267,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b3: gerrng_OpsCore_Covered_SF_base {
@@ -2255,7 +2279,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b4: gerrng_OpsCore_Covered_SF_base {
@@ -2267,7 +2291,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b5: gerrng_OpsCore_Covered_SF_base {
@@ -2279,7 +2303,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b6: gerrng_OpsCore_Covered_SF_base {
@@ -2292,7 +2316,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b7: gerrng_OpsCore_Covered_SF_base {
@@ -2305,7 +2329,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b8: gerrng_OpsCore_Covered_SF_base {
@@ -2318,7 +2342,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b9: gerrng_OpsCore_Covered_SF_base {
@@ -2331,7 +2355,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b10: gerrng_OpsCore_Covered_SF_base {
@@ -2344,7 +2368,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b11: gerrng_OpsCore_Covered_SF_base {
@@ -2357,7 +2381,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_b12: gerrng_OpsCore_Covered_SF_base {
@@ -2370,7 +2394,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_b12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\bravo_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -2384,7 +2408,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_xgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x1: gerrng_OpsCore_Covered_SF_base {
@@ -2396,7 +2420,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x2: gerrng_OpsCore_Covered_SF_base {
@@ -2408,7 +2432,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x3: gerrng_OpsCore_Covered_SF_base {
@@ -2420,7 +2444,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x4: gerrng_OpsCore_Covered_SF_base {
@@ -2432,7 +2456,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x5: gerrng_OpsCore_Covered_SF_base {
@@ -2444,7 +2468,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x6: gerrng_OpsCore_Covered_SF_base {
@@ -2457,7 +2481,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x7: gerrng_OpsCore_Covered_SF_base {
@@ -2470,7 +2494,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x7: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_7.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x8: gerrng_OpsCore_Covered_SF_base {
@@ -2483,7 +2507,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x8: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_8.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x9: gerrng_OpsCore_Covered_SF_base {
@@ -2496,7 +2520,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x9: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_9.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x10: gerrng_OpsCore_Covered_SF_base {
@@ -2509,7 +2533,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x10: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_10.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x11: gerrng_OpsCore_Covered_SF_base {
@@ -2522,7 +2546,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x11: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_11.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_x12: gerrng_OpsCore_Covered_SF_base {
@@ -2535,7 +2559,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_x12: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\x-ray_12.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -2549,7 +2573,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_lgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\lima_gf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_l1: gerrng_OpsCore_Covered_SF_base {
@@ -2561,7 +2585,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_l1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\lima_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_l2: gerrng_OpsCore_Covered_SF_base {
@@ -2573,7 +2597,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_l2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\lima_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_l3: gerrng_OpsCore_Covered_SF_base {
@@ -2585,7 +2609,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_l3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\lima_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_l4: gerrng_OpsCore_Covered_SF_base {
@@ -2597,7 +2621,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_l4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\lima_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_l5: gerrng_OpsCore_Covered_SF_base {
@@ -2609,7 +2633,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_l5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\lima_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_l6: gerrng_OpsCore_Covered_SF_base {
@@ -2622,7 +2646,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_l6: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\lima_6.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -2636,7 +2660,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_mavd: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\mike_avd.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_m1: gerrng_OpsCore_Covered_SF_base {
@@ -2648,7 +2672,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_m1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\mike_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_m2: gerrng_OpsCore_Covered_SF_base {
@@ -2660,7 +2684,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_m2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\mike_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_m3: gerrng_OpsCore_Covered_SF_base {
@@ -2672,7 +2696,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_m3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\mike_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_m4: gerrng_OpsCore_Covered_SF_base {
@@ -2684,7 +2708,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_m4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\mike_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_m5: gerrng_OpsCore_Covered_SF_base {
@@ -2696,7 +2720,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_m5: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\mike_5.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -2710,7 +2734,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_sgf: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\sierra_tf.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_s1: gerrng_OpsCore_Covered_SF_base {
@@ -2722,7 +2746,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_s1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\sierra_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_s2: gerrng_OpsCore_Covered_SF_base {
@@ -2734,7 +2758,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_s2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\sierra_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_s3: gerrng_OpsCore_Covered_SF_base {
@@ -2746,7 +2770,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_s3: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\sierra_3.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_s4: gerrng_OpsCore_Covered_SF_base {
@@ -2758,7 +2782,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_s4: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\sierra_4.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 
@@ -2772,7 +2796,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_kk: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\kilo_k.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_k1: gerrng_OpsCore_Covered_SF_base {
@@ -2784,7 +2808,7 @@ class gerrng_OpsCore_Covered_Tropen_SF_k1: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\kilo_1.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };
 class gerrng_OpsCore_Covered_Tropen_SF_k2: gerrng_OpsCore_Covered_SF_base {
@@ -2796,6 +2820,6 @@ class gerrng_OpsCore_Covered_Tropen_SF_k2: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
 		QPATHTOF(data\kilo_2.paa),
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
-		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+		""
 	};
 };

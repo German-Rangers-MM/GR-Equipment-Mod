@@ -190,8 +190,9 @@ class GVAR(Lynx_Unarmed_Base): CUP_AW159_Unarmed_Base
 					minSpeedThreshold = 0;
 					maxSpeedThreshold = 0;
 					aimDown = 10;
+					allowsMarking = 1;
 				};
-				class PassiveSensorComponent: SensorTemplatePassiveRadar{};
+				class PassiveRadarSensorComponent: SensorTemplatePassiveRadar{};
 				class NVSensorComponent: SensorTemplateNV
 				{
 					aimDown = 0;

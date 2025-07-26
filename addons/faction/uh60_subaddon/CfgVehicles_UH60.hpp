@@ -30,6 +30,12 @@ class CUP_UH60S_Dap_2x_Dynamic_Base
             };
         };
     };
+    class Turrets
+    {
+        class CopilotTurret;
+        class MainTurret;
+        class RightDoorGun;
+    };
 };
 class CUP_B_MH60L_DAP_2x_USN: CUP_UH60S_Dap_2x_Dynamic_Base
 {
@@ -80,6 +86,12 @@ class CUP_B_MH60L_DAP_2x_USN: CUP_UH60S_Dap_2x_Dynamic_Base
             };
         };
     };
+    class Turrets: Turrets
+    {
+        class CopilotTurret: CopilotTurret{};
+        class MainTurret: MainTurret{};
+        class RightDoorGun: RightDoorGun{};
+    };
 };
 
 class GVAR(MH60S_MEV) : CUP_B_MH60L_DAP_2x_USN
@@ -97,6 +109,226 @@ class GVAR(MH60S_MEV) : CUP_B_MH60L_DAP_2x_USN
 
     attendant = 1;
     
+    class Turrets: Turrets
+    {
+        class CopilotTurret: CopilotTurret
+        {
+            ace_fcs_DistanceInterval = 5;
+            ace_fcs_Enabled = 0;
+            ace_fcs_MaxDistance = 5500;
+            ace_fcs_MinDistance = 200;
+            aggregateReflectors[] = {};
+            allowLauncherIn = 0;
+            allowLauncherOut = 0;
+            allowTabLock = 1;
+            animationSourceBody = "flirTurret";
+            animationSourceCamElev = "camElev";
+            animationSourceGun = "flirGun";
+            animationSourceHatch = "hatchGunner";
+            armorLights = 0.4;
+            body = "flirTurret";
+            CanEject = 0;
+            canHideGunner = -1;
+            canUseScanners = 1;
+            castGunnerShadow = 1;
+            commanding = -3;
+            disableSoundAttenuation = 0;
+            dontCreateAI = 0;
+            ejectDeadGunner = 0;
+            enableManualFire = 0;
+            forceHideGunner = 0;
+            forceNVG = 0;
+            gun = "flirGun";
+            gunBeg = "laser_end";
+            gunEnd = "gunnerview_flir";
+            gunnerAction = "CUP_UH60M_Pilot_EP1";
+            gunnerCompartments = "Compartment3";
+            GunnerDoor = "";
+            gunnerFireAlsoInInternalCamera = 1;
+            gunnerForceOptics = 0;
+            gunnerGetInAction = "GetInHeli_Transport_01Cargo";
+            gunnerGetOutAction = "GetOutLow";
+            gunnerInAction = "CUP_UH60M_Pilot_EP1";
+            gunnerLeftHandAnimName = "";
+            gunnerLeftLegAnimName = "copilot_pedalL";
+            gunnerName = "Copilot";
+            gunnerNotSpawned = 1;
+            gunnerOpticsColor[] = {0,0,0,1};
+            gunnerOpticsEffect[] = {};
+            gunnerOpticsModel = "";
+            gunnerOpticsShowCursor = 0;
+            gunnerOutFireAlsoInInternalCamera = 1;
+            gunnerOutForceOptics = 0;
+            gunnerOutOpticsColor[] = {0,0,0,1};
+            gunnerOutOpticsEffect[] = {};
+            gunnerOutOpticsModel = "";
+            gunnerOutOpticsShowCursor = 0;
+            gunnerRightHandAnimName = "stick_copilot";
+            gunnerRightLegAnimName = "copilot_pedalR";
+            gunnerType = "";
+            gunnerUsesPilotView = 0;
+            hasGunner = 1;
+            hideWeaponsGunner = 1;
+            inGunnerMayFire = 1;
+            initCamElev = 0;
+            initElev = 0;
+            initOutElev = 0;
+            initOutTurn = 0;
+            initTurn = 0;
+            isCopilot = 1;
+            lockWhenDriverOut = 0;
+            lockWhenVehicleSpeed = -1;
+            LODTurnedIn = 1200;
+            LODTurnedOut = 1200;
+            magazines[] = {"Laserbatteries","CUP_fake_weapon_mag"};
+            maxCamElev = 90;
+            maxElev = 10;
+            maxHorizontalRotSpeed = 3;
+            maxOutElev = 20;
+            maxOutTurn = 60;
+            maxTurn = 180;
+            maxVerticalRotSpeed = 3;
+            memoryPointGun = "laser_start";
+            memoryPointGunnerOptics = "gunnerview_flir";
+            memoryPointGunnerOutOptics = "";
+            memoryPointsGetInGunner = "pos codriver";
+            memoryPointsGetInGunnerDir = "pos codriver dir";
+            memoryPointsGetInGunnerPrecise = "";
+            minCamElev = -90;
+            minElev = -85;
+            minOutElev = -4;
+            minOutTurn = -60;
+            minTurn = -180;
+            missileBeg = "spice rakety";
+            missileEnd = "konec rakety";
+            outGunnerMayFire = 1;
+            playerPosition = 0;
+            preciseGetInOut = 0;
+            primary = 1;
+            primaryGunner = 1;
+            primaryObserver = 0;
+            proxyIndex = 3;
+            proxyType = "CPGunner";
+            selectionFireAnim = "zasleh";
+            showAllTargets = 0;
+            showCrewAim = 0;
+            showHMD = 0;
+            slingLoadOperator = 0;
+            soundElevation[] = {"",0.00316228,1};
+            soundServo[] = {"",0.00316228,1};
+            stabilizedInAxes = 3;
+            startEngine = 0;
+            turretCanSee = "1 + 2 + 4 + 8 + 32";
+            turretFollowFreeLook = 0;
+            turretInfoType = "RscOptics_UAV_gunner";
+            viewGunnerInExternal = 0;
+            viewGunnerShadow = 1;
+            viewGunnerShadowAmb = 1;
+            viewGunnerShadowDiff = 1;
+            weapons[] = {"CUP_weapon_mastersafe","Laserdesignator_mounted"};
+            class OpticsIn
+            {
+                class Wide
+                {
+                    directionStabilized = 1;
+                    gunnerOpticsColor[] = {0.15,1,0.15,1};
+                    gunnerOpticsEffect[] = {"TankCommanderOptics1"};
+                    gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_AAA_01_w_F.p3d";
+                    initAngleX = 0;
+                    initAngleY = 0;
+                    initFov = 0.466;
+                    maxAngleX = 0;
+                    maxAngleY = 0;
+                    maxFov = 0.466;
+                    minAngleX = 0;
+                    minAngleY = 0;
+                    minFov = 0.466;
+                    opticsDisplayName = "W";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                    thermalMode[] = {0,1};
+                    visionMode[] = {"Normal","NVG","Ti"};
+                };
+                class WideL: Wide
+                {
+                    directionStabilized = 1;
+                    gunnerOpticsColor[] = {0,0,0,1};
+                    gunnerOpticsEffect[] = {"TankCommanderOptics1"};
+                    gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_AAA_01_m_F.p3d";
+                    initFov = 0.2;
+                    maxFov = 0.2;
+                    minFov = 0.2;
+                    opticsDisplayName = "WL";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                    thermalMode[] = {0,1};
+                    visionMode[] = {"Normal","NVG","Ti"};
+                };
+                class WideNGS
+                {
+                    directionStabilized = 0;
+                    gunnerOpticsColor[] = {0.15,1,0.15,1};
+                    gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_AAA_01_w_F.p3d";
+                    initAngleX = 0;
+                    initAngleY = 0;
+                    initFov = 0.466;
+                    maxAngleX = 0;
+                    maxAngleY = 0;
+                    maxFov = 0.466;
+                    minAngleX = 0;
+                    minAngleY = 0;
+                    minFov = 0.466;
+                    opticsDisplayName = "W";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                    thermalMode[] = {0,1};
+                    visionMode[] = {"Normal","NVG","Ti"};
+                };
+                class Medium: Wide
+                {
+                    directionStabilized = 1;
+                    gunnerOpticsColor[] = {0,0,0,1};
+                    gunnerOpticsEffect[] = {"TankCommanderOptics1"};
+                    gunnerOpticsModel = "a3\weapons_f\Reticle\Optics_Gunner_AAA_01_m_F.p3d";
+                    initFov = 0.1;
+                    maxFov = 0.1;
+                    minFov = 0.1;
+                    opticsDisplayName = "M";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                    thermalMode[] = {0,1};
+                    visionMode[] = {"Normal","NVG","Ti"};
+                };
+                class Narrow: Wide
+                {
+                    directionStabilized = 1;
+                    gunnerOpticsColor[] = {0,0,0,1};
+                    gunnerOpticsEffect[] = {"TankCommanderOptics1"};
+                    gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_AAA_01_n_F.p3d";
+                    initFov = 0.02;
+                    maxFov = 0.02;
+                    minFov = 0.02;
+                    opticsDisplayName = "N";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                    thermalMode[] = {0,1};
+                    visionMode[] = {"Normal","NVG","Ti"};
+                };
+                class Narrower: Wide
+                {
+                    directionStabilized = 1;
+                    gunnerOpticsColor[] = {0,0,0,1};
+                    gunnerOpticsEffect[] = {"TankCommanderOptics1"};
+                    gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_AAA_01_n_F.p3d";
+                    initFov = 0.01;
+                    maxFov = 0.01;
+                    minFov = 0.01;
+                    opticsDisplayName = "N";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                    thermalMode[] = {0,1};
+                    visionMode[] = {"Normal","NVG","Ti"};
+                };
+            };
+        };
+        class MainTurret: MainTurret{};
+        class RightDoorGun: RightDoorGun{};
+    };
+
     class components : components
     {   
         class presets
@@ -833,6 +1065,8 @@ class GVAR(MH_60S_2_pylon) : GVAR(MH60S_MEV)
     displayName = "MH-60S DAP (2 Stores)";
     scope = 2;
     scopeCurator = 2;
+    
+    attendant = 0;
     class components : components
     {
         class SensorsManagerComponent
@@ -942,14 +1176,14 @@ class GVAR(MH_60S_2_pylon) : GVAR(MH60S_MEV)
                         viewDistanceLimitCoef = 1;
                     };
                 };
-                class ActiveSensorComponent
+                class ActiveRadarSensorComponent
                 {
-                    aimDown = 0;
-                    allowsMarking = 0;
+                    aimDown = 10;
+                    allowsMarking = 1;
                     angleRangeHorizontal = 120;
                     angleRangeVertical = 120;
                     animDirection = "";
-                    color[] = {1,0.5,0.5,0.5};
+                    color[] = {0,1,1,1};
                     componentType = "ActiveRadarSensorComponent";
                     groundNoiseDistanceCoef = -1;
                     maxGroundNoiseDistance = -1;
@@ -976,7 +1210,7 @@ class GVAR(MH_60S_2_pylon) : GVAR(MH60S_MEV)
                         viewDistanceLimitCoef = -1;
                     };
                 };
-                class PassiveSensorComponent
+                class PassiveRadarSensorComponent
                 {
                     aimDown = 0;
                     allowsMarking = 0;

@@ -6,7 +6,7 @@ class H_CrewHelmetHeli_I_E;
 class GVAR(helmet_pilot_b): H_PilotHelmetHeli_I_E {
 	scope = 2;
 	scopeCurator = 2;
-	displayName = "Pilot Helmet";	
+	displayName = "Pilot Helmet (WDL)";	
 	author = "Cookie";
 	ace_hearing_protection = 0.85;  // Protection against deafening (0 to 1, higher means more protection)
 	ace_hearing_lowerVolume = 0.4;  // Muffling of the sound (0 to 1, higher means more muffling)
@@ -16,7 +16,7 @@ class GVAR(helmet_pilot_b): H_PilotHelmetHeli_I_E {
 class GVAR(helmet_pilot_w): H_PilotHelmetHeli_B {
 	scope = 2;
 	scopeCurator = 2;
-	displayName = "Pilot Helmet (WDL)";	
+	displayName = "Pilot Helmet";	
 	author = "Cookie";
 	ace_hearing_protection = 0.85;  // Protection against deafening (0 to 1, higher means more protection)
 	ace_hearing_lowerVolume = 0.4;  // Muffling of the sound (0 to 1, higher means more muffling)

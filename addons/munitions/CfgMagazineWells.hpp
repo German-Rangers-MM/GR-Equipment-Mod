@@ -11,7 +11,7 @@ class CfgMagazineWells
 			"MAA_MAAWS_SMOKE469",
 			QGVAR(MAAWS_GMM_HE),
 			QGVAR(MAAWS_GMM_MT),
-			QGVAR(MAAWS_GMM_HEAT),
+			QGVAR(MAAWS_GMM_HEAT)
 		};
 	};
 };

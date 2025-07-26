@@ -64,7 +64,7 @@ class GVAR(miclic_ui) {
             maxChars = 3; // Limit to 2 digits
             onKeyUp = QUOTE( \
                 if (_this select 1 in [ARR_2(28,156)]) then { \
-                    [ARR_2(_this select 0, 2)] call FUNC(onButtonClicked_Enter); \
+                    [ARR_2(_this select 0,2)] call FUNC(onButtonClicked_Enter); \
                 }; \
             );
         };
@@ -78,7 +78,7 @@ class GVAR(miclic_ui) {
             maxChars = 2; // Limit to 2 digits
             onKeyUp = QUOTE( \
                 if (_this select 1 in [ARR_2(28,156)]) then { \
-                    [ARR_2(_this select 0, 3)] call FUNC(onButtonClicked_Enter); \
+                    [ARR_2(_this select 0,3)] call FUNC(onButtonClicked_Enter); \
                 }; \
             );
         };

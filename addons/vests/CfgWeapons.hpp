@@ -51,7 +51,7 @@ class CfgWeapons
     class gerrng_PlateCarrier1_Tropentarn: gerrng_PlateCarrier_Base
     {
         scope = 2;
-        displayName = "gerrng Plate Carrier (Tropentarn)";
+        displayName = "Plate Carrier (Tropentarn)";
         editorPreview = QPATHTOF(data\preview\gerrng_PlateCarrier1_Tropentarn.jpg);
         model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Tropentarn.paa)};
@@ -62,7 +62,7 @@ class CfgWeapons
     class gerrng_PlateCarrier1_Flecktarn: gerrng_PlateCarrier_Base
     {
         scope = 2;
-        displayName = "gerrng Plate Carrier (Flecktarn)";
+        displayName = "Plate Carrier (Flecktarn)";
         editorPreview = QPATHTOF(data\preview\gerrng_PlateCarrier1_Flecktarn.jpg);
         model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Flecktarn.paa)};
@@ -73,7 +73,7 @@ class CfgWeapons
     class gerrng_PlateCarrier1_Flecktarn_B: gerrng_PlateCarrier_Base
     {
         scope = 2;
-        displayName = "gerrng Plate Carrier (Flecktarn B)";
+        displayName = "Plate Carrier (Flecktarn B)";
         editorPreview = QPATHTOF(data\preview\gerrng_PlateCarrier1_Flecktarn_B.jpg);
         model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Flecktarn_B.paa)};
@@ -84,7 +84,7 @@ class CfgWeapons
     class gerrng_PlateCarrier1_Wintertarn: gerrng_PlateCarrier_Base
     {
         scope = 2;
-        displayName = "gerrng Plate Carrier (Wintertarn)";
+        displayName = "Plate Carrier (Wintertarn)";
         editorPreview = QPATHTOF(data\preview\gerrng_PlateCarrier1_Wintertarn.jpg);
         // picture = "\x\cfp\addons\vests\PlateCarrier1\ui\gerrngy.jpg";
         model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
