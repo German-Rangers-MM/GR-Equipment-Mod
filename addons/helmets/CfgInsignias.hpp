@@ -662,7 +662,15 @@ class CfgUnitInsignia
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
+
+	class Romeo
+	{
+		displayName = "GR Romeo";
+		author = "KlasNi - GerRng";
+		texture = QPATHTOF(data\iromeo.paa);
+		textureVehicle = "";
+	};
 	
-}; //Do not remove this bracket, doing so will invalidate any code within CfgUnitInsignia. Make sure this is at the very end of your CfgUnitInsignia code.
+};
 	
 	

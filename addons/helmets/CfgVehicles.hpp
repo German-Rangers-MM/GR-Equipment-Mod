@@ -2,1540 +2,402 @@ class CfgVehicles {
 	class Man;
 	class CAManBase: Man {
 		class ACE_SelfActions {
-			
 			class Equipment {
 				displayName = "GerRng Equipment";
 				condition = "";
 				exceptions[] = {"isNotEscorting", "isNotHandcuffed", "isNotSurrendering", "notOnMap", "isNotUnconscious", "isNotDragging", "isNotDragging", "isNotSwimming", "isNotOnLadder"};
 				statement = "";
 				icon = QPATHTOF(icon\gr_neu.paa);
-			
-			
 				class HelmpatchAction {
 					displayName = "Helmpatch";
 					condition = QUOTE([ARR_2('OpsCore',headgear player)] call BIS_fnc_inString);
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\helm.paa);
-					
-						
-						class HelmpatchAction_K {
+
+					class HelmpatchAction_K {
 						displayName = "Kilo";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\kilo.paa);
-							class HelmpatchAction_1 {
-							displayName = "K-Chef";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['kk'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_2 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['k1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_3 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['k2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-						
-						class HelmpatchAction_F {
+						MAKE_HELMET_ACTION_WDASH(K,Chef,kk);
+						MAKE_HELMET_ACTION(1,k1);
+						MAKE_HELMET_ACTION(2,k2);
+					};
+					
+					class HelmpatchAction_F {
 						displayName = "Fox";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\fox.paa);
-							class HelmpatchAction_F1 {
-							displayName = "Z-ZFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['fzf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							
-							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['f1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							
-							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['f2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['f3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['f4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-						
-						class HelmpatchAction_V {
+						MAKE_HELMET_ACTION_WDASH(F,ZFhr,fzf);
+						MAKE_HELMET_ACTION(1,f1);
+						MAKE_HELMET_ACTION(2,f2);
+						MAKE_HELMET_ACTION(3,f3);
+						MAKE_HELMET_ACTION(4,f4);
+					};
+					
+					class HelmpatchAction_V {
 						displayName = "Victor";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\victor.paa);
-							class HelmpatchAction_1 {
-							displayName = "V-ZFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['vzf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							
-							class HelmpatchAction_2 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['v1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							
-							class HelmpatchAction_3 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['v2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_4 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['v3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_5 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['v4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-					
-						class HelmpatchAction_A {
+						MAKE_HELMET_ACTION_WDASH(V,ZFhr,vzf);
+						MAKE_HELMET_ACTION(1,v1);
+						MAKE_HELMET_ACTION(2,v2);
+						MAKE_HELMET_ACTION(3,v3);
+						MAKE_HELMET_ACTION(4,v4);
+					};
+				
+					class HelmpatchAction_A {
 						displayName = "Alpha";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\alfa.paa);
-
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['agf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a5'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a6'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a7'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a8'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a9'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a10'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a11'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['a12'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-						
-						class HelmpatchAction_B {
+						MAKE_HELMET_ACTION(GrpFhr,agf);
+						MAKE_HELMET_ACTION(01,a1);
+						MAKE_HELMET_ACTION(02,a2);
+						MAKE_HELMET_ACTION(03,a3);
+						MAKE_HELMET_ACTION(04,a4);
+						MAKE_HELMET_ACTION(05,a5);
+						MAKE_HELMET_ACTION(06,a6);
+						MAKE_HELMET_ACTION(07,a7);
+						MAKE_HELMET_ACTION(08,a8);
+						MAKE_HELMET_ACTION(09,a9);
+						MAKE_HELMET_ACTION(10,a10);
+						MAKE_HELMET_ACTION(11,a11);
+						MAKE_HELMET_ACTION(12,a12);
+					};
+					
+					class HelmpatchAction_B {
 						displayName = "Bravo";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\bravo.paa);
-							
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['bgf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							
-							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b5'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b6'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b7'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b8'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b9'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b10'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b11'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['b12'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-						
-						class HelmpatchAction_C {
+						MAKE_HELMET_ACTION(GrpFhr,bgf);
+						MAKE_HELMET_ACTION(1,b1);
+						MAKE_HELMET_ACTION(2,b2);
+						MAKE_HELMET_ACTION(3,b3);
+						MAKE_HELMET_ACTION(4,b4);
+						MAKE_HELMET_ACTION(5,b5);
+						MAKE_HELMET_ACTION(6,b6);
+						MAKE_HELMET_ACTION(7,b7);
+						MAKE_HELMET_ACTION(8,b8);
+						MAKE_HELMET_ACTION(9,b9);
+						MAKE_HELMET_ACTION(10,b10);
+						MAKE_HELMET_ACTION(11,b11);
+						MAKE_HELMET_ACTION(12,b12);
+					};
+					
+					class HelmpatchAction_C {
 						displayName = "Charlie";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\charlie.paa);
-							
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['cgf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							
-							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c5'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c6'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c7'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c8'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c9'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c10'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c11'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['c12'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-						
-						class HelmpatchAction_Z {
+						MAKE_HELMET_ACTION(GrpFhr,cgf);
+						MAKE_HELMET_ACTION(1,c1);
+						MAKE_HELMET_ACTION(2,c2);
+						MAKE_HELMET_ACTION(3,c3);
+						MAKE_HELMET_ACTION(4,c4);
+						MAKE_HELMET_ACTION(5,c5);
+						MAKE_HELMET_ACTION(6,c6);
+						MAKE_HELMET_ACTION(7,c7);
+						MAKE_HELMET_ACTION(8,c8);
+						MAKE_HELMET_ACTION(9,c9);
+						MAKE_HELMET_ACTION(10,c10);
+						MAKE_HELMET_ACTION(11,c11);
+						MAKE_HELMET_ACTION(12,c12);
+					};
+					
+					class HelmpatchAction_Z {
 						displayName = "Zulu";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\zulu.paa);
-
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['zgf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z5'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z6'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z7'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z8'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z9'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z10'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z11'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['z12'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-						
-						class HelmpatchAction_Y {
+						MAKE_HELMET_ACTION(GrpFhr,zgf);
+						MAKE_HELMET_ACTION(1,z1);
+						MAKE_HELMET_ACTION(2,z2);
+						MAKE_HELMET_ACTION(3,z3);
+						MAKE_HELMET_ACTION(4,z4);
+						MAKE_HELMET_ACTION(5,z5);
+						MAKE_HELMET_ACTION(6,z6);
+						MAKE_HELMET_ACTION(7,z7);
+						MAKE_HELMET_ACTION(8,z8);
+						MAKE_HELMET_ACTION(9,z9);
+						MAKE_HELMET_ACTION(10,z10);
+						MAKE_HELMET_ACTION(11,z11);
+						MAKE_HELMET_ACTION(12,z12);
+					};
+					
+					class HelmpatchAction_Y {
 						displayName = "Yankee";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\yankee.paa);
-
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['ygf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y5'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y6'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y7'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y8'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y9'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y10'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y11'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['y12'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-						
-						class HelmpatchAction_X {
+						MAKE_HELMET_ACTION(GrpFhr,ygf);
+						MAKE_HELMET_ACTION(1,y1);
+						MAKE_HELMET_ACTION(2,y2);
+						MAKE_HELMET_ACTION(3,y3);
+						MAKE_HELMET_ACTION(4,y4);
+						MAKE_HELMET_ACTION(5,y5);
+						MAKE_HELMET_ACTION(6,y6);
+						MAKE_HELMET_ACTION(7,y7);
+						MAKE_HELMET_ACTION(8,y8);
+						MAKE_HELMET_ACTION(9,y9);
+						MAKE_HELMET_ACTION(10,y10);
+						MAKE_HELMET_ACTION(11,y11);
+						MAKE_HELMET_ACTION(12,y12);
+					};
+					
+					class HelmpatchAction_X {
 						displayName = "X-Ray";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\x-ray.paa);
-
-							class HelmpatchAction_GrpFhr {
-							displayName = "GrpFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['xgf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_1 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_2 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_3 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_4 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_5 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x5'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_6 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x6'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_7 {
-							displayName = "7";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x7'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_8 {
-							displayName = "8";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x8'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_9 {
-							displayName = "9";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x9'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_10 {
-							displayName = "10";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x10'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_11 {
-							displayName = "11";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x11'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_12 {
-							displayName = "12";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['x12'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};			
+						MAKE_HELMET_ACTION(GrpFhr,xgf);
+						MAKE_HELMET_ACTION(1,x1);
+						MAKE_HELMET_ACTION(2,x2);
+						MAKE_HELMET_ACTION(3,x3);
+						MAKE_HELMET_ACTION(4,x4);
+						MAKE_HELMET_ACTION(5,x5);
+						MAKE_HELMET_ACTION(6,x6);
+						MAKE_HELMET_ACTION(7,x7);
+						MAKE_HELMET_ACTION(8,x8);
+						MAKE_HELMET_ACTION(9,x9);
+						MAKE_HELMET_ACTION(10,x10);
+						MAKE_HELMET_ACTION(11,x11);
+						MAKE_HELMET_ACTION(12,x12);
+					};
 					
-						/*
-						class HelmpatchAction_W {
-						displayName = "Whiskey";
-						condition = "";
-						exceptions[] = {};
-						statement = "";
-						icon = QPATHTOF(icon\whiskey.paa);
-							class HelmpatchAction_1 {
-							displayName = "TrpFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['wtf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_2 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['w1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_3 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['w2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_4 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['w3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_5 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['w4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-						*/
-						
-						class HelmpatchAction_S {
+					class HelmpatchAction_S {
 						displayName = "Sierra";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\sierra.paa);
-							class HelmpatchAction_1 {
-							displayName = "TrpFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['stf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_2 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['s1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_3 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['s2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_4 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['s3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_5 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['s4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-						
-						class HelmpatchAction_M {
+						MAKE_HELMET_ACTION(GrpFhr,sgf);
+						MAKE_HELMET_ACTION(TrpFhr,stf);
+						MAKE_HELMET_ACTION(1,s1);
+						MAKE_HELMET_ACTION(2,s2);
+						MAKE_HELMET_ACTION(3,s3);
+						MAKE_HELMET_ACTION(4,s4);
+						MAKE_HELMET_ACTION(5,s5);
+						MAKE_HELMET_ACTION(6,s6);
+						MAKE_HELMET_ACTION(7,s7);
+						MAKE_HELMET_ACTION(8,s8);
+					};
+					class HelmpatchAction_M {
 						displayName = "Mike";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\mike.paa);
-							class HelmpatchAction_1 {
-							displayName = "M-AvD";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['mavd'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							
-							class HelmpatchAction_2 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['m1'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							
-							class HelmpatchAction_3 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['m2'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_4 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['m3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-
-							class HelmpatchAction_5 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['m4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_6 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['m5'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};						
-						
-						class HelmpatchAction_L {
+						MAKE_HELMET_ACTION(AvD,mavd);
+						MAKE_HELMET_ACTION(1,m1);
+						MAKE_HELMET_ACTION(2,m2);
+						MAKE_HELMET_ACTION(3,m3);
+						MAKE_HELMET_ACTION(4,m4);
+						MAKE_HELMET_ACTION(5,m5);
+						MAKE_HELMET_ACTION(6,m6);
+						MAKE_HELMET_ACTION(7,m7);
+						MAKE_HELMET_ACTION(8,m8);
+					};						
+					
+					class HelmpatchAction_L {
 						displayName = "Lima";
 						condition = "";
 						exceptions[] = {};
 						statement = "";
 						icon = QPATHTOF(icon\lima.paa);
-							class HelmpatchAction_1 {
-							displayName = "GrpFhr";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['lgf'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							
-							class HelmpatchAction_2 {
-							displayName = "1";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['l1'] call FUNC(selectHelmet));
-							icon = "";
-							};
+						MAKE_HELMET_ACTION(GrpFhr,lgf);
+						MAKE_HELMET_ACTION(1,l1);
+						MAKE_HELMET_ACTION(2,l2);
+						MAKE_HELMET_ACTION(3,l3);
+						MAKE_HELMET_ACTION(4,l4);
+						MAKE_HELMET_ACTION(5,l5);
+						MAKE_HELMET_ACTION(6,l6);
+						MAKE_HELMET_ACTION(7,l7);
+					};
 
-							class HelmpatchAction_3 {
-							displayName = "2";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['l2'] call FUNC(selectHelmet));
-							icon = "";
-							};
+					class HelmpatchAction_R {
+						displayName = "Romeo";
+						condition = "";
+						exceptions[] = {};
+						statement = "";
+						icon = QPATHTOF(icon\romeo.paa);
+						MAKE_HELMET_ACTION(GrpFhr,rgf);
+						MAKE_HELMET_ACTION(1,r1);
+						MAKE_HELMET_ACTION(2,r2);
+						MAKE_HELMET_ACTION(3,r3);
+					};
 
-							class HelmpatchAction_4 {
-							displayName = "3";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['l3'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_5 {
-							displayName = "4";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['l4'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_6 {
-							displayName = "5";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['l5'] call FUNC(selectHelmet));
-							icon = "";
-							};
-							class HelmpatchAction_7 {
-							displayName = "6";
-							condition = "";
-							exceptions[] = {};
-							statement = QUOTE(['l6'] call FUNC(selectHelmet));
-							icon = "";
-							};
-						};
-
-						
-						class HelmpatchAction_Reset {
+					class HelmpatchAction_Reset {
 						displayName = "Ohne Nummer";
 						condition = "";
 						exceptions[] = {};
 						statement = QUOTE(['reset'] call FUNC(selectHelmet));
 						icon = "";
-						};
+					};
 
 				};
 			
-		
-
-
 			//Insignia
 			class InsigniaAction {
 				displayName = "Insignia";
 				condition = "";
 				exceptions[] = {};
 				statement = "";
-				icon = QPATHTOF(icon\helm2.paa);
-													
-					class InsigniaAction_K {
+				icon = QPATHTOF(icon\helm2.paa);							
+				class InsigniaAction_K {
 					displayName = "Kilo";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\kilo.paa);
-			
-						class InsigniaAction_Kilo {
-						displayName = "Kilo";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Kilo')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Kilo_trop {
-						displayName = "Kilo_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Kilo_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Kilo_ft {
-						displayName = "Kilo_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Kilo_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};
-					
-					class InsigniaAction_F {
+					MAKE_INSIGNIA_ACTION(Kilo,Kilo);
+					MAKE_INSIGNIA_ACTION(Kilo_trop,Kilo Tropentarn);
+					MAKE_INSIGNIA_ACTION(Kilo_ft,Kilo Flecktarn);
+				};
+
+				class InsigniaAction_F {
 					displayName = "Fox";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\fox.paa);
-			
-						class InsigniaAction_Fox {
-						displayName = "Fox";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Fox')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Fox_trop {
-						displayName = "Fox_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Fox_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Fox_blank {
-						displayName = "Fox_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Fox_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};	
-					
-					class InsigniaAction_V {
+					MAKE_INSIGNIA_ACTION(Fox,Fox);
+					MAKE_INSIGNIA_ACTION(Fox_trop,Fox Tropentarn);
+					MAKE_INSIGNIA_ACTION(Fox_ft,Fox Flecktarn);
+				};	
+				
+				class InsigniaAction_V {
 					displayName = "Victor";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\victor.paa);
-			
-						class InsigniaAction_Victor {
-						displayName = "Victor";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Victor')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Victor_ft {
-						displayName = "Victor Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Victor_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Victor_trop {
-						displayName = "Victor Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Victor_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};
-					
-					class InsigniaAction_A {
+					MAKE_INSIGNIA_ACTION(Victor,Victor);
+					MAKE_INSIGNIA_ACTION(Victor_ft,Victor Flecktarn);
+					MAKE_INSIGNIA_ACTION(Victor_trop,Victor Tropentarn);
+				};
+				
+				class InsigniaAction_A {
 					displayName = "Alpha";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\alfa.paa);
-			
-						class InsigniaAction_Alpha {
-						displayName = "Alpha";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Alpha')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Alpha_trop {
-						displayName = "Alpha_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Alpha_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Alpha_ft {
-						displayName = "Alpha_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Alpha_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};
-					
-					class InsigniaAction_B {
+					MAKE_INSIGNIA_ACTION(Alpha,Alpha);
+					MAKE_INSIGNIA_ACTION(Alpha_trop,Alpha Tropentarn);
+					MAKE_INSIGNIA_ACTION(Alpha_ft,Alpha Flecktarn);
+				};
+				
+				class InsigniaAction_B {
 					displayName = "Bravo";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\bravo.paa);
-			
-						class InsigniaAction_Bravo {
-						displayName = "Bravo";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Bravo')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Bravo_trop {
-						displayName = "Bravo_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Bravo_trop')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-													
-						class InsigniaAction_Bravo_ft {
-						displayName = "Bravo_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Bravo_ft')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-					};
-								
-					class InsigniaAction_C {
+					MAKE_INSIGNIA_ACTION(Bravo,Bravo);
+					MAKE_INSIGNIA_ACTION(Bravo_trop,Bravo Tropentarn);
+					MAKE_INSIGNIA_ACTION(Bravo_ft,Bravo Flecktarn);
+				};
+							
+				class InsigniaAction_C {
 					displayName = "Charlie";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\charlie.paa);
-			
-						class InsigniaAction_Charlie {
-						displayName = "Charlie";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Charlie')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Charlie_trop {
-						displayName = "Charlie_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Charlie_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Charlie_ft {
-						displayName = "Charlie_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Charlie_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};
-					
-					/*
-					class InsigniaAction_D {
-					displayName = "Delta";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\delta.paa);
-			
-						class InsigniaAction_Delta {
-						displayName = "Delta";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Delta')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Delta_trop {
-						displayName = "Delta_Tropen";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Delta_trop')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-						
-						class InsigniaAction_Delta_trop_l {
-						displayName = "Delta_Tropen_low";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Delta_trop_l')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-						
-						class InsigniaAction_Delta_ft {
-						displayName = "Delta_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Delta_ft')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-						
-						class InsigniaAction_Delta_ft_l {
-						displayName = "Delta_Flecktarn_low";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Delta_ft_l')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-						
-						class InsigniaAction_Delta_DM {
-						displayName = "DM";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'DM')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-					};
-					
-					class InsigniaAction_E {
-					displayName = "Echo";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\echo.paa);
-			
-						class InsigniaAction_Echo {
-						displayName = "Echo";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Echo')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Echo_trop {
-						displayName = "Echo_Tropen";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Echo_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Echo_ft {
-						displayName = "Echo_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Echo_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};	
-					*/	
+					MAKE_INSIGNIA_ACTION(Charlie,Charlie);
+					MAKE_INSIGNIA_ACTION(Charlie_trop,Charlie Tropentarn);
+					MAKE_INSIGNIA_ACTION(Charlie_ft,Charlie Flecktarn);
+				};
 
-					class InsigniaAction_Z {
+				class InsigniaAction_Z {
 					displayName = "Zulu";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\zulu.paa);
-			
-						class InsigniaAction_Zulu {
-						displayName = "Zulu";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Zulu')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-						
-						class InsigniaAction_Zulu_trop {
-						displayName = "Zulu_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Zulu_trop')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-						
-						class InsigniaAction_Zulu_ft {
-						displayName = "Zulu_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Zulu_ft')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-						
-						class InsigniaAction_Delta_DM {
-						displayName = "DM";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'DM')] call BIS_fnc_setUnitInsignia);
-						icon = "";
-						};
-					};
-					
-					class InsigniaAction_Y {
+					MAKE_INSIGNIA_ACTION(Zulu,Zulu);
+					MAKE_INSIGNIA_ACTION(Zulu_trop,Zulu Tropentarn);
+					MAKE_INSIGNIA_ACTION(Zulu_ft,Zulu Flecktarn);
+					MAKE_INSIGNIA_ACTION(DM,DM);
+				};
+				
+				class InsigniaAction_Y {
 					displayName = "Yankee";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\yankee.paa);
-			
-						class InsigniaAction_Yankee {
-						displayName = "Yankee";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Yankee')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Yankee_trop {
-						displayName = "Yankee_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Yankee_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Yankee_ft {
-						displayName = "Yankee_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Yankee_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};
-					
-					class InsigniaAction_X {
+					MAKE_INSIGNIA_ACTION(Yankee,Yankee);
+					MAKE_INSIGNIA_ACTION(Yankee_trop,Yankee Tropentarn);
+					MAKE_INSIGNIA_ACTION(Yankee_ft,Yankee Flecktarn);
+				};
+				
+				class InsigniaAction_X {
 					displayName = "X-Ray";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\x-ray.paa);
-			
-						class InsigniaAction_XRay {
-						displayName = "X-Ray";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'XRay')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_XRay_trop {
-						displayName = "X-Ray_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'XRay_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_XRay_ft {
-						displayName = "X-Ray_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'XRay_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};
-					
-					/*
-					class InsigniaAction_W {
-					displayName = "Whiskey";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\whiskey.paa);
-			
-						class InsigniaAction_Whiskey {
-						displayName = "Whiskey";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Whiskey')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};
-					*/
-					
-					class InsigniaAction_Sierra {
+					MAKE_INSIGNIA_ACTION(XRay,XRay);
+					MAKE_INSIGNIA_ACTION(XRay_trop,XRay Tropentarn);
+					MAKE_INSIGNIA_ACTION(XRay_ft,XRay Flecktarn);
+				};
+				
+				class InsigniaAction_S {
 					displayName = "Sierra";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\sierra.paa);
-			
-						class InsigniaAction_S {
-						displayName = "Sierra";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Sierra')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						class InsigniaAction_S_trop {
-						displayName = "Sierra_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Sierra_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						class InsigniaAction_S_ft {
-						displayName = "Sierra_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Sierra_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};	
-					
-					class InsigniaAction_M {
+					MAKE_INSIGNIA_ACTION(Sierra,Sierra);
+					MAKE_INSIGNIA_ACTION(Sierra_trop,Sierra Tropentarn);
+					MAKE_INSIGNIA_ACTION(Sierra_ft,Sierra Flecktarn);
+				};	
+				
+				class InsigniaAction_M {
 					displayName = "Mike";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\mike.paa);
-			
-						class InsigniaAction_Mike {
-						displayName = "Mike";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Mike')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Mike_trop {
-						displayName = "Mike_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Mike_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Mike_ft {
-						displayName = "Mike_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Mike_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};	
-					
-					class InsigniaAction_L {
+					MAKE_INSIGNIA_ACTION(Mike,Mike);
+					MAKE_INSIGNIA_ACTION(Mike_trop,Mike Tropentarn);
+					MAKE_INSIGNIA_ACTION(Mike_ft,Mike Flecktarn);
+				};	
+				
+				class InsigniaAction_L {
 					displayName = "Lima";
 					condition = "";
 					exceptions[] = {};
 					statement = "";
 					icon = QPATHTOF(icon\lima.paa);
-			
-						class InsigniaAction_Lima {
-						displayName = "Lima";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Lima')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Lima_trop {
-						displayName = "Lima_Tropentarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Lima_trop')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-						
-						class InsigniaAction_Lima_ft {
-						displayName = "Lima_Flecktarn";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Lima_ft')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};		
-					
+					MAKE_INSIGNIA_ACTION(Lima,Lima);
+					MAKE_INSIGNIA_ACTION(Lima_trop,Lima Tropentarn);
+					MAKE_INSIGNIA_ACTION(Lima_ft,Lima Flecktarn);
+				};
+				
+				class InsigniaAction_R {
+					displayName = "Romeo";
+					condition = "";
+					exceptions[] = {};
+					statement = "";
+					icon = QPATHTOF(icon\romeo.paa);
+					MAKE_INSIGNIA_ACTION(Romeo,Romeo);	
+				};
 					/*
 					class InsigniaAction_S {
 					displayName = "Sanitäter";
@@ -1551,14 +413,10 @@ class CfgVehicles {
 						statement = QUOTE([ARR_2(player,'Sani')] call BIS_fnc_setUnitInsignia);						
 						icon = "";
 						};
-					};	
-					*/					
-					
-					
-					
-					
+					};
+					*/
 				};
-			}; //test	
+			};
 		};
 	};
 };
