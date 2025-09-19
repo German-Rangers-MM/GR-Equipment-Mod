@@ -12,26 +12,6 @@ categories:
       - 'bugfix'
       - 'bug'
 
-  - title: '🌐 Mission-Updates'
-    labels:
-      - 'Mission-Update'
-
-  - title: '🎯 Loadout-Updates'
-    labels:
-      - 'Loadout-Update'
-
-  - title: '📋 Packlisten-Updates'
-    labels:
-      - 'Packlisten-Update'
-
-  - title: '🚚 Limakisten-Updates'
-    labels:
-      - 'Limakisten-Update'
-
-  - title: '📂 Script-Updates'
-    labels:
-      - 'Script-Update'
-
   - title: '🍵 Documentation-Updates'
     labels:
       - 'Documentation'
