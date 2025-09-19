@@ -20,3 +20,11 @@ workshop = [
     "497661914", # CUP Units
     "1224892496",
 ]
+
+[art]
+extends = "cup"
+workshop = [
+    "690492961", # Render Worlds
+    "1862880106", # POLPOX's Base Functions
+    "1341387001" # POLPOX's Artwork Supporter
+]

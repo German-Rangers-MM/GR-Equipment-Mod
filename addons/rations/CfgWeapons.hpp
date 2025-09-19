@@ -5,7 +5,7 @@ class CfgWeapons {
 	class CBA_MiscItem_ItemInfo;
 
 	class GVAR(HydrationBladder_3L): ACE_ItemCore {
-		author = "Boz";
+		author = "Boz, Cookie";
 		scope = 2;
 		displayName = "3L Hydration Bladder (3L)";
 		descriptionShort = "3 Litres of water to sustain you in the field.";
@@ -13,7 +13,7 @@ class CfgWeapons {
 		picture = QPATHTOF(data\hbui.paa);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 15;
+			mass = 13;
 		};
 		acex_field_rations_consumeTime = 10;
 		acex_field_rations_thirstQuenched = 10;
@@ -28,7 +28,7 @@ class CfgWeapons {
 		descriptionShort = "3 Litres of water to sustain you in the field.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 13;
+			mass = 11;
 		};
 		acex_field_rations_replacementItem = QGVAR(HydrationBladder_3L_4_6);
 		acex_field_rations_refillItem = QGVAR(HydrationBladder_3L);
@@ -40,7 +40,7 @@ class CfgWeapons {
 		descriptionShort = "3 Litres of water to sustain you in the field.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 11;
+			mass = 9;
 		};
 		acex_field_rations_replacementItem = QGVAR(HydrationBladder_3L_3_6);
 		acex_field_rations_refillItem = QGVAR(HydrationBladder_3L);
@@ -52,7 +52,7 @@ class CfgWeapons {
 		descriptionShort = "3 Litres of water to sustain you in the field.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 9;
+			mass = 7;
 		};
 		acex_field_rations_replacementItem = QGVAR(HydrationBladder_3L_2_6);
 		acex_field_rations_refillItem = QGVAR(HydrationBladder_3L);
@@ -64,7 +64,7 @@ class CfgWeapons {
 		descriptionShort = "3 Litres of water to sustain you in the field.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 7;
+			mass = 5;
 		};
 		acex_field_rations_replacementItem = QGVAR(HydrationBladder_3L_1_6);
 		acex_field_rations_refillItem = QGVAR(HydrationBladder_3L);
@@ -76,7 +76,7 @@ class CfgWeapons {
 		descriptionShort = "3 Litres of water to sustain you in the field.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 5;
+			mass = 3;
 		};
 		acex_field_rations_replacementItem = QGVAR(HydrationBladder_3L_Empty);
 		acex_field_rations_refillItem = QGVAR(HydrationBladder_3L);
@@ -88,7 +88,7 @@ class CfgWeapons {
 		descriptionShort = "An empty hydration bladder.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 1;
+			mass = 0.5;
 		};
 		acex_field_rations_thirstQuenched = 0;
 		acex_field_rations_replacementItem = "";
@@ -98,7 +98,7 @@ class CfgWeapons {
 	};
 
 	class GVAR(HydrationBladder_2L): ACE_ItemCore {
-		author = "Boz";
+		author = "Boz, Cookie";
 		scope = 2;
 		displayName = "2L Hydration Bladder (2L)";
 		descriptionShort = "2 Litres of water to sustain you in the field.";
@@ -106,7 +106,7 @@ class CfgWeapons {
 		picture = QPATHTOF(data\hbui.paa);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 11;
+			mass = 9;
 		};
 		acex_field_rations_consumeTime = 10;
 		acex_field_rations_thirstQuenched = 10;
@@ -122,7 +122,7 @@ class CfgWeapons {
 		descriptionShort = "2 Litres of water to sustain you in the field.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 9;
+			mass = 7;
 		};
 		acex_field_rations_replacementItem = QGVAR(HydrationBladder_2L_2_4);
 		acex_field_rations_refillItem = QGVAR(HydrationBladder_2L);
@@ -135,7 +135,7 @@ class CfgWeapons {
 		descriptionShort = "2 Litres of water to sustain you in the field.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 7;
+			mass = 5;
 		};
 		acex_field_rations_replacementItem = QGVAR(HydrationBladder_2L_1_4);
 		acex_field_rations_refillItem = QGVAR(HydrationBladder_2L);
@@ -148,7 +148,7 @@ class CfgWeapons {
 		descriptionShort = "2 Litres of water to sustain you in the field.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 5;
+			mass = 3;
 		};
 		acex_field_rations_replacementItem = QGVAR(HydrationBladder_2L_Empty);
 		acex_field_rations_refillItem = QGVAR(HydrationBladder_2L);
@@ -161,7 +161,67 @@ class CfgWeapons {
 		descriptionShort = "An empty hydration bladder.";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 1;
+			mass = 0.5;
+		};
+		acex_field_rations_thirstQuenched = 0;
+		acex_field_rations_replacementItem = "";
+		acex_field_rations_refillItem = QGVAR(HydrationBladder_2L);
+		acex_field_rations_refillAmount = 2;
+		acex_field_rations_refillTime = 8;
+	};
+
+    class GVAR(HydrationBladder_1_5L): ACE_ItemCore {
+		author = "Boz, Cookie";
+		scope = 2;
+		displayName = "1.5L Hydration Bladder (1.5L)";
+		descriptionShort = "1.5 Litres of water to sustain you in the field.";
+		model = "\a3\characters_f\common\equip_chestrig.p3d";
+		picture = QPATHTOF(data\hbui.paa);
+		class ItemInfo: CBA_MiscItem_ItemInfo
+		{
+			mass = 7;
+		};
+		acex_field_rations_consumeTime = 10;
+		acex_field_rations_thirstQuenched = 10;
+		acex_field_rations_consumeText = "Drink from Hydration Bladder";
+		acex_field_rations_replacementItem = QGVAR(HydrationBladder_1_5L_3_3);
+		acex_field_rations_consumeAnims[] = {"ace_field_rations_drinkStand","ace_field_rations_drinkCrouch","ace_field_rations_drinkProne"};
+		acex_field_rations_consumeSounds[] = {"ace_field_rations_drink1","ace_field_rations_drink1","ace_field_rations_drink2"};
+		ACE_isFieldRationItem = 1;
+	};
+
+	class GVAR(HydrationBladder_1_5L_2_3): GVAR(HydrationBladder_1_5L) {
+		displayName = "1.5L Hydration Bladder (1L)";
+		descriptionShort = "1.5 Litres of water to sustain you in the field.";
+		class ItemInfo: CBA_MiscItem_ItemInfo
+		{
+			mass = 5;
+		};
+		acex_field_rations_replacementItem = QGVAR(HydrationBladder_2L_1_4);
+		acex_field_rations_refillItem = QGVAR(HydrationBladder_2L);
+		acex_field_rations_refillAmount = 1;
+		acex_field_rations_refillTime = 8;
+	};
+
+	class GVAR(HydrationBladder_1_5L_1_3): GVAR(HydrationBladder_1_5L_2_3) {
+		displayName = "1.5L Hydration Bladder (0.5L)";
+		descriptionShort = "1.5 Litres of water to sustain you in the field.";
+		class ItemInfo: CBA_MiscItem_ItemInfo
+		{
+			mass = 3;
+		};
+		acex_field_rations_replacementItem = QGVAR(HydrationBladder_1_5L_Empty);
+		acex_field_rations_refillItem = QGVAR(HydrationBladder_1_5L);
+		acex_field_rations_refillAmount = 1.5;
+		acex_field_rations_refillTime = 8;
+	};
+
+	class GVAR(HydrationBladder_1_5L_Empty): GVAR(HydrationBladder_1_5L) {
+		displayName = "1.5L Hydration Bladder (Empty)";
+		descriptionShort = "An empty hydration bladder.";
+		class ItemInfo: CBA_MiscItem_ItemInfo
+		{
+			mass = 0.5;
 		};
 		acex_field_rations_thirstQuenched = 0;
 		acex_field_rations_replacementItem = "";
@@ -181,7 +241,7 @@ class CfgWeapons {
 		model = QACEPATHTOF(field_rations,data\mre_type3.p3d);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 8;
+            mass = 6;
         };
         acex_field_rations_hungerSatiated = 20;
         acex_field_rations_consumeTime = 10;
@@ -483,7 +543,7 @@ class CfgWeapons {
 		model = "\A3\Props_F_Orange\Humanitarian\Supplies\PaperBox_01_small_closed_F.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 28;
+			mass = 24;
 		};
 	
 		GVAR(epa_content)[] = {QGVAR(Meal_Ravioli_Champignonsauce), QGVAR(Meal_Indische_Reispfanne), QGVAR(Snack_Griessspeise_Fruechte), QGVAR(Misc_Dosenbrot_2_2), QGVAR(Misc_Hartkekse_4_4)};
@@ -531,7 +591,7 @@ class CfgWeapons {
         model = "\z\ace\addons\field_rations\data\mre_type2.p3d";
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 26;
+            mass = 20;
         };
     };
 
@@ -589,7 +649,7 @@ class CfgWeapons {
         GVAR(epa_content)[] = {QGVAR(Meal_Kartoffeltopf_Rind), QGVAR(Meal_Nudeltopf_Bella), QGVAR(Snack_Schokomuesli), QGVAR(Snack_Milchreis), QGVAR(Misc_Dosenbrot_2_2), QGVAR(Misc_Hartkekse_4_4)};
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 33;
+            mass = 28;
         };
     };
 

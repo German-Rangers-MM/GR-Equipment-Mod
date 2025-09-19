@@ -21,6 +21,8 @@ class GVAR(wiesel_AT) : I_LT_01_AT_F {
     faction = QGVAR(rangers_faction);
     crew = "CUP_B_GER_Fleck_Crew";
 	editorPreview = QPATHTOF(data\preview\Wiesel_AT.jpg);
+	ace_refuel_flowRate = 6;
+	fuelCapacity = 30;
 
 	
     hiddenSelections[] = {"camo1","camo2","CamoNet","CamoSlat"};

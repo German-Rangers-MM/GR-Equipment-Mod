@@ -11,7 +11,10 @@ class CfgPatches
         }; 
         weapons[] = {
             QGVAR(remote_designator_w),
-            QGVAR(remote_designator_d)
+            QGVAR(remote_designator_d),
+            QGVAR(Laserdesignator_snd),
+            QGVAR(Laserdesignator_khk),
+            QGVAR(Laserdesignator_olv)
         }; 
         requiredVersion = REQUIRED_VERSION; 
         requiredAddons[] = {}; 

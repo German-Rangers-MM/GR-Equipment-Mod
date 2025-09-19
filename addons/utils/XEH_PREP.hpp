@@ -6,3 +6,4 @@ PREP(placeDesignator);
 PREP(populateChemlights);
 PREP(dropChemlight);
 PREP(canDropMarker);
+PREP(handleFlare);

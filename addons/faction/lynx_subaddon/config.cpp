@@ -27,6 +27,7 @@ class SensorTemplatePassiveRadar;
 class SensorTemplateVisual;
 class DefaultVehicleSystemsDisplayManagerRight;
 class DefaultVehicleSystemsDisplayManagerLeft;
+class SensorTemplateAntiRadiation;
 
 class CfgVehicles
 {

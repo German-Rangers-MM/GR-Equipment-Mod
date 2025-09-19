@@ -192,7 +192,39 @@ class GVAR(Lynx_Unarmed_Base): CUP_AW159_Unarmed_Base
 					aimDown = 10;
 					allowsMarking = 1;
 				};
-				class PassiveRadarSensorComponent: SensorTemplatePassiveRadar{};
+				class AntiRadiationSensorComponent: SensorTemplateAntiRadiation
+				{
+					aimDown = 0;
+					allowsMarking = 1;
+					angleRangeHorizontal = 360;
+					angleRangeVertical = 180;
+					animDirection = "";
+					color[] = {0.5,1,0.5,0.5};
+					componentType = "PassiveRadarSensorComponent";
+					groundNoiseDistanceCoef = -1;
+					maxGroundNoiseDistance = -1;
+					maxSpeedThreshold = 0;
+					maxTrackableATL = 100;
+					maxTrackableSpeed = 60;
+					minSpeedThreshold = 0;
+					minTrackableATL = -1e+10;
+					minTrackableSpeed = -1e+10;
+					typeRecognitionDistance = 12000;
+					class AirTarget
+					{
+						maxRange = 16000;
+						minRange = 16000;
+						objectDistanceLimitCoef = -1;
+						viewDistanceLimitCoef = -1;
+					};
+					class GroundTarget
+					{
+						maxRange = 16000;
+						minRange = 16000;
+						objectDistanceLimitCoef = -1;
+						viewDistanceLimitCoef = -1;
+					};
+				};
 				class NVSensorComponent: SensorTemplateNV
 				{
 					aimDown = 0;
@@ -217,6 +249,7 @@ class GVAR(Lynx_Unarmed_Base): CUP_AW159_Unarmed_Base
 					};
 				};
 				class LaserSensorComponent: SensorTemplateLaser{};
+				class PassiveRadarSensorComponent: SensorTemplatePassiveRadar{};
 			};
 		};
 	};
