@@ -66,5 +66,93 @@ class CfgVehicles {
 		};
 	};
 
+	class Air;
+	class Plane: Air
+	{
+		class ACE_Actions
+		{
+			class ACE_MainActions
+			{
+				class GVAR(C130_changeToVIV)
+				{
+					displayName = "Change to VIV Configuration";
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,C130J_USMC)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,C130J_USMC_Cargo)')] call FUNC(handleVehicleChange));
+					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+				};
 
+				class GVAR(C130_changeToTransport)
+				{
+					displayName = "Change to Transport Configuration";
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,C130J_USMC_Cargo)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,C130J_USMC)')] call FUNC(handleVehicleChange));
+					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+				};
+			};
+		};
+	};
+    class Helicopter: Air
+	{
+		class ACE_Actions
+		{
+			class ACE_MainActions
+			{
+				class GVAR(CH47F_changeToVIV)
+				{
+					displayName = "Change to VIV Configuration";
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,CH_47F_TTH_01)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,CH_47F_TTH_VIV_01)')] call FUNC(handleVehicleChange));
+					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+				};
+
+				class GVAR(CH47F_changeToTransport)
+				{
+					displayName = "Change to Transport Configuration";
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,CH_47F_TTH_VIV_01)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,CH_47F_TTH_01)')] call FUNC(handleVehicleChange));
+					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+				};
+
+				class GVAR(CH53E_changeToVIV)
+				{
+					displayName = "Change to VIV Configuration";
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,CH_53E_TTH_01)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,CH_53E_TTH_VIV_01)')] call FUNC(handleVehicleChange));
+					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+				};
+
+				class GVAR(CH53E_changeToTransport)
+				{
+					displayName = "Change to Transport Configuration";
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,CH_53E_TTH_VIV_01)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,CH_53E_TTH_01)')] call FUNC(handleVehicleChange));
+					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+				};
+
+				class GVAR(C130_changeToVIV)
+				{
+					displayName = "Change to VIV Configuration";
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,C130J_USMC)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,C130J_USMC_Cargo)')] call FUNC(handleVehicleChange));
+					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+				};
+
+				class GVAR(C130_changeToTransport)
+				{
+					displayName = "Change to Transport Configuration";
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,C130J_USMC_Cargo)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,C130J_USMC)')] call FUNC(handleVehicleChange));
+					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
+					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
+				};
+			};
+		};
+	};
 };
