@@ -95,7 +95,7 @@ class CfgVehicles {
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry);
             disassembleTurret = QACEGVAR(csw,m3Tripod);
-            desiredAmmo = 100;
+            desiredAmmo = 200;
             ammoLoadTime = 7;
             ammoUnloadTime = 5;
         };
@@ -154,7 +154,7 @@ class CfgVehicles {
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry);
             disassembleTurret = QACEGVAR(csw,m3TripodLow);
-            desiredAmmo = 100;
+            desiredAmmo = 200;
             ammoLoadTime = 7;
             ammoUnloadTime = 5;
         };
@@ -238,7 +238,7 @@ class CfgVehicles {
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_Scope);
             disassembleTurret = QACEGVAR(csw,m3Tripod);
-            desiredAmmo = 100;
+            desiredAmmo = 200;
             ammoLoadTime = 7;
             ammoUnloadTime = 5;
         };
@@ -266,7 +266,7 @@ class CfgVehicles {
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_Scope);
             disassembleTurret = QACEGVAR(csw,m3TripodLow);
-            desiredAmmo = 100;
+            desiredAmmo = 200;
             ammoLoadTime = 7;
             ammoUnloadTime = 5;
         };
@@ -294,7 +294,7 @@ class CfgVehicles {
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_Shield);
             disassembleTurret = QACEGVAR(csw,m3Tripod);
-            desiredAmmo = 100;
+            desiredAmmo = 200;
             ammoLoadTime = 7;
             ammoUnloadTime = 5;
         };
@@ -322,7 +322,7 @@ class CfgVehicles {
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_Shield);
             disassembleTurret = QACEGVAR(csw,m3TripodLow);
-            desiredAmmo = 100;
+            desiredAmmo = 200;
             ammoLoadTime = 7;
             ammoUnloadTime = 5;
         };
@@ -415,7 +415,7 @@ class CfgVehicles {
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(GraMaWa_carry);
             disassembleTurret = QACEGVAR(csw,m3Tripod);
-            desiredAmmo = 100;
+            desiredAmmo = 200;
             ammoLoadTime = 7;
             ammoUnloadTime = 5;
         };
