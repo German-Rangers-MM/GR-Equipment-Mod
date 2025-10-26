@@ -7,3 +7,6 @@ PREP(populateChemlights);
 PREP(dropChemlight);
 PREP(canDropMarker);
 PREP(handleFlare);
+
+PREP(changeVehicleInPlace);
+PREP(handleVehicleChange);

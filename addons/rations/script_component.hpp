@@ -15,4 +15,4 @@
 #endif
 #include "\y\gerrng\addons\main\script_macros.hpp"
 
-#define EPA_ITEMS (uiNamespace getVariable QGVAR(eapItems))
+#define EPA_ITEMS (uiNamespace getVariable QGVAR(epaItems))

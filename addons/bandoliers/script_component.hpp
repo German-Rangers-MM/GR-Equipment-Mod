@@ -14,3 +14,5 @@
   #define DEBUG_SETTINGS DEBUG_SETTINGS_BANDOLIERS
 #endif
 #include "\y\gerrng\addons\main\script_macros.hpp"
+
+#define BANDOLIER_ITEMS (uiNamespace getVariable QGVAR(bandolierItems))
