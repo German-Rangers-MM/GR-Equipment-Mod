@@ -10,7 +10,8 @@ class CfgPatches
             QGVAR(epaBox_1_5),
             QGVAR(epaBox_5_9),
             QGVAR(epaBox_10_14),
-            QGVAR(epaBox_15_19)
+            QGVAR(epaBox_15_19),
+            QGVAR(Keksies_Item)
         }; 
         weapons[] = {
             QGVAR(EPa_typ_i),
@@ -104,7 +105,9 @@ class CfgPatches
             QGVAR(HydrationBladder_2L_3_4),
             QGVAR(HydrationBladder_2L_2_4),
             QGVAR(HydrationBladder_2L_1_4),
-            QGVAR(HydrationBladder_2L_Empty)
+            QGVAR(HydrationBladder_2L_Empty),
+
+            QGVAR(Keksies)
         }; 
         requiredVersion = REQUIRED_VERSION; 
         requiredAddons[] = {}; 

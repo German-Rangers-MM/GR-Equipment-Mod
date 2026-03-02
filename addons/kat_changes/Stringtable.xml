@@ -1,148 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="gerrng">
     <Package name="kat_changes">
-        <Container name="hydration">
-            <Key ID="STR_gerrng_kat_changes_patientDead">
-                <Original>Patient is dead</Original>
-                <English>Patient is dead</English>
-                <German>Patient ist tot</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Skin_DisplayName">
-                <Original>Skin</Original>
-                <English>Skin</English>
-                <German>Haut</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Mucous_Membranes_DisplayName">
-                <Original>Mucous Membranes</Original>
-                <English>Mucous Membranes</English>
-                <German>Schleimhäute</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Eyes_DisplayName">
-                <Original>Eyes</Original>
-                <English>Eyes</English>
-                <German>Augen</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Skin_Cool">
-                <Original>Cool</Original>
-                <English>Cool</English>
-                <German>Kühl</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Skin_Hot">
-                <Original>Hot</Original>
-                <English>Hot</English>
-                <German>Heiß</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Skin_Sweaty">
-                <Original>Sweaty</Original>
-                <English>Sweaty</English>
-                <German>Schwitzig</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Skin_Dry">
-                <Original>Dry</Original>
-                <English>Dry</English>
-                <German>Trocken</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Skin_Turgor_Normal">
-                <Original>Turgor Normal</Original>
-                <English>Turgor Normal</English>
-                <German>Turgor Normal</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Skin_Turgor_Decreased">
-                <Original>Turgor Decreased</Original>
-                <English>Turgor Decreased</English>
-                <German>Verminderter Turgor</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Mucous_Membranes_Moist">
-                <Original>Moist</Original>
-                <English>Moist</English>
-                <German>Feucht</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Mucous_Membranes_Dry">
-                <Original>Dry</Original>
-                <English>Dry</English>
-                <German>Trocken</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Eyes_Regular">
-                <Original>Regular</Original>
-                <English>Regular</English>
-                <German>Normal</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Eyes_Sunken">
-                <Original>Sunken</Original>
-                <English>Sunken</English>
-                <German>Eingefallen</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_Eyes_Sunken_Halonized">
-                <Original>Sunken with dark Shadows</Original>
-                <English>Sunken with dark Shadows</English>
-                <German>Eingefallen mit dunklen Schatten</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_CheckHydration_Log_Skin">
-                <Original>%1 checked Hydration: Skin: %2</Original>
-                <English>%1 checked Hydration: Skin: %2</English>
-                <German>%1 überprüfte Hydratation: Haut: %2</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_CheckHydration_Log_Mucous">
-                <Original>%1 checked Hydration: Mucous Membranes: %2</Original>
-                <English>%1 checked Hydration: Mucous Membranes: %2</English>
-                <German>%1 überprüfte Hydratation: Schleimhäute: %2</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_CheckHydration_Log_Eyes">
-                <Original>%1 checked Hydration: Eyes: %2</Original>
-                <English>%1 checked Hydration: Eyes: %2</English>
-                <German>%1 überprüfte Hydratation: Augen: %2</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_cba_name">
-                <Original>GerRng - Medical</Original>
-                <English>GerRng - Medical</English>
-                <German>GerRng - Medical</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_SubCategory_Treatment_Hydration_BloodSugar">
-                <Original>Treatment - Hydration &amp; Blood Sugar</Original>
-                <English>Treatment - Hydration &amp; Blood Sugar</English>
-                <German>Behandlung - Hydratation &amp; Blutzucker</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_SETTING_checkHydrationTime">
-                <Original>Check Hydration Time</Original>
-                <English>Check Hydration Time</English>
-                <German>Benötigte Zeit um Hydratation zu überprüfen</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_SETTING_checkHydrationTime_DESC">
-                <Original>Time taken to check hydration status of a patient.</Original>
-                <English>Time taken to check hydration status of a patient.</English>
-                <German>Zeit die benötigt wird um den Hydratationsstatus eines Patienten zu überprüfen.</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_checkHydration">
-                <Original>Check Hydration</Original>
-                <English>Check Hydration</English>
-                <German>Hydratation überprüfen</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_checkingHydrationProgress">
-                <Original>Checking...</Original>
-                <English>Checking...</English>
-                <German>Überprüfe...</German>
-            </Key>
-        </Container>
         <Container name="bloodSugar">
-            <Key ID="STR_gerrng_kat_changes_glucometerSet">
-                <Original>Glucometer Set</Original>
-                <English>Glucometer Set</English>
-                <German>Blutzuckermessgerät-Set</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_glucometerSet_DESC">
-                <Original>Glucometer Set for checking Blood Sugar levels.</Original>
-                <English>Glucometer Set for checking Blood Sugar levels.</English>
-                <German>Blutzuckermessgerät-Set zur Überprüfung des Blutzuckerspiegels.</German>
+            <Key ID="STR_gerrng_kat_changes_BloodSugar_DisplayName">
+                <Original>Blood Sugar</Original>
+                <English>Blood Sugar</English>
+                <German>Blutzucker</German>
             </Key>
             <Key ID="STR_gerrng_kat_changes_CheckBloodSugar_Log">
                 <Original>%1 checked Blood Sugar: %2</Original>
                 <English>%1 checked Blood Sugar: %2</English>
                 <German>%1 überprüfte Blutzucker: %2</German>
             </Key>
-            <Key ID="STR_gerrng_kat_changes_BloodSugar_DisplayName">
-                <Original>Blood Sugar</Original>
-                <English>Blood Sugar</English>
-                <German>Blutzucker</German>
+            <Key ID="STR_gerrng_kat_changes_SETTING_checkBloodSugarTime">
+                <Original>Check Blood Sugar Time</Original>
+                <English>Check Blood Sugar Time</English>
+                <German>Zeit um Blutzucker zu überprüfen</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_checkBloodSugarTime_DESC">
+                <Original>Time taken to check blood sugar levels of a patient.</Original>
+                <English>Time taken to check blood sugar levels of a patient.</English>
+                <German>Zeit die benötigt wird um den Blutzuckerspiegel eines Patienten zu überprüfen.</German>
             </Key>
             <Key ID="STR_gerrng_kat_changes_checkBloodSugar">
                 <Original>Check Blood Sugar</Original>
@@ -154,15 +32,15 @@
                 <English>Checking Blood Sugar...</English>
                 <German>Überprüfe Blutzucker...</German>
             </Key>
-            <Key ID="STR_gerrng_kat_changes_SETTING_checkBloodSugarTime">
-                <Original>Check Blood Sugar Time</Original>
-                <English>Check Blood Sugar Time</English>
-                <German>Zeit um Blutzucker zu überprüfen</German>
+            <Key ID="STR_gerrng_kat_changes_glucometerSet">
+                <Original>Glucometer Set</Original>
+                <English>Glucometer Set</English>
+                <German>Blutzuckermessgerät-Set</German>
             </Key>
-            <Key ID="STR_gerrng_kat_changes_SETTING_checkBloodSugarTime_DESC">
-                <Original>Time taken to check blood sugar levels of a patient.</Original>
-                <English>Time taken to check blood sugar levels of a patient.</English>
-                <German>Zeit die benötigt wird um den Blutzuckerspiegel eines Patienten zu überprüfen.</German>
+            <Key ID="STR_gerrng_kat_changes_glucometerSet_DESC">
+                <Original>Glucometer Set for checking Blood Sugar levels.</Original>
+                <English>Glucometer Set for checking Blood Sugar levels.</English>
+                <German>Blutzuckermessgerät-Set zur Überprüfung des Blutzuckerspiegels.</German>
             </Key>
         </Container>
         <Container name="gsci">
@@ -176,20 +54,10 @@
                 <English>Glucose-Sodiumchloride-Injection</English>
                 <German>Glukose-Natriumchlorid-Injektion</German>
             </Key>
-            <Key ID="STR_gerrng_kat_changes_SubCategory_Treatment_GSCI">
-                <Original>Treatment - Glucose-Sodiumchloride-Injection</Original>
-                <English>Treatment - Glucose-Sodiumchloride-Injection</English>
-                <German>Behandlung - Glukose-Natriumchlorid-Injektion</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_SETTING_gsciThirstAmount">
-                <Original>Fluid Recovery Amount</Original>
-                <English>Fluid Recovery Amount</English>
-                <German>Flüssigkeitswiederherstellungsmenge</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_SETTING_gsciThirstAmount_DESC">
-                <Original>Amount of fluid recovered by the Glucose-Sodiumchloride-Injection.</Original>
-                <English>Amount of fluid recovered by the Glucose-Sodiumchloride-Injection.</English>
-                <German>Menge an Flüssigkeit, die durch die Glukose-Natriumchlorid-Injektion wiederhergestellt wird.</German>
+            <Key ID="STR_gerrng_kat_changes_Give_GSCI">
+                <Original>Give GSCI</Original>
+                <English>Give GSCI</English>
+                <German>GlucNaClI geben</German>
             </Key>
             <Key ID="STR_gerrng_kat_changes_SETTING_gsciHungerAmount">
                 <Original>Nutrients Recovery Amount</Original>
@@ -211,16 +79,6 @@
                 <English>Minimal Hunger Threshold to use the Glucose-Sodiumchloride-Injection.</English>
                 <German>Minimale Hungergrenze um die Glukose-Natriumchlorid-Injektion zu verwenden.</German>
             </Key>
-            <Key ID="STR_gerrng_kat_changes_SETTING_gsciThirstThreshold">
-                <Original>Minimal Thirst Threshold</Original>
-                <English>Minimal Thirst Threshold for GSCI</English>
-                <German>Minimale Durstgrenze für GSCI</German>
-            </Key>
-            <Key ID="STR_gerrng_kat_changes_SETTING_gsciThirstThreshold_DESC">
-                <Original>Minimal Thirst Threshold to use the Glucose-Sodiumchloride-Injection.</Original>
-                <English>Minimal Thirst Threshold to use the Glucose-Sodiumchloride-Injection.</English>
-                <German>Minimale Durstgrenze um die Glukose-Natriumchlorid-Injektion zu verwenden.</German>
-            </Key>
             <Key ID="STR_gerrng_kat_changes_SETTING_gsciMedicLvl">
                 <Original>Required Medic Level</Original>
                 <English>Required Medic Level</English>
@@ -230,6 +88,26 @@
                 <Original>Required Medic Level to use the Glucose-Sodiumchloride-Injection.</Original>
                 <English>Required Medic Level to use the Glucose-Sodiumchloride-Injection.</English>
                 <German>Erforderliche Sanitätsstufe um die Glukose-Natriumchlorid-Injektion zu verwenden.</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_gsciThirstAmount">
+                <Original>Fluid Recovery Amount</Original>
+                <English>Fluid Recovery Amount</English>
+                <German>Flüssigkeitswiederherstellungsmenge</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_gsciThirstAmount_DESC">
+                <Original>Amount of fluid recovered by the Glucose-Sodiumchloride-Injection.</Original>
+                <English>Amount of fluid recovered by the Glucose-Sodiumchloride-Injection.</English>
+                <German>Menge an Flüssigkeit, die durch die Glukose-Natriumchlorid-Injektion wiederhergestellt wird.</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_gsciThirstThreshold">
+                <Original>Minimal Thirst Threshold</Original>
+                <English>Minimal Thirst Threshold for GSCI</English>
+                <German>Minimale Durstgrenze für GSCI</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_gsciThirstThreshold_DESC">
+                <Original>Minimal Thirst Threshold to use the Glucose-Sodiumchloride-Injection.</Original>
+                <English>Minimal Thirst Threshold to use the Glucose-Sodiumchloride-Injection.</English>
+                <German>Minimale Durstgrenze um die Glukose-Natriumchlorid-Injektion zu verwenden.</German>
             </Key>
             <Key ID="STR_gerrng_kat_changes_SETTING_treatmentTime_GSCI">
                 <Original>Treatment Time</Original>
@@ -241,10 +119,132 @@
                 <English>Time taken to treat a patient with the Glucose-Sodiumchloride-Injection.</English>
                 <German>Zeit die benötigt wird um einen Patienten mit der Glukose-Natriumchlorid-Injektion zu behandeln.</German>
             </Key>
-            <Key ID="STR_gerrng_kat_changes_Give_GSCI">
-                <Original>Give GSCI</Original>
-                <English>Give GSCI</English>
-                <German>GlucNaClI geben</German>
+            <Key ID="STR_gerrng_kat_changes_SubCategory_Treatment_GSCI">
+                <Original>Treatment - Glucose-Sodiumchloride-Injection</Original>
+                <English>Treatment - Glucose-Sodiumchloride-Injection</English>
+                <German>Behandlung - Glukose-Natriumchlorid-Injektion</German>
+            </Key>
+        </Container>
+        <Container name="hydration">
+            <Key ID="STR_gerrng_kat_changes_CheckHydration_Log_Eyes">
+                <Original>%1 checked Hydration: Eyes: %2</Original>
+                <English>%1 checked Hydration: Eyes: %2</English>
+                <German>%1 überprüfte Hydratation: Augen: %2</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_CheckHydration_Log_Mucous">
+                <Original>%1 checked Hydration: Mucous Membranes: %2</Original>
+                <English>%1 checked Hydration: Mucous Membranes: %2</English>
+                <German>%1 überprüfte Hydratation: Schleimhäute: %2</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_CheckHydration_Log_Skin">
+                <Original>%1 checked Hydration: Skin: %2</Original>
+                <English>%1 checked Hydration: Skin: %2</English>
+                <German>%1 überprüfte Hydratation: Haut: %2</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Eyes_DisplayName">
+                <Original>Eyes</Original>
+                <English>Eyes</English>
+                <German>Augen</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Eyes_Regular">
+                <Original>Regular</Original>
+                <English>Regular</English>
+                <German>Normal</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Eyes_Sunken">
+                <Original>Sunken</Original>
+                <English>Sunken</English>
+                <German>Eingefallen</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Eyes_Sunken_Halonized">
+                <Original>Sunken with dark Shadows</Original>
+                <English>Sunken with dark Shadows</English>
+                <German>Eingefallen mit dunklen Schatten</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Mucous_Membranes_DisplayName">
+                <Original>Mucous Membranes</Original>
+                <English>Mucous Membranes</English>
+                <German>Schleimhäute</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Mucous_Membranes_Dry">
+                <Original>Dry</Original>
+                <English>Dry</English>
+                <German>Trocken</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Mucous_Membranes_Moist">
+                <Original>Moist</Original>
+                <English>Moist</English>
+                <German>Feucht</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_checkHydrationTime">
+                <Original>Check Hydration Time</Original>
+                <English>Check Hydration Time</English>
+                <German>Benötigte Zeit um Hydratation zu überprüfen</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_checkHydrationTime_DESC">
+                <Original>Time taken to check hydration status of a patient.</Original>
+                <English>Time taken to check hydration status of a patient.</English>
+                <German>Zeit die benötigt wird um den Hydratationsstatus eines Patienten zu überprüfen.</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Skin_Cool">
+                <Original>Cool</Original>
+                <English>Cool</English>
+                <German>Kühl</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Skin_DisplayName">
+                <Original>Skin</Original>
+                <English>Skin</English>
+                <German>Haut</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Skin_Dry">
+                <Original>Dry</Original>
+                <English>Dry</English>
+                <German>Trocken</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Skin_Hot">
+                <Original>Hot</Original>
+                <English>Hot</English>
+                <German>Heiß</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Skin_Sweaty">
+                <Original>Sweaty</Original>
+                <English>Sweaty</English>
+                <German>Schwitzig</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Skin_Turgor_Decreased">
+                <Original>Turgor Decreased</Original>
+                <English>Turgor Decreased</English>
+                <German>Verminderter Turgor</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Skin_Turgor_Normal">
+                <Original>Turgor Normal</Original>
+                <English>Turgor Normal</English>
+                <German>Turgor Normal</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SubCategory_Treatment_Hydration_BloodSugar">
+                <Original>Treatment - Hydration &amp; Blood Sugar</Original>
+                <English>Treatment - Hydration &amp; Blood Sugar</English>
+                <German>Behandlung - Hydratation &amp; Blutzucker</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_cba_name">
+                <Original>GerRng - Medical</Original>
+                <English>GerRng - Medical</English>
+                <German>GerRng - Medical</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_checkHydration">
+                <Original>Check Hydration</Original>
+                <English>Check Hydration</English>
+                <German>Hydratation überprüfen</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_checkingHydrationProgress">
+                <Original>Checking...</Original>
+                <English>Checking...</English>
+                <German>Überprüfe...</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_patientDead">
+                <Original>Patient is dead</Original>
+                <English>Patient is dead</English>
+                <German>Patient ist tot</German>
             </Key>
         </Container>
     </Package>

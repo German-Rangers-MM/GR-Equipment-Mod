@@ -10,3 +10,6 @@ PREP(handleFlare);
 
 PREP(changeVehicleInPlace);
 PREP(handleVehicleChange);
+
+PREP(initModule);
+PREP(moduleSereInit);

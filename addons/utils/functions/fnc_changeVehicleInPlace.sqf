@@ -39,11 +39,14 @@ private _magStates = createHashMap;
 
 } forEach _magazines;
 
+
 deleteVehicle _vehicle;
 
 private _newVehicle = createVehicle [_targetClass, _pos, [], 0, "NONE"];
 _newVehicle allowDamage false;
 _newVehicle enableSimulation false;
+
+_newVehicle setVariable [QACEGVAR(cargo,loaded), [], true];
 
 if(count _magStates != 0) then {	
 	private _ratio = [];

@@ -10,6 +10,7 @@ class gerrng_OpsCore_Covered_base: CUP_H_OpsCore_Covered_Fleck {
 	ace_hearing_lowerVolume = 0.15;  // Muffling of the sound (0 to 1, higher means more muffling)
 	ace_hearing_hasEHP = 1; // If item has electronic hearing protection (0 or 1)
 	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+	ctab_camera=1;
 	hiddenSelectionsTextures[]=
 	{
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
@@ -128,6 +129,7 @@ class gerrng_OpsCore_Covered_SF_base: CUP_H_OpsCore_Covered_Fleck_SF {
 	ace_hearing_hasEHP = 1; // If item has electronic hearing protection (0 or 1)
 	model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\CUP_ops_core_covered_all.p3d";
 	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+	ctab_camera=1;
 	hiddenSelectionsTextures[]=
 	{
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",
@@ -246,6 +248,7 @@ class gerrng_OpsCore_Covered_NoHS_base: CUP_H_OpsCore_Covered_Fleck_NoHS {
 	ace_hearing_hasEHP = 0; // If item has electronic hearing protection (0 or 1)
 	model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\CUP_ops_core_covered_plain.p3d";
 	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+	ctab_camera=1;
 	hiddenSelectionsTextures[]=
 	{
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_flecktarn_co.paa",

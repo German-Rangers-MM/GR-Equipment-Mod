@@ -47,6 +47,8 @@ class CfgWeapons {
 		opticsZoomMin = 0.01;
 		modelOptics = "\A3\Weapons_F_Mark\Reticle\optics_laserDesignator_02.p3d";
 		weaponInfoType = "RscOptics_LaserDesignator_02";
+		visionMode[] = {"Normal","NVG","TI"};
+		thermalMode[] = {0,1};
 	};
 	class GVAR(Laserdesignator_khk): GVAR(Laserdesignator_snd)
 	{

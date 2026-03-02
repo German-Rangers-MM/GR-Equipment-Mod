@@ -1,3 +1,5 @@
+class CBA_Extended_EventHandlers_base;
+
 class CfgVehicles {
 	class Man;
 	class CAManBase: Man {
@@ -76,8 +78,8 @@ class CfgVehicles {
 				class GVAR(C130_changeToVIV)
 				{
 					displayName = "Change to VIV Configuration";
-					condition = QUOTE(_target isKindOf 'EGVAR(faction,C130J_USMC)');
-					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,C130J_USMC_Cargo)')] call FUNC(handleVehicleChange));
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,C130J)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,C130J_Cargo)')] call FUNC(handleVehicleChange));
 					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
 					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
 				};
@@ -85,8 +87,8 @@ class CfgVehicles {
 				class GVAR(C130_changeToTransport)
 				{
 					displayName = "Change to Transport Configuration";
-					condition = QUOTE(_target isKindOf 'EGVAR(faction,C130J_USMC_Cargo)');
-					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,C130J_USMC)')] call FUNC(handleVehicleChange));
+					condition = QUOTE(_target isKindOf 'EGVAR(faction,C130J_Cargo)');
+					statement = QUOTE([ARR_3(_target,_player,'EGVAR(faction,C130J)')] call FUNC(handleVehicleChange));
 					exceptions[] = {"isNotInside","isNotEscorting","isNotHandcuffed","isNotSurrendering","notOnMap","isNotUnconscious","isNotDragging","isNotDragging","isNotSwimming","isNotOnLadder"};
 					icon = "a3\3den\data\cfgwaypoints\load_ca.paa";
 				};
@@ -155,4 +157,27 @@ class CfgVehicles {
 			};
 		};
 	};
+
+    class Module_F;
+    class GVAR(moduleBase): Module_F {
+        author = "ZEN Mod";
+        category = "NO_CATEGORY";
+        function = "";
+        scope = 1;
+        scopeCurator = 2;
+        class EventHandlers {
+            init = QUOTE(_this call FUNC(initModule));
+            class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+        };
+    };
+
+    class GVAR(moduleSereInit): GVAR(moduleBase) {
+        displayName = "SERE Module";
+        function = QFUNC(moduleSereInit);
+        category = "Curator";
+        curatorCanAttach = 1;
+        scope = 2;
+        scopeCurator = 2;
+    };
+	
 };

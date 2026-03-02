@@ -27,9 +27,24 @@ class CfgVehicles {
         };
     };
 
-    class B_HMG_02_high_F: HMG_02_base_F {
+    class B_HMG_02_high_base_F : HMG_02_base_F {
         class Turrets: Turrets {
             class MainTurret;
+        };
+        class AnimationSources: AnimationSources {
+            class Hide_Rail: Hide_Rail {};
+            class Hide_Shield: Hide_Shield {};
+            class muzzle_source: muzzle_source {};
+            class muzzle_source_rot: muzzle_source_rot {};
+            class ReloadAnim: ReloadAnim {};
+            class ReloadMagazine: ReloadMagazine {};
+            class Revolving: Revolving {};
+        };
+    };
+
+    class B_HMG_02_high_F: B_HMG_02_high_base_F {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {};
         };
         class AnimationSources: AnimationSources {
             class Hide_Rail: Hide_Rail {};
@@ -91,7 +106,7 @@ class CfgVehicles {
 
         class ACE_CSW {
             enabled = 1;
-            proxyWeapon = "ace_csw_HMG_M2";
+            proxyWeapon = QGVAR(HMG_M3M_Mounted);
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry);
             disassembleTurret = QACEGVAR(csw,m3Tripod);
@@ -150,7 +165,7 @@ class CfgVehicles {
 
         class ACE_CSW {
             enabled = 1;
-            proxyWeapon = "ace_csw_HMG_M2";
+            proxyWeapon = QGVAR(HMG_M3M_Mounted);
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry);
             disassembleTurret = QACEGVAR(csw,m3TripodLow);
@@ -178,7 +193,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\preview\HMG_M3M_high_ScopeShield.jpg);
         class ACE_CSW {
             enabled = 1;
-            proxyWeapon = "ace_csw_HMG_M2";
+            proxyWeapon = QGVAR(HMG_M3M_Mounted);
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_ScopeShield);
             disassembleTurret = QACEGVAR(csw,m3Tripod);
@@ -206,7 +221,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\preview\HMG_M3M_ScopeShield.jpg);
         class ACE_CSW {
             enabled = 1;
-            proxyWeapon = "ace_csw_HMG_M2";
+            proxyWeapon = QGVAR(HMG_M3M_Mounted);
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_ScopeShield);
             disassembleTurret = QACEGVAR(csw,m3TripodLow);
@@ -234,7 +249,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\preview\HMG_M3M_high_Scope.jpg);
         class ACE_CSW {
             enabled = 1;
-            proxyWeapon = "ace_csw_HMG_M2";
+            proxyWeapon = QGVAR(HMG_M3M_Mounted);
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_Scope);
             disassembleTurret = QACEGVAR(csw,m3Tripod);
@@ -262,7 +277,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\preview\HMG_M3M_Scope.jpg);
         class ACE_CSW {
             enabled = 1;
-            proxyWeapon = "ace_csw_HMG_M2";
+            proxyWeapon = QGVAR(HMG_M3M_Mounted);
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_Scope);
             disassembleTurret = QACEGVAR(csw,m3TripodLow);
@@ -290,7 +305,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\preview\HMG_M3M_high_Shield.jpg);
         class ACE_CSW {
             enabled = 1;
-            proxyWeapon = "ace_csw_HMG_M2";
+            proxyWeapon = QGVAR(HMG_M3M_Mounted);
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_Shield);
             disassembleTurret = QACEGVAR(csw,m3Tripod);
@@ -318,7 +333,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\preview\HMG_M3M_Shield.jpg);
         class ACE_CSW {
             enabled = 1;
-            proxyWeapon = "ace_csw_HMG_M2";
+            proxyWeapon = QGVAR(HMG_M3M_Mounted);
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(M3M_carry_Shield);
             disassembleTurret = QACEGVAR(csw,m3TripodLow);
@@ -411,7 +426,7 @@ class CfgVehicles {
 
         class ACE_CSW {
             enabled = 1;
-            proxyWeapon = "CUP_proxy_MK19";
+            proxyWeapon = QGVAR(Vgmg_GraMaWa_veh);
             magazineLocation = "_target selectionPosition 'magazine'";
             disassembleWeapon = QGVAR(GraMaWa_carry);
             disassembleTurret = QACEGVAR(csw,m3Tripod);

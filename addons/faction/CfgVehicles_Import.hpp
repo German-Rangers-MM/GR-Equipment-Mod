@@ -1447,26 +1447,6 @@ class GVAR(Quadbike_01_F): B_Quadbike_01_F
 	crew = "CUP_B_GER_BW_Fleck_Soldier";
 };
 
-// Planes
-
-class CUP_B_C130J_USMC;
-class GVAR(C130J_USMC): CUP_B_C130J_USMC
-{
-	side = 1;
-	faction = QGVAR(rangers_faction);
-	
-	crew = "CUP_B_GER_Fleck_HPilot";
-};
-
-class CUP_B_C130J_Cargo_USMC;
-class GVAR(C130J_USMC_Cargo): CUP_B_C130J_Cargo_USMC
-{
-	side = 1;
-	faction = QGVAR(rangers_faction);
-	
-	crew = "CUP_B_GER_Fleck_HPilot";
-};
-
 // Tanks
 class I_MBT_03_cannon_F;
 class GVAR(MBT_03_cannon_F): I_MBT_03_cannon_F

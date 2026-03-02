@@ -5,7 +5,7 @@ _module = _this select 0;
 if (!isServer) then {waitUntil {sleep 2;  isServer;}};
 
 // Auf TFAR warten (Serverseitig)
-if (missionNamespace getVariable ["tfar_core_instanciationIsReady", false]) then {{sleep 2; waitUntil missionNamespace getVariable ["tfar_core_instanciationIsReady", false]}};
+if (missionNamespace getVariable ["tfar_core_instanciationIsReady", false]) then {{sleep 2; waitUntil {missionNamespace getVariable ["tfar_core_instanciationIsReady", false]}}};
 
 // buffer weil tfar weird ist
 sleep 5;

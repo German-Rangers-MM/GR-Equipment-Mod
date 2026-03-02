@@ -1,48 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="gerrng">
     <Package name="engineering">
-        <Container name="plow">
-            <Key ID="STR_gerrng_engineering_plowDown">
-                <Original>Plow down</Original>
-                <English>Plow down</English>
-                <German>Räumschild senken</German>
-            </Key>
-            <Key ID="STR_gerrng_engineering_plowUp">
-                <Original>Plow up</Original>
-                <English>Plow up</English>
-                <German>Räumschild heben</German>
-            </Key>
-        </Container>
-        
-        <Container name="misc">
-            <Key ID="STR_gerrng_engineering_authors">
-                <Original>Timi007, Mishkar, Cookie</Original>
-                <English>Timi007, Mishkar, Cookie</English>
-                <German>Timi007, Mishkar, Cookie</German>
-            </Key>
-        </Container>
-
         <Container name="miclic">
-            <Key ID="STR_gerrng_engineering_miclicDisplayName">
-                <Original>Mine Clearing Line Charge (MICLIC)</Original>
-                <English>Mine Clearing Line Charge (MICLIC)</English>
-                <German>Minenräumleiter</German>
-            </Key>
-            <Key ID="STR_gerrng_engineering_igniteMiclic">
-                <Original>Ignite Mine Clearing Line Charge (MICLIC)</Original>
-                <English>Ignite Mine Clearing Line Charge (MICLIC)</English>
-                <German>Minenräumleiter zünden</German>
-            </Key>
-
-            <Key ID="STR_gerrng_engineering_openMiclicUI">
-                <Original>Open MICLIC Control Panel</Original>
-                <English>Open MICLIC Control Panel</English>
-                <German>Minenräumleiter Bedienfeld öffnen</German>
-            </Key>
-            <Key ID="STR_gerrng_engineering_igniteText">
-                <Original>MICLIC armed with</Original>
-                <English>MICLIC armed with</English>
-                <German>Minenräumleiter scharfgeschaltet mit</German>
+            <Key ID="STR_gerrng_engineering_angle">
+                <Original>Launch Angle</Original>
+                <English>Launch Angle</English>
+                <German>Abschusswinkel</German>
             </Key>
             <Key ID="STR_gerrng_engineering_delay">
                 <Original>Delay</Original>
@@ -54,33 +17,33 @@
                 <English>Fuse</English>
                 <German>Zünder</German>
             </Key>
+            <Key ID="STR_gerrng_engineering_igniteMiclic">
+                <Original>Ignite Mine Clearing Line Charge (MICLIC)</Original>
+                <English>Ignite Mine Clearing Line Charge (MICLIC)</English>
+                <German>Minenräumleiter zünden</German>
+            </Key>
+            <Key ID="STR_gerrng_engineering_igniteText">
+                <Original>MICLIC armed with</Original>
+                <English>MICLIC armed with</English>
+                <German>Minenräumleiter scharfgeschaltet mit</German>
+            </Key>
             <Key ID="STR_gerrng_engineering_launchDistance">
                 <Original>Distance</Original>
                 <English>Distance</English>
                 <German>Entfernung</German>
             </Key>
-            <Key ID="STR_gerrng_engineering_angle">
-                <Original>Launch Angle</Original>
-                <English>Launch Angle</English>
-                <German>Abschusswinkel</German>
+            <Key ID="STR_gerrng_engineering_miclicDisplayName">
+                <Original>Mine Clearing Line Charge (MICLIC)</Original>
+                <English>Mine Clearing Line Charge (MICLIC)</English>
+                <German>Minenräumleiter</German>
+            </Key>
+            <Key ID="STR_gerrng_engineering_openMiclicUI">
+                <Original>Open MICLIC Control Panel</Original>
+                <English>Open MICLIC Control Panel</English>
+                <German>Minenräumleiter Bedienfeld öffnen</German>
             </Key>
         </Container>
         <Container name="miclic_ui">
-            <Key ID="STR_gerrng_engineering_delayTooltip">
-                <Original>Set delay (30-40 sec recommended)</Original>
-                <English>Set delay (30-40 sec recommended)</English>
-                <German>Verzögerung einstellen (30-40 Sekunden sind empfohlen)</German>
-            </Key>
-            <Key ID="STR_gerrng_engineering_fuseTooltip">
-                <Original>Set fuse delay (5 sec recommended)</Original>
-                <English>Set fuse delay (5 sec recommended)</English>
-                <German>Zündverzögerung einstellen (5 Sekunden sind empfohlen)</German>
-            </Key>
-            <Key ID="STR_gerrng_engineering_distanceTooltip">
-                <Original>Set distance (5m longer than target)</Original>
-                <English>Set distance (5m longer than target)</English>
-                <German>Entfernung einstellen (5m länger als Ziel)</German>
-            </Key>
             <Key ID="STR_gerrng_engineering_angleTooltip">
                 <Original>Set launch angle (To compensate for rough terrain)</Original>
                 <English>Set launch angle (To compensate for rough terrain)</English>
@@ -91,10 +54,44 @@
                 <English>Arm the MICLIC with specified settings (Final!)</English>
                 <German>Räumleiter mit den angegebenen Einstellungen scharfschalten (Final!)</German>
             </Key>
+            <Key ID="STR_gerrng_engineering_delayTooltip">
+                <Original>Set delay (30-40 sec recommended)</Original>
+                <English>Set delay (30-40 sec recommended)</English>
+                <German>Verzögerung einstellen (30-40 Sekunden sind empfohlen)</German>
+            </Key>
+            <Key ID="STR_gerrng_engineering_distanceTooltip">
+                <Original>Set distance (5m longer than target)</Original>
+                <English>Set distance (5m longer than target)</English>
+                <German>Entfernung einstellen (5m länger als Ziel)</German>
+            </Key>
+            <Key ID="STR_gerrng_engineering_fuseTooltip">
+                <Original>Set fuse delay (5 sec recommended)</Original>
+                <English>Set fuse delay (5 sec recommended)</English>
+                <German>Zündverzögerung einstellen (5 Sekunden sind empfohlen)</German>
+            </Key>
             <Key ID="STR_gerrng_engineering_rotaryTooltip">
                 <Original>Leftclick: +1 | Rightclick: -1</Original>
                 <English>Leftclick: +1 | Rightclick: -1</English>
                 <German>Linksklick: +1 | Rechtsklick: -1</German>
+            </Key>
+        </Container>
+        <Container name="misc">
+            <Key ID="STR_gerrng_engineering_authors">
+                <Original>Timi007, Mishkar, Cookie</Original>
+                <English>Timi007, Mishkar, Cookie</English>
+                <German>Timi007, Mishkar, Cookie</German>
+            </Key>
+        </Container>
+        <Container name="plow">
+            <Key ID="STR_gerrng_engineering_plowDown">
+                <Original>Plow down</Original>
+                <English>Plow down</English>
+                <German>Räumschild senken</German>
+            </Key>
+            <Key ID="STR_gerrng_engineering_plowUp">
+                <Original>Plow up</Original>
+                <English>Plow up</English>
+                <German>Räumschild heben</German>
             </Key>
         </Container>
     </Package>

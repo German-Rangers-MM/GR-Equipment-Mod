@@ -79,9 +79,6 @@ class CfgPatches
             QGVAR(Coyote_L2A1_GMG),
             QGVAR(Quadbike_01_F),
 
-            QGVAR(C130J_USMC),
-            QGVAR(C130J_USMC_Cargo),
-
             QGVAR(MBT_03_cannon_F),
             QGVAR(Leopard2A6),
 
@@ -201,8 +198,15 @@ class CfgEditorSubcategories
     };
 };
 
+#include "CfgEventhandlers.hpp"
+
 class ace_medical_facilities {
     gerrng[] = { QGVAR(MedTent_01) };
 };
 #include "CfgVehicles.hpp"
+
+class CfgWeapons
+{
+    #include "CfgWeapons.hpp"
+};
 

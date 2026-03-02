@@ -19,6 +19,7 @@ class CfgPatches {
         };
         author = ECSTRING(main,Team);
         authors[] = {"Cookie", "Cesrap"};
+        skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };

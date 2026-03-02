@@ -466,7 +466,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_1_5_smoke_hand);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 12;
         };
     };
     class GVAR(grenade_1_5_smoke_hand): GVAR(grenade_4_5_smoke_hand) {
@@ -475,7 +475,7 @@ class CfgWeapons {
         GVAR(replacementItem) = "";
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 6;
         };
     };
 
@@ -490,7 +490,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_7_8_smoke_40mm);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 30;
+			mass = 32;
 		};
     };
     class GVAR(grenade_7_8_smoke_40mm): GVAR(grenade_8_8_smoke_40mm) {
@@ -502,7 +502,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_6_8_smoke_40mm);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 24;
+			mass = 28;
 		};
     };
     class GVAR(grenade_6_8_smoke_40mm): GVAR(grenade_7_8_smoke_40mm) {
@@ -511,7 +511,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_5_8_smoke_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 24;
         };
     };
     class GVAR(grenade_5_8_smoke_40mm): GVAR(grenade_7_8_smoke_40mm) {
@@ -520,7 +520,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_4_8_smoke_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 20;
         };
     };
     class GVAR(grenade_4_8_smoke_40mm): GVAR(grenade_7_8_smoke_40mm) {
@@ -529,7 +529,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_3_8_smoke_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 16;
         };
     };
     class GVAR(grenade_3_8_smoke_40mm): GVAR(grenade_7_8_smoke_40mm) {
@@ -538,7 +538,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_2_8_smoke_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 12;
         };
     };
     class GVAR(grenade_2_8_smoke_40mm): GVAR(grenade_7_8_smoke_40mm) {
@@ -547,7 +547,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_1_8_smoke_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 8;
         };
     };
     class GVAR(grenade_1_8_smoke_40mm): GVAR(grenade_7_8_smoke_40mm) {
@@ -556,7 +556,7 @@ class CfgWeapons {
         GVAR(replacementItem) = "";
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 4;
         };
     };
 
@@ -572,7 +572,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_2_3_exp_hand);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 30;
+			mass = 21;
 		};
     };
     class GVAR(grenade_2_3_exp_hand): GVAR(grenade_3_3_exp_hand) {
@@ -584,7 +584,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_2_3_exp_hand);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 24;
+			mass = 14;
 		};
     };
     class GVAR(grenade_1_3_exp_hand): GVAR(grenade_2_3_exp_hand) {
@@ -593,7 +593,7 @@ class CfgWeapons {
         GVAR(replacementItem) = "";
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 7;
         };
     };
 
@@ -608,7 +608,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_7_8_exp_40mm);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 30;
+			mass = 32;
 		};
     };
     class GVAR(grenade_7_8_exp_40mm): GVAR(grenade_8_8_exp_40mm) {
@@ -620,7 +620,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_6_8_exp_40mm);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 24;
+			mass = 28;
 		};
     };
     class GVAR(grenade_6_8_exp_40mm): GVAR(grenade_7_8_exp_40mm) {
@@ -629,7 +629,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_5_8_exp_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 24;
         };
     };
     class GVAR(grenade_5_8_exp_40mm): GVAR(grenade_7_8_exp_40mm) {
@@ -638,7 +638,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_4_8_exp_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 20;
         };
     };
     class GVAR(grenade_4_8_exp_40mm): GVAR(grenade_7_8_exp_40mm) {
@@ -647,7 +647,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_3_8_exp_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 16;
         };
     };
     class GVAR(grenade_3_8_exp_40mm): GVAR(grenade_7_8_exp_40mm) {
@@ -656,7 +656,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_2_8_exp_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 12;
         };
     };
     class GVAR(grenade_2_8_exp_40mm): GVAR(grenade_7_8_exp_40mm) {
@@ -665,7 +665,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_1_8_exp_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 8;
         };
     };
     class GVAR(grenade_1_8_exp_40mm): GVAR(grenade_7_8_exp_40mm) {
@@ -674,7 +674,7 @@ class CfgWeapons {
         GVAR(replacementItem) = "";
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 4;
         };
     };
 
@@ -689,7 +689,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_7_8_flare_40mm);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 30;
+			mass = 32;
 		};
     };
     class GVAR(grenade_7_8_flare_40mm): GVAR(grenade_8_8_flare_40mm) {
@@ -701,7 +701,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_6_8_flare_40mm);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 24;
+			mass = 28;
 		};
     };
     class GVAR(grenade_6_8_flare_40mm): GVAR(grenade_7_8_flare_40mm) {
@@ -710,7 +710,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_5_8_flare_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 24;
         };
     };
     class GVAR(grenade_5_8_flare_40mm): GVAR(grenade_7_8_flare_40mm) {
@@ -719,7 +719,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_4_8_flare_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 20;
         };
     };
     class GVAR(grenade_4_8_flare_40mm): GVAR(grenade_7_8_flare_40mm) {
@@ -728,7 +728,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_3_8_flare_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 16;
         };
     };
     class GVAR(grenade_3_8_flare_40mm): GVAR(grenade_7_8_flare_40mm) {
@@ -737,7 +737,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_2_8_flare_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 12;
         };
     };
     class GVAR(grenade_2_8_flare_40mm): GVAR(grenade_7_8_flare_40mm) {
@@ -746,7 +746,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_1_8_flare_40mm);
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 8;
         };
     };
     class GVAR(grenade_1_8_flare_40mm): GVAR(grenade_7_8_flare_40mm) {
@@ -755,7 +755,7 @@ class CfgWeapons {
         GVAR(replacementItem) = "";
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 4;
         };
     };
     
@@ -771,7 +771,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_2_3_flare_hand);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 30;
+			mass = 18;
 		};
     };
     class GVAR(grenade_2_3_flare_hand): GVAR(grenade_3_3_flare_hand) {
@@ -783,7 +783,7 @@ class CfgWeapons {
         GVAR(replacementItem) = QGVAR(grenade_1_3_smoke_hand);
 		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
-			mass = 24;
+			mass = 12;
 		};
     };
     class GVAR(grenade_1_3_flare_hand): GVAR(grenade_2_3_flare_hand) {
@@ -792,7 +792,7 @@ class CfgWeapons {
         GVAR(replacementItem) = "";
         class ItemInfo: CBA_MiscItem_ItemInfo
         {
-            mass = 18;
+            mass = 6;
         };
     };
 };

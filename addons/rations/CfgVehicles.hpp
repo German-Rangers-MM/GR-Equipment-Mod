@@ -92,4 +92,17 @@ class CfgVehicles
             class _xx_epa_typ_xix{name = QGVAR(EPa_typ_xix); count = 4; };
         };
     };
+
+    class Item_Base_F;
+    class GVAR(Keksies_Item): Item_Base_F {
+        author = "Cookie, Mik";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Keksies Chips";
+        vehicleClass = "Items";
+        editorPreview = QPATHTOF(data\chips_icon.paa);
+        class TransportItems {
+            MACRO_ADDITEM(GVAR(Keksies),1);
+        };
+    };
 };

@@ -676,4 +676,21 @@ class CfgWeapons {
         descriptionShort = "EPa Typ 19 Kerbel-Kartoffeltopf u. Pasta Siciliana";
         GVAR(epa_content)[] = {QGVAR(Meal_KerbelKartoffeltopf), QGVAR(Meal_Pasta_Siciliana), QGVAR(Snack_Joghurtmuesli), QGVAR(Snack_Mousse_Chocolat), QGVAR(Misc_Dosenbrot_2_2), QGVAR(Misc_Hartkekse_4_4)};
     };
+
+    class GVAR(Keksies): ACE_ItemCore {
+        author = "Cookie, Mik";
+        scope = 2;
+        displayName = "Keksies Chips";
+        descriptionShort = "Leckere Keksies Chips in der Geschmacksrichtung Schuhsole.";
+        picture = QPATHTOF(data\keksies_icon.paa);
+        model = QPATHTOF(data\chips.p3d);
+        class ItemInfo: CBA_MiscItem_ItemInfo
+        {
+            mass = 2;
+        };
+        acex_field_rations_hungerSatiated = 8;
+        acex_field_rations_consumeTime = 10;
+        acex_field_rations_consumeText = ACECSTRING(field_rations,EatingX);
+        ACE_isFieldRationItem = 1;
+    };
 };

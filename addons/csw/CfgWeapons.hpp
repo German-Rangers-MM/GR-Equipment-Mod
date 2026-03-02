@@ -141,10 +141,12 @@ class CfgWeapons {
 	class CUP_Vgmg_MK19_veh;
 	class GVAR(Vgmg_GraMaWa_veh): CUP_Vgmg_MK19_veh {
 		displayName = "GraMaWa 40mm";
+        magazineReloadTime = 0.5;
 	};
 
 	class HMG_M2_Mounted;
 	class GVAR(HMG_M3M_Mounted): HMG_M2_Mounted {
 		displayName = "M3M";
+        magazineReloadTime = 0.5;
 	};
 };

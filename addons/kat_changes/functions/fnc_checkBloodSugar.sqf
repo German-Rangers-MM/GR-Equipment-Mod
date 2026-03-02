@@ -25,7 +25,7 @@ private _seconds = floor ((((_daytime - _hour) * 60) - _minute) * 60);
 private _measurementTime = format ["%1:%2:%3", [_hour, 2] call CBA_fnc_formatNumber, [_minute, 2] call CBA_fnc_formatNumber, [_seconds, 2] call CBA_fnc_formatNumber];
 */
 // Calculate blood sugar level based on hunger level
-private _bloodSugar = linearConversion [0, 100, _hunger, 90, 40, true] toFixed 2;
+private _bloodSugar = linearConversion [0, 100, _hunger, 100, 40, true] toFixed 2;
 
 
 _output = format ["%1: %2 mg/dl", LLSTRING(BloodSugar_DisplayName), _bloodSugar];

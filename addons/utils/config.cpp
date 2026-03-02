@@ -7,7 +7,8 @@ class CfgPatches
         name = COMPONENT_NAME; 
         units[] = {
             QGVAR(item_remote_designator_w),
-            QGVAR(item_remote_designator_d)
+            QGVAR(item_remote_designator_d),
+            QGVAR(moduleSereInit)
         }; 
         weapons[] = {
             QGVAR(remote_designator_w),

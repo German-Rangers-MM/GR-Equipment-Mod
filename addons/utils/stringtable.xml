@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="gerrng">
-    <Package name="utils"></Package>
+    <Package name="utils">
+        <Container name="vehicles">
+            <Key ID="STR_gerrng_utils_changeVehicleInPlace_AceCargoNotEmpty">
+                <Original>ACE Cargo not empty.</Original>
+                <English>ACE Cargo not empty.</English>
+                <German>ACE Cargo nicht leer.</German>
+            </Key>
+            <Key ID="STR_gerrng_utils_changeVehicleInPlace_VivCargoNotEmpty">
+                <Original>VIV Cargo not empty.</Original>
+                <English>VIV Cargo not empty.</English>
+                <German>VIV Cargo nicht leer.</German>
+            </Key>
+            <Key ID="STR_gerrng_utils_changeVehicleInPlace_failure">
+                <Original>Failed to change %1 (%2).</Original>
+                <English>Failed to change %1 (%2).</English>
+                <German>%1 konnte nicht geändert werden (%2).</German>
+            </Key>
+            <Key ID="STR_gerrng_utils_changeVehicleInPlace_success">
+                <Original>Changed %1 to %2.</Original>
+                <English>Changed %1 to %2.</English>
+                <German>%1 zu %2 geändert.</German>
+            </Key>
+            <Key ID="STR_gerrng_utils_invalidTarget">
+                <Original>Invalid target for vehicle change.</Original>
+                <English>Invalid target for vehicle change.</English>
+                <German>Ungültiges Ziel für Fahrzeugwechsel.</German>
+            </Key>
+        </Container>
+    </Package>
 </Project>
