@@ -148,5 +148,6 @@ class CfgWeapons {
 	class GVAR(HMG_M3M_Mounted): HMG_M2_Mounted {
 		displayName = "M3M";
         magazineReloadTime = 0.5;
+		magazines[] = {"100Rnd_127x99_mag_Tracer_Yellow","100Rnd_127x99_mag_Tracer_Yellow","100Rnd_127x99_mag_Tracer_Yellow","100Rnd_127x99_mag_Tracer_Yellow","ger_100Rnd_127x99_mag_red","ger_150Rnd_127x99_mag_red","ger_200Rnd_127x99_mag_red","ger_100Rnd_127x99_mag","ger_150Rnd_127x99_mag","ger_200Rnd_127x99_mag","ger_100Rnd_127x99_mag_slap","ger_150Rnd_127x99_mag_slap","ger_200Rnd_127x99_mag_slap","ger_100Rnd_127x99_mag_slap_tracer_red","ger_150Rnd_127x99_mag_slap_tracer_red","ger_200Rnd_127x99_mag_slap_tracer_red"}; 
 	};
 };
