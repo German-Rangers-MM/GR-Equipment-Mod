@@ -338,6 +338,11 @@
                 <English>Bandolier (Pistol M17 (6/6))</English>
                 <German>Bandolier (Pistole M17 (6/6))</German>
             </Key>
+            <Key ID="STR_gerrng_bandoliers_pistol_desc">
+                <Original>A bandolier for carrying 6 extra pistol magazines.</Original>
+                <English>A bandolier for carrying 6 extra pistol magazines.</English>
+                <German>Ein Bandolier zum Tragen von 6 zusätzlichen Pistolenmagazinen.</German>
+            </Key>
         </Container>
         <Container name="rifle">
             <Key ID="STR_gerrng_bandoliers_rifle_416_1_5_display">
@@ -414,6 +419,11 @@
                 <Original>Bandolier (Rifle G36 (5/5))</Original>
                 <English>Bandolier (Rifle G36 (5/5))</English>
                 <German>Bandolier (G36 (5/5))</German>
+            </Key>
+            <Key ID="STR_gerrng_bandoliers_rifle_desc">
+                <Original>A bandolier for carrying 5 extra rifle magazines.</Original>
+                <English>A bandolier for carrying 5 extra rifle magazines.</English>
+                <German>Ein Bandolier zum Tragen von 5 zusätzlichen Gewehrmagazinen.</German>
             </Key>
         </Container>
     </Package>

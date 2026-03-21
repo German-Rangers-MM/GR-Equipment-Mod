@@ -8,6 +8,29 @@
 #define QHELMET_DISPLAYNAME_SF_FLK(groupTag,groupFunc) QUOTE(OpsCore MT SF CONCAT_tag(groupTag,groupFunc) (Fleck))
 #define QHELMET_DISPLAYNAME_SF_TRP(groupTag,groupFunc) QUOTE(OpsCore MT SF CONCAT_tag(groupTag,groupFunc) (Tropen))
 
+#define PATCH_ENTRY(nameShort) \
+QUOTE(gerrng_OpsCore_Covered_Fleck_NoHS_##nameShort), \
+QUOTE(gerrng_OpsCore_Covered_Tropen_NoHS_##nameShort), \
+QUOTE(gerrng_OpsCore_Covered_Fleck_##nameShort), \
+QUOTE(gerrng_OpsCore_Covered_Tropen_##nameShort), \
+QUOTE(gerrng_OpsCore_Covered_Fleck_SF_##nameShort), \
+QUOTE(gerrng_OpsCore_Covered_Tropen_SF_##nameShort), \
+QUOTE(gerrng_OpsCore_sprayed_##nameShort), \
+QUOTE(gerrng_OpsCore_sprayed_NoHS_##nameShort), \
+QUOTE(gerrng_OpsCore_sprayed_SF_##nameShort), \
+QUOTE(gerrng_OpsCore_grey_##nameShort), \
+QUOTE(gerrng_OpsCore_grey_NoHS_##nameShort), \
+QUOTE(gerrng_OpsCore_grey_SF_##nameShort), \
+QUOTE(gerrng_OpsCore_green_##nameShort), \
+QUOTE(gerrng_OpsCore_green_NoHS_##nameShort), \
+QUOTE(gerrng_OpsCore_green_SF_##nameShort), \
+QUOTE(gerrng_OpsCore_tan_##nameShort), \
+QUOTE(gerrng_OpsCore_tan_NoHS_##nameShort), \
+QUOTE(gerrng_OpsCore_tan_SF_##nameShort), \
+QUOTE(gerrng_OpsCore_black_##nameShort), \
+QUOTE(gerrng_OpsCore_black_NoHS_##nameShort), \
+QUOTE(gerrng_OpsCore_black_SF_##nameShort)
+
 
 #define MAKE_HELMET(nameShort,groupTag,groupFunc,path) class gerrng_OpsCore_Covered_Fleck_NoHS_##nameShort: gerrng_OpsCore_Covered_NoHS_base { \
 	scope=2; \

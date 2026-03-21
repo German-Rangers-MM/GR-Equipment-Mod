@@ -479,6 +479,58 @@
                 <German>Lkw 7t Transport offen (Waldtarn)</German>
             </Key>
         </Container>
+        <Container name="lkw_7t_tatra">
+            <Key ID="STR_gerrng_faction_lkw_7t_gtf_d">
+                <Original>Lkw GTF 7t GL (Desert)</Original>
+                <English>Lkw GTF 7t GL (Desert)</English>
+                <German>Lkw GTF 7t GL (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_gtf_w">
+                <Original>Lkw GTF 7t GL (Woodland)</Original>
+                <English>Lkw GTF 7t GL (Woodland)</English>
+                <German>Lkw GTF 7t GL (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_utf_ammo_d">
+                <Original>Lkw UTF 7t GL Ammo (Desert)</Original>
+                <English>Lkw UTF 7t GL Ammo (Desert)</English>
+                <German>Lkw UTF 7t GL Munition (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_utf_ammo_w">
+                <Original>Lkw UTF 7t GL Ammo (Woodland)</Original>
+                <English>Lkw UTF 7t GL Ammo (Woodland)</English>
+                <German>Lkw UTF 7t GL Munition (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_utf_d">
+                <Original>Lkw UTF 7t GL (Desert)</Original>
+                <English>Lkw UTF 7t GL (Desert)</English>
+                <German>Lkw UTF 7t GL (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_utf_fuel_d">
+                <Original>Lkw UTF 7t GL Fuel (Desert)</Original>
+                <English>Lkw UTF 7t GL Fuel (Desert)</English>
+                <German>Lkw UTF 7t GL Treibstoff (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_utf_fuel_w">
+                <Original>Lkw UTF 7t GL Fuel (Woodland)</Original>
+                <English>Lkw UTF 7t GL Fuel (Woodland)</English>
+                <German>Lkw UTF 7t GL Treibstoff (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_utf_repair_d">
+                <Original>Lkw UTF 7t GL Repair (Desert)</Original>
+                <English>Lkw UTF 7t GL Repair (Desert)</English>
+                <German>Lkw UTF 7t GL Inst. (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_utf_repair_w">
+                <Original>Lkw UTF 7t GL Repair (Woodland)</Original>
+                <English>Lkw UTF 7t GL Repair (Woodland)</English>
+                <German>Lkw UTF 7t GL Inst. (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_7t_utf_w">
+                <Original>Lkw UTF 7t GL (Woodland)</Original>
+                <English>Lkw UTF 7t GL (Woodland)</English>
+                <German>Lkw UTF 7t GL (Waldtarn)</German>
+            </Key>
+        </Container>
         <Container name="subcat">
             <Key ID="STR_gerrng_faction_subcat_heli_heavy">
                 <Original>Helicopters (Heavy)</Original>
@@ -496,9 +548,9 @@
                 <German>Helikopter (Mittelschwer)</German>
             </Key>
             <Key ID="STR_gerrng_faction_subcat_lkw">
-                <Original>Trucks (Iveco 7t/Multi 15t GL)</Original>
-                <English>Trucks (Iveco 7t/Multi 15t GL)</English>
-                <German>LKW (Iveco 7t/Multi 15t GL)</German>
+                <Original>Trucks (Iveco 7t/Multi 15t GL/5t GL)</Original>
+                <English>Trucks (Iveco 7t/Multi 15t GL/5t GL)</English>
+                <German>LKW (Iveco 7t/Multi 15t GL/5t GL)</German>
             </Key>
             <Key ID="STR_gerrng_faction_subcat_pkw_armored">
                 <Original>Cars (Armored)</Original>
