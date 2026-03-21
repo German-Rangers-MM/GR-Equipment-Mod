@@ -153,18 +153,18 @@ class CfgWeapons {
             "100Rnd_127x99_mag_Tracer_Yellow",
             "100Rnd_127x99_mag_Tracer_Yellow",
             "100Rnd_127x99_mag_Tracer_Yellow",
-            QGVAR(100Rnd_127x99_mag_red"),
-            QGVAR(150Rnd_127x99_mag_red"),
-            QGVAR(200Rnd_127x99_mag_red"),
-            QGVAR(100Rnd_127x99_mag"),
-            QGVAR(150Rnd_127x99_mag"),
-            QGVAR(200Rnd_127x99_mag"),
-            QGVAR(100Rnd_127x99_mag_slap"),
-            QGVAR(150Rnd_127x99_mag_slap"),
-            QGVAR(200Rnd_127x99_mag_slap"),
-            QGVAR(100Rnd_127x99_mag_slap_tracer_red"),
-            QGVAR(150Rnd_127x99_mag_slap_tracer_red"),
-            QGVAR(200Rnd_127x99_mag_slap_tracer_red")
+            QGVAR(100Rnd_127x99_mag_red),
+            QGVAR(150Rnd_127x99_mag_red),
+            QGVAR(200Rnd_127x99_mag_red),
+            QGVAR(100Rnd_127x99_mag),
+            QGVAR(150Rnd_127x99_mag),
+            QGVAR(200Rnd_127x99_mag),
+            QGVAR(100Rnd_127x99_mag_slap),
+            QGVAR(150Rnd_127x99_mag_slap),
+            QGVAR(200Rnd_127x99_mag_slap),
+            QGVAR(100Rnd_127x99_mag_slap_tracer_red),
+            QGVAR(150Rnd_127x99_mag_slap_tracer_red),
+            QGVAR(200Rnd_127x99_mag_slap_tracer_red)
         };
 	};
 };
