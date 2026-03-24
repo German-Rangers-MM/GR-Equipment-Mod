@@ -5,7 +5,7 @@ class CfgPatches
 	class ADDON
 	{
 		name = COMPONENT_NAME;
-		units[]={};
+		units[]={QGVAR(miclic)};
 		weapons[]={};
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {"ace_main"};

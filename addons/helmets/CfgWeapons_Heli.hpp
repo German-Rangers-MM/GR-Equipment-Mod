@@ -3,7 +3,7 @@ class H_PilotHelmetHeli_I_E;
 class H_CrewHelmetHeli_B;
 class H_CrewHelmetHeli_I_E;
 
-class GVAR(helmet_pilot_b): H_PilotHelmetHeli_I_E {
+class GVAR(helmet_pilot_w): H_PilotHelmetHeli_I_E {
 	scope = 2;
 	scopeCurator = 2;
 	displayName = "Pilot Helmet (WDL)";	
@@ -13,7 +13,7 @@ class GVAR(helmet_pilot_b): H_PilotHelmetHeli_I_E {
 	ace_hearing_hasEHP = 1; // If item has electronic hearing protection (0 or 1)
 };
 
-class GVAR(helmet_pilot_w): H_PilotHelmetHeli_B {
+class GVAR(helmet_pilot_b): H_PilotHelmetHeli_B {
 	scope = 2;
 	scopeCurator = 2;
 	displayName = "Pilot Helmet";	

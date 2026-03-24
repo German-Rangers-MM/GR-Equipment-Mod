@@ -6,7 +6,7 @@ class CfgPatches
     { 
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
-        units[] = {QGVAR(miclic)}; 
+        units[] = {};
         weapons[] = {}; 
         requiredVersion = REQUIRED_VERSION; 
         requiredAddons[] = {}; 

@@ -3,6 +3,16 @@ prefix = "GerRng"
 author = "jan, dalleburn, J. Smith,KlasNi, Cesrap, lightning, ItsGiantCookie"
 mainprefix = "y"
 
+keyname = "{{prefix}}_{{version}}"
+signame = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+releasebuild = [
+    "@zip gerrng_{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+]
+
+[header_exts]
+version= "{{git \"id 8\"}}"
+
 [files]
 include = [
     "mod.cpp",

@@ -7,7 +7,7 @@ class CfgPatches {
 		units[] = {};
         weapons[] = {
             QGVAR(glucometerSet),
-            QGVAR(ItemGSCI),
+            QGVAR(GSCI),
             "kat_aatKit"
         };
         magazines[] = {};

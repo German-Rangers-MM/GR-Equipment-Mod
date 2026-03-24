@@ -551,11 +551,11 @@ class GVAR(Amarok_covered_san_GER_FLK) : GVAR(Amarok_covered_san_GER_Grn)
 	editorPreview = QPATHTOF(amarok_subaddon\data\preview\amarok_covered_san_GER_FLK.jpg);
 };
 
-class GVAR(Amarok_san_covered_GER_TRP) : GVAR(Amarok_covered_san_GER_Grn)
+class GVAR(Amarok_covered_san_GER_TRP) : GVAR(Amarok_covered_san_GER_Grn)
 {
     displayName = CSTRING(amarok_san_trp);
 	textureList[]={"TrpSan",1};
-	editorPreview = QPATHTOF(amarok_subaddon\data\preview\amarok_san_covered_GER_TRP.jpg);
+	editorPreview = QPATHTOF(amarok_subaddon\data\preview\amarok_covered_san_GER_TRP.jpg);
 };
 
 class GVAR(Amarok_engineering_covered_GER_FLK) : GVAR(Amarok_covered_engineering_GER_Grn)
