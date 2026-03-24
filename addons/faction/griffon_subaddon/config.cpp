@@ -7,10 +7,8 @@ class CfgPatches
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
         units[] = {
-            QGVAR(CH_146_Griffon_Radar_01),
-            QGVAR(CH_146_Griffon_Transport_01),
-            QGVAR(CH_146_Griffon_CAS_01),
-            QGVAR(Ch_146_Griffon_MedEvac_01)
+            QGVAR(AW101_Merlin_TTH_01),
+            QGVAR(AW101_Merlin_MTH_01)
         }; 
         weapons[] = {}; 
         requiredVersion = REQUIRED_VERSION; 

@@ -9,12 +9,12 @@ class CfgPatches
         weapons[] = {}; 
         requiredVersion = REQUIRED_VERSION; 
         requiredAddons[] = {}; 
-        author = "German Rangers"; 
-        VERSION_CONFIG; 
+        author = ECSTRING(main,Team); 
+        VERSION_CONFIG;
+        authors[] = {"Cookie"};
     };
 };
 
-#include "CfgVehicles.hpp"
-
 #include "CfgEventHandlers.hpp"
+
 #include "CfgWeapons.hpp"

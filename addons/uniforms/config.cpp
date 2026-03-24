@@ -6,10 +6,7 @@ class CfgPatches
     { 
         name = COMPONENT_NAME;
         units[] = {};
-        weapons[] = {
-            "gerrng_uniform_fleck_tee",
-            "gerrng_uniform_trop_tee",
-        };
+        weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {};
         author = ECSTRING(main,Team);

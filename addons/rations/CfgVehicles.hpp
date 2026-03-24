@@ -80,7 +80,7 @@ class CfgVehicles
             class _xx_epa_typ_xiv{name = QGVAR(EPa_typ_xiv); count = 4; };
         };
     };
-    class GVAR(epaBox_15_19): GVAR(epaBox_1_5)
+    class GVAR(epaBox_16_19): GVAR(epaBox_1_5)
     {
         displayName = "Box of EPAs (Typ 15-19)";
         class TransportItems

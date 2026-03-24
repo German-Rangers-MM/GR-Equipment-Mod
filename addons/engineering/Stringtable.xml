@@ -83,24 +83,14 @@
             </Key>
         </Container>
         <Container name="plow">
-            <Key ID="STR_gerrng_bobcat_plowdown">
+            <Key ID="STR_gerrng_engineering_plowDown">
                 <Original>Plow down</Original>
                 <English>Plow down</English>
                 <German>Räumschild senken</German>
             </Key>
-            <Key ID="STR_gerrng_bobcat_plowup">
+            <Key ID="STR_gerrng_engineering_plowUp">
                 <Original>Plow up</Original>
                 <English>Plow up</English>
-                <German>Räumschild heben</German>
-            </Key>
-            <Key ID="STR_gerrng_engineering_plowDown">
-                <Original>Lower Plow</Original>
-                <English>Lower Plow</English>
-                <German>Räumschild senken</German>
-            </Key>
-            <Key ID="STR_gerrng_engineering_plowUp">
-                <Original>Raise Plow</Original>
-                <English>Raise Plow</English>
                 <German>Räumschild heben</German>
             </Key>
         </Container>

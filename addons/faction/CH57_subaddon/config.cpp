@@ -6,9 +6,10 @@ class CfgPatches
     { 
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
-        units[] = {
-            QGVAR(Lkw5t_Covered_Armed_Wdl),
-            QGVAR(Lkw5t_Covered_Armed_D)
+        units[] =
+        {
+            QGVAR(CH_53E_TTH_01),
+            QGVAR(CH_53E_TTH_VIV_01)
         }; 
         weapons[] = {}; 
         requiredVersion = REQUIRED_VERSION; 
@@ -22,5 +23,5 @@ class CfgPatches
 
 class CfgVehicles
 {
-    #include "CfgVehicles_Tatra.hpp"
+    #include "CfgVehicles_CH53.hpp"
 };

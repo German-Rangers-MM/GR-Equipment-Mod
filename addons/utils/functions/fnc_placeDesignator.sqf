@@ -21,8 +21,8 @@ if ((_unit call CBA_fnc_getUnitAnim) select 0 == "stand") then {
 
 	//how to handle if object moved?
     _designatorArray = [[0,0,0], 0, _vehicleClass, west] call BIS_fnc_spawnVehicle;
-    _designator = _designatorArray select 0;
     _designatorAi = createVehicleCrew (_designator select 0);
+    _designator = _designatorArray select 0;
     _designator setDir _direction;
     _designator setPosASL _position;
     if ((getPosATL _designator select 2) - (getPos _designator select 2) < 1E-5) then {

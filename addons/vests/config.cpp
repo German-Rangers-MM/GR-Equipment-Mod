@@ -6,12 +6,7 @@ class CfgPatches
 	{
 		name = COMPONENT_NAME;
 		units[]={};
-		weapons[]={
-            "gerrng_PlateCarrier1_Tropentarn",
-            "gerrng_PlateCarrier1_Flecktarn",
-            "gerrng_PlateCarrier1_Flecktarn_B",
-            "gerrng_PlateCarrier1_Wintertarn"
-        };
+		weapons[]={};
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {"ace_main"};
         author = ECSTRING(main,Team);

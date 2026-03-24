@@ -1,1 +1,1 @@
-PREP(setAnimationSource);
+PREP(initAnimActions);

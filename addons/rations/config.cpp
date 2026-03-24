@@ -39,7 +39,7 @@ class CfgPatches
             QGVAR(Meal_Indische_Reispfanne),
             QGVAR(Meal_Gulasch_Kartoffeln),
             QGVAR(Meal_Cevapcici),
-            QGVAR(Meal_Gemuesechilli),
+            QGVAR(Meal_Suedamerikanisches_Gemuesechilli),
             QGVAR(Meal_Linseneintopf),
             QGVAR(Meal_Spiralnudeln_Hackfleischsosse),
             QGVAR(Meal_Tortellini),
@@ -71,7 +71,6 @@ class CfgPatches
             QGVAR(Meal_KerbelKartoffeltopf),
             QGVAR(Meal_Pasta_Siciliana),
             QGVAR(Meal_Nudeln_Fleischkloesschen),
-            QGVAR(Meal_Jaegertopf),
 
             QGVAR(Snack_Griessspeise_Fruechte),
             QGVAR(Snack_Obstsalat),
@@ -107,10 +106,6 @@ class CfgPatches
             QGVAR(HydrationBladder_2L_2_4),
             QGVAR(HydrationBladder_2L_1_4),
             QGVAR(HydrationBladder_2L_Empty),
-            QGVAR(HydrationBladder_1_5L),
-            QGVAR(HydrationBladder_1_5L_2_3),
-            QGVAR(HydrationBladder_1_5L_1_3),
-            QGVAR(HydrationBladder_1_5L_Empty),
 
             QGVAR(Keksies)
         }; 

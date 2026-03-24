@@ -78,16 +78,6 @@
                 <English>[CSW] 100 Rnd Belt 127x99mm Ball</English>
                 <German>[CSW] Gurt 100 Sch. 127x99mm Ball</German>
             </Key>
-            <Key ID="STR_gerrng_csw_100Rnd_127x99_slap">
-                <Original>[CSW] 100 Rnd Belt 127x99mm SLAP</Original>
-                <English>[CSW] 100 Rnd Belt 127x99mm SLAP</English>
-                <German>[CSW] Gurt 100 Sch. 127x99mm SLAP</German>
-            </Key>
-            <Key ID="STR_gerrng_csw_100Rnd_127x99_slap_tracer_red">
-                <Original>[CSW] 100 Rnd Belt 127x99mm SLAP Tracer</Original>
-                <English>[CSW] 100 Rnd Belt 127x99mm SLAP Tracer</English>
-                <German>[CSW] Gurt 100 Sch. 127x99mm SLAP Leuchtspur</German>
-            </Key>
             <Key ID="STR_gerrng_csw_100Rnd_127x99_tracer">
                 <Original>[CSW] 100 Rnd Belt 127x99mm Tracer</Original>
                 <English>[CSW] 100 Rnd Belt 127x99mm Tracer</English>
@@ -98,16 +88,6 @@
                 <English>[CSW] 150 Rnd Belt 127x99mm Ball</English>
                 <German>[CSW] Gurt 150 Sch. 127x99mm Ball</German>
             </Key>
-            <Key ID="STR_gerrng_csw_150Rnd_127x99_slap">
-                <Original>[CSW] 150 Rnd Belt 127x99mm SLAP</Original>
-                <English>[CSW] 150 Rnd Belt 127x99mm SLAP</English>
-                <German>[CSW] Gurt 150 Sch. 127x99mm SLAP</German>
-            </Key>
-            <Key ID="STR_gerrng_csw_150Rnd_127x99_slap_tracer_red">
-                <Original>[CSW] 150 Rnd Belt 127x99mm SLAP Tracer</Original>
-                <English>[CSW] 150 Rnd Belt 127x99mm SLAP Tracer</English>
-                <German>[CSW] Gurt 150 Sch. 127x99mm SLAP Leuchtspur</German>
-            </Key>
             <Key ID="STR_gerrng_csw_150Rnd_127x99_tracer">
                 <Original>[CSW] 150 Rnd Belt 127x99mm Tracer</Original>
                 <English>[CSW] 150 Rnd Belt 127x99mm Tracer</English>
@@ -117,16 +97,6 @@
                 <Original>[CSW] 200 Rnd Belt 127x99mm Ball</Original>
                 <English>[CSW] 200 Rnd Belt 127x99mm Ball</English>
                 <German>[CSW] Gurt 200 Sch. 127x99mm Ball</German>
-            </Key>
-            <Key ID="STR_gerrng_csw_200Rnd_127x99_slap">
-                <Original>[CSW] 200 Rnd Belt 127x99mm SLAP</Original>
-                <English>[CSW] 200 Rnd Belt 127x99mm SLAP</English>
-                <German>[CSW] Gurt 200 Sch. 127x99mm SLAP</German>
-            </Key>
-            <Key ID="STR_gerrng_csw_200Rnd_127x99_slap_tracer_red">
-                <Original>[CSW] 200 Rnd Belt 127x99mm SLAP Tracer</Original>
-                <English>[CSW] 200 Rnd Belt 127x99mm SLAP Tracer</English>
-                <German>[CSW] Gurt 200 Sch. 127x99mm SLAP Leuchtspur</German>
             </Key>
             <Key ID="STR_gerrng_csw_200Rnd_127x99_tracer">
                 <Original>[CSW] 200 Rnd Belt 127x99mm Tracer</Original>
