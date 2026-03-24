@@ -14,10 +14,17 @@ class CfgPatches
             QGVAR(HMG_M3M_Scope),
             QGVAR(HMG_M3M_high_Shield),
             QGVAR(HMG_M3M_Shield),
-            QGVAR(m3mTripod),
-            QGVAR(m3mTripodLow)
+            QGVAR(GMG_GraMaWa),
+            QGVAR(GMG_GraMaWa_Tripod_bag),
+            QGVAR(GMG_GraMaWa_Gun_Bag)
         }; 
-        weapons[] = {}; 
+        weapons[] = {
+            QGVAR(GraMaWa_carry),
+            QGVAR(M3M_carry_Shield),
+            QGVAR(M3M_carry_ScopeShield),
+            QGVAR(M3M_carry_Scope),
+            QGVAR(M3M_carry)
+        }; 
         requiredVersion = REQUIRED_VERSION; 
         requiredAddons[] = {}; 
         author = ECSTRING(main,Team); 

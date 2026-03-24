@@ -54,6 +54,21 @@ class gerrng_OpsCore_Covered_Fleck: gerrng_OpsCore_Covered_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
 	};
 };
+
+
+class gerrng_OpsCore_Covered_Tropen: gerrng_OpsCore_Covered_base {
+	scope=2;
+	displayName="OpsCore MT (Tropen)";
+	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+	hiddenSelectionsTextures[]=
+	{
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_part_1_tan_co.paa",
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+	};
+};
+
 class gerrng_OpsCore_sprayed: gerrng_OpsCore_Covered_base {
 	scope=2;
 	displayName="OpsCore MT (Sprayed)";
@@ -173,6 +188,20 @@ class gerrng_OpsCore_Covered_Fleck_SF: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
 	};
 };
+
+class gerrng_OpsCore_Covered_Tropen_SF: gerrng_OpsCore_Covered_SF_base {
+    scope=2;
+    displayName="OpsCore MT SF (Tropen)";
+    hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+    hiddenSelectionsTextures[]=
+    {
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_part_1_tan_co.paa",
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+    };
+};
+
 class gerrng_OpsCore_sprayed_SF: gerrng_OpsCore_Covered_SF_base {
 	scope=2;
 	displayName="OpsCore MT SF (Sprayed)";
@@ -292,6 +321,20 @@ class gerrng_OpsCore_Covered_Fleck_NoHS: gerrng_OpsCore_Covered_NoHS_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
 	};
 };
+
+class gerrng_OpsCore_Covered_Tropen_NoHS: gerrng_OpsCore_Covered_NoHS_base {
+    scope=2;
+    displayName="OpsCore MT NoHS (Tropen)";
+    hiddenSelections[] = {"camo1","camo2","camo3","flag"};
+    hiddenSelectionsTextures[]=
+    {
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_tropentarn_co.paa",
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_part_1_tan_co.paa",
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
+        "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
+    };
+};
+
 class gerrng_OpsCore_sprayed_NoHS: gerrng_OpsCore_Covered_NoHS_base {
 	scope=2;
 	displayName="OpsCore MT NoHS (Sprayed)";

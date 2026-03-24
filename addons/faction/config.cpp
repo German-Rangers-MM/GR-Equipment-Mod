@@ -5,7 +5,9 @@ class CfgPatches
     class ADDON
     { 
         name = COMPONENT_NAME;
-        weapons[] = {}; 
+        weapons[] = {
+            QGVARMAIN(vehCamonetItem)
+        }; 
         requiredVersion = REQUIRED_VERSION; 
         requiredAddons[] = {}; 
         author = ECSTRING(main,Team); 
@@ -13,14 +15,6 @@ class CfgPatches
         authors[] = {""};
         units[] = {
 
-            QGVAR(M1129_MC_MK19_Wdl),
-            QGVAR(M270_HE_Wdl),
-            QGVAR(MBT_01_arty_F),
-            QGVAR(M119),
-            QGVAR(M252),
-
-            QGVAR(CH_53E_TTH_01),
-            QGVAR(CH_53E_TTH_VIV_01),
 
             QGVAR(B_Dingo_GER_Wdl),
             QGVAR(B_Dingo_GL_GER_Wdl),
@@ -33,15 +27,13 @@ class CfgPatches
             QGVAR(B_FENNEK_GER_HMG_D),
             QGVAR(B_FENNEK_GER_GMG_Wdl),
             QGVAR(B_FENNEK_GER_GMG_D),
-            QGVAR(B_FENNEK_GER_Recon_Wdl),
-            QGVAR(B_FENNEK_GER_Recon_D),
+            QGVAR(B_FENNEK_GER_SF_Wdl),
+            QGVAR(B_FENNEK_GER_SF_D),
+            QGVAR(B_FENNEK_GER_SF_HMG_Wdl),
+            QGVAR(B_FENNEK_GER_SF_HMG_D),
             QGVAR(FENNEK_NEF_W),
             QGVAR(FENNEK_NEF_D),
 
-            QGVAR(CH_146_Griffon_Radar_01),
-            QGVAR(CH_146_Griffon_Transport_01),
-            QGVAR(CH_146_Griffon_CAS_01),
-            QGVAR(CH_146_Griffon_MedEvac_01),
 
             QGVAR(M1133_MEV_Wdl),
             QGVAR(Boxer_Empty_GER_WDL),
@@ -58,8 +50,8 @@ class CfgPatches
             QGVAR(AFV_Wheeled_up_slat),
             QGVAR(APC_Tracked_CRV),
 
-            QGVAR(MK10_GB),
-            QGVAR(LCU1600_HIL),
+            QGVAR(MK10),
+            QGVAR(LCU1600),
             QGVAR(SDV_01_F),
             QGVAR(Boat_Transport_01_F),
             QGVAR(Boat_Armed_01_minigun_F),
@@ -74,9 +66,9 @@ class CfgPatches
             QGVAR(LR_SF_HMG),
             QGVAR(LR_SF_GMG),
             QGVAR(Jackal2_L2A1),
-            QGVAR(Jackal2_L2A1_GMG),
+            QGVAR(Jackal2_GMG),
             QGVAR(Coyote_L2A1),
-            QGVAR(Coyote_L2A1_GMG),
+            QGVAR(Coyote_GMG),
             QGVAR(Quadbike_01_F),
 
             QGVAR(MBT_03_cannon_F),
@@ -123,7 +115,6 @@ class CfgPatches
             QGVAR(Lkw15t_fuel_W),
             QGVAR(Lkw15t_fuel_D),
 
-            QGVAR(MH60S_MEV),
 
             QGVAR(Van_Transport_BW),
             QGVAR(Van_San_BW),
