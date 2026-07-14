@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="gerrng">
+    <Package name="breaching">
+        <Key ID="STR_gerrng_breaching_AI_subcat">
+            <Original>AI Noise Awareness</Original>
+            <English>AI Noise Awareness</English>
+            <German>KI Lärm-Wahrnehmung</German>
+        </Key>
+        <Key ID="STR_gerrng_breaching_tool_subcat">
+            <Original>Breaching Tools</Original>
+            <English>Breaching Tools</English>
+            <German>Brechwerkzeuge</German>
+        </Key>
+        <Key ID="STR_gerrng_breaching_fatigue_subcat">
+            <Original>Fatigue Modifier</Original>
+            <English>Fatigue Modifier</English>
+            <German>Ausdauer-Modifikator</German>
+        </Key>
+    </Package>
+</Project>

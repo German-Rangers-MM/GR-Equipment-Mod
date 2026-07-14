@@ -155,6 +155,7 @@ class GVAR(Boxer_HMG_GER_DES): CUP_B_Boxer_HMG_GER_DES
     };
 };
 
+
 class B_APC_Wheeled_01_cannon_F;
 class GVAR(APC_Wheeled): B_APC_Wheeled_01_cannon_F
 {
@@ -374,7 +375,7 @@ class GVAR(AFV_Wheeled_up): B_AFV_Wheeled_01_up_cannon_F
 		{
 			displayName = CSTRING(camo_snd);
 			author = "Bohemia Interactive";
-			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa","a3\Armor_F\Data\camonet_NATO_Desert_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"};
+			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_sand_CO.paa","a3\Armor_F\Data\camonet_NATO_Desert_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
 		};
 		
@@ -382,14 +383,14 @@ class GVAR(AFV_Wheeled_up): B_AFV_Wheeled_01_up_cannon_F
 		{
 			displayName = CSTRING(camo_snd_wdlNetting);
 			author = "Bohemia Interactive";
-			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"};
+			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_sand_CO.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
 		};
 		class Green
 		{
 			displayName = CSTRING(camo_grn);
 			author = "Bohemia Interactive";
-			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_green_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_green_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa"};
+			textures[] = {"a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT1_green_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_EXT2_green_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa","a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_CO.paa","a3\Armor_F\Data\camonet_NATO_Green_CO.paa","A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa"};
 			factions[] = {QGVAR(rangers_faction)};
 		};
 	};

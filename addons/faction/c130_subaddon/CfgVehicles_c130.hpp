@@ -6,6 +6,11 @@ class GVAR(C130J): CUP_B_C130J_USMC
     displayName = "C-130J Hercules";
 	
 	crew = "CUP_B_GER_Fleck_HPilot";
+	
+	receiveRemoteTargets = 1;
+
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
 
     hiddenSelections[] = {"camo1","camo2"};
     hiddenSelectionsTextures[] = {QPATHTOF(c130_subaddon\data\c130j_0_GAF_body_co.paa),QPATHTOF(c130_subaddon\data\c130j_1_GAF_wings_co.paa)};
@@ -30,6 +35,11 @@ class GVAR(C130J_Cargo): CUP_B_C130J_Cargo_USMC
     displayName = "C-130J Hercules (ViV)";
 	
 	crew = "CUP_B_GER_Fleck_HPilot";
+	
+	receiveRemoteTargets = 1;
+
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
 
     hiddenSelections[] = {"camo1","camo2"};
     hiddenSelectionsTextures[] = {QPATHTOF(c130_subaddon\data\c130j_0_GAF_body_co.paa),QPATHTOF(c130_subaddon\data\c130j_1_GAF_wings_co.paa)};

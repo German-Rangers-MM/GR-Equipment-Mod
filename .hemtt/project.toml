@@ -16,7 +16,8 @@ version= "{{git \"id 8\"}}"
 [files]
 include = [
     "mod.cpp",
-    "icon.paa"
+    "icon.paa",
+    "resources/GR_Intro_mov.ogv"
 ]
 
 [version]

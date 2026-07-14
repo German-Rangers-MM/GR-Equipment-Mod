@@ -34,8 +34,12 @@ class GVAR(CH_146_Griffon_Radar_01) : CUP_I_412_Military_Radar_AAF {
 
 	receiveRemoteTargets = 1;
 	reportRemoteTargets = 1;
+
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
 	
 
+	ace_fastroping_enabled = 1;
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
@@ -109,6 +113,10 @@ class GVAR(CH_146_Griffon_Transport_01) : CUP_I_412_Mil_Transport_AAF {
 
 	receiveRemoteTargets = 1;
 
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
+
+	ace_fastroping_enabled = 1;
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=
@@ -196,6 +204,9 @@ class GVAR(CH_146_Griffon_CAS_01) : CUP_412_dynamicLoadout_Base_F {
 
 	receiveRemoteTargets = 1;
 	reportRemoteTargets = 1;
+
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
 	
 
 
@@ -280,7 +291,11 @@ class GVAR(Ch_146_Griffon_MedEvac_01) : CUP_I_412_Military_Radar_AAF {
 
 	receiveRemoteTargets = 1;
 	reportRemoteTargets = 1;
-	
+
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
+
+	ace_fastroping_enabled = 1;	
 
 	hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5"};
 	hiddenSelectionsTextures[]=

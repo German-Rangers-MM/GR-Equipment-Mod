@@ -23,6 +23,10 @@ class GVAR(CH_53E_TTH_01) : CUP_B_CH53E_GER {
 	
 	receiveRemoteTargets = 1;
 
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
+
+	ace_fastroping_enabled = 1;
 
 
 	class TransportBackpacks
@@ -83,6 +87,9 @@ class GVAR(CH_53E_TTH_VIV_01) : CUP_B_CH53E_VIV_GER {
 	editorSubcategory = QGVAR(Heli_H_Subcat);
 	
 	receiveRemoteTargets = 1;
+
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
 
  
 	class TransportBackpacks

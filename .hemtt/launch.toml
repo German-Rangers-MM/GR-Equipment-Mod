@@ -9,7 +9,10 @@ workshop = [
     "1779063631", # ZEN
     "2589302544", # MAA
     "623475643", # 3DEN Enhanced
-    "2073243184" # 3Den Stringtable Viewer
+    "2073243184", # 3Den Stringtable Viewer
+    "3438246217", # cTab Advanced [BETA]
+    "3283642267", # Speshal Core
+    "3283645995" # TSP Breach Rewrite
 ]
 
 [cup]
@@ -19,6 +22,13 @@ workshop = [
     "541888371", # CUP Vehicles
     "497661914", # CUP Units
     "1224892496",
+    "2811886291", # SPS Weapons
+    "1187306764"
+]
+[aceax]
+extends = "cup"
+workshop = [
+    "2522638637", # ACEAX - Core's Workshop ID
 ]
 
 [art]

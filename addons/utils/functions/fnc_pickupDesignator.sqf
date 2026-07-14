@@ -7,12 +7,12 @@ params ["_target","_unit"];
 
 private  _designatorVehicleClass = typeOf _target;
 
-_designatorItemClass = switch (_designatorVehicleClass) do {
+private _designatorItemClass = switch (_designatorVehicleClass) do {
 	case "B_W_Static_Designator_01_F": {QGVAR(remote_designator_w)};
 	case "B_Static_Designator_01_F": {QGVAR(remote_designator_d)};
 };
 
-_designatorFallbackClass = switch (_designatorVehicleClass) do {
+private _designatorFallbackClass = switch (_designatorVehicleClass) do {
 	case "B_W_Static_Designator_01_F": {QGVAR(item_remote_designator_w)};
 	case "B_Static_Designator_01_F": {QGVAR(item_remote_designator_d)};
 };
@@ -32,7 +32,7 @@ if ((_unit call CBA_fnc_getUnitAnim) select 0 == "stand") then {
 	{_target deleteVehicleCrew _x} forEach crew _target;
 	deleteVehicle _target;
 
-	_designatorFallback = _designatorFallbackClass createVehicle [0, 0, 0];
+	private _designatorFallback = _designatorFallbackClass createVehicle [0, 0, 0];
 	_designatorFallback setPosASL _tempPos;
 	_designatorFallback setDir _tempDir;
 	if ((getPosATL _designatorFallback select 2) - (getPos _designatorFallback select 2) < 1E-5) then {

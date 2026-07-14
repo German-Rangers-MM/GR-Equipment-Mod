@@ -10,7 +10,7 @@ private _displayNameVehicle = getText (configOf _target >> "displayName");
 private _displayNameNewClass = getText (configOf _target >> _newClass >> "displayName");
 
 
-private _aceCargo = _vehicle getVariable [QACEGVAR(cargo,loaded), []];
+private _aceCargo = _target getVariable [QACEGVAR(cargo,loaded), []];
 
     
 if(count _aceCargo > 0) exitWith {
@@ -20,7 +20,7 @@ if(count _aceCargo > 0) exitWith {
 };
 
 
-if(count getVehicleCargo _vehicle > 0) exitWith {
+if(count getVehicleCargo _target > 0) exitWith {
     [format[LLSTRING(changeVehicleInPlace_failure),_displayNameVehicle,LLSTRING(changeVehicleInPlace_VivCargoNotEmpty)],true,5,1] call ACEFUNC(common,displayText);
     
     false

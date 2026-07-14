@@ -214,7 +214,7 @@ class gerrng_OpsCore_sprayed_SF: gerrng_OpsCore_Covered_SF_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
 	};
 };
-class gerrng_OpsCore_grey_SF: gerrng_OpsCore_Covered_base {
+class gerrng_OpsCore_grey_SF: gerrng_OpsCore_Covered_SF_base {
 	scope=2;
 	displayName="OpsCore MT SF (Grey)";
 	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
@@ -226,7 +226,7 @@ class gerrng_OpsCore_grey_SF: gerrng_OpsCore_Covered_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
 	};
 };
-class gerrng_OpsCore_green_SF: gerrng_OpsCore_Covered_base {
+class gerrng_OpsCore_green_SF: gerrng_OpsCore_Covered_SF_base {
 	scope=2;
 	displayName="OpsCore MT SF (Green)";
 	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
@@ -238,7 +238,7 @@ class gerrng_OpsCore_green_SF: gerrng_OpsCore_Covered_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
 	};
 };
-class gerrng_OpsCore_tan_SF: gerrng_OpsCore_Covered_base {
+class gerrng_OpsCore_tan_SF: gerrng_OpsCore_Covered_SF_base {
 	scope=2;
 	displayName="OpsCore MT SF (Tan)";
 	hiddenSelections[] = {"camo1","camo2","camo3","flag"};
@@ -250,7 +250,7 @@ class gerrng_OpsCore_tan_SF: gerrng_OpsCore_Covered_base {
 		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa"
 	};
 };
-class gerrng_OpsCore_black_SF: gerrng_OpsCore_Covered_base {
+class gerrng_OpsCore_black_SF: gerrng_OpsCore_Covered_SF_base {
 	scope=2;
 	displayName="OpsCore MT SF (Black)";
 	hiddenSelections[] = {"camo1","camo2","camo3","flag"};

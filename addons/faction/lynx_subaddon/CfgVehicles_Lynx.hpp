@@ -31,6 +31,11 @@ class GVAR(Lynx_Unarmed_Base): CUP_AW159_Unarmed_Base
 	animationList[] = {"hide_radar",0,"hide_struts",0};
 	hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_AW159\data\lynx_base_co.paa","\CUP\AirVehicles\CUP_AirVehicles_AW159\data\ah64d_details_co.paa"};
 	
+    receiveRemoteTargets = 1;
+
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
+
 	class Components: Components
 	{
 		class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
@@ -547,6 +552,9 @@ class GVAR(Lynx_Dynamic_Base): GVAR(Lynx_Unarmed_Base)
 	side = 1;
 	scopeCurator = 0;
 	ace_fastroping_enabled = 0;
+
+    reportRemoteTargets = 1;
+
 	class Components: Components
 	{
 		class TransportPylonsComponent

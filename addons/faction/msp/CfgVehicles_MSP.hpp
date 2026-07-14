@@ -71,13 +71,15 @@ class GVAR(Box_ammo_L_F): Land_PlasticCase_01_large_olive_F
 	displayName = CSTRING(box_ammo_l);
 	ace_dragging_canCarry = 1;
 	ace_dragging_canDrag = 1;
-	ace_rearm_defaultSupply = 400;
+	ace_rearm_defaultSupply = 600;
 	hiddenSelections[] = {"Camo","Camo2"};
 	hiddenSelectionsTextures[] = {
 		"a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_olive_CO.paa",
 		QPATHTOF(data\PlasticCase_01_Ammo_Logo_01_CA)
 	};
 	editorPreview = QPATHTOF(data\preview\Box_ammo_L_F.jpg);
+    supplyRadius = 10;
+    transportAmmo = 6000;
 };
 
 class GVAR(Box_ammo_M_F): Land_PlasticCase_01_medium_olive_F
@@ -91,13 +93,15 @@ class GVAR(Box_ammo_M_F): Land_PlasticCase_01_medium_olive_F
 	displayName = CSTRING(box_ammo_m);
 	ace_dragging_canCarry = 1;
 	ace_dragging_canDrag = 1;
-	ace_rearm_defaultSupply = 200;
+	ace_rearm_defaultSupply = 400;
 	hiddenSelections[] = {"Camo","Camo2"};
 	hiddenSelectionsTextures[] = {
 		"a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_olive_CO.paa",
 		QPATHTOF(data\PlasticCase_01_Ammo_Logo_01_CA)
 	};
 	editorPreview = QPATHTOF(data\preview\Box_ammo_M_F.jpg);
+    supplyRadius = 10;
+    transportAmmo = 4000;
 };
 
 class GVAR(Box_ammo_S_F): Land_PlasticCase_01_small_olive_F
@@ -111,13 +115,15 @@ class GVAR(Box_ammo_S_F): Land_PlasticCase_01_small_olive_F
 	displayName = CSTRING(box_ammo_s);
 	ace_dragging_canCarry = 1;
 	ace_dragging_canDrag = 1;
-	ace_rearm_defaultSupply = 100;
+	ace_rearm_defaultSupply = 200;
 	hiddenSelections[] = {"Camo","Camo2"};
 	hiddenSelectionsTextures[] = {
 		"a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_olive_CO.paa",
 		QPATHTOF(data\PlasticCase_01_Ammo_Logo_01_CA)
 	};
 	editorPreview = QPATHTOF(data\preview\Box_ammo_S_F.jpg);
+    supplyRadius = 10;
+    transportAmmo = 2000;
 };
 
 

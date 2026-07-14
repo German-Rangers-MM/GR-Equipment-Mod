@@ -250,171 +250,167 @@ class CfgVehicles {
 
 				};
 			
-			//Insignia
-			class InsigniaAction {
-				displayName = "Insignia";
-				condition = "";
-				exceptions[] = {};
-				statement = "";
-				icon = QPATHTOF(icon\helm2.paa);							
-				class InsigniaAction_K {
-					displayName = "Kilo";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\kilo.paa);
-					MAKE_INSIGNIA_ACTION(Kilo,Kilo);
-					MAKE_INSIGNIA_ACTION(Kilo_trop,Kilo Tropentarn);
-					MAKE_INSIGNIA_ACTION(Kilo_ft,Kilo Flecktarn);
-				};
+                //Insignia
+                class InsigniaAction {
+                    displayName = "Insignia";
+                    condition = "";
+                    exceptions[] = {};
+                    statement = "";
+                    icon = QPATHTOF(icon\helm2.paa);							
+                    class InsigniaAction_K {
+                        displayName = "Kilo";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\kilo.paa);
+                        MAKE_INSIGNIA_ACTION(Kilo,Kilo);
+                        MAKE_INSIGNIA_ACTION(Kilo_trop,Kilo Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Kilo_ft,Kilo Flecktarn);
+                    };
 
-				class InsigniaAction_F {
-					displayName = "Fox";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\fox.paa);
-					MAKE_INSIGNIA_ACTION(Fox,Fox);
-					MAKE_INSIGNIA_ACTION(Fox_trop,Fox Tropentarn);
-					MAKE_INSIGNIA_ACTION(Fox_ft,Fox Flecktarn);
-				};	
-				
-				class InsigniaAction_V {
-					displayName = "Victor";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\victor.paa);
-					MAKE_INSIGNIA_ACTION(Victor,Victor);
-					MAKE_INSIGNIA_ACTION(Victor_ft,Victor Flecktarn);
-					MAKE_INSIGNIA_ACTION(Victor_trop,Victor Tropentarn);
-				};
-				
-				class InsigniaAction_A {
-					displayName = "Alpha";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\alfa.paa);
-					MAKE_INSIGNIA_ACTION(Alpha,Alpha);
-					MAKE_INSIGNIA_ACTION(Alpha_trop,Alpha Tropentarn);
-					MAKE_INSIGNIA_ACTION(Alpha_ft,Alpha Flecktarn);
-				};
-				
-				class InsigniaAction_B {
-					displayName = "Bravo";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\bravo.paa);
-					MAKE_INSIGNIA_ACTION(Bravo,Bravo);
-					MAKE_INSIGNIA_ACTION(Bravo_trop,Bravo Tropentarn);
-					MAKE_INSIGNIA_ACTION(Bravo_ft,Bravo Flecktarn);
-				};
-							
-				class InsigniaAction_C {
-					displayName = "Charlie";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\charlie.paa);
-					MAKE_INSIGNIA_ACTION(Charlie,Charlie);
-					MAKE_INSIGNIA_ACTION(Charlie_trop,Charlie Tropentarn);
-					MAKE_INSIGNIA_ACTION(Charlie_ft,Charlie Flecktarn);
-				};
+                    class InsigniaAction_F {
+                        displayName = "Fox";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\fox.paa);
+                        MAKE_INSIGNIA_ACTION(Fox,Fox);
+                        MAKE_INSIGNIA_ACTION(Fox_trop,Fox Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Fox_ft,Fox Flecktarn);
+                    };	
+                    
+                    class InsigniaAction_V {
+                        displayName = "Victor";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\victor.paa);
+                        MAKE_INSIGNIA_ACTION(Victor,Victor);
+                        MAKE_INSIGNIA_ACTION(Victor_ft,Victor Flecktarn);
+                        MAKE_INSIGNIA_ACTION(Victor_trop,Victor Tropentarn);
+                    };
+                    
+                    class InsigniaAction_A {
+                        displayName = "Alpha";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\alfa.paa);
+                        MAKE_INSIGNIA_ACTION(Alpha,Alpha);
+                        MAKE_INSIGNIA_ACTION(Alpha_trop,Alpha Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Alpha_ft,Alpha Flecktarn);
+                    };
+                    
+                    class InsigniaAction_B {
+                        displayName = "Bravo";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\bravo.paa);
+                        MAKE_INSIGNIA_ACTION(Bravo,Bravo);
+                        MAKE_INSIGNIA_ACTION(Bravo_trop,Bravo Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Bravo_ft,Bravo Flecktarn);
+                    };
+                                
+                    class InsigniaAction_C {
+                        displayName = "Charlie";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\charlie.paa);
+                        MAKE_INSIGNIA_ACTION(Charlie,Charlie);
+                        MAKE_INSIGNIA_ACTION(Charlie_trop,Charlie Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Charlie_ft,Charlie Flecktarn);
+                    };
 
-				class InsigniaAction_Z {
-					displayName = "Zulu";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\zulu.paa);
-					MAKE_INSIGNIA_ACTION(Zulu,Zulu);
-					MAKE_INSIGNIA_ACTION(Zulu_trop,Zulu Tropentarn);
-					MAKE_INSIGNIA_ACTION(Zulu_ft,Zulu Flecktarn);
-					MAKE_INSIGNIA_ACTION(DM,DM);
-				};
-				
-				class InsigniaAction_Y {
-					displayName = "Yankee";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\yankee.paa);
-					MAKE_INSIGNIA_ACTION(Yankee,Yankee);
-					MAKE_INSIGNIA_ACTION(Yankee_trop,Yankee Tropentarn);
-					MAKE_INSIGNIA_ACTION(Yankee_ft,Yankee Flecktarn);
-				};
-				
-				class InsigniaAction_X {
-					displayName = "X-Ray";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\x-ray.paa);
-					MAKE_INSIGNIA_ACTION(XRay,XRay);
-					MAKE_INSIGNIA_ACTION(XRay_trop,XRay Tropentarn);
-					MAKE_INSIGNIA_ACTION(XRay_ft,XRay Flecktarn);
-				};
-				
-				class InsigniaAction_S {
-					displayName = "Sierra";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\sierra.paa);
-					MAKE_INSIGNIA_ACTION(Sierra,Sierra);
-					MAKE_INSIGNIA_ACTION(Sierra_trop,Sierra Tropentarn);
-					MAKE_INSIGNIA_ACTION(Sierra_ft,Sierra Flecktarn);
-				};	
-				
-				class InsigniaAction_M {
-					displayName = "Mike";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\mike.paa);
-					MAKE_INSIGNIA_ACTION(Mike,Mike);
-					MAKE_INSIGNIA_ACTION(Mike_trop,Mike Tropentarn);
-					MAKE_INSIGNIA_ACTION(Mike_ft,Mike Flecktarn);
-				};	
-				
-				class InsigniaAction_L {
-					displayName = "Lima";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\lima.paa);
-					MAKE_INSIGNIA_ACTION(Lima,Lima);
-					MAKE_INSIGNIA_ACTION(Lima_trop,Lima Tropentarn);
-					MAKE_INSIGNIA_ACTION(Lima_ft,Lima Flecktarn);
-				};
-				
-				class InsigniaAction_R {
-					displayName = "Romeo";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\romeo.paa);
-					MAKE_INSIGNIA_ACTION(Romeo,Romeo);	
-				};
-					/*
-					class InsigniaAction_S {
-					displayName = "Sanitäter";
-					condition = "";
-					exceptions[] = {};
-					statement = "";
-					icon = QPATHTOF(icon\sani.paa);
-			
-						class InsigniaAction_San {
-						displayName = "Sanitäter";
-						condition = "";
-						exceptions[] = {};
-						statement = QUOTE([ARR_2(player,'Sani')] call BIS_fnc_setUnitInsignia);						
-						icon = "";
-						};
-					};
-					*/
+                    class InsigniaAction_Z {
+                        displayName = "Zulu";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\zulu.paa);
+                        MAKE_INSIGNIA_ACTION(Zulu,Zulu);
+                        MAKE_INSIGNIA_ACTION(Zulu_trop,Zulu Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Zulu_ft,Zulu Flecktarn);
+                        MAKE_INSIGNIA_ACTION(DM,DM);
+                    };
+                    
+                    class InsigniaAction_Y {
+                        displayName = "Yankee";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\yankee.paa);
+                        MAKE_INSIGNIA_ACTION(Yankee,Yankee);
+                        MAKE_INSIGNIA_ACTION(Yankee_trop,Yankee Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Yankee_ft,Yankee Flecktarn);
+                    };
+                    
+                    class InsigniaAction_X {
+                        displayName = "X-Ray";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\x-ray.paa);
+                        MAKE_INSIGNIA_ACTION(XRay,XRay);
+                        MAKE_INSIGNIA_ACTION(XRay_trop,XRay Tropentarn);
+                        MAKE_INSIGNIA_ACTION(XRay_ft,XRay Flecktarn);
+                        MAKE_INSIGNIA_ACTION(XRay_Legacy,XRay Legacy);
+                        MAKE_INSIGNIA_ACTION(XRay_ft_Legacy,XRay Flecktarn Legacy);
+                        MAKE_INSIGNIA_ACTION(XRay_trop_Legacy,XRay Tropentarn Legacy);
+                    };
+                    
+                    class InsigniaAction_S {
+                        displayName = "Sierra";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\sierra.paa);
+                        MAKE_INSIGNIA_ACTION(Sierra,Sierra);
+                        MAKE_INSIGNIA_ACTION(Sierra_trop,Sierra Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Sierra_ft,Sierra Flecktarn);
+                    };	
+                    
+                    class InsigniaAction_M {
+                        displayName = "Mike";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\mike.paa);
+                        MAKE_INSIGNIA_ACTION(Mike,Mike);
+                        MAKE_INSIGNIA_ACTION(Mike_trop,Mike Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Mike_ft,Mike Flecktarn);
+                    };	
+                    
+                    class InsigniaAction_L {
+                        displayName = "Lima";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\lima.paa);
+                        MAKE_INSIGNIA_ACTION(Lima,Lima);
+                        MAKE_INSIGNIA_ACTION(Lima_trop,Lima Tropentarn);
+                        MAKE_INSIGNIA_ACTION(Lima_ft,Lima Flecktarn);
+                    };
+                    
+                    class InsigniaAction_R {
+                        displayName = "Romeo";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\romeo.paa);
+                        MAKE_INSIGNIA_ACTION(Romeo,Romeo);	
+                    };
+
+                    class InsigniaAction_Misc {
+                        displayName = "Sonstige";
+                        condition = "";
+                        exceptions[] = {};
+                        statement = "";
+                        icon = QPATHTOF(icon\helm2.paa);
+                        MAKE_INSIGNIA_ACTION(Rentner,Rentner);
+                    };
+
 				};
 			};
 		};

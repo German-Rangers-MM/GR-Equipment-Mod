@@ -60,4 +60,20 @@ class ACE_Medical_Treatment_Actions {
         animationPatientUnconsciousExcludeOn[] = {"ainjppnemstpsnonwrfldnon"};
         litter[] = {};
     };
+    class GVAR(vaseline): Morphine {
+        displayName = CSTRING(Apply_vaseline);
+        displayNameProgress = KATCSTRING(Pharma,Using);
+        category = "advanced";
+        treatmentLocations = 0;
+        allowSelfTreatment = 1;
+        allowedSelections[] = {"Body", "Head", "LeftArm", "RightArm", "LeftLeg", "RightLeg"};
+        medicRequired = QGVAR(medLvl_vaseline);
+        treatmentTime = QGVAR(treatmentTime_vaseline);
+        items[] = {QGVAR(vaseline)};
+        condition = QUOTE([_patient] call ACEFUNC(medical_status,isInStableCondition));
+        callbackSuccess = QFUNC(treatment_vaseline);
+        animationPatientUnconscious = "AinjPpneMstpSnonWrflDnon_rolltoback";
+        animationPatientUnconsciousExcludeOn[] = {"ainjppnemstpsnonwrfldnon"};
+        litter[] = {};
+    };
 };

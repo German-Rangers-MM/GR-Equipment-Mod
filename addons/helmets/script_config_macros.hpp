@@ -164,7 +164,7 @@ class gerrng_OpsCore_grey_NoHS_##nameShort: gerrng_OpsCore_Covered_NoHS_base { \
         "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa" \
     }; \
 }; \
-class gerrng_OpsCore_grey_SF_##nameShort: gerrng_OpsCore_Covered_base { \
+class gerrng_OpsCore_grey_SF_##nameShort: gerrng_OpsCore_Covered_SF_base { \
     scope=2; \
     displayName=QUOTE(OpsCore MT SF CONCAT_tag(groupTag,groupFunc) (Grey)); \
     hiddenSelections[] = {"camo1","camo2","camo3","flag"}; \
@@ -200,7 +200,7 @@ class gerrng_OpsCore_green_NoHS_##nameShort: gerrng_OpsCore_Covered_NoHS_base { 
         "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa" \
     }; \
 }; \
-class gerrng_OpsCore_green_SF_##nameShort: gerrng_OpsCore_Covered_base { \
+class gerrng_OpsCore_green_SF_##nameShort: gerrng_OpsCore_Covered_SF_base { \
     scope=2; \
     displayName=QUOTE(OpsCore MT SF CONCAT_tag(groupTag,groupFunc) (Green)); \
     hiddenSelections[] = {"camo1","camo2","camo3","flag"}; \
@@ -236,7 +236,7 @@ class gerrng_OpsCore_tan_NoHS_##nameShort: gerrng_OpsCore_Covered_NoHS_base { \
         "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa" \
     }; \
 }; \
-class gerrng_OpsCore_tan_SF_##nameShort: gerrng_OpsCore_Covered_base { \
+class gerrng_OpsCore_tan_SF_##nameShort: gerrng_OpsCore_Covered_SF_base { \
     scope=2; \
     displayName=QUOTE(OpsCore MT SF CONCAT_tag(groupTag,groupFunc) (Tan)); \
     hiddenSelections[] = {"camo1","camo2","camo3","flag"}; \
@@ -272,7 +272,7 @@ class gerrng_OpsCore_black_NoHS_##nameShort: gerrng_OpsCore_Covered_NoHS_base { 
         "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\german_flag_co.paa" \
     }; \
 }; \
-class gerrng_OpsCore_black_SF_##nameShort: gerrng_OpsCore_Covered_base { \
+class gerrng_OpsCore_black_SF_##nameShort: gerrng_OpsCore_Covered_SF_base { \
     scope=2; \
     displayName=QUOTE(OpsCore MT SF CONCAT_tag(groupTag,groupFunc) (Black)); \
     hiddenSelections[] = {"camo1","camo2","camo3","flag"}; \

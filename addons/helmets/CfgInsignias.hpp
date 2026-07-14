@@ -373,32 +373,60 @@ class CfgUnitInsignia
 		textureVehicle = ""; //Leave blank.
 	};
 	
-	class XRay 
+	class XRay_Legacy
 	{
-		displayName = "GR X-Ray"; //Name that is displayed for the patch in the arsenal.
+		displayName = "GR X-Ray (Legacy)"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - gerrng"; //Your name/team name.
 		texture = QPATHTOF(data\ixray.paa); //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
 
-	class XRay_ft 
+	class XRay_ft_Legacy
 	{
-		displayName = "GR X-Ray Flecktarn"; //Name that is displayed for the patch in the arsenal.
+		displayName = "GR X-Ray Flecktarn (Legacy)"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - gerrng"; //Your name/team name.
 		texture = QPATHTOF(data\ixray_ft.paa); //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
 
-	class XRay_trop 
+	class XRay_trop_Legacy
 	{
-		displayName = "GR X-Ray Tropentarn"; //Name that is displayed for the patch in the arsenal.
+		displayName = "GR X-Ray Tropentarn (Legacy)"; //Name that is displayed for the patch in the arsenal.
 		author = "KlasNi - gerrng"; //Your name/team name.
 		texture = QPATHTOF(data\ixray_trop.paa); //Texture path for your patch.paa. Be sure to have the right file path set up.
 		//Failure to include the right path will result in you patch not appearing properly. 
 		textureVehicle = ""; //Leave blank.
 	};
+
+    class XRay
+    {
+		displayName = "GR X-Ray"; //Name that is displayed for the patch in the arsenal.
+		author = "KlasNi - gerrng"; //Your name/team name.
+		texture = QPATHTOF(data\ixray_2.paa); //Texture path for your patch.paa. Be sure to have the right file path set up.
+		//Failure to include the right path will result in you patch not appearing properly. 
+		textureVehicle = ""; //Leave blank.
+	};
+
+    class XRay_ft
+    {
+        displayName = "GR X-Ray Flecktarn"; //Name that is displayed for the patch in the arsenal.
+        author = "KlasNi - gerrng"; //Your name/team name.
+        texture = QPATHTOF(data\ixray_2_ft.paa); //Texture path for your patch.paa. Be sure to have the right file path set up.
+        //Failure to include the right path will result in you patch not appearing properly.
+        textureVehicle = ""; //Leave blank.
+    };
+
+    class XRay_trop
+    {
+        displayName = "GR X-Ray Tropentarn"; //Name that is displayed for the patch in the arsenal.
+        author = "KlasNi - gerrng"; //Your name/team name.
+        texture = QPATHTOF(data\ixray_2_trop.paa); //Texture path for your patch.paa. Be sure to have the right file path set up.
+        //Failure to include the right path will result in you patch not appearing properly.
+        textureVehicle = ""; //Leave blank.
+    };
+
 	
 	class Mike 
 	{
@@ -670,7 +698,13 @@ class CfgUnitInsignia
 		texture = QPATHTOF(data\iromeo.paa);
 		textureVehicle = "";
 	};
+
+    class Rentner
+    {
+        displayName = "GR Rentner";
+        author = "Walekh - GerRng";
+        texture = QPATHTOF(data\irentner.paa);
+        textureVehicle = "";
+    };
 	
 };
-	
-	

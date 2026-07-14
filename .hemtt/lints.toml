@@ -27,3 +27,8 @@ enabled = false
 
 [sqf.not_private]
 enabled = true
+
+[sqf.var_all_caps]
+options.ignore = [
+    "DEFAULT_CHARGE_FUSE_DELAY", "DEFAULT_FUSE_DELAY", "DEFAULT_CLEARING_DISTANCE", "DEFAULT_LAUNCH_ANGLE"
+]

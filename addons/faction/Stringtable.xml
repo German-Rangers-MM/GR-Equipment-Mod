@@ -407,6 +407,58 @@
                 <German>Lkw 15t GL MULTI Transport (Waldtarn)</German>
             </Key>
         </Container>
+        <Container name="lkw_5t">
+            <Key ID="STR_gerrng_faction_lkw_5t_gtf_d">
+                <Original>Lkw GTF 5t GL (Desert)</Original>
+                <English>Lkw GTF 5t GL (Desert)</English>
+                <German>Lkw GTF 5t GL (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_5t_gtf_w">
+                <Original>Lkw GTF 5t GL (Woodland)</Original>
+                <English>Lkw GTF 5t GL (Woodland)</English>
+                <German>Lkw GTF 5t GL (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_5t_utf_ammo_d">
+                <Original>Lkw UTF 5t GL Ammo (Desert)</Original>
+                <English>Lkw UTF 5t GL Ammo (Desert)</English>
+                <German>Lkw UTF 5t GL Munition (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_5t_utf_ammo_w">
+                <Original>Lkw UTF 5t GL Ammo (Woodland)</Original>
+                <English>Lkw UTF 5t GL Ammo (Woodland)</English>
+                <German>Lkw UTF 5t GL Munition (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_5t_utf_d">
+                <Original>Lkw UTF 5t GL (Desert)</Original>
+                <English>Lkw UTF 5t GL (Desert)</English>
+                <German>Lkw UTF 5t GL (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_5t_utf_fuel_d">
+                <Original>Lkw UTF 5t GL Fuel (Desert)</Original>
+                <English>Lkw UTF 5t GL Fuel (Desert)</English>
+                <German>Lkw UTF 5t GL Treibstoff (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_5t_utf_fuel_w">
+                <Original>Lkw UTF 5t GL Fuel (Woodland)</Original>
+                <English>Lkw UTF 5t GL Fuel (Woodland)</English>
+                <German>Lkw UTF 5t GL Treibstoff (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_5t_utf_repair_d">
+                <Original>Lkw UTF 5t GL Repair (Desert)</Original>
+                <English>Lkw UTF 5t GL Repair (Desert)</English>
+                <German>Lkw UTF 5t GL Inst. (Wüstentarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_5t_utf_repair_w">
+                <Original>Lkw UTF 5t GL Repair (Woodland)</Original>
+                <English>Lkw UTF 5t GL Repair (Woodland)</English>
+                <German>Lkw UTF 5t GL Inst. (Waldtarn)</German>
+            </Key>
+            <Key ID="STR_gerrng_faction_lkw_5t_utf_w">
+                <Original>Lkw UTF 5t GL (Woodland)</Original>
+                <English>Lkw UTF 5t GL (Woodland)</English>
+                <German>Lkw UTF 5t GL (Waldtarn)</German>
+            </Key>
+        </Container>
         <Container name="lkw_7t">
             <Key ID="STR_gerrng_faction_lkw_7t_ammo_d">
                 <Original>7t Truck Ammo (Desert)</Original>
@@ -477,58 +529,6 @@
                 <Original>7t Truck Transport open (Woodland)</Original>
                 <English>7t Truck Transport open (Woodland)</English>
                 <German>Lkw 7t Transport offen (Waldtarn)</German>
-            </Key>
-        </Container>
-        <Container name="lkw_7t_tatra">
-            <Key ID="STR_gerrng_faction_lkw_7t_gtf_d">
-                <Original>Lkw GTF 7t GL (Desert)</Original>
-                <English>Lkw GTF 7t GL (Desert)</English>
-                <German>Lkw GTF 7t GL (Wüstentarn)</German>
-            </Key>
-            <Key ID="STR_gerrng_faction_lkw_7t_gtf_w">
-                <Original>Lkw GTF 7t GL (Woodland)</Original>
-                <English>Lkw GTF 7t GL (Woodland)</English>
-                <German>Lkw GTF 7t GL (Waldtarn)</German>
-            </Key>
-            <Key ID="STR_gerrng_faction_lkw_7t_utf_ammo_d">
-                <Original>Lkw UTF 7t GL Ammo (Desert)</Original>
-                <English>Lkw UTF 7t GL Ammo (Desert)</English>
-                <German>Lkw UTF 7t GL Munition (Wüstentarn)</German>
-            </Key>
-            <Key ID="STR_gerrng_faction_lkw_7t_utf_ammo_w">
-                <Original>Lkw UTF 7t GL Ammo (Woodland)</Original>
-                <English>Lkw UTF 7t GL Ammo (Woodland)</English>
-                <German>Lkw UTF 7t GL Munition (Waldtarn)</German>
-            </Key>
-            <Key ID="STR_gerrng_faction_lkw_7t_utf_d">
-                <Original>Lkw UTF 7t GL (Desert)</Original>
-                <English>Lkw UTF 7t GL (Desert)</English>
-                <German>Lkw UTF 7t GL (Wüstentarn)</German>
-            </Key>
-            <Key ID="STR_gerrng_faction_lkw_7t_utf_fuel_d">
-                <Original>Lkw UTF 7t GL Fuel (Desert)</Original>
-                <English>Lkw UTF 7t GL Fuel (Desert)</English>
-                <German>Lkw UTF 7t GL Treibstoff (Wüstentarn)</German>
-            </Key>
-            <Key ID="STR_gerrng_faction_lkw_7t_utf_fuel_w">
-                <Original>Lkw UTF 7t GL Fuel (Woodland)</Original>
-                <English>Lkw UTF 7t GL Fuel (Woodland)</English>
-                <German>Lkw UTF 7t GL Treibstoff (Waldtarn)</German>
-            </Key>
-            <Key ID="STR_gerrng_faction_lkw_7t_utf_repair_d">
-                <Original>Lkw UTF 7t GL Repair (Desert)</Original>
-                <English>Lkw UTF 7t GL Repair (Desert)</English>
-                <German>Lkw UTF 7t GL Inst. (Wüstentarn)</German>
-            </Key>
-            <Key ID="STR_gerrng_faction_lkw_7t_utf_repair_w">
-                <Original>Lkw UTF 7t GL Repair (Woodland)</Original>
-                <English>Lkw UTF 7t GL Repair (Woodland)</English>
-                <German>Lkw UTF 7t GL Inst. (Waldtarn)</German>
-            </Key>
-            <Key ID="STR_gerrng_faction_lkw_7t_utf_w">
-                <Original>Lkw UTF 7t GL (Woodland)</Original>
-                <English>Lkw UTF 7t GL (Woodland)</English>
-                <German>Lkw UTF 7t GL (Waldtarn)</German>
             </Key>
         </Container>
         <Container name="subcat">

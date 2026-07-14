@@ -69,3 +69,21 @@
     true
 ] call CBA_fnc_addSetting;
 
+
+[    QGVAR(treatmentTime_Vaseline),
+    "SLIDER",
+    [LLSTRING(SETTING_treatmentTime_Vaseline), LLSTRING(SETTING_treatmentTime_Vaseline_DESC)],
+    [CBA_SETTINGS_CAT, LSTRING(SubCategory_Treatment_Vaseline)],
+    [1, 8, 5, 1],
+    true
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(medLvl_Vaseline),
+    "LIST",
+    [LLSTRING(SETTING_vaselineMedicLvl), LLSTRING(SETTING_vaselineMedicLvl_DESC)],
+    [CBA_SETTINGS_CAT, LSTRING(SubCategory_Treatment_Vaseline)],
+    [[0, 1, 2], [ACELSTRING(medical_treatment,Anyone), ACELSTRING(medical_treatment,Medics), ACELSTRING(medical_treatment,Doctors)], 0],
+    true
+] call CBA_fnc_addSetting;
+

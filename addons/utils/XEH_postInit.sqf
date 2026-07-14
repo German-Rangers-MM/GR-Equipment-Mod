@@ -1,5 +1,6 @@
 #include "script_component.hpp"
 
 //Temp disabled due to CTD issues
-//["ace_firedPlayer", ACELINKFUNC(common,firedEH)] call CBA_fnc_addEventHandler;
-//["ace_firedPlayerNonLocal", ACELINKFUNC(common,firedEH)] call CBA_fnc_addEventHandler;
+["ace_firedPlayer", LINKFUNC(handleFlare)] call CBA_fnc_addEventHandler;
+["ace_firedPlayerNonLocal", LINKFUNC(handleFlare)] call CBA_fnc_addEventHandler;
+["ace_firedNonPlayer", LINKFUNC(handleFlare)] call CBA_fnc_addEventHandler;

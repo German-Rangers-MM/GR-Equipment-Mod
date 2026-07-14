@@ -7,4 +7,4 @@ tooltipOwned = "German Rangers Equipment";
 overview = "This mod adds or edits Equipment for use in the German Rangers";
 hideName = 0;
 hidePicture = 0;
-author = "German Rangers Mod Team";
+author = ECSTRING(main,Team);

@@ -34,11 +34,7 @@ class GVAR(miclic_ui) {
 			tooltip = CSTRING(delayTooltip);
 			shadow = 1;
 			sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)";
-			onKeyUp = QUOTE( \
-				if (_this select 1 in [ARR_2(28,156)]) then { \
-					[ARR_2(_this select 0, 0)] call FUNC(onButtonClicked_Enter); \
-				}; \
-			);
+			onKeyUp = QUOTE(if (_this select 1 in [ARR_2(28,156)]) then {[ARR_2(_this select 0,0)] call FUNC(onButtonClicked_Enter);};);
 		};
 
 		// FUSE LCD
@@ -48,11 +44,7 @@ class GVAR(miclic_ui) {
 			text = "5";
 			tooltip = CSTRING(fuseTooltip);
 			maxChars = 2; // Limit to 2 digits
-			onKeyUp = QUOTE( \
-				if (_this select 1 in [ARR_2(28,156)]) then { \
-					[ARR_2(_this select 0,1)] call FUNC(onButtonClicked_Enter); \
-				}; \
-			);
+			onKeyUp = QUOTE(if (_this select 1 in [ARR_2(28,156)]) then {[ARR_2(_this select 0,1)] call FUNC(onButtonClicked_Enter);};);
 		};
 
 		// DISTANCE LCD
@@ -62,11 +54,7 @@ class GVAR(miclic_ui) {
 			text = "70";
 			tooltip = CSTRING(distanceTooltip);
 			maxChars = 3; // Limit to 2 digits
-			onKeyUp = QUOTE( \
-				if (_this select 1 in [ARR_2(28,156)]) then { \
-					[ARR_2(_this select 0,2)] call FUNC(onButtonClicked_Enter); \
-				}; \
-			);
+			onKeyUp = QUOTE(if (_this select 1 in [ARR_2(28,156)]) then {[ARR_2(_this select 0,2)] call FUNC(onButtonClicked_Enter);};);
 		};
 
 		// ANGLE LCD
@@ -76,11 +64,7 @@ class GVAR(miclic_ui) {
 			text = "60";
 			tooltip = CSTRING(angleTooltip);
 			maxChars = 2; // Limit to 2 digits
-			onKeyUp = QUOTE( \
-				if (_this select 1 in [ARR_2(28,156)]) then { \
-					[ARR_2(_this select 0,3)] call FUNC(onButtonClicked_Enter); \
-				}; \
-			);
+			onKeyUp = QUOTE(if (_this select 1 in [ARR_2(28,156)]) then {[ARR_2(_this select 0,3)] call FUNC(onButtonClicked_Enter);};);
 		};
 
 		// ROTARY BUTTONS (Invisible over knobs)
@@ -123,10 +107,7 @@ class GVAR(miclic_ui) {
 			h = "0.047 * safezoneH";
 			text = "";
 			tooltip = CSTRING(armTooltip);
-			action = QUOTE(\
-				private _target = uiNamespace getVariable 'target';\
-				[_target] call FUNC(igniteViaDialog);\
-			);
+			action = QUOTE(private _target = uiNamespace getVariable 'target'; [_target] call FUNC(igniteViaDialog););
 		};
 	};
 };

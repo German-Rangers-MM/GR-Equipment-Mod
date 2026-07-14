@@ -44,3 +44,12 @@
 #define GET_BLOOD_VOLUME_LITERS(unit)  ((GET_BODY_FLUID(unit) select 4) / 1000)
 
 #define REDUCE_TOTAL_BLOOD_VOLUME(unit,volume) (unit setVariable [VAR_BODY_FLUID, [(GET_BODY_FLUID(unit) select 0) - (volume / 2), (GET_BODY_FLUID(unit) select 1) - (volume / 2), (GET_BODY_FLUID(unit) select 2), (GET_BODY_FLUID(unit) select 3), (GET_BODY_FLUID(unit) select 4) - volume], true])
+
+#define DEFAULT_BODYPART_DAMAGE_VALUES [0,0,0,0,0,0]
+#define VAR_BODYPART_DAMAGE   QACEGVAR(medical,bodyPartDamage)
+
+#define ALL_BODY_PARTS ["head", "body", "leftarm", "rightarm", "leftleg", "rightleg"]
+#define ALL_SELECTIONS ["head", "body", "hand_l", "hand_r", "leg_l", "leg_r"]
+#define ALL_HITPOINTS ["HitHead", "HitChest", "HitLeftArm", "HitRightArm", "HitLeftLeg", "HitRightLeg"]
+
+#define GET_BODYPART_DAMAGE(unit)   (unit getVariable [VAR_BODYPART_DAMAGE, DEFAULT_BODYPART_DAMAGE_VALUES])

@@ -20,9 +20,9 @@ if ((_unit call CBA_fnc_getUnitAnim) select 0 == "stand") then {
     _position = (getPosASL _unit) vectorAdd [0.8 * sin(_direction), 0.8 * cos(_direction), 0.02];
 
 	//how to handle if object moved?
-    _designatorArray = [[0,0,0], 0, _vehicleClass, west] call BIS_fnc_spawnVehicle;
+    private _designatorArray = [[0,0,0], 0, _vehicleClass, west] call BIS_fnc_spawnVehicle;
     _designator = _designatorArray select 0;
-    _designatorAi = createVehicleCrew (_designator select 0);
+    private _designatorAi = createVehicleCrew (_designator select 0);
     _designator setDir _direction;
     _designator setPosASL _position;
     if ((getPosATL _designator select 2) - (getPos _designator select 2) < 1E-5) then {
@@ -30,7 +30,7 @@ if ((_unit call CBA_fnc_getUnitAnim) select 0 == "stand") then {
     };
     _unit reveal _designator;
 
-    _action = 
+    private _action = 
     [
         "disassembleDesignator",
         "Disassemb Remote Designator",

@@ -4,12 +4,13 @@ class CfgPatches
 { 
     class ADDON
     { 
-        name = COMPONENT_NAME; 
-        units[] = {}; 
-        weapons[] = {}; 
-        requiredVersion = REQUIRED_VERSION; 
-        requiredAddons[] = {}; 
-        author = "German Rangers"; 
-        VERSION_CONFIG; 
+        name = COMPONENT_NAME;
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {};
+        author = ECSTRING(main,Team);
+        VERSION_CONFIG;
+        authors[] = {AUTHORSPLACEHOLDER};
     };
 };

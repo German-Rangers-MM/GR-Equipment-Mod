@@ -14,7 +14,7 @@ private _designators = [QGVAR(remote_designator_w), QGVAR(remote_designator_d)];
 	if (_item in _designators) then {
 		private _displayName = getText (configFile >> "CfgWeapons" >> _item >> "displayName");
 
-		_vehicleClass = switch (_item) do {
+		private _vehicleClass = switch (_item) do {
 			case QGVAR(remote_designator_w): {"B_W_Static_Designator_01_F"};
 			case QGVAR(remote_designator_d): {"B_Static_Designator_01_F"};
 		};

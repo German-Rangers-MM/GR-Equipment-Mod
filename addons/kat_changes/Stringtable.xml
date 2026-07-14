@@ -247,5 +247,47 @@
                 <German>Patient ist tot</German>
             </Key>
         </Container>
+        <Container name="vaseline">
+            <Key ID="STR_gerrng_kat_changes_apply_vaseline">
+                <Original>Use Vaseline</Original>
+                <English>Use Vaseline</English>
+                <German>Vaseline anwenden</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Vaseline_Display">
+                <Original>Vaseline</Original>
+                <English>Vaseline</English>
+                <German>Vaseline</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_Vaseline_DescShort">
+                <Original>Apply Vaseline to a body part to clear Trauma.</Original>
+                <English>Apply Vaseline to a body part to clear Trauma.</English>
+                <German>Trage Vaseline auf einen Körperteil auf, um Trauma zu beseitigen.</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_treatmentTime_Vaseline">
+                <Original>Treatment Time</Original>
+                <English>Treatment Time</English>
+                <German>Behandlungszeit</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_treatmentTime_Vaseline_DESC">
+                <Original>Time taken to apply Vaseline to a body part.</Original>
+                <English>Time taken to apply Vaseline to a body part.</English>
+                <German>Zeit die benötigt wird um Vaseline auf einen Körperteil aufzutragen.</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_vaselineMedicLvl">
+                <Original>Required Medic Level</Original>
+                <English>Required Medic Level</English>
+                <German>Erforderliche Sanitätsstufe</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SETTING_vaselineMedicLvl_DESC">
+                <Original>Required Medic Level to apply Vaseline.</Original>
+                <English>Required Medic Level to apply Vaseline.</English>
+                <German>Erforderliche Sanitätsstufe um Vaseline anzuwenden.</German>
+            </Key>
+            <Key ID="STR_gerrng_kat_changes_SubCategory_Treatment_Vaseline">
+                <Original>Treatment - Vaseline</Original>
+                <English>Treatment - Vaseline</English>
+                <German>Behandlung - Vaseline</German>
+            </Key>
+        </Container>
     </Package>
 </Project>

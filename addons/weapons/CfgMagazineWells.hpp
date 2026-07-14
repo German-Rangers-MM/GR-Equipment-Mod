@@ -26,4 +26,14 @@ class CfgMagazineWells
 			"CUP_30Rnd_TE1_Yellow_Tracer_556x45_XM8"
 		};
 	};
+
+    class GVAR(PzF3_MagWell)
+    {
+        CUP_Ammo[]=
+        {
+            QGVAR(PTF3IT_M),
+            QGVAR(PTFHE_M),
+            QGVAR(PTFHC_M)
+        };
+    };
 };

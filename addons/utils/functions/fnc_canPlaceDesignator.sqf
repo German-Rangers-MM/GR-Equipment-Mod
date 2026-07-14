@@ -4,6 +4,9 @@ params ["_player"];
 
 // Get the designator objects from player inventory
 
+private _result_1 = false;
+private _result_2 = false;
+private _result = false;
 
 private _designators = [QGVAR(remote_designator_w), QGVAR(remote_designator_d)]; // Same classnames
 if (secondaryWeapon _player == _designators select 0) then {_result_1 = true} else {_result_1 = false};

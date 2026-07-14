@@ -8,6 +8,11 @@ class CfgPatches
         addonRootClass = QUOTE(ADDON);
         units[] =
         {
+            QGVAR(M1129_MC_MK19_Wdl),
+            QGVAR(M270_HE_Wdl),
+            QGVAR(MBT_01_arty_F),
+            QGVAR(M119),
+            QGVAR(M252)
         }; 
         weapons[] = {}; 
         requiredVersion = REQUIRED_VERSION; 

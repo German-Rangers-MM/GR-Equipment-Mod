@@ -20,6 +20,10 @@ class GVAR(CH_47F_TTH_01) : CUP_B_CH47F_USA {
 	
 	receiveRemoteTargets = 1;
 
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
+
+	ace_fastroping_enabled = 1;
 	
 	editorSubcategory = QGVAR(Heli_H_Subcat);
 
@@ -86,6 +90,9 @@ class GVAR(CH_47F_TTH_VIV_01) : CUP_B_CH47F_VIV_USA {
     crew = "CUP_B_GER_HPilot";
 	
 	receiveRemoteTargets = 1;
+
+    incomingMissileDetectionSystem = 16;
+    lockDetectionSystem = "4+8";
 
 	
 	editorSubcategory = QGVAR(Heli_H_Subcat);

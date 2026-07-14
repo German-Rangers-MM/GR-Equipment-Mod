@@ -8,7 +8,10 @@ class CfgPatches
         addonRootClass = QUOTE(ADDON);
         units[] = {
             QGVAR(AW101_Merlin_TTH_01),
-            QGVAR(AW101_Merlin_MTH_01)
+            QGVAR(AW101_Merlin_MTH_01),
+            QGVAR(CH149_Merlin_TTH),
+            QGVAR(CH149_Merlin_TTH_Armed),
+            QGVAR(CH149_Merlin_TTH_VIV)
         }; 
         weapons[] = {}; 
         requiredVersion = REQUIRED_VERSION; 
